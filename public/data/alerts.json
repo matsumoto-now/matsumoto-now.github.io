@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-09T15:01:22.767Z",
+  "fetched": "2026-08-09T15:57:54.036Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,30 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "【学校施設】スマートロックのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/209418.html",
+      "date": "2026-08-09T15:00:00.000Z",
+      "titleEn": "[School Facilities] Information on Smart Locks",
+      "titleFr": "[Installations scolaires] Informations sur les serrures intelligentes"
+    },
+    {
+      "source": "news",
+      "title": "✿まちのリビングへ✿駅前記念公園の社会実験を開催します✿",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/87/209899.html",
+      "date": "2026-08-09T15:00:00.000Z",
+      "titleEn": "✿Toward a Community Living Room✿ We’re Holding a Social Experiment at Ekimae Memorial Park✿",
+      "titleFr": "✿Vers un « salon de quartier »✿ Nous organisons une expérience sociale au parc commémoratif de la gare✿"
+    },
+    {
+      "source": "news",
+      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
+      "date": "2026-08-09T15:00:00.000Z",
+      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
+      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le Nannan Festa 2026"
     },
     {
       "source": "news",
@@ -128,14 +152,6 @@
       "date": "2026-08-03T06:00:00.000Z",
       "titleEn": "We are seeking planners and organizers for the Youth △ Project",
       "titleFr": "Nous recherchons des responsables pour la conception et la gestion du projet « Jeunes △ »"
-    },
-    {
-      "source": "news",
-      "title": "松本市消防団支援隊　活動を紹介します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/210249.html",
-      "date": "2026-08-02T15:00:00.000Z",
-      "titleEn": "Introducing the Activities of the Matsumoto City Volunteer Fire Department Support Team",
-      "titleFr": "Présentation des activités de l'équipe de soutien des pompiers volontaires de Matsumoto"
     },
     {
       "source": "anshin",
