@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-10T08:26:47.528Z",
+  "fetched": "2026-08-10T09:58:50.811Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,30 @@
     },
     {
       "source": "news",
+      "title": "第２回夏期食中毒注意報が発出されました！！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/231/85917.html",
+      "date": "2026-08-10T07:00:00.000Z",
+      "titleEn": "The Second Summer Food Poisoning Advisory Has Been Issued!!",
+      "titleFr": "La deuxième alerte estivale relative aux intoxications alimentaires a été émise !!"
+    },
+    {
+      "source": "news",
+      "title": "子どもの居場所づくり推進事業について",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2539.html",
+      "date": "2026-08-10T05:00:00.000Z",
+      "titleEn": "About the Project to Promote the Creation of Safe Spaces for Children",
+      "titleFr": "À propos du projet visant à promouvoir la création d'espaces dédiés aux enfants"
+    },
+    {
+      "source": "news",
+      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
+      "date": "2026-08-09T15:00:00.000Z",
+      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
+      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le Nannan Festa 2026"
+    },
+    {
+      "source": "news",
       "title": "【学校施設】スマートロックのご案内",
       "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/209418.html",
       "date": "2026-08-09T15:00:00.000Z",
@@ -56,14 +80,6 @@
       "date": "2026-08-09T15:00:00.000Z",
       "titleEn": "✿Toward a Community Living Room✿ We’re Holding a Social Experiment at Ekimae Memorial Park✿",
       "titleFr": "✿Vers un « salon de quartier »✿ Nous organisons une expérience sociale au parc commémoratif de la gare✿"
-    },
-    {
-      "source": "news",
-      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
-      "date": "2026-08-09T15:00:00.000Z",
-      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
-      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le Nannan Festa 2026"
     },
     {
       "source": "news",
