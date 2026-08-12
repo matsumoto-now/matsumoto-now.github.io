@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-11T23:39:57.799Z",
+  "fetched": "2026-08-12T01:58:05.696Z",
   "items": [
     {
       "source": "important",
@@ -43,19 +43,19 @@
     },
     {
       "source": "news",
+      "title": "2026OMF　オープンイベントのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "date": "2026-08-11T15:00:00.000Z",
+      "titleEn": "Announcement of the 2026 OMF Open Event",
+      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
+    },
+    {
+      "source": "news",
       "title": "第２回夏期食中毒注意報が発出されました！！",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/231/85917.html",
       "date": "2026-08-10T07:00:00.000Z",
       "titleEn": "The Second Summer Food Poisoning Advisory Has Been Issued!!",
       "titleFr": "La deuxième alerte estivale relative aux intoxications alimentaires a été émise !!"
-    },
-    {
-      "source": "news",
-      "title": "子どもの居場所づくり推進事業について",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2539.html",
-      "date": "2026-08-10T05:00:00.000Z",
-      "titleEn": "About the Project to Promote the Creation of Safe Spaces for Children",
-      "titleFr": "À propos du projet visant à promouvoir la création d'espaces dédiés aux enfants"
     },
     {
       "source": "news",
