@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-13T14:37:13.561Z",
+  "fetched": "2026-08-13T15:59:02.478Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "9月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-08-13T15:00:00.000Z",
+      "titleEn": "Information on the September Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre"
     },
     {
       "source": "news",
@@ -120,14 +128,6 @@
       "date": "2026-08-07T04:00:00.000Z",
       "titleEn": "Results of the Second Round of the Reiwa 8 Matsumoto City Civil Service Qualification Examination [June] (Childcare Worker Category)",
       "titleFr": "Résultats de la deuxième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [juin] (catégorie « éducateurs de maternelle »)"
-    },
-    {
-      "source": "news",
-      "title": "保育園の空き状況について（令和８年９月途中入園）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-08-06T15:00:00.000Z",
-      "titleEn": "Regarding Daycare Availability (Mid-Reiwa 8 Enrollment)",
-      "titleFr": "Disponibilités dans les crèches (inscription en cours de mois de septembre de l'année Reiwa 8)"
     },
     {
       "source": "anshin",
