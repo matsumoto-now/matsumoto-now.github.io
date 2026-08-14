@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-14T01:58:17.359Z",
+  "fetched": "2026-08-14T04:15:16.107Z",
   "items": [
     {
       "source": "important",
@@ -83,6 +83,14 @@
     },
     {
       "source": "news",
+      "title": "✿まちのリビングへ✿駅前記念公園の社会実験を開催します✿",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/87/209899.html",
+      "date": "2026-08-09T15:00:00.000Z",
+      "titleEn": "✿Toward a Community Living Room✿ We’re Holding a Social Experiment at Ekimae Memorial Park✿",
+      "titleFr": "✿Vers un « salon de quartier »✿ Nous organisons une expérience sociale au parc commémoratif de la gare✿"
+    },
+    {
+      "source": "news",
       "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
       "date": "2026-08-09T15:00:00.000Z",
@@ -99,14 +107,6 @@
     },
     {
       "source": "news",
-      "title": "✿まちのリビングへ✿駅前記念公園の社会実験を開催します✿",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/87/209899.html",
-      "date": "2026-08-09T15:00:00.000Z",
-      "titleEn": "✿Toward a Community Living Room✿ We’re Holding a Social Experiment at Ekimae Memorial Park✿",
-      "titleFr": "✿Vers un « salon de quartier »✿ Nous organisons une expérience sociale au parc commémoratif de la gare✿"
-    },
-    {
-      "source": "news",
       "title": "令和8年8月9日執行　長野県知事選挙　松本市投開票結果",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/203/208727.html",
       "date": "2026-08-09T13:30:00.000Z",
@@ -120,14 +120,6 @@
       "date": "2026-08-08T06:00:00.000Z",
       "titleEn": "Citizens' Affairs Division: Information on Holiday Services",
       "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験【6月】の第2次試験結果について（保育士区分）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/210861.html",
-      "date": "2026-08-07T04:00:00.000Z",
-      "titleEn": "Results of the Second Round of the Reiwa 8 Matsumoto City Civil Service Qualification Examination [June] (Childcare Worker Category)",
-      "titleFr": "Résultats de la deuxième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [juin] (catégorie « éducateurs de maternelle »)"
     },
     {
       "source": "anshin",
