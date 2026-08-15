@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-15T09:32:26.769Z",
+  "fetched": "2026-08-15T10:22:26.485Z",
   "items": [
     {
       "source": "important",
@@ -43,19 +43,19 @@
     },
     {
       "source": "news",
+      "title": "第78回お城盆踊りを開催します（雨天）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/204627.html",
+      "date": "2026-08-14T15:00:00.000Z",
+      "titleEn": "The 78th Castle Bon Odori Festival Will Be Held (Rain or Shine)",
+      "titleFr": "La 78e édition du Bon Odori du château aura lieu (même en cas de pluie)"
+    },
+    {
+      "source": "news",
       "title": "【受付終了】保育園の空き状況について（令和８年９月途中入園）",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
       "date": "2026-08-14T08:15:00.000Z",
       "titleEn": "[Registration Closed] Information on Daycare Availability (Mid-Reiwa 8 Enrollment)",
       "titleFr": "[Inscriptions closes] Disponibilités dans les crèches (admission en cours de mois de septembre de l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "第78回お城盆踊りを開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/204627.html",
-      "date": "2026-08-13T15:00:00.000Z",
-      "titleEn": "The 78th Castle Bon Odori Festival Will Be Held",
-      "titleFr": "La 78e édition du « Bon Odori du château » aura lieu"
     },
     {
       "source": "news",
