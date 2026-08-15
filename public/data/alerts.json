@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-15T14:48:54.921Z",
+  "fetched": "2026-08-15T15:20:13.464Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "9月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-08-15T15:00:00.000Z",
+      "titleEn": "Information on the September Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre"
+    },
+    {
+      "source": "news",
       "title": "第78回お城盆踊りを開催します（雨天）",
       "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/204627.html",
       "date": "2026-08-14T15:00:00.000Z",
@@ -56,14 +64,6 @@
       "date": "2026-08-14T08:15:00.000Z",
       "titleEn": "[Registration Closed] Information on Daycare Availability (Mid-Reiwa 8 Enrollment)",
       "titleFr": "[Inscriptions closes] Disponibilités dans les crèches (admission en cours de mois de septembre de l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "9月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-08-13T15:00:00.000Z",
-      "titleEn": "Information on the September Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre"
     },
     {
       "source": "news",
