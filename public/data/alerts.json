@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-17T03:50:17.076Z",
+  "fetched": "2026-08-17T04:41:42.572Z",
   "items": [
     {
       "source": "important",
@@ -35,6 +35,22 @@
     },
     {
       "source": "news",
+      "title": "本市が所有する未利用資産（建物）の売却を検討しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/9/117582.html",
+      "date": "2026-08-17T04:00:00.000Z",
+      "titleEn": "We are considering the sale of unused assets (buildings) owned by the city.",
+      "titleFr": "Nous envisageons de vendre des biens immobiliers (bâtiments) inutilisés appartenant à la ville."
+    },
+    {
+      "source": "news",
+      "title": "「映像でたどるSKF＆OMF 35年のあゆみ」を開催中です",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/209162.html",
+      "date": "2026-08-16T15:00:00.000Z",
+      "titleEn": "\"A 35-Year Journey Through SKF & OMF: A Video Retrospective\" is currently on display.",
+      "titleFr": "L'exposition « 35 ans d'histoire de SKF et OMF à travers des images » est actuellement ouverte au public."
+    },
+    {
+      "source": "news",
       "title": "2026OMF　オープンイベントのご案内",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
       "date": "2026-08-16T15:00:00.000Z",
@@ -48,14 +64,6 @@
       "date": "2026-08-16T15:00:00.000Z",
       "titleEn": "[Online Voting Begins] “Best Shot! Everyone’s Pet Photo Contest 2026”",
       "titleFr": "[Début du vote en ligne] « Le meilleur cliché ! Concours photo des animaux de compagnie 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "9月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-08-15T15:00:00.000Z",
-      "titleEn": "Information on the September Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre"
     },
     {
       "source": "news",
