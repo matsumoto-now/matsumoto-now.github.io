@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-08-17T01:16:12.706Z",
+  "fetched": "2026-08-17T02:41:24.057Z",
   "items": [
-    {
-      "source": "important",
-      "title": "令和8年8月9日執行　長野県知事選挙　松本市投開票結果",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/203/208727.html",
-      "date": "2026-08-09T13:30:00.000Z",
-      "titleEn": "Nagano Prefectural Governor Election Held on August 9, Reiwa 8: Voting and Counting Results for Matsumoto City",
-      "titleFr": "Élection du gouverneur de la préfecture de Nagano, tenue le 9 août de l'année Reiwa 8 : résultats du scrutin à Matsumoto"
-    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -43,6 +35,14 @@
     },
     {
       "source": "news",
+      "title": "2026OMF　オープンイベントのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "date": "2026-08-16T15:00:00.000Z",
+      "titleEn": "Announcement of the 2026 OMF Open Event",
+      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
+    },
+    {
+      "source": "news",
       "title": "【オンライン投票開始】「ベストショット！みんなのペット写真コンテスト2026」",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/231/83121.html",
       "date": "2026-08-16T15:00:00.000Z",
@@ -64,14 +64,6 @@
       "date": "2026-08-14T08:15:00.000Z",
       "titleEn": "[Registration Closed] Information on Daycare Availability (Mid-Reiwa 8 Enrollment)",
       "titleFr": "[Inscriptions closes] Disponibilités dans les crèches (admission en cours de mois de septembre de l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "2026OMF　オープンイベントのご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
-      "date": "2026-08-11T15:00:00.000Z",
-      "titleEn": "Announcement of the 2026 OMF Open Event",
-      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
     },
     {
       "source": "news",
