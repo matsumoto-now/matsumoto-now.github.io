@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-18T01:13:13.792Z",
+  "fetched": "2026-08-18T02:36:19.591Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-08-17T04:00:00.000Z",
       "titleEn": "We are considering the sale of unused assets (buildings) owned by the city.",
       "titleFr": "Nous envisageons de vendre des biens immobiliers (bâtiments) inutilisés appartenant à la ville."
+    },
+    {
+      "source": "news",
+      "title": "まちなかのイベント開催に要する経費を補助します（松本市まちなか賑わい創出事業）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/196832.html",
+      "date": "2026-08-16T23:30:00.000Z",
+      "titleEn": "We provide subsidies to cover the costs of holding downtown events (Matsumoto City Downtown Revitalization Project)",
+      "titleFr": "Nous accordons des subventions pour couvrir les frais liés à l'organisation d'événements en centre-ville (Programme de dynamisation du centre-ville de Matsumoto)"
     },
     {
       "source": "news",
