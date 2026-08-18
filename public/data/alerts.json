@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-18T06:54:48.099Z",
+  "fetched": "2026-08-18T07:38:01.932Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）8月18日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/211513.html",
+      "date": "2026-08-18T07:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, August 18, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 18 août de l'année Reiwa 8 (2026)"
     },
     {
       "source": "news",
