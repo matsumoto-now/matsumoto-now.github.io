@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-18T05:57:32.307Z",
+  "fetched": "2026-08-18T06:54:48.099Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,22 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "9月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-08-18T06:00:00.000Z",
+      "titleEn": "Information on the September Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre"
+    },
+    {
+      "source": "news",
+      "title": "司法書士オンライン相談のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/123829.html",
+      "date": "2026-08-18T06:00:00.000Z",
+      "titleEn": "Information on Online Consultations with Judicial Scriveners",
+      "titleFr": "Informations sur les consultations en ligne avec un notaire"
     },
     {
       "source": "news",
