@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-19T01:14:53.625Z",
+  "fetched": "2026-08-19T02:38:49.623Z",
   "items": [
     {
       "source": "important",
@@ -72,6 +72,14 @@
       "date": "2026-08-16T23:30:00.000Z",
       "titleEn": "We provide subsidies to cover the costs of holding downtown events (Matsumoto City Downtown Revitalization Project)",
       "titleFr": "Nous accordons des subventions pour couvrir les frais liés à l'organisation d'événements en centre-ville (Programme de dynamisation du centre-ville de Matsumoto)"
+    },
+    {
+      "source": "news",
+      "title": "道路交通規制のお知らせ（南荒井南横断歩道橋）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/211520.html",
+      "date": "2026-08-16T15:00:00.000Z",
+      "titleEn": "Notice of Traffic Restrictions (Minami-Arai South Pedestrian Overpass)",
+      "titleFr": "Avis concernant les restrictions de circulation (passerelle piétonne de Minami-Arai Minami)"
     },
     {
       "source": "news",
