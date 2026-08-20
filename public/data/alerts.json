@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-20T04:37:00.943Z",
+  "fetched": "2026-08-20T05:30:22.002Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-08-19T06:00:00.000Z",
       "titleEn": "The number of reported influenza cases has exceeded the threshold indicating the start of an epidemic.",
       "titleFr": "Le nombre de cas de grippe signalés a dépassé le seuil indiquant le début de l'épidémie"
+    },
+    {
+      "source": "news",
+      "title": "令和9年松本市ハタチの記念式典を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/2648.html",
+      "date": "2026-08-19T15:00:00.000Z",
+      "titleEn": "We will hold the Reiwa 9 Matsumoto City \"20th Birthday\" Commemorative Ceremony",
+      "titleFr": "Cérémonie commémorative des jeunes de 20 ans de la ville de Matsumoto, année Reiwa 9"
     },
     {
       "source": "news",
