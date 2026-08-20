@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-20T07:40:44.995Z",
+  "fetched": "2026-08-20T08:38:25.800Z",
   "items": [
     {
       "source": "important",
@@ -32,14 +32,6 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
-    },
-    {
-      "source": "news",
-      "title": "インフルエンザの患者報告数が流行開始の目安を超えました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/230/211572.html",
-      "date": "2026-08-19T06:00:00.000Z",
-      "titleEn": "The number of reported influenza cases has exceeded the threshold indicating the start of an epidemic.",
-      "titleFr": "Le nombre de cas de grippe signalés a dépassé le seuil indiquant le début de l'épidémie"
     },
     {
       "source": "news",
