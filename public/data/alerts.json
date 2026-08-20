@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-19T23:47:21.072Z",
+  "fetched": "2026-08-20T01:14:27.825Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-08-19T06:00:00.000Z",
       "titleEn": "The number of reported influenza cases has exceeded the threshold indicating the start of an epidemic.",
       "titleFr": "Le nombre de cas de grippe signalés a dépassé le seuil indiquant le début de l'épidémie"
+    },
+    {
+      "source": "news",
+      "title": "2026OMF　オープンイベントのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "date": "2026-08-19T15:00:00.000Z",
+      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
+      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
     },
     {
       "source": "news",
