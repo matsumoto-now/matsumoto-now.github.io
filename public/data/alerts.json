@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-21T06:46:43.064Z",
+  "fetched": "2026-08-21T07:42:36.680Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します。",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-08-21T06:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City.",
+      "titleFr": "[Recrutement supplémentaire] Nous recrutons des agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto."
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-08-16T15:00:00.000Z",
       "titleEn": "Notice of Traffic Restrictions (Minami-Arai South Pedestrian Overpass)",
       "titleFr": "Avis concernant les restrictions de circulation (passerelle piétonne de Minami-Arai Minami)"
-    },
-    {
-      "source": "news",
-      "title": "「映像でたどるSKF＆OMF 35年のあゆみ」を開催中です",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/209162.html",
-      "date": "2026-08-16T15:00:00.000Z",
-      "titleEn": "\"A 35-Year Journey Through SKF & OMF: A Video Retrospective\" is currently on display.",
-      "titleFr": "L'exposition « 35 ans d'histoire de SKF et OMF à travers des images » est actuellement ouverte au public."
     },
     {
       "source": "anshin",
