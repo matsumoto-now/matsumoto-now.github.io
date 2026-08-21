@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-20T23:53:28.643Z",
+  "fetched": "2026-08-21T01:18:01.805Z",
   "items": [
     {
       "source": "important",
@@ -35,6 +35,14 @@
     },
     {
       "source": "news",
+      "title": "松本市母子父子寡婦福祉資金未収金整理業務委託に係る公募型プロポーザルを実施します。",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/209822.html",
+      "date": "2026-08-20T15:00:00.000Z",
+      "titleEn": "We will conduct an open proposal process for the outsourcing of collection services for outstanding payments under the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
+      "titleFr": "La ville de Matsumoto lance un appel d'offres ouvert concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
+    },
+    {
+      "source": "news",
       "title": "令和9年松本市ハタチの記念式典を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/2648.html",
       "date": "2026-08-19T15:00:00.000Z",
@@ -48,6 +56,14 @@
       "date": "2026-08-19T15:00:00.000Z",
       "titleEn": "Announcement Regarding the 2026 OMF Open Event",
       "titleFr": "Annonce concernant l'événement public « 2026OMF »"
+    },
+    {
+      "source": "news",
+      "title": "松本市内で移住者が営むお店のご紹介",
+      "link": "https://www.city.matsumoto.nagano.jp/site/matsumotogurashi/4082.html",
+      "date": "2026-08-18T15:00:00.000Z",
+      "titleEn": "Introducing Shops in Matsumoto City Run by New Residents",
+      "titleFr": "Présentation des commerces tenus par des nouveaux arrivants à Matsumoto"
     },
     {
       "source": "news",
@@ -136,14 +152,6 @@
       "date": "2026-08-16T15:00:00.000Z",
       "titleEn": "[Online Voting Begins] “Best Shot! Everyone’s Pet Photo Contest 2026”",
       "titleFr": "[Début du vote en ligne] « Le meilleur cliché ! Concours photo des animaux de compagnie 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "【受付終了】保育園の空き状況について（令和８年９月途中入園）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-08-14T08:15:00.000Z",
-      "titleEn": "[Registration Closed] Information on Daycare Availability (Mid-Reiwa 8 Enrollment)",
-      "titleFr": "[Inscriptions closes] Disponibilités dans les crèches (admission en cours de mois de septembre de l'année Reiwa 8)"
     },
     {
       "source": "anshin",
