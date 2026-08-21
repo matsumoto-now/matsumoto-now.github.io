@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-21T04:37:59.895Z",
+  "fetched": "2026-08-21T05:32:30.036Z",
   "items": [
     {
       "source": "important",
@@ -35,11 +35,35 @@
     },
     {
       "source": "news",
+      "title": "第25回「城北地区ふれ愛まつり」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/114106.html",
+      "date": "2026-08-21T02:00:00.000Z",
+      "titleEn": "The 25th \"Johoku District Friendship Festival\" Will Be Held",
+      "titleFr": "La 25e édition du « Festival de la solidarité du quartier de Johoku » aura lieu"
+    },
+    {
+      "source": "news",
+      "title": "まちなかのイベント開催に要する経費を補助します（松本市まちなか賑わい創出事業）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/196832.html",
+      "date": "2026-08-20T23:30:00.000Z",
+      "titleEn": "We provide subsidies to cover the costs of holding downtown events (Matsumoto City Downtown Revitalization Project)",
+      "titleFr": "Nous accordons des subventions pour couvrir les frais liés à l'organisation d'événements en centre-ville (Programme de dynamisation du centre-ville de Matsumoto)"
+    },
+    {
+      "source": "news",
       "title": "松本市母子父子寡婦福祉資金未収金整理業務委託に係る公募型プロポーザルを実施します。",
       "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/209822.html",
       "date": "2026-08-20T15:00:00.000Z",
       "titleEn": "We will conduct an open proposal process for the outsourcing of collection services for outstanding payments under the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
       "titleFr": "La ville de Matsumoto lance un appel d'offres ouvert concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
+    },
+    {
+      "source": "news",
+      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
+      "date": "2026-08-20T15:00:00.000Z",
+      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
+      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le « Nannan Festa 2026 »"
     },
     {
       "source": "news",
@@ -107,14 +131,6 @@
     },
     {
       "source": "news",
-      "title": "まちなかのイベント開催に要する経費を補助します（松本市まちなか賑わい創出事業）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/196832.html",
-      "date": "2026-08-16T23:30:00.000Z",
-      "titleEn": "We provide subsidies to cover the costs of holding downtown events (Matsumoto City Downtown Revitalization Project)",
-      "titleFr": "Nous accordons des subventions pour couvrir les frais liés à l'organisation d'événements en centre-ville (Programme de dynamisation du centre-ville de Matsumoto)"
-    },
-    {
-      "source": "news",
       "title": "道路交通規制のお知らせ（南荒井南横断歩道橋）",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/211520.html",
       "date": "2026-08-16T15:00:00.000Z",
@@ -136,22 +152,6 @@
       "date": "2026-08-16T15:00:00.000Z",
       "titleEn": "Notice of Traffic Restrictions Due to Weed Control on the Embankment Road",
       "titleFr": "Avis concernant les restrictions de circulation liées au désherbage de la route longeant la digue"
-    },
-    {
-      "source": "news",
-      "title": "「松本道場　ローカルヒーロートークセッション vol.3」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/211235.html",
-      "date": "2026-08-16T15:00:00.000Z",
-      "titleEn": "We will be hosting “Matsumoto Dojo: Local Hero Talk Session, Vol. 3”",
-      "titleFr": "Nous organisons la « Session de discussion avec les héros locaux du Dojo de Matsumoto, vol. 3 »"
-    },
-    {
-      "source": "news",
-      "title": "【オンライン投票開始】「ベストショット！みんなのペット写真コンテスト2026」",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/231/83121.html",
-      "date": "2026-08-16T15:00:00.000Z",
-      "titleEn": "[Online Voting Begins] “Best Shot! Everyone’s Pet Photo Contest 2026”",
-      "titleFr": "[Début du vote en ligne] « Le meilleur cliché ! Concours photo des animaux de compagnie 2026 »"
     },
     {
       "source": "anshin",
