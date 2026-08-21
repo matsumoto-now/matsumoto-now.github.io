@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-21T05:32:30.036Z",
+  "fetched": "2026-08-21T06:46:43.064Z",
   "items": [
     {
       "source": "important",
@@ -35,6 +35,14 @@
     },
     {
       "source": "news",
+      "title": "令和8年度松本市職員採用資格試験【6月】第3次試験結果(行政B・C・現業職)",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/211710.html",
+      "date": "2026-08-21T06:00:00.000Z",
+      "titleEn": "Reiwa 8 Matsumoto City Civil Service Recruitment Qualifying Examination [June]—Third-Round Examination Results (Administrative Categories B and C, and Operational Positions)",
+      "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l’année Reiwa 8 [juin] (fonctions administratives B et C, et fonctions techniques)"
+    },
+    {
+      "source": "news",
       "title": "第25回「城北地区ふれ愛まつり」を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/114106.html",
       "date": "2026-08-21T02:00:00.000Z",
@@ -67,6 +75,14 @@
     },
     {
       "source": "news",
+      "title": "移動採血車による献血会場のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
+      "date": "2026-08-19T15:00:00.000Z",
+      "titleEn": "Notice Regarding Blood Donation Events at the Mobile Blood Collection Vehicle",
+      "titleFr": "Annonce concernant les lieux de collecte de sang organisés par le bus de collecte mobile"
+    },
+    {
+      "source": "news",
       "title": "令和9年松本市ハタチの記念式典を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/2648.html",
       "date": "2026-08-19T15:00:00.000Z",
@@ -96,14 +112,6 @@
       "date": "2026-08-18T07:00:00.000Z",
       "titleEn": "Mayor's Press Conference, August 18, Reiwa 8 (2026)",
       "titleFr": "Conférence de presse du maire, le 18 août de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "9月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-08-18T06:00:00.000Z",
-      "titleEn": "Information on the September Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-08-16T15:00:00.000Z",
       "titleEn": "\"A 35-Year Journey Through SKF & OMF: A Video Retrospective\" is currently on display.",
       "titleFr": "L'exposition « 35 ans d'histoire de SKF et OMF à travers des images » est actuellement ouverte au public."
-    },
-    {
-      "source": "news",
-      "title": "堤防道路除草に伴う交通規制のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/206473.html",
-      "date": "2026-08-16T15:00:00.000Z",
-      "titleEn": "Notice of Traffic Restrictions Due to Weed Control on the Embankment Road",
-      "titleFr": "Avis concernant les restrictions de circulation liées au désherbage de la route longeant la digue"
     },
     {
       "source": "anshin",
