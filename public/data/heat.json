@@ -1,5 +1,5 @@
 {
- "fetched": "2026-08-22T19:22:02.125Z",
+ "fetched": "2026-08-22T19:46:05.188Z",
  "season": true,
  "source": "環境省 熱中症予防情報サイト",
  "point": {
@@ -211,7 +211,7 @@
   },
   {
    "time": "2026-08-23T00:00:00.000Z",
-   "wbgt": 25
+   "wbgt": 26
   },
   {
    "time": "2026-08-23T03:00:00.000Z",
@@ -300,10 +300,10 @@
  ],
  "alert": {
   "today": 0,
-  "tomorrow": 0,
+  "tomorrow": 9,
   "peakToday": 28,
-  "reportDate": "2026/08/22",
-  "reportTime": "17:00:00",
-  "targetDate": "2026/08/22"
+  "reportDate": "2026/08/23",
+  "reportTime": "05:00:00",
+  "targetDate": "2026/08/23"
  }
 }
