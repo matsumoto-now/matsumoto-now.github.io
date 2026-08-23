@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-23T14:49:59.222Z",
+  "fetched": "2026-08-23T15:22:28.222Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "詐欺の電話は特殊詐欺アプリでブロック！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/211759.html",
+      "date": "2026-08-23T15:00:00.000Z",
+      "titleEn": "Block scam calls with the Special Scam App!",
+      "titleFr": "Bloquez les appels frauduleux grâce à une application anti-escroquerie !"
     },
     {
       "source": "news",
@@ -136,22 +144,6 @@
       "date": "2026-08-17T04:00:00.000Z",
       "titleEn": "We are considering the sale of unused assets (buildings) owned by the city.",
       "titleFr": "Nous envisageons de vendre des biens immobiliers (bâtiments) inutilisés appartenant à la ville."
-    },
-    {
-      "source": "news",
-      "title": "道路交通規制のお知らせ（南荒井南横断歩道橋）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/211520.html",
-      "date": "2026-08-16T15:00:00.000Z",
-      "titleEn": "Notice of Traffic Restrictions (Minami-Arai South Pedestrian Overpass)",
-      "titleFr": "Avis concernant les restrictions de circulation (passerelle piétonne de Minami-Arai Minami)"
-    },
-    {
-      "source": "news",
-      "title": "「映像でたどるSKF＆OMF 35年のあゆみ」を開催中です",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/209162.html",
-      "date": "2026-08-16T15:00:00.000Z",
-      "titleEn": "\"A 35-Year History of SKF & OMF Through Video\" is currently on display",
-      "titleFr": "L'exposition « 35 ans d'histoire de SKF et OMF en images » est actuellement ouverte au public."
     },
     {
       "source": "anshin",
