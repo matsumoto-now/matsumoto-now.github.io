@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-24T14:41:46.690Z",
+  "fetched": "2026-08-24T15:38:42.750Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "親子ふれあい「竹の子教室」体験見学会・参加者募集",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/117901.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "Parent-Child Interaction “Bamboo Shoot Class” Open House—Call for Participants",
+      "titleFr": "Atelier « Takekono » pour les parents et leurs enfants : appel à participants pour une séance d'initiation"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-08-19T15:00:00.000Z",
       "titleEn": "We will hold the Reiwa 9 Matsumoto City \"20th Birthday\" Commemorative Ceremony",
       "titleFr": "Cérémonie commémorative des jeunes de 20 ans de la ville de Matsumoto, année Reiwa 9"
-    },
-    {
-      "source": "news",
-      "title": "松本市内で移住者が営むお店のご紹介",
-      "link": "https://www.city.matsumoto.nagano.jp/site/matsumotogurashi/4082.html",
-      "date": "2026-08-18T15:00:00.000Z",
-      "titleEn": "Introducing Shops in Matsumoto City Run by New Residents",
-      "titleFr": "Présentation des commerces tenus par des nouveaux arrivants à Matsumoto"
     },
     {
       "source": "anshin",
