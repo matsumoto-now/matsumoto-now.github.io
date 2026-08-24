@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-23T23:46:03.391Z",
+  "fetched": "2026-08-24T01:17:43.541Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,22 @@
     },
     {
       "source": "news",
+      "title": "2026OMF　オープンイベントのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "date": "2026-08-23T15:00:00.000Z",
+      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
+      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
+    },
+    {
+      "source": "news",
+      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
+      "date": "2026-08-21T15:00:00.000Z",
+      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
+      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le « Nannan Festa 2026 »"
+    },
+    {
+      "source": "news",
       "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します。",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
       "date": "2026-08-21T06:00:00.000Z",
@@ -80,14 +96,6 @@
       "date": "2026-08-20T15:00:00.000Z",
       "titleEn": "We will conduct an open proposal process for the outsourcing of collection services for outstanding payments under the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
       "titleFr": "La ville de Matsumoto lance un appel d'offres ouvert concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
-    },
-    {
-      "source": "news",
-      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
-      "date": "2026-08-20T15:00:00.000Z",
-      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
-      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le « Nannan Festa 2026 »"
     },
     {
       "source": "news",
