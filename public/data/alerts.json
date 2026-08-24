@@ -1,13 +1,13 @@
 {
-  "fetched": "2026-08-24T04:44:22.370Z",
+  "fetched": "2026-08-24T05:37:50.955Z",
   "items": [
     {
       "source": "emergency",
-      "title": "マイナンバーカード関連の手続きを停止しています【島立地区地域づくりセンター】",
+      "title": "マイナンバーカード関連のシステム障害が復旧しました【島立地区地域づくりセンター 】",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
       "date": "2026-08-24T03:00:00.000Z",
-      "titleEn": "We have suspended procedures related to My Number Cards [Shimadate District Community Development Center]",
-      "titleFr": "Les démarches liées à la carte My Number sont suspendues [Centre de développement communautaire du quartier de Shimadate]"
+      "titleEn": "The system outage related to the My Number Card has been resolved [Shimadate District Community Development Center]",
+      "titleFr": "La panne du système lié à la carte My Number a été résolue [Centre de développement communautaire du quartier de Shimadate]"
     },
     {
       "source": "important",
@@ -43,11 +43,11 @@
     },
     {
       "source": "news",
-      "title": "マイナンバーカード関連の手続きを停止しています【島立地区地域づくりセンター】",
+      "title": "マイナンバーカード関連のシステム障害が復旧しました【島立地区地域づくりセンター 】",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
       "date": "2026-08-24T03:00:00.000Z",
-      "titleEn": "We have suspended procedures related to the My Number Card [Shimadate District Community Development Center]",
-      "titleFr": "Les démarches liées à la carte My Number sont suspendues [Centre de développement communautaire du quartier de Shimadate]"
+      "titleEn": "The system outage related to the My Number Card has been resolved [Shimadate District Community Development Center]",
+      "titleFr": "La panne du système lié à la carte My Number a été résolue [Centre de développement communautaire du quartier de Shimadate]"
     },
     {
       "source": "news",
