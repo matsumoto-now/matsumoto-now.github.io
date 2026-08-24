@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-24T08:01:26.312Z",
+  "fetched": "2026-08-24T09:22:28.195Z",
   "items": [
     {
       "source": "important",
@@ -51,11 +51,27 @@
     },
     {
       "source": "news",
+      "title": "松本市新庁舎の売店設置に向けたサウンディングを行います",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/210933.html",
+      "date": "2026-08-24T04:00:00.000Z",
+      "titleEn": "We will conduct a sounding survey regarding the installation of a concession stand in the new Matsumoto City Hall.",
+      "titleFr": "Nous allons mener une consultation en vue de l'installation d'une boutique dans le nouveau bâtiment de la mairie de Matsumoto"
+    },
+    {
+      "source": "news",
       "title": "マイナンバーカード関連のシステム障害が復旧しました【島立地区地域づくりセンター 】",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
       "date": "2026-08-24T03:00:00.000Z",
       "titleEn": "The system outage related to the My Number Card has been resolved [Shimadate District Community Development Center]",
       "titleFr": "La panne du système lié à la carte My Number a été résolue [Centre de développement communautaire du quartier de Shimadate]"
+    },
+    {
+      "source": "news",
+      "title": "外国人介護人材の相談窓口を設置しています",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/211908.html",
+      "date": "2026-08-23T15:00:00.000Z",
+      "titleEn": "We have established a consultation desk for foreign caregivers.",
+      "titleFr": "Nous avons mis en place un service d'assistance dédié au personnel soignant étranger"
     },
     {
       "source": "news",
@@ -144,22 +160,6 @@
       "date": "2026-08-18T15:00:00.000Z",
       "titleEn": "Introducing Shops in Matsumoto City Run by New Residents",
       "titleFr": "Présentation des commerces tenus par des nouveaux arrivants à Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）8月18日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/211513.html",
-      "date": "2026-08-18T07:00:00.000Z",
-      "titleEn": "Mayor's Press Conference, August 18, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 18 août de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "司法書士オンライン相談のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/123829.html",
-      "date": "2026-08-18T06:00:00.000Z",
-      "titleEn": "Information on Online Consultations with Judicial Scriveners",
-      "titleFr": "Informations sur les consultations en ligne avec un notaire"
     },
     {
       "source": "anshin",
