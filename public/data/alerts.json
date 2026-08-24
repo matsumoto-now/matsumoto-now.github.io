@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-08-24T02:45:41.366Z",
+  "fetched": "2026-08-24T03:54:04.129Z",
   "items": [
+    {
+      "source": "emergency",
+      "title": "マイナンバーカード関連の手続きを停止しています【島立地区地域づくりセンター】",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
+      "date": "2026-08-24T03:00:00.000Z",
+      "titleEn": "We have suspended procedures related to My Number Cards [Shimadate District Community Development Center]",
+      "titleFr": "Les démarches liées à la carte My Number sont suspendues [Centre de développement communautaire du quartier de Shimadate]"
+    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -32,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "マイナンバーカード関連の手続きを停止しています【島立地区地域づくりセンター】",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
+      "date": "2026-08-24T03:00:00.000Z",
+      "titleEn": "We have suspended procedures related to the My Number Card [Shimadate District Community Development Center]",
+      "titleFr": "Les démarches liées à la carte My Number sont suspendues [Centre de développement communautaire du quartier de Shimadate]"
     },
     {
       "source": "news",
@@ -144,14 +160,6 @@
       "date": "2026-08-18T03:00:00.000Z",
       "titleEn": "We will send notifications regarding specific health checkups via SMS (text message).",
       "titleFr": "Nous vous enverrons une notification concernant les examens médicaux spécifiques par SMS (messagerie courte)"
-    },
-    {
-      "source": "news",
-      "title": "本市が所有する未利用資産（建物）の売却を検討しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/9/117582.html",
-      "date": "2026-08-17T04:00:00.000Z",
-      "titleEn": "We are considering the sale of unused assets (buildings) owned by the city.",
-      "titleFr": "Nous envisageons de vendre des biens immobiliers (bâtiments) inutilisés appartenant à la ville."
     },
     {
       "source": "anshin",
