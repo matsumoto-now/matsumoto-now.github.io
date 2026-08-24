@@ -1,8 +1,8 @@
 {
-  "fetched": "2026-08-24T05:37:50.955Z",
+  "fetched": "2026-08-24T06:58:27.313Z",
   "items": [
     {
-      "source": "emergency",
+      "source": "important",
       "title": "マイナンバーカード関連のシステム障害が復旧しました【島立地区地域づくりセンター 】",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
       "date": "2026-08-24T03:00:00.000Z",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）8月24日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/211910.html",
+      "date": "2026-08-24T06:30:00.000Z",
+      "titleEn": "Mayor's Press Conference, August 24, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 24 août de l'année Reiwa 8 (2026)"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-08-18T06:00:00.000Z",
       "titleEn": "Information on Online Consultations with Judicial Scriveners",
       "titleFr": "Informations sur les consultations en ligne avec un notaire"
-    },
-    {
-      "source": "news",
-      "title": "ＳＭＳ（ショートメール）を利用した特定健診のお知らせを行います",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/177534.html",
-      "date": "2026-08-18T03:00:00.000Z",
-      "titleEn": "We will send notifications regarding specific health checkups via SMS (text message).",
-      "titleFr": "Nous vous enverrons une notification concernant les examens médicaux spécifiques par SMS (messagerie courte)"
     },
     {
       "source": "anshin",
