@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-25T04:38:27.393Z",
+  "fetched": "2026-08-25T05:31:30.103Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "第25回「城北地区ふれ愛まつり」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/114106.html",
+      "date": "2026-08-25T05:00:00.000Z",
+      "titleEn": "The 25th \"Johoku District Friendship Festival\" Will Be Held",
+      "titleFr": "La 25e édition du « Festival de la solidarité du quartier de Johoku » aura lieu"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-08-21T06:00:00.000Z",
       "titleEn": "Reiwa 8 Matsumoto City Civil Service Recruitment Qualifying Examination [June]—Third-Round Examination Results (Administrative Categories B and C, and Operational Positions)",
       "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l’année Reiwa 8 [juin] (fonctions administratives B et C, et fonctions techniques)"
-    },
-    {
-      "source": "news",
-      "title": "第25回「城北地区ふれ愛まつり」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/114106.html",
-      "date": "2026-08-21T02:00:00.000Z",
-      "titleEn": "The 25th \"Johoku District Friendship Festival\" Will Be Held",
-      "titleFr": "La 25e édition du « Festival de la solidarité du quartier de Johoku » aura lieu"
     },
     {
       "source": "news",
