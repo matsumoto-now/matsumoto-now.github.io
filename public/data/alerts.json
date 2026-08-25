@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-24T23:47:01.517Z",
+  "fetched": "2026-08-25T01:15:38.789Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "2026OMF　オープンイベントのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
+      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
     },
     {
       "source": "news",
@@ -91,11 +99,11 @@
     },
     {
       "source": "news",
-      "title": "2026OMF　オープンイベントのご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "title": "島内山田地区にクラインガルテンがオープンします！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/72/208412.html",
       "date": "2026-08-23T15:00:00.000Z",
-      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
-      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
+      "titleEn": "A Kleingarten is opening in the Yamada district of the island!",
+      "titleFr": "Un « Kleingarten » va ouvrir ses portes dans le quartier de Yamada, sur l'île !"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-08-19T15:00:00.000Z",
       "titleEn": "Notice Regarding Blood Donation Events at the Mobile Blood Collection Vehicle",
       "titleFr": "Annonce concernant les lieux de collecte de sang organisés par le bus de collecte mobile"
-    },
-    {
-      "source": "news",
-      "title": "令和9年松本市ハタチの記念式典を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/2648.html",
-      "date": "2026-08-19T15:00:00.000Z",
-      "titleEn": "We will hold the Reiwa 9 Matsumoto City \"20th Birthday\" Commemorative Ceremony",
-      "titleFr": "Cérémonie commémorative des jeunes de 20 ans de la ville de Matsumoto, année Reiwa 9"
     },
     {
       "source": "anshin",
