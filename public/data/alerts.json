@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-25T01:15:38.789Z",
+  "fetched": "2026-08-25T02:39:16.706Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "【社会実験】 女鳥羽川から発信！まちなか川育アドベンチャーツアー！！を実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/87/211592.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "[Social Experiment] Coming to You from the Meguro River! We're Hosting the \"Urban River Education Adventure Tour\"!!",
+      "titleFr": "[Expérience sociale] En direct de la rivière Meotoba ! Nous organisons une « excursion d'aventure pédagogique sur la rivière en milieu urbain » !!"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-08-20T15:00:00.000Z",
       "titleEn": "We will conduct an open proposal process for the outsourcing of collection services for outstanding payments under the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
       "titleFr": "La ville de Matsumoto lance un appel d'offres ouvert concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
-    },
-    {
-      "source": "news",
-      "title": "移動採血車による献血会場のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
-      "date": "2026-08-19T15:00:00.000Z",
-      "titleEn": "Notice Regarding Blood Donation Events at the Mobile Blood Collection Vehicle",
-      "titleFr": "Annonce concernant les lieux de collecte de sang organisés par le bus de collecte mobile"
     },
     {
       "source": "anshin",
