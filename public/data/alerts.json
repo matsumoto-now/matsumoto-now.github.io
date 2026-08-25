@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-25T07:43:14.639Z",
+  "fetched": "2026-08-25T08:41:57.606Z",
   "items": [
     {
       "source": "important",
@@ -48,6 +48,14 @@
       "date": "2026-08-25T05:00:00.000Z",
       "titleEn": "The 25th \"Johoku District Friendship Festival\" Will Be Held",
       "titleFr": "La 25e édition du « Festival de la solidarité du quartier de Johoku » aura lieu"
+    },
+    {
+      "source": "news",
+      "title": "起業プログラム（一般コース）の参加者募集！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/212012.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "Now Accepting Applications for the Entrepreneurship Program (General Course)!",
+      "titleFr": "Appel à candidatures pour le programme de création d'entreprise (filière générale) !"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-08-20T23:30:00.000Z",
       "titleEn": "We provide subsidies to cover the costs of holding downtown events (Matsumoto City Downtown Revitalization Project)",
       "titleFr": "Nous accordons des subventions pour couvrir les frais liés à l'organisation d'événements en centre-ville (Programme de dynamisation du centre-ville de Matsumoto)"
-    },
-    {
-      "source": "news",
-      "title": "松本市母子父子寡婦福祉資金未収金整理業務委託に係る公募型プロポーザルを実施します。",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/209822.html",
-      "date": "2026-08-20T15:00:00.000Z",
-      "titleEn": "We will conduct an open proposal process for the outsourcing of collection services for outstanding payments under the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
-      "titleFr": "La ville de Matsumoto lance un appel d'offres ouvert concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
     },
     {
       "source": "anshin",
