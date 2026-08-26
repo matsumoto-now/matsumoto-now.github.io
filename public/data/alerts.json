@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-08-26T04:39:37.333Z",
+  "fetched": "2026-08-26T05:34:15.582Z",
   "items": [
-    {
-      "source": "important",
-      "title": "マイナンバーカード関連のシステム障害が復旧しました【島立地区地域づくりセンター 】",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
-      "date": "2026-08-24T03:00:00.000Z",
-      "titleEn": "The system outage related to the My Number Card has been resolved [Shimadate District Community Development Center]",
-      "titleFr": "La panne du système lié à la carte My Number a été résolue [Centre de développement communautaire du quartier de Shimadate]"
-    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -59,6 +51,14 @@
     },
     {
       "source": "news",
+      "title": "親子ふれあい「竹の子教室」体験見学会・参加者募集",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/155/117901.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "Parent-Child Interaction “Bamboo Shoot Class” Open House—Call for Participants",
+      "titleFr": "Atelier « Takekono » pour les parents et leurs enfants : appel à participants pour une séance d'initiation"
+    },
+    {
+      "source": "news",
       "title": "起業プログラム（一般コース）の参加者募集！",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/212012.html",
       "date": "2026-08-24T15:00:00.000Z",
@@ -91,6 +91,14 @@
     },
     {
       "source": "news",
+      "title": "親子ふれあい「竹の子教室」体験見学会・参加者募集",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/117902.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "Parent-Child Interaction “Bamboo Shoot Class” Open House—Call for Participants",
+      "titleFr": "Atelier « Takekono » pour les parents et leurs enfants : recherche de participants pour une séance d'initiation"
+    },
+    {
+      "source": "news",
       "title": "市長記者会見　令和8年（2026）8月24日",
       "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/211910.html",
       "date": "2026-08-24T06:30:00.000Z",
@@ -104,14 +112,6 @@
       "date": "2026-08-24T04:00:00.000Z",
       "titleEn": "We will conduct a sounding survey regarding the installation of a concession stand in the new Matsumoto City Hall.",
       "titleFr": "Nous allons mener une consultation en vue de l'installation d'une boutique dans le nouveau bâtiment de la mairie de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "マイナンバーカード関連のシステム障害が復旧しました【島立地区地域づくりセンター 】",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/211878.html",
-      "date": "2026-08-24T03:00:00.000Z",
-      "titleEn": "The system outage related to the My Number Card has been resolved [Shimadate District Community Development Center]",
-      "titleFr": "La panne du système lié à la carte My Number a été résolue [Centre de développement communautaire du quartier de Shimadate]"
     },
     {
       "source": "news",
@@ -152,14 +152,6 @@
       "date": "2026-08-21T06:00:00.000Z",
       "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City.",
       "titleFr": "[Recrutement supplémentaire] Nous recrutons des agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto."
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験【6月】第3次試験結果(行政B・C・現業職)",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/211710.html",
-      "date": "2026-08-21T06:00:00.000Z",
-      "titleEn": "Reiwa 8 Matsumoto City Civil Service Recruitment Qualifying Examination [June]—Third-Round Exam Results (Administrative B, C, and Operational Positions)",
-      "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [juin] (fonctions administratives B et C, fonctions techniques)"
     },
     {
       "source": "anshin",
