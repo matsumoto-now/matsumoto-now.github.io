@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-26T06:49:55.830Z",
+  "fetched": "2026-08-26T07:46:32.993Z",
   "items": [
     {
       "source": "important",
@@ -35,11 +35,27 @@
     },
     {
       "source": "news",
+      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
+      "date": "2026-08-25T15:00:00.000Z",
+      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
+      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
       "title": "オンライン窓口を体験しませんか？（予約不要）",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/212043.html",
       "date": "2026-08-25T15:00:00.000Z",
       "titleEn": "Why not try our online service? (No appointment needed)",
       "titleFr": "Pourquoi ne pas essayer notre service en ligne ? (Sans rendez-vous)"
+    },
+    {
+      "source": "news",
+      "title": "「松本市市民活動フェスタ2026」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/sapocen/208408.html",
+      "date": "2026-08-25T15:00:00.000Z",
+      "titleEn": "We will be holding the “Matsumoto City Civic Activities Festival 2026”",
+      "titleFr": "Organisation de la « Fête des activités citoyennes de Matsumoto 2026 »"
     },
     {
       "source": "news",
@@ -136,22 +152,6 @@
       "date": "2026-08-23T15:00:00.000Z",
       "titleEn": "A Kleingarten is opening in the Yamada district of the island!",
       "titleFr": "Un « Kleingarten » va ouvrir ses portes dans le quartier de Yamada, sur l'île !"
-    },
-    {
-      "source": "news",
-      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
-      "date": "2026-08-21T15:00:00.000Z",
-      "titleEn": "[Fun for Everyone from Kids to Adults] We’re Hosting the Nan Nan Festa 2026",
-      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le « Nannan Festa 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します。",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-08-21T06:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City.",
-      "titleFr": "[Recrutement supplémentaire] Nous recrutons des agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto."
     },
     {
       "source": "anshin",
