@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-26T07:46:32.993Z",
+  "fetched": "2026-08-26T08:42:55.360Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "9月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-08-26T08:00:00.000Z",
+      "titleEn": "Information on the September Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'accueil des citoyens du mois de septembre"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-08-23T15:00:00.000Z",
       "titleEn": "Block scam calls with the Special Scam App!",
       "titleFr": "Bloquez les appels frauduleux grâce à une application anti-escroquerie !"
-    },
-    {
-      "source": "news",
-      "title": "島内山田地区にクラインガルテンがオープンします！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/72/208412.html",
-      "date": "2026-08-23T15:00:00.000Z",
-      "titleEn": "A Kleingarten is opening in the Yamada district of the island!",
-      "titleFr": "Un « Kleingarten » va ouvrir ses portes dans le quartier de Yamada, sur l'île !"
     },
     {
       "source": "anshin",
