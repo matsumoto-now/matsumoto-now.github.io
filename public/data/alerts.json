@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-26T14:43:48.294Z",
+  "fetched": "2026-08-26T16:17:31.646Z",
   "items": [
     {
       "source": "important",
@@ -35,11 +35,83 @@
     },
     {
       "source": "news",
+      "title": "「りんご音楽祭2026」当日アルバイト・ボランティアスタッフ募集中！",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/209157.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "We're currently recruiting part-time workers and volunteers for the \"Apple Music Festival 2026\"!",
+      "titleFr": "Nous recrutons actuellement des étudiants et des bénévoles pour le « Festival de musique de Ringo 2026 » !"
+    },
+    {
+      "source": "news",
       "title": "9月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-08-26T08:00:00.000Z",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
+      "date": "2026-08-26T15:00:00.000Z",
       "titleEn": "Information on the September Citizen Consultation Desk",
       "titleFr": "Informations sur le guichet d'accueil des citoyens du mois de septembre"
+    },
+    {
+      "source": "news",
+      "title": "海と山との市民交歓会～親子で江の島満喫旅！～参加者募集",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/208740.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "\"Sea and Mountain Community Gathering: A Family Trip to Enjoy Enoshima to the Fullest!\"—Call for Participants",
+      "titleFr": "Rencontre citoyenne « Entre mer et montagne » ~ Un séjour en famille pour profiter pleinement d'Enoshima ! ~ Appel à participants"
+    },
+    {
+      "source": "news",
+      "title": "広報まつもと（9月号）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "Matsumoto Public Relations (September Issue)",
+      "titleFr": "Matsumoto Information (numéro de septembre)"
+    },
+    {
+      "source": "news",
+      "title": "一般財団法人松本市芸術文化振興財団の臨時職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/209381.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "The Matsumoto City Foundation for the Promotion of Arts and Culture is recruiting temporary staff.",
+      "titleFr": "La Fondation pour la promotion des arts et de la culture de Matsumoto (fondation à but non lucratif) recrute des agents temporaires"
+    },
+    {
+      "source": "news",
+      "title": "まつもと市民芸術館は改修工事に伴う停電のため臨時休館します。",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/208992.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "The Matsumoto Civic Arts Center will be temporarily closed due to a power outage caused by renovation work.",
+      "titleFr": "Le Centre des arts de Matsumoto sera temporairement fermé en raison d'une coupure d'électricité liée à des travaux de rénovation."
+    },
+    {
+      "source": "news",
+      "title": "令和8年度重度心身障害者（児）タクシー料金助成事業の申請受付中",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/208804.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "Applications Are Now Being Accepted for the Reiwa 8 Fiscal Year Taxi Fare Subsidy Program for Persons (and Children) with Severe Physical and Mental Disabilities",
+      "titleFr": "Les demandes au titre du programme de subvention des frais de taxi pour les personnes (et enfants) souffrant d'un handicap physique ou mental grave de l'année Reiwa 8 sont actuellement acceptées"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度重度心身障害者（児）自動車燃料費助成事業の申請受付中",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/208800.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "Applications Are Now Being Accepted for the Reiwa 8 Fiscal Year Fuel Cost Subsidy Program for Persons (and Children) with Severe Physical and Mental Disabilities",
+      "titleFr": "Les demandes au titre du programme de subvention pour les frais de carburant des personnes (et enfants) souffrant d'un handicap physique ou mental grave pour l'année Reiwa 8 sont actuellement acceptées"
+    },
+    {
+      "source": "news",
+      "title": "【多国籍なんなん交流会】第1回受講者を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/208780.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "[Multicultural Nan Nan Exchange Event] Now Accepting Applications for the First Session",
+      "titleFr": "[Rencontre multiculturelle « Nan Nan »] Appel à candidatures pour la 1re édition"
+    },
+    {
+      "source": "news",
+      "title": "コンビニ交付サービス休止のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/208606.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "Notice of Suspension of the Convenience Store Issuance Service",
+      "titleFr": "Avis de suspension du service de délivrance dans les supérettes"
     },
     {
       "source": "news",
@@ -80,78 +152,6 @@
       "date": "2026-08-24T15:00:00.000Z",
       "titleEn": "Parent-Child Interaction “Bamboo Shoot Class” Open House—Call for Participants",
       "titleFr": "Atelier « Takekono » pour les parents et leurs enfants : recherche de participants pour une séance d'initiation"
-    },
-    {
-      "source": "news",
-      "title": "起業プログラム（一般コース）の参加者募集！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/212012.html",
-      "date": "2026-08-24T15:00:00.000Z",
-      "titleEn": "Now Accepting Applications for the Entrepreneurship Program (General Course)!",
-      "titleFr": "Appel à candidatures pour le programme de création d'entreprise (filière générale) !"
-    },
-    {
-      "source": "news",
-      "title": "中小企業向け 新規事業実践プログラムの参加者募集！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/211992.html",
-      "date": "2026-08-24T15:00:00.000Z",
-      "titleEn": "Call for Participants in the Practical New Business Program for Small and Medium-Sized Enterprises!",
-      "titleFr": "Appel à candidatures pour le programme de mise en œuvre de nouvelles activités destiné aux PME !"
-    },
-    {
-      "source": "news",
-      "title": "【社会実験】 女鳥羽川から発信！まちなか川育アドベンチャーツアー！！を実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/87/211592.html",
-      "date": "2026-08-24T15:00:00.000Z",
-      "titleEn": "[Social Experiment] Coming to You from the Meguro River! We're Hosting the \"Urban River Education Adventure Tour\"!!",
-      "titleFr": "[Expérience sociale] En direct de la rivière Meotoba ! Nous organisons une « excursion d'aventure pédagogique sur la rivière en milieu urbain » !!"
-    },
-    {
-      "source": "news",
-      "title": "2026OMF　オープンイベントのご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
-      "date": "2026-08-24T15:00:00.000Z",
-      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
-      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
-    },
-    {
-      "source": "news",
-      "title": "親子ふれあい「竹の子教室」体験見学会・参加者募集",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/117902.html",
-      "date": "2026-08-24T15:00:00.000Z",
-      "titleEn": "Parent-Child Interaction “Bamboo Shoot Class” Open House—Call for Participants",
-      "titleFr": "Atelier « Takekono » pour les parents et leurs enfants : recherche de participants pour une séance d'initiation"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）8月24日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/211910.html",
-      "date": "2026-08-24T06:30:00.000Z",
-      "titleEn": "Mayor's Press Conference, August 24, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 24 août de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "松本市新庁舎の売店設置に向けたサウンディングを行います",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/210933.html",
-      "date": "2026-08-24T04:00:00.000Z",
-      "titleEn": "We will conduct a sounding survey regarding the installation of a concession stand in the new Matsumoto City Hall.",
-      "titleFr": "Nous allons mener une consultation en vue de l'installation d'une boutique dans le nouveau bâtiment de la mairie de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "外国人介護人材の相談窓口を設置しています",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/211908.html",
-      "date": "2026-08-23T15:00:00.000Z",
-      "titleEn": "We have established a consultation desk for foreign caregivers.",
-      "titleFr": "Nous avons mis en place un service d'assistance dédié au personnel soignant étranger"
-    },
-    {
-      "source": "news",
-      "title": "詐欺の電話は特殊詐欺アプリでブロック！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/211759.html",
-      "date": "2026-08-23T15:00:00.000Z",
-      "titleEn": "Block scam calls with the Special Scam App!",
-      "titleFr": "Bloquez les appels frauduleux grâce à une application anti-escroquerie !"
     },
     {
       "source": "anshin",
