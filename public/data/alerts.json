@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-25T23:51:27.117Z",
+  "fetched": "2026-08-26T01:18:34.044Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "オンライン窓口を体験しませんか？（予約不要）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/212043.html",
+      "date": "2026-08-25T15:00:00.000Z",
+      "titleEn": "Why not try our online service? (No appointment needed)",
+      "titleFr": "Pourquoi ne pas essayer notre service en ligne ? (Sans rendez-vous)"
+    },
+    {
+      "source": "news",
       "title": "第25回「城北地区ふれ愛まつり」を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/114106.html",
       "date": "2026-08-25T05:00:00.000Z",
@@ -56,6 +64,14 @@
       "date": "2026-08-24T15:00:00.000Z",
       "titleEn": "Now Accepting Applications for the Entrepreneurship Program (General Course)!",
       "titleFr": "Appel à candidatures pour le programme de création d'entreprise (filière générale) !"
+    },
+    {
+      "source": "news",
+      "title": "中小企業向け 新規事業実践プログラムの参加者募集！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/211992.html",
+      "date": "2026-08-24T15:00:00.000Z",
+      "titleEn": "Call for Participants in the Practical New Business Program for Small and Medium-Sized Enterprises!",
+      "titleFr": "Appel à candidatures pour le programme de mise en œuvre de nouvelles activités destiné aux PME !"
     },
     {
       "source": "news",
@@ -144,22 +160,6 @@
       "date": "2026-08-21T06:00:00.000Z",
       "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City.",
       "titleFr": "[Recrutement supplémentaire] Nous recrutons des agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto."
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験【6月】第3次試験結果(行政B・C・現業職)",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/211710.html",
-      "date": "2026-08-21T06:00:00.000Z",
-      "titleEn": "Reiwa 8 Matsumoto City Civil Service Recruitment Qualifying Examination [June]—Third-Round Examination Results (Administrative Categories B and C, and Operational Positions)",
-      "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l’année Reiwa 8 [juin] (fonctions administratives B et C, et fonctions techniques)"
-    },
-    {
-      "source": "news",
-      "title": "まちなかのイベント開催に要する経費を補助します（松本市まちなか賑わい創出事業）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/196832.html",
-      "date": "2026-08-20T23:30:00.000Z",
-      "titleEn": "We provide subsidies to cover the costs of holding downtown events (Matsumoto City Downtown Revitalization Project)",
-      "titleFr": "Nous accordons des subventions pour couvrir les frais liés à l'organisation d'événements en centre-ville (Programme de dynamisation du centre-ville de Matsumoto)"
     },
     {
       "source": "anshin",
