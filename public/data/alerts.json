@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-26T20:34:50.192Z",
+  "fetched": "2026-08-27T00:29:36.666Z",
   "items": [
     {
       "source": "important",
@@ -35,6 +35,14 @@
     },
     {
       "source": "news",
+      "title": "広報まつもと（9月号）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
+      "date": "2026-08-26T23:30:00.000Z",
+      "titleEn": "Matsumoto Public Relations (September Issue)",
+      "titleFr": "Matsumoto Information (numéro de septembre)"
+    },
+    {
+      "source": "news",
       "title": "「りんご音楽祭2026」当日アルバイト・ボランティアスタッフ募集中！",
       "link": "https://www.city.matsumoto.nagano.jp/koho/209157.html",
       "date": "2026-08-26T15:00:00.000Z",
@@ -56,14 +64,6 @@
       "date": "2026-08-26T15:00:00.000Z",
       "titleEn": "\"Sea and Mountain Community Gathering: A Family Trip to Enjoy Enoshima to the Fullest!\"—Call for Participants",
       "titleFr": "Rencontre citoyenne « Entre mer et montagne » ~ Un séjour en famille pour profiter pleinement d'Enoshima ! ~ Appel à participants"
-    },
-    {
-      "source": "news",
-      "title": "広報まつもと（9月号）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "Matsumoto Public Relations (September Issue)",
-      "titleFr": "Matsumoto Information (numéro de septembre)"
     },
     {
       "source": "news",
