@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-27T00:29:36.666Z",
+  "fetched": "2026-08-27T10:26:13.795Z",
   "items": [
     {
       "source": "important",
@@ -35,11 +35,35 @@
     },
     {
       "source": "news",
+      "title": "（草間彌生さんご逝去）献花台の設置と市民無料開放のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/136/212473.html",
+      "date": "2026-08-27T06:30:00.000Z",
+      "titleEn": "(In Memory of Yayoi Kusama) Notice Regarding the Installation of a Memorial Altar and Free Public Access",
+      "titleFr": "(Décès de Yayoi Kusama) Annonce concernant l'installation d'un autel funéraire et son ouverture gratuite au public"
+    },
+    {
+      "source": "news",
+      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
+      "date": "2026-08-27T00:00:00.000Z",
+      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
+      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
       "title": "広報まつもと（9月号）",
       "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
       "date": "2026-08-26T23:30:00.000Z",
       "titleEn": "Matsumoto Public Relations (September Issue)",
       "titleFr": "Matsumoto Information (numéro de septembre)"
+    },
+    {
+      "source": "news",
+      "title": "2026OMF　オープンイベントのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
+      "date": "2026-08-26T15:00:00.000Z",
+      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
+      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
     },
     {
       "source": "news",
@@ -115,14 +139,6 @@
     },
     {
       "source": "news",
-      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
-      "date": "2026-08-25T15:00:00.000Z",
-      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
-      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
-    },
-    {
-      "source": "news",
       "title": "オンライン窓口を体験しませんか？（予約不要）",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/212043.html",
       "date": "2026-08-25T15:00:00.000Z",
@@ -136,22 +152,6 @@
       "date": "2026-08-25T15:00:00.000Z",
       "titleEn": "We will be holding the “Matsumoto City Civic Activities Festival 2026”",
       "titleFr": "Organisation de la « Fête des activités citoyennes de Matsumoto 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "第25回「城北地区ふれ愛まつり」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/114106.html",
-      "date": "2026-08-25T05:00:00.000Z",
-      "titleEn": "The 25th \"Johoku District Friendship Festival\" Will Be Held",
-      "titleFr": "La 25e édition du « Festival de la solidarité du quartier de Johoku » aura lieu"
-    },
-    {
-      "source": "news",
-      "title": "親子ふれあい「竹の子教室」体験見学会・参加者募集",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/155/117901.html",
-      "date": "2026-08-24T15:00:00.000Z",
-      "titleEn": "Parent-Child Interaction “Bamboo Shoot Class” Open House—Call for Participants",
-      "titleFr": "Atelier « Takekono » pour les parents et leurs enfants : recherche de participants pour une séance d'initiation"
     },
     {
       "source": "anshin",
