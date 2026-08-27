@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-27T10:26:13.795Z",
+  "fetched": "2026-08-27T20:41:27.291Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "「信州オレンジサミット2026in松本」が開催されます",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/63/181204.html",
+      "date": "2026-08-27T15:00:00.000Z",
+      "titleEn": "\"Shinshu Orange Summit 2026 in Matsumoto\" will be held",
+      "titleFr": "Le « Shinshu Orange Summit 2026 à Matsumoto » aura lieu"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-08-25T15:00:00.000Z",
       "titleEn": "Why not try our online service? (No appointment needed)",
       "titleFr": "Pourquoi ne pas essayer notre service en ligne ? (Sans rendez-vous)"
-    },
-    {
-      "source": "news",
-      "title": "「松本市市民活動フェスタ2026」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/sapocen/208408.html",
-      "date": "2026-08-25T15:00:00.000Z",
-      "titleEn": "We will be holding the “Matsumoto City Civic Activities Festival 2026”",
-      "titleFr": "Organisation de la « Fête des activités citoyennes de Matsumoto 2026 »"
     },
     {
       "source": "anshin",
