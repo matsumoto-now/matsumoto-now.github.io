@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-08-27T20:41:27.291Z",
+  "fetched": "2026-08-28T05:07:35.678Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【国道158号】通行止め解除",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
+      "date": "2026-08-28T01:30:00.000Z",
+      "titleEn": "[National Route 158] Road Closure Lifted",
+      "titleFr": "[Route nationale 158] Levée de la fermeture à la circulation"
+    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -8,14 +16,6 @@
       "date": "2026-08-04T23:30:00.000Z",
       "titleEn": "Bear Sightings",
       "titleFr": "Signalements d'ours"
-    },
-    {
-      "source": "important",
-      "title": "古い扇風機が原因の火災にご注意ください",
-      "link": "https://www.gov-online.go.jp/article/201107/entry-9227.html",
-      "date": "2026-07-14T06:00:00.000Z",
-      "titleEn": "Please be careful of fires caused by old electric fans",
-      "titleFr": "Méfiez-vous des incendies causés par de vieux ventilateurs"
     },
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "【国道158号】通行止め解除",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
+      "date": "2026-08-28T01:30:00.000Z",
+      "titleEn": "[National Route 158] Road Closure Lifted",
+      "titleFr": "[Route nationale 158] Levée de la fermeture à la circulation"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-08-26T15:00:00.000Z",
       "titleEn": "Notice of Suspension of the Convenience Store Issuance Service",
       "titleFr": "Avis de suspension du service de délivrance dans les supérettes"
-    },
-    {
-      "source": "news",
-      "title": "オンライン窓口を体験しませんか？（予約不要）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/212043.html",
-      "date": "2026-08-25T15:00:00.000Z",
-      "titleEn": "Why not try our online service? (No appointment needed)",
-      "titleFr": "Pourquoi ne pas essayer notre service en ligne ? (Sans rendez-vous)"
     },
     {
       "source": "anshin",
