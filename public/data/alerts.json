@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-08-31T01:28:36.069Z",
+  "fetched": "2026-08-31T07:31:56.136Z",
   "items": [
-    {
-      "source": "important",
-      "title": "【国道158号】通行止め解除",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
-      "date": "2026-08-28T01:30:00.000Z",
-      "titleEn": "[National Route 158] Road Closure Lifted",
-      "titleFr": "[Route nationale 158] Levée de la fermeture à la circulation"
-    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -35,11 +27,11 @@
     },
     {
       "source": "news",
-      "title": "【国道158号】通行止め解除",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
-      "date": "2026-08-28T01:30:00.000Z",
-      "titleEn": "[National Route 158] Road Closure Lifted",
-      "titleFr": "[Route nationale 158] Levée de la fermeture à la circulation"
+      "title": "詐欺の電話は特殊詐欺対策アプリでブロック！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/211759.html",
+      "date": "2026-08-30T15:00:00.000Z",
+      "titleEn": "Block scam calls with an anti-scam app!",
+      "titleFr": "Bloquez les appels frauduleux grâce à une application de lutte contre les escroqueries !"
     },
     {
       "source": "news",
