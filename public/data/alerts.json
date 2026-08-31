@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-30T23:14:26.261Z",
+  "fetched": "2026-08-31T01:28:36.069Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "令和8年熊本地震で被災された納税者のみなさまへ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/14/212610.html",
+      "date": "2026-08-27T15:00:00.000Z",
+      "titleEn": "To Taxpayers Affected by the Reiwa 8 Kumamoto Earthquake",
+      "titleFr": "À l'attention des contribuables touchés par le séisme de Kumamoto de l'année Reiwa 8"
+    },
+    {
+      "source": "news",
       "title": "「信州オレンジサミット2026in松本」が開催されます",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/63/181204.html",
       "date": "2026-08-27T15:00:00.000Z",
@@ -51,11 +59,11 @@
     },
     {
       "source": "news",
-      "title": "（草間彌生さんご逝去）献花台の設置と市民無料開放のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/136/212473.html",
-      "date": "2026-08-27T06:30:00.000Z",
-      "titleEn": "(In Memory of Yayoi Kusama) Notice Regarding the Installation of a Memorial Altar and Free Public Access",
-      "titleFr": "(Décès de Yayoi Kusama) Annonce concernant l'installation d'un autel funéraire et son ouverture gratuite au public"
+      "title": "草間彌生さんのご逝去について（市長メッセージ）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/136/212429.html",
+      "date": "2026-08-27T03:00:00.000Z",
+      "titleEn": "Regarding the Passing of Yayoi Kusama (Message from the Mayor)",
+      "titleFr": "À propos du décès de Yayoi Kusama (Message du maire)"
     },
     {
       "source": "news",
@@ -88,14 +96,6 @@
       "date": "2026-08-26T15:00:00.000Z",
       "titleEn": "We're currently recruiting part-time workers and volunteers for the \"Apple Music Festival 2026\"!",
       "titleFr": "Nous recrutons actuellement des étudiants et des bénévoles pour le « Festival de musique de Ringo 2026 » !"
-    },
-    {
-      "source": "news",
-      "title": "9月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "Information on the September Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'accueil des citoyens du mois de septembre"
     },
     {
       "source": "news",
