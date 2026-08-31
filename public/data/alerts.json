@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-31T07:31:56.136Z",
+  "fetched": "2026-08-31T15:53:27.610Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,46 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "こども向け・学生向け　自習室開放のお知らせ（大手公民館）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/83103.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "Notice Regarding the Opening of the Study Room for Children and Students (Ote Community Center)",
+      "titleFr": "Annonce concernant l'ouverture des salles d'étude pour les enfants et les élèves (Centre communautaire d'Ote)"
+    },
+    {
+      "source": "news",
+      "title": "市民課受付予約と混雑状況のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2943.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "Information on Appointments and Crowd Levels at the Civic Affairs Division Reception Desk",
+      "titleFr": "Informations sur les rendez-vous à l'accueil du service des affaires civiles et sur l'affluence"
+    },
+    {
+      "source": "news",
+      "title": "第三地区の文化祭・作品展を開催します！",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/161283.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "We're hosting the Third District Cultural Festival and Art Exhibition!",
+      "titleFr": "Nous organisons le festival culturel et l'exposition d'œuvres de la 3e circonscription !"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
+      "date": "2026-08-30T15:00:00.000Z",
+      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant”",
+      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais ouvertes."
+    },
+    {
+      "source": "news",
+      "title": "「やさしい日本語講座」講座を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/212629.html",
+      "date": "2026-08-30T15:00:00.000Z",
+      "titleEn": "We will be holding a “Simple Japanese Course”",
+      "titleFr": "Nous organisons un cours intitulé « Cours de japonais simplifié »"
     },
     {
       "source": "news",
@@ -104,46 +144,6 @@
       "date": "2026-08-26T15:00:00.000Z",
       "titleEn": "The Matsumoto City Foundation for the Promotion of Arts and Culture is recruiting temporary staff.",
       "titleFr": "La Fondation pour la promotion des arts et de la culture de Matsumoto (fondation à but non lucratif) recrute des agents temporaires"
-    },
-    {
-      "source": "news",
-      "title": "まつもと市民芸術館は改修工事に伴う停電のため臨時休館します。",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/208992.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "The Matsumoto Civic Arts Center will be temporarily closed due to a power outage caused by renovation work.",
-      "titleFr": "Le Centre des arts de Matsumoto sera temporairement fermé en raison d'une coupure d'électricité liée à des travaux de rénovation."
-    },
-    {
-      "source": "news",
-      "title": "令和8年度重度心身障害者（児）タクシー料金助成事業の申請受付中",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/208804.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "Applications Are Now Being Accepted for the Reiwa 8 Fiscal Year Taxi Fare Subsidy Program for Persons (and Children) with Severe Physical and Mental Disabilities",
-      "titleFr": "Les demandes au titre du programme de subvention des frais de taxi pour les personnes (et enfants) souffrant d'un handicap physique ou mental grave de l'année Reiwa 8 sont actuellement acceptées"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度重度心身障害者（児）自動車燃料費助成事業の申請受付中",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/208800.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "Applications Are Now Being Accepted for the Reiwa 8 Fiscal Year Fuel Cost Subsidy Program for Persons (and Children) with Severe Physical and Mental Disabilities",
-      "titleFr": "Les demandes au titre du programme de subvention pour les frais de carburant des personnes (et enfants) souffrant d'un handicap physique ou mental grave pour l'année Reiwa 8 sont actuellement acceptées"
-    },
-    {
-      "source": "news",
-      "title": "【多国籍なんなん交流会】第1回受講者を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/208780.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "[Multicultural Nan Nan Exchange Event] Now Accepting Applications for the First Session",
-      "titleFr": "[Rencontre multiculturelle « Nan Nan »] Appel à candidatures pour la 1re édition"
-    },
-    {
-      "source": "news",
-      "title": "コンビニ交付サービス休止のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/208606.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "Notice of Suspension of the Convenience Store Issuance Service",
-      "titleFr": "Avis de suspension du service de délivrance dans les supérettes"
     },
     {
       "source": "anshin",
