@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-01T00:43:25.896Z",
+  "fetched": "2026-09-01T06:03:24.995Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "生活道路の法定速度が引き下げられました！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/221/205896.html",
+      "date": "2026-09-01T01:00:00.000Z",
+      "titleEn": "The speed limit on residential streets has been lowered!",
+      "titleFr": "La vitesse maximale autorisée sur les routes locales a été abaissée !"
     },
     {
       "source": "news",
@@ -64,6 +72,14 @@
       "date": "2026-08-31T15:00:00.000Z",
       "titleEn": "We're hosting the Third District Cultural Festival and Art Exhibition!",
       "titleFr": "Nous organisons le festival culturel et l'exposition d'œuvres de la 3e circonscription !"
+    },
+    {
+      "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-08-31T06:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -128,22 +144,6 @@
       "date": "2026-08-26T23:30:00.000Z",
       "titleEn": "Matsumoto Public Relations (September Issue)",
       "titleFr": "Matsumoto Information (numéro de septembre)"
-    },
-    {
-      "source": "news",
-      "title": "2026OMF　オープンイベントのご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/220/208289.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "Announcement Regarding the 2026 OMF Open Event",
-      "titleFr": "Annonce concernant l'événement public « 2026OMF »"
-    },
-    {
-      "source": "news",
-      "title": "「りんご音楽祭2026」当日アルバイト・ボランティアスタッフ募集中！",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/209157.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "We're currently recruiting part-time workers and volunteers for the \"Apple Music Festival 2026\"!",
-      "titleFr": "Nous recrutons actuellement des étudiants et des bénévoles pour le « Festival de musique de Ringo 2026 » !"
     },
     {
       "source": "anshin",
