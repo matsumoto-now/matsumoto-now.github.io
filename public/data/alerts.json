@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-01T06:03:24.995Z",
+  "fetched": "2026-09-01T11:54:16.360Z",
   "items": [
     {
       "source": "important",
@@ -27,11 +27,35 @@
     },
     {
       "source": "news",
+      "title": "市長記者会見　令和8年（2026）9月1日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/212964.html",
+      "date": "2026-09-01T06:30:00.000Z",
+      "titleEn": "Mayor's Press Conference, September 1, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 1er septembre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
+      "title": "ニュースポーツ・パラスポーツ・スポーツ用具を貸出ししています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/4138.html",
+      "date": "2026-09-01T03:00:00.000Z",
+      "titleEn": "We rent out new sports equipment, para-sports equipment, and general sports gear.",
+      "titleFr": "Nous proposons la location d'équipements pour les nouveaux sports, le handisport et le sport en général."
+    },
+    {
+      "source": "news",
       "title": "生活道路の法定速度が引き下げられました！",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/221/205896.html",
       "date": "2026-09-01T01:00:00.000Z",
       "titleEn": "The speed limit on residential streets has been lowered!",
       "titleFr": "La vitesse maximale autorisée sur les routes locales a été abaissée !"
+    },
+    {
+      "source": "news",
+      "title": "一般質問の件名と要旨　令和8年9月定例会",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/213/212955.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "Subject and Summary of General Questions: September Regular Session, Reiwa 8",
+      "titleFr": "Objet et résumé des questions générales – Séance ordinaire de septembre de l'année Reiwa 8"
     },
     {
       "source": "news",
@@ -120,30 +144,6 @@
       "date": "2026-08-27T15:00:00.000Z",
       "titleEn": "\"Shinshu Orange Summit 2026 in Matsumoto\" will be held",
       "titleFr": "Le « Shinshu Orange Summit 2026 à Matsumoto » aura lieu"
-    },
-    {
-      "source": "news",
-      "title": "草間彌生さんのご逝去について（市長メッセージ）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/136/212429.html",
-      "date": "2026-08-27T03:00:00.000Z",
-      "titleEn": "Regarding the Passing of Yayoi Kusama (Message from the Mayor)",
-      "titleFr": "À propos du décès de Yayoi Kusama (Message du maire)"
-    },
-    {
-      "source": "news",
-      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
-      "date": "2026-08-27T00:00:00.000Z",
-      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
-      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
-    },
-    {
-      "source": "news",
-      "title": "広報まつもと（9月号）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
-      "date": "2026-08-26T23:30:00.000Z",
-      "titleEn": "Matsumoto Public Relations (September Issue)",
-      "titleFr": "Matsumoto Information (numéro de septembre)"
     },
     {
       "source": "anshin",
