@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-31T21:19:30.143Z",
+  "fetched": "2026-09-01T00:43:25.896Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,22 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度から「子ども・子育て支援金制度」が始まりました",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/64/195565.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "The \"Child and Child-Rearing Support Grant Program\" began in Reiwa 8.",
+      "titleFr": "Le « dispositif d'aide à l'enfance et à l'éducation des enfants » a été mis en place à partir de l'année Reiwa 8."
+    },
+    {
+      "source": "news",
+      "title": "全国瞬時警報システム（Ｊアラート）全国一斉情報伝達試験を実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/2771.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "A Nationwide Simultaneous Information Transmission Test for the National Instant Alert System (J-Alert) Will Be Conducted",
+      "titleFr": "Un test de diffusion simultanée à l'échelle nationale du système d'alerte instantanée (J-Alert) va être effectué."
     },
     {
       "source": "news",
@@ -128,22 +144,6 @@
       "date": "2026-08-26T15:00:00.000Z",
       "titleEn": "We're currently recruiting part-time workers and volunteers for the \"Apple Music Festival 2026\"!",
       "titleFr": "Nous recrutons actuellement des étudiants et des bénévoles pour le « Festival de musique de Ringo 2026 » !"
-    },
-    {
-      "source": "news",
-      "title": "海と山との市民交歓会～親子で江の島満喫旅！～参加者募集",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/208740.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "\"Sea and Mountain Community Gathering: A Family Trip to Enjoy Enoshima to the Fullest!\"—Call for Participants",
-      "titleFr": "Rencontre citoyenne « Entre mer et montagne » ~ Un séjour en famille pour profiter pleinement d'Enoshima ! ~ Appel à participants"
-    },
-    {
-      "source": "news",
-      "title": "一般財団法人松本市芸術文化振興財団の臨時職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/209381.html",
-      "date": "2026-08-26T15:00:00.000Z",
-      "titleEn": "The Matsumoto City Foundation for the Promotion of Arts and Culture is recruiting temporary staff.",
-      "titleFr": "La Fondation pour la promotion des arts et de la culture de Matsumoto (fondation à but non lucratif) recrute des agents temporaires"
     },
     {
       "source": "anshin",
