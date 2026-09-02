@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-02T08:03:30.610Z",
+  "fetched": "2026-09-02T12:53:30.478Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "2026ファミリースポーツカーニバルを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
+      "date": "2026-09-02T08:00:00.000Z",
+      "titleEn": "We're hosting the 2026 Family Sports Carnival",
+      "titleFr": "Nous organisons le « Family Sports Carnival 2026 »"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-08-30T15:00:00.000Z",
       "titleEn": "Block scam calls with an anti-scam app!",
       "titleFr": "Bloquez les appels frauduleux grâce à une application de lutte contre les escroqueries !"
-    },
-    {
-      "source": "news",
-      "title": "令和8年熊本地震で被災された納税者のみなさまへ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/14/212610.html",
-      "date": "2026-08-27T15:00:00.000Z",
-      "titleEn": "To Taxpayers Affected by the Reiwa 8 Kumamoto Earthquake",
-      "titleFr": "À l'attention des contribuables touchés par le séisme de Kumamoto de l'année Reiwa 8"
     },
     {
       "source": "anshin",
