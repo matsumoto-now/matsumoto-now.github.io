@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-01T23:52:07.665Z",
+  "fetched": "2026-09-02T03:14:51.373Z",
   "items": [
     {
       "source": "important",
@@ -27,6 +27,14 @@
     },
     {
       "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-09-02T01:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
       "title": "市長記者会見　令和8年（2026）9月1日",
       "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/212964.html",
       "date": "2026-09-01T06:30:00.000Z",
@@ -51,11 +59,19 @@
     },
     {
       "source": "news",
-      "title": "一般質問の件名と要旨　令和8年9月定例会",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/213/212955.html",
+      "title": "【花時計公園で集客イベントを開催する皆様へ】公園利用申請をワンストップ化します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/174410.html",
       "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "Subject and Summary of General Questions: September Regular Session, Reiwa 8",
-      "titleFr": "Objet et résumé des questions générales – Séance ordinaire de septembre de l'année Reiwa 8"
+      "titleEn": "[To Everyone Hosting Events to Attract Visitors at Hanatokei Park] We are streamlining the park usage application process into a one-stop service",
+      "titleFr": "[À l'attention de tous ceux qui organisent des événements destinés à attirer du public au parc Hanatokei] La procédure de demande d'autorisation d'utilisation du parc est désormais centralisée"
+    },
+    {
+      "source": "news",
+      "title": "”あいとぴあ”さんかくセミナー「都道府県版ジェンダー・ギャップ指数から見える課題と可能性」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/6/212960.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "\"Aitopia\" will host a \"Sankaku Seminar\" titled \"Challenges and Opportunities Revealed by the Prefectural Gender Gap Index.\"",
+      "titleFr": "« Aitopia » organise un séminaire « Les défis et les perspectives mis en lumière par l'indice de l'écart entre les sexes au niveau des préfectures »"
     },
     {
       "source": "news",
@@ -99,14 +115,6 @@
     },
     {
       "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-08-31T06:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
       "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
       "date": "2026-08-30T15:00:00.000Z",
@@ -136,14 +144,6 @@
       "date": "2026-08-27T15:00:00.000Z",
       "titleEn": "To Taxpayers Affected by the Reiwa 8 Kumamoto Earthquake",
       "titleFr": "À l'attention des contribuables touchés par le séisme de Kumamoto de l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "「信州オレンジサミット2026in松本」が開催されます",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/63/181204.html",
-      "date": "2026-08-27T15:00:00.000Z",
-      "titleEn": "\"Shinshu Orange Summit 2026 in Matsumoto\" will be held",
-      "titleFr": "Le « Shinshu Orange Summit 2026 à Matsumoto » aura lieu"
     },
     {
       "source": "anshin",
