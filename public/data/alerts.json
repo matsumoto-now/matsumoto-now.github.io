@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-03T00:58:19.771Z",
+  "fetched": "2026-09-03T05:38:29.429Z",
   "items": [
     {
       "source": "important",
@@ -27,19 +27,27 @@
     },
     {
       "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-09-03T02:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "屋外広告物講習会を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/81/213057.html",
+      "date": "2026-09-02T15:00:00.000Z",
+      "titleEn": "We Will Be Holding a Workshop on Outdoor Advertising",
+      "titleFr": "Nous organisons une formation sur la publicité extérieure"
+    },
+    {
+      "source": "news",
       "title": "2026ファミリースポーツカーニバルを開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
       "date": "2026-09-02T08:00:00.000Z",
       "titleEn": "We're hosting the 2026 Family Sports Carnival",
       "titleFr": "Nous organisons le « Family Sports Carnival 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-09-02T01:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -91,6 +99,14 @@
     },
     {
       "source": "news",
+      "title": "【松本おまつりカルタ】の読み札を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/212551.html",
+      "date": "2026-08-31T15:00:00.000Z",
+      "titleEn": "We are accepting submissions for the reading cards for the “Matsumoto Festival Karuta.”",
+      "titleFr": "Nous lançons un appel à contributions pour les cartes de lecture du « Matsumoto Omatsuri Karuta »"
+    },
+    {
+      "source": "news",
       "title": "全国瞬時警報システム（Ｊアラート）全国一斉情報伝達試験を実施します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/2771.html",
       "date": "2026-08-31T15:00:00.000Z",
@@ -128,22 +144,6 @@
       "date": "2026-08-30T15:00:00.000Z",
       "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant”",
       "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais ouvertes."
-    },
-    {
-      "source": "news",
-      "title": "「やさしい日本語講座」講座を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/212629.html",
-      "date": "2026-08-30T15:00:00.000Z",
-      "titleEn": "We will be holding a “Simple Japanese Course”",
-      "titleFr": "Nous organisons un cours intitulé « Cours de japonais simplifié »"
-    },
-    {
-      "source": "news",
-      "title": "詐欺の電話は特殊詐欺対策アプリでブロック！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/211759.html",
-      "date": "2026-08-30T15:00:00.000Z",
-      "titleEn": "Block scam calls with an anti-scam app!",
-      "titleFr": "Bloquez les appels frauduleux grâce à une application de lutte contre les escroqueries !"
     },
     {
       "source": "anshin",
