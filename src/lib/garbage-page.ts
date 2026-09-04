@@ -103,6 +103,158 @@ function facilityState(facility: FacilityKey, now: Date, lang: Lang) {
   return { open: false, day: null, at: null };
 }
 
+interface DictItem {
+  item: string;
+  form: string | null;
+  category: string;
+  collected: boolean;
+  dropOff: boolean;
+  note: number | null;
+}
+
+interface DictFile {
+  fetched: string;
+  source: string;
+  notes: string[];
+  items: DictItem[];
+}
+
+/** A language file from scripts/fetch-garbage-dictionary.mjs: translations keyed
+ *  by their Japanese source string, so it survives the city reordering rows. */
+interface DictLang {
+  items: Record<string, string>;
+  forms: Record<string, string>;
+  notes: Record<string, string>;
+}
+
+const DICT_RESULTS = 40;
+
+/** The item-by-item dictionary (「ごみ処理辞典」), ~1,700 entries.
+ *
+ *  Loaded on first interaction rather than with the page: it is a few hundred
+ *  kilobytes, most visitors came for "what goes out tomorrow", and the calendar
+ *  above must not wait behind it.
+ *
+ *  Matching is on the translated name and the Japanese one at once, because both
+ *  are things a reader might have: the word they know, or the characters they
+ *  are looking at on the packaging. */
+function initDictionary(root: HTMLElement, lang: Lang, t: (key: UIKey) => string): void {
+  const section = root.querySelector<HTMLElement>('[data-gb-dict]');
+  const search = section?.querySelector<HTMLInputElement>('[data-gb-dict-search]');
+  const out = section?.querySelector<HTMLElement>('[data-gb-dict-results]');
+  if (!section || !search || !out) return;
+  const results = out;
+
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  let loading: Promise<{ dict: DictFile; tr: DictLang | null }> | null = null;
+
+  function load() {
+    if (loading) return loading;
+    results.innerHTML = `<p class="placeholder">${t('common.loading')}</p>`;
+    loading = Promise.all([
+      fetch(`${base}/data/garbage-dictionary.json`, { cache: 'no-store' }).then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json() as Promise<DictFile>;
+      }),
+      // Absent for Japanese, and for any language DeepL cannot translate into
+      // (Filipino) or has not been topped up to yet — the entry then shows the
+      // city's own Japanese wording, which is better than showing nothing.
+      lang === 'ja'
+        ? Promise.resolve(null)
+        : fetch(`${base}/data/garbage-dictionary.${lang}.json`, { cache: 'no-store' })
+            .then((r) => (r.ok ? (r.json() as Promise<DictLang>) : null))
+            .catch(() => null),
+    ]).then(([dict, tr]) => ({ dict, tr }));
+    return loading;
+  }
+
+  function render(dict: DictFile, tr: DictLang | null, query: string) {
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      results.innerHTML = '';
+      return;
+    }
+    const name = (it: DictItem) => tr?.items[it.item] ?? it.item;
+    const hits = dict.items.filter((it) => {
+      const translated = tr?.items[it.item];
+      return (
+        it.item.toLowerCase().includes(q) ||
+        (translated ? translated.toLowerCase().includes(q) : false)
+      );
+    });
+    if (!hits.length) {
+      results.innerHTML = `<p class="placeholder">${t('gb.dictNoMatch')}</p>`;
+      return;
+    }
+    const shown = hits.slice(0, DICT_RESULTS);
+    results.innerHTML =
+      `<ul class="gb-dict-list">${shown
+        .map((it) => {
+          const label = t(`gb.cat.${it.category}` as UIKey);
+          const translated = tr?.items[it.item];
+          const note = it.note === null ? null : (tr?.notes[dict.notes[it.note]] ?? dict.notes[it.note]);
+          const form = it.form ? (tr?.forms[it.form] ?? it.form) : null;
+          return (
+            '<li>' +
+            `<div class="gb-dict-head"><span class="gb-dict-name">${name(it)}</span>` +
+            (translated ? `<span class="gb-dict-ja">${it.item}</span>` : '') +
+            (form ? `<span class="gb-dict-form">${form}</span>` : '') +
+            '</div>' +
+            `<div class="gb-chip-row"><span class="gb-chip" style="--gb-c:var(--gb-${groupFor(it.category)})">${label}</span>` +
+            `<span class="gb-dict-flag${it.collected ? ' yes' : ''}">${t(it.collected ? 'gb.dictCollected' : 'gb.dictNotCollected')}</span>` +
+            `<span class="gb-dict-flag${it.dropOff ? ' yes' : ''}">${t(it.dropOff ? 'gb.dictDropOff' : 'gb.dictNoDropOff')}</span>` +
+            '</div>' +
+            (note ? `<p class="gb-dict-note">${note.replace(/\n/g, '<br>')}</p>` : '') +
+            '</li>'
+          );
+        })
+        .join('')}</ul>` +
+      (hits.length > shown.length
+        ? `<p class="card-note">${t('gb.dictMore').replace('{n}', String(hits.length - shown.length))}</p>`
+        : '');
+  }
+
+  let token = 0;
+  const run = () => {
+    const mine = ++token;
+    const query = search.value;
+    if (!query.trim() && !loading) return;
+    load()
+      .then(({ dict, tr }) => {
+        if (mine === token) render(dict, tr, query);
+      })
+      .catch(() => {
+        results.innerHTML = `<p class="placeholder">${t('common.error')}</p>`;
+        loading = null;
+      });
+  };
+  search.addEventListener('input', run);
+  // Warm the fetch as soon as the reader shows intent, so the first keystroke
+  // does not wait on the network.
+  search.addEventListener('focus', () => void load(), { once: true });
+}
+
+/** The five sorting groups only cover the categories the calendars print; the
+ *  dictionary also names things that are never collected at the kerb, and those
+ *  get the neutral landfill-ish colour rather than a group they are not in. */
+function groupFor(category: string): string {
+  const groups: Record<string, string[]> = {
+    burnable: ['burnable'],
+    crush: ['crush'],
+    landfill: ['landfill', 'bulky', 'appliancelaw', 'industrial', 'difficult'],
+    plastic: ['plastic', 'bigplastic'],
+    recyclables: [
+      'recyclables', 'paper', 'metal', 'cloth', 'jarbottle', 'returnable', 'pet',
+      'fluoro', 'spray', 'lighter', 'smallappliance', 'battery', 'thermometer',
+      'hazardous', 'cookingoil',
+    ],
+  };
+  for (const [group, members] of Object.entries(groups)) {
+    if (members.includes(category)) return group;
+  }
+  return 'landfill';
+}
+
 export function initGarbagePage(): void {
   const root = document.querySelector<HTMLElement>('[data-garbage]');
   if (!root) return;
@@ -112,6 +264,7 @@ export function initGarbagePage(): void {
   const catLabel = (slug: string) => t(`gb.cat.${slug}` as UIKey);
 
   renderFacilities(lang, t);
+  initDictionary(root, lang, t);
 
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   const select = root.querySelector<HTMLSelectElement>('[data-gb-select]');

@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Câmara de Matsumoto — calendário de recolha",
   "src.garbage.what": "calendário de recolha doméstica, 41 zonas",
   "src.garbage.license": "CC BY 4.0 (dados abertos municipais), atribuição 松本市",
+  "gb.dictTitle": "Dicionário Objeto a Objeto",
+  "gb.dictDesc": "O índice municipal de cerca de 1700 objetos: a que categoria pertencem, se o camião os leva e se os pode levar você mesmo.",
+  "gb.dictSearch": "Procurar um objeto",
+  "gb.dictPlaceholder": "ex.: guarda-chuva, futon, 傘",
+  "gb.dictNoMatch": "Nenhum objeto corresponde. Tente uma palavra mais curta, ou o nome japonês.",
+  "gb.dictCollected": "É recolhido",
+  "gb.dictNotCollected": "Não é recolhido",
+  "gb.dictDropOff": "Pode ser levado",
+  "gb.dictNoDropOff": "Não pode ser levado",
+  "gb.dictMore": "Mais {n} resultados — restrinja a procura.",
+  "gb.dictMachine": "Os nomes e as instruções são traduzidos automaticamente do japonês da câmara. Se uma tradução parecer errada, o japonês ao lado é o original.",
+  "gb.cat.bulky": "Volumosos (粗大ごみ)",
+  "gb.cat.hazardous": "Lâmpadas, termómetros, aerossóis, isqueiros (資源物)",
+  "gb.cat.cookingoil": "Óleo de cozinha usado (廃食用油)",
+  "gb.cat.appliancelaw": "Sujeito à Lei de Reciclagem de Eletrodomésticos (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Resíduos industriais, não domésticos (産業廃棄物)",
+  "gb.cat.difficult": "Exige tratamento especial (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

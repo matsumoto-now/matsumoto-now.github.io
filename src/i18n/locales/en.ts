@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Matsumoto City — waste collection schedule",
   "src.garbage.what": "household collection calendar, all 41 districts",
   "src.garbage.license": "CC BY 4.0 (city open data), attribution 松本市",
+  "gb.dictTitle": "Item-by-Item Dictionary",
+  "gb.dictDesc": "The city's index of about 1,700 individual objects: which category it belongs to, whether the truck takes it, and whether you may bring it in yourself.",
+  "gb.dictSearch": "Search for an item",
+  "gb.dictPlaceholder": "e.g. umbrella, futon, 傘",
+  "gb.dictNoMatch": "No item matches that. Try a shorter word, or the Japanese name.",
+  "gb.dictCollected": "Collected",
+  "gb.dictNotCollected": "Not collected",
+  "gb.dictDropOff": "Can be brought in",
+  "gb.dictNoDropOff": "Cannot be brought in",
+  "gb.dictMore": "{n} more matches — narrow your search.",
+  "gb.dictMachine": "Item names and instructions are machine-translated from the city's Japanese. Where a translation looks wrong, the Japanese beside it is the original.",
+  "gb.cat.bulky": "Bulky waste (粗大ごみ)",
+  "gb.cat.hazardous": "Tubes, thermometers, spray cans, lighters (資源物)",
+  "gb.cat.cookingoil": "Used cooking oil (廃食用油)",
+  "gb.cat.appliancelaw": "Covered by the Home Appliance Recycling Act (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Industrial waste — not household (産業廃棄物)",
+  "gb.cat.difficult": "Needs special handling (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

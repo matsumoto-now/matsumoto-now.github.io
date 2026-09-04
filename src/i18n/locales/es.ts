@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Ayuntamiento de Matsumoto — calendario de recogida",
   "src.garbage.what": "calendario de recogida doméstica, 41 zonas",
   "src.garbage.license": "CC BY 4.0 (datos abiertos municipales), atribución 松本市",
+  "gb.dictTitle": "Diccionario Objeto por Objeto",
+  "gb.dictDesc": "El índice municipal de unos 1.700 objetos: a qué categoría pertenecen, si el camión se los lleva y si puede llevarlos usted mismo.",
+  "gb.dictSearch": "Buscar un objeto",
+  "gb.dictPlaceholder": "p. ej. paraguas, futón, 傘",
+  "gb.dictNoMatch": "Ningún objeto coincide. Pruebe con una palabra más corta, o con el nombre japonés.",
+  "gb.dictCollected": "Se recoge",
+  "gb.dictNotCollected": "No se recoge",
+  "gb.dictDropOff": "Se puede llevar",
+  "gb.dictNoDropOff": "No se puede llevar",
+  "gb.dictMore": "{n} resultados más: acote la búsqueda.",
+  "gb.dictMachine": "Los nombres y las instrucciones están traducidos automáticamente del japonés del ayuntamiento. Si una traducción parece errónea, el japonés que aparece al lado es el original.",
+  "gb.cat.bulky": "Voluminosos (粗大ごみ)",
+  "gb.cat.hazardous": "Tubos, termómetros, aerosoles, encendedores (資源物)",
+  "gb.cat.cookingoil": "Aceite de cocina usado (廃食用油)",
+  "gb.cat.appliancelaw": "Sujeto a la Ley de Reciclaje de Electrodomésticos (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Residuos industriales, no domésticos (産業廃棄物)",
+  "gb.cat.difficult": "Requiere tratamiento especial (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

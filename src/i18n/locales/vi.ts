@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Thành phố Matsumoto — lịch thu gom rác",
   "src.garbage.what": "lịch thu gom rác sinh hoạt, cả 41 khu",
   "src.garbage.license": "CC BY 4.0 (dữ liệu mở của thành phố), ghi nguồn 松本市",
+  "gb.dictTitle": "Từ Điển Tra Theo Từng Món",
+  "gb.dictDesc": "Danh mục của thành phố gồm khoảng 1.700 món: thuộc loại nào, xe có lấy không, và bạn có thể tự mang đến hay không.",
+  "gb.dictSearch": "Tìm một món",
+  "gb.dictPlaceholder": "ví dụ: ô, nệm futon, 傘",
+  "gb.dictNoMatch": "Không có món nào khớp. Hãy thử từ ngắn hơn, hoặc tên tiếng Nhật.",
+  "gb.dictCollected": "Có thu gom",
+  "gb.dictNotCollected": "Không thu gom",
+  "gb.dictDropOff": "Tự mang đến được",
+  "gb.dictNoDropOff": "Không tự mang đến được",
+  "gb.dictMore": "Còn {n} kết quả nữa — hãy thu hẹp tìm kiếm.",
+  "gb.dictMachine": "Tên món và hướng dẫn được dịch máy từ tiếng Nhật của thành phố. Nếu bản dịch có vẻ sai, tiếng Nhật bên cạnh là bản gốc.",
+  "gb.cat.bulky": "Rác cỡ lớn (粗大ごみ)",
+  "gb.cat.hazardous": "Bóng đèn, nhiệt kế, bình phun, bật lửa (資源物)",
+  "gb.cat.cookingoil": "Dầu ăn đã dùng (廃食用油)",
+  "gb.cat.appliancelaw": "Thuộc Luật tái chế thiết bị gia dụng (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Chất thải công nghiệp, không phải sinh hoạt (産業廃棄物)",
+  "gb.cat.difficult": "Cần xử lý đặc biệt (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

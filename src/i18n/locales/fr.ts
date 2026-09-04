@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Ville de Matsumoto — calendrier de collecte",
   "src.garbage.what": "calendrier de collecte des ordures ménagères, 41 secteurs",
   "src.garbage.license": "CC BY 4.0 (données ouvertes de la ville), attribution 松本市",
+  "gb.dictTitle": "Dictionnaire Objet par Objet",
+  "gb.dictDesc": "L'index municipal de quelque 1 700 objets : à quelle catégorie ils appartiennent, si le camion les prend, et si vous pouvez les apporter vous-même.",
+  "gb.dictSearch": "Rechercher un objet",
+  "gb.dictPlaceholder": "ex. parapluie, futon, 傘",
+  "gb.dictNoMatch": "Aucun objet ne correspond. Essayez un mot plus court, ou le nom japonais.",
+  "gb.dictCollected": "Ramassé",
+  "gb.dictNotCollected": "Non ramassé",
+  "gb.dictDropOff": "Peut être apporté",
+  "gb.dictNoDropOff": "Ne peut pas être apporté",
+  "gb.dictMore": "{n} autres résultats — affinez votre recherche.",
+  "gb.dictMachine": "Les noms d'objets et les consignes sont traduits automatiquement depuis le japonais de la ville. Si une traduction paraît fausse, le japonais à côté est l'original.",
+  "gb.cat.bulky": "Encombrants (粗大ごみ)",
+  "gb.cat.hazardous": "Tubes, thermomètres, aérosols, briquets (資源物)",
+  "gb.cat.cookingoil": "Huile de cuisson usagée (廃食用油)",
+  "gb.cat.appliancelaw": "Relève de la loi sur le recyclage des appareils ménagers (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Déchets industriels — non ménagers (産業廃棄物)",
+  "gb.cat.difficult": "Traitement particulier requis (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

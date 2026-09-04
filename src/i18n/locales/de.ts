@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Stadt Matsumoto — Abfallkalender",
   "src.garbage.what": "Hausmüll-Sammelkalender, alle 41 Bezirke",
   "src.garbage.license": "CC BY 4.0 (offene Daten der Stadt), Namensnennung 松本市",
+  "gb.dictTitle": "Verzeichnis der Einzelgegenstände",
+  "gb.dictDesc": "Das städtische Verzeichnis von rund 1.700 Gegenständen: welche Kategorie, ob die Abfuhr sie mitnimmt und ob Sie sie selbst anliefern dürfen.",
+  "gb.dictSearch": "Gegenstand suchen",
+  "gb.dictPlaceholder": "z. B. Regenschirm, Futon, 傘",
+  "gb.dictNoMatch": "Kein Gegenstand passt dazu. Versuchen Sie ein kürzeres Wort oder den japanischen Namen.",
+  "gb.dictCollected": "Wird abgeholt",
+  "gb.dictNotCollected": "Wird nicht abgeholt",
+  "gb.dictDropOff": "Darf angeliefert werden",
+  "gb.dictNoDropOff": "Darf nicht angeliefert werden",
+  "gb.dictMore": "{n} weitere Treffer — Suche eingrenzen.",
+  "gb.dictMachine": "Bezeichnungen und Hinweise sind maschinell aus dem Japanischen der Stadt übersetzt. Wirkt eine Übersetzung falsch, gilt das japanische Original daneben.",
+  "gb.cat.bulky": "Sperrmüll (粗大ごみ)",
+  "gb.cat.hazardous": "Röhren, Thermometer, Spraydosen, Feuerzeuge (資源物)",
+  "gb.cat.cookingoil": "Altspeiseöl (廃食用油)",
+  "gb.cat.appliancelaw": "Fällt unter das Elektrogeräte-Recyclinggesetz (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Industrieabfall, kein Hausmüll (産業廃棄物)",
+  "gb.cat.difficult": "Erfordert Sonderbehandlung (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

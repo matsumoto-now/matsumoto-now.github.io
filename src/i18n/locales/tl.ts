@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Lungsod ng Matsumoto — kalendaryo ng koleksyon",
   "src.garbage.what": "kalendaryo ng koleksyon ng basura, lahat ng 41 distrito",
   "src.garbage.license": "CC BY 4.0 (open data ng lungsod), atribusyon 松本市",
+  "gb.dictTitle": "Diksyunaryo ng Bawat Gamit",
+  "gb.dictDesc": "Ang talaan ng lungsod ng humigit-kumulang 1,700 gamit: anong kategorya, kinokolekta ba ng trak, at maaari mo bang dalhin mismo.",
+  "gb.dictSearch": "Maghanap ng gamit",
+  "gb.dictPlaceholder": "hal. payong, futon, 傘",
+  "gb.dictNoMatch": "Walang gamit na tumugma. Subukan ang mas maikling salita, o ang pangalang Hapon.",
+  "gb.dictCollected": "Kinokolekta",
+  "gb.dictNotCollected": "Hindi kinokolekta",
+  "gb.dictDropOff": "Maaaring dalhin",
+  "gb.dictNoDropOff": "Hindi maaaring dalhin",
+  "gb.dictMore": "{n} pang tugma — paliitin ang hanapin.",
+  "gb.dictMachine": "Nasa Hapon ang talaan ng lungsod at wala pang salin sa Filipino, kaya nasa Hapon ang mga pangalan at tagubilin. Ang mga kategorya ay nasalin.",
+  "gb.cat.bulky": "Malalaking basura (粗大ごみ)",
+  "gb.cat.hazardous": "Tubo, termometro, spray can, lighter (資源物)",
+  "gb.cat.cookingoil": "Gamit nang mantika (廃食用油)",
+  "gb.cat.appliancelaw": "Saklaw ng Home Appliance Recycling Act (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Industrial waste, hindi pantahanan (産業廃棄物)",
+  "gb.cat.difficult": "Kailangan ng espesyal na paghawak (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

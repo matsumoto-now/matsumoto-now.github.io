@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "松本市 垃圾与资源物收集日程表",
   "src.garbage.what": "家庭垃圾收集日历（全部41个地区）",
   "src.garbage.license": "CC BY 4.0（市开放数据），出处：松本市",
+  "gb.dictTitle": "垃圾处理辞典",
+  "gb.dictDesc": "市政府整理的约1,700件物品索引：属于哪个区分、是否上门收集、能否自行送来。",
+  "gb.dictSearch": "搜索物品",
+  "gb.dictPlaceholder": "例如：雨伞、被褥、傘",
+  "gb.dictNoMatch": "没有匹配的物品。请尝试更短的词，或使用日文名称。",
+  "gb.dictCollected": "收集",
+  "gb.dictNotCollected": "不收集",
+  "gb.dictDropOff": "可自行送来",
+  "gb.dictNoDropOff": "不可自行送来",
+  "gb.dictMore": "还有{n}条结果，请缩小搜索范围。",
+  "gb.dictMachine": "物品名称与说明由市政府的日文机器翻译而成。若译文有误，请以旁边的日文原文为准。",
+  "gb.cat.bulky": "大件垃圾（粗大ごみ）",
+  "gb.cat.hazardous": "荧光灯管、体温计、喷雾罐、打火机（資源物）",
+  "gb.cat.cookingoil": "废食用油（廃食用油）",
+  "gb.cat.appliancelaw": "家电回收法对象机器（家電リサイクル法対象機器）",
+  "gb.cat.industrial": "工业废弃物，非家庭垃圾（産業廃棄物）",
+  "gb.cat.difficult": "需特殊处理（処理困難物）",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

@@ -1494,3 +1494,57 @@ body.map-locked {
   color: var(--ink-2);
   line-height: 1.6;
 }
+
+/* ---- waste dictionary ---------------------------------------------------- */
+
+.gb-dict-list {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+.gb-dict-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--grid);
+}
+.gb-dict-list li:last-child {
+  border-bottom: none;
+}
+.gb-dict-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.gb-dict-name {
+  font-size: 15.5px;
+  font-weight: 600;
+}
+/* The city's own wording, kept beside a machine translation: it is what is
+   printed on the bag, and it is the original where the translation is wrong. */
+.gb-dict-ja {
+  font-size: 13px;
+  color: var(--muted);
+}
+.gb-dict-form {
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+.gb-dict-flag {
+  font-size: 12px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+.gb-dict-flag.yes {
+  color: var(--success-text);
+  border-color: var(--success-text);
+}
+.gb-dict-note {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: var(--ink-2);
+  line-height: 1.55;
+  max-width: 74ch;
+}

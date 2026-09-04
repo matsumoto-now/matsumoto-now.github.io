@@ -18,13 +18,58 @@
  * dictionary: at least 1,500 rows, and every 区分 must be one of the city's own
  * 25 区分. An unknown category is reported by name and the run fails.
  *
+ * Translation. Item names and notes are Japanese, and a reader who could read
+ * them would not need the page, so with DEEPL_API_KEY set the strings are
+ * machine-translated into every locale DeepL supports and written to
+ * garbage-dictionary.<lang>.json. Three things make that affordable against the
+ * free tier's 500k characters a month:
+ *
+ *   - the notes are interned before translating. ~1,700 rows carry only ~540
+ *     distinct 備考 (the same "take it to the Clean Center" paragraph on dozens
+ *     of rows), which is the difference between 31k and ~100k characters;
+ *   - each language file is its own cache, keyed by the Japanese source string,
+ *     so a run only pays for strings it has never seen — and the source changes
+ *     once a year;
+ *   - a per-run character budget, spent in the order LANGS lists, so a first
+ *     run fills English and French and later runs top up the rest instead of
+ *     one run blowing the month's quota.
+ *
+ * Without the key the scrape still runs and the page falls back to the Japanese
+ * item names, which is what the city itself publishes.
+ *
  * Run: node scripts/fetch-garbage-dictionary.mjs
  */
 
-import { writeFile } from 'node:fs/promises';
+import { writeFile, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const OUT = path.join(process.cwd(), 'public/data/garbage-dictionary.json');
+const DATA_DIR = path.join(process.cwd(), 'public/data');
+const OUT = path.join(DATA_DIR, 'garbage-dictionary.json');
+const outFor = (lang) => path.join(DATA_DIR, `garbage-dictionary.${lang}.json`);
+
+/** Site locale → DeepL target. Spent in this order, so the languages the rest of
+ *  the site translates first (see fetch-city-data.mjs) are filled first.
+ *  Filipino is absent because DeepL does not translate into it; those readers
+ *  get the Japanese item names and the hand-written category labels. A target
+ *  DeepL rejects is skipped with a warning rather than failing the run — the
+ *  supported list grows, and a 400 here should not cost the whole dictionary. */
+const LANGS = [
+  ['en', 'EN-GB'],
+  ['fr', 'FR'],
+  ['zh', 'ZH'],
+  ['ko', 'KO'],
+  ['pt', 'PT-PT'],
+  ['es', 'ES'],
+  ['vi', 'VI'],
+  ['th', 'TH'],
+  ['de', 'DE'],
+  ['it', 'IT'],
+  ['no', 'NB'],
+];
+
+/** DeepL free tier is 500k characters a month and this runs monthly. */
+const BUDGET = 450000;
+const BATCH = 50;
 const HOST = 'https://www.city.matsumoto.nagano.jp';
 const INDEX_URL = `${HOST}/life/5/40/266/`;
 
@@ -122,6 +167,47 @@ function cellText(html) {
 
 const yes = (s) => s.startsWith('可');
 
+async function translate(texts, apiKey, targetLang) {
+  if (!texts.length) return [];
+  const host = apiKey.endsWith(':fx') ? 'api-free.deepl.com' : 'api.deepl.com';
+  const res = await fetch(`https://${host}/v2/translate`, {
+    method: 'POST',
+    headers: { Authorization: `DeepL-Auth-Key ${apiKey}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text: texts, source_lang: 'JA', target_lang: targetLang }),
+    signal: AbortSignal.timeout(60000),
+  });
+  if (!res.ok) throw new Error(`DeepL HTTP ${res.status}`);
+  return (await res.json()).translations.map((t) => t.text);
+}
+
+/** Previous run's translations for `lang`, used as the cache. */
+async function loadCache(lang) {
+  try {
+    const prev = JSON.parse(await readFile(outFor(lang), 'utf8'));
+    return { items: prev.items ?? {}, forms: prev.forms ?? {}, notes: prev.notes ?? {} };
+  } catch {
+    return { items: {}, forms: {}, notes: {} };
+  }
+}
+
+/** Fill `cache` with translations for whatever in `sources` it does not have,
+ *  spending at most `budget` characters. Returns the characters actually spent. */
+async function topUp(cache, sources, apiKey, target, budget) {
+  let spent = 0;
+  for (const [field, strings] of Object.entries(sources)) {
+    const missing = [...new Set(strings)].filter((s) => s && !(s in cache[field]));
+    for (let i = 0; i < missing.length; i += BATCH) {
+      const batch = missing.slice(i, i + BATCH);
+      const cost = batch.reduce((a, s) => a + s.length, 0);
+      if (spent + cost > budget) return spent;
+      const out = await translate(batch, apiKey, target);
+      batch.forEach((src, j) => (cache[field][src] = out[j] ?? src));
+      spent += cost;
+    }
+  }
+  return spent;
+}
+
 async function main() {
   const items = [];
   const unknown = new Map();
@@ -184,6 +270,47 @@ async function main() {
   console.log(
     `wrote ${OUT}: ${items.length} items, ${new Set(items.map((i) => i.category)).size} categories, ${notes.length} distinct notes`,
   );
+
+  // Translations, keyed by the Japanese source string so each file is its own
+  // cache and survives the city reordering or renaming rows in April.
+  const sources = {
+    items: items.map((i) => i.item),
+    forms: items.map((i) => i.form).filter(Boolean),
+    notes,
+  };
+  const apiKey = process.env.DEEPL_API_KEY;
+  if (!apiKey) {
+    console.log('DEEPL_API_KEY not set — item names stay Japanese on every page.');
+    return;
+  }
+
+  let left = BUDGET;
+  for (const [lang, target] of LANGS) {
+    const cache = await loadCache(lang);
+    const before = Object.values(cache).reduce((a, o) => a + Object.keys(o).length, 0);
+    if (left > 0) {
+      try {
+        left -= await topUp(cache, sources, apiKey, target, left);
+      } catch (err) {
+        console.error(`[warn] ${lang} (${target}) skipped: ${err.message}`);
+      }
+    }
+    const after = Object.values(cache).reduce((a, o) => a + Object.keys(o).length, 0);
+    // Written even when nothing was translated this run, so a partially filled
+    // language still serves what it has and the next run resumes from it.
+    if (after) {
+      await writeFile(
+        outFor(lang),
+        JSON.stringify({ lang, fetched: data.fetched, ...cache }) + '\n',
+      );
+    }
+    const wanted = new Set([...sources.items, ...sources.forms, ...sources.notes]).size;
+    console.log(
+      `  ${lang}: ${after}/${wanted} strings${after > before ? ` (+${after - before} this run)` : ''}` +
+        `${after < wanted ? ' — resumes next run' : ''}`,
+    );
+  }
+  if (left <= 0) console.log(`character budget (${BUDGET}) spent; remaining languages resume next run.`);
 }
 
 main().catch((err) => {

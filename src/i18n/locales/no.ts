@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "Matsumoto kommune — innsamlingskalender",
   "src.garbage.what": "innsamlingskalender for husholdningsavfall, alle 41 kretser",
   "src.garbage.license": "CC BY 4.0 (kommunens åpne data), navngivelse 松本市",
+  "gb.dictTitle": "Oppslagsverk Gjenstand for Gjenstand",
+  "gb.dictDesc": "Kommunens register over rundt 1 700 gjenstander: hvilken kategori, om bilen tar den, og om du kan levere den selv.",
+  "gb.dictSearch": "Søk etter en gjenstand",
+  "gb.dictPlaceholder": "f.eks. paraply, futon, 傘",
+  "gb.dictNoMatch": "Ingen gjenstand passer. Prøv et kortere ord, eller det japanske navnet.",
+  "gb.dictCollected": "Hentes",
+  "gb.dictNotCollected": "Hentes ikke",
+  "gb.dictDropOff": "Kan leveres",
+  "gb.dictNoDropOff": "Kan ikke leveres",
+  "gb.dictMore": "{n} treff til — snevre inn søket.",
+  "gb.dictMachine": "Navn og anvisninger er maskinoversatt fra kommunens japanske tekst. Ser en oversettelse feil ut, er japansken ved siden av originalen.",
+  "gb.cat.bulky": "Grovavfall (粗大ごみ)",
+  "gb.cat.hazardous": "Lysstoffrør, termometre, sprayflasker, lightere (資源物)",
+  "gb.cat.cookingoil": "Brukt matolje (廃食用油)",
+  "gb.cat.appliancelaw": "Omfattes av gjenvinningsloven for husholdningsapparater (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "Industriavfall, ikke husholdning (産業廃棄物)",
+  "gb.cat.difficult": "Krever særskilt håndtering (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

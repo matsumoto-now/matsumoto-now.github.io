@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "松本市 ごみ・資源物収集日程表",
   "src.garbage.what": "家庭ごみ収集カレンダー（全41地区）",
   "src.garbage.license": "CC BY 4.0（市オープンデータ）、出典：松本市",
+  "gb.dictTitle": "ごみ処理辞典",
+  "gb.dictDesc": "約1,700品目の索引です。区分、収集の可否、持ち込みの可否がわかります。",
+  "gb.dictSearch": "品目を検索",
+  "gb.dictPlaceholder": "例：傘、布団",
+  "gb.dictNoMatch": "該当する品目がありません。短い語でお試しください。",
+  "gb.dictCollected": "収集可",
+  "gb.dictNotCollected": "収集不可",
+  "gb.dictDropOff": "持ち込み可",
+  "gb.dictNoDropOff": "持ち込み不可",
+  "gb.dictMore": "ほかに{n}件あります。検索語を絞ってください。",
+  "gb.dictMachine": "出典は松本市のページです。原文のまま掲載しています。",
+  "gb.cat.bulky": "粗大ごみ",
+  "gb.cat.hazardous": "資源物（蛍光管・体温計・スプレー缶・ライター）",
+  "gb.cat.cookingoil": "資源物（廃食用油）",
+  "gb.cat.appliancelaw": "家電リサイクル法対象機器",
+  "gb.cat.industrial": "産業廃棄物",
+  "gb.cat.difficult": "処理困難物",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */

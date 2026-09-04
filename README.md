@@ -219,6 +219,36 @@ line, so on phones the month view drops to one coloured bar per category — the
 fully labelled list of coming collections sits directly above it, and the names
 stay in the DOM, clipped rather than removed, for screen readers.
 
+The **item-by-item dictionary** (`garbageDictionary`, off — see the flag) is
+built and waiting on permission. `scripts/fetch-garbage-dictionary.mjs` scrapes
+the ten kana pages of 「ごみ処理辞典（ごみだす）」 into 1,675 items across 20 categories,
+refusing to write below 1,500 rows or on an unrecognised 区分, and the page
+searches it client-side on the translated name and the Japanese one at once —
+either the word the reader knows, or the characters they are looking at on the
+packaging. It loads on first interaction rather than with the page, because most
+visitors came for "what goes out tomorrow" and the calendar must not wait behind
+a few hundred kilobytes.
+
+Three things make translating ~1,700 entries into twelve languages affordable
+against DeepL's free 500 k characters a month:
+
+- **the notes are interned before translating.** 1,675 rows carry only 536
+  distinct 備考 — the same "take it to the Clean Center" paragraph on dozens of
+  rows — which is the difference between 31 k and ~100 k characters per language;
+- **each language file is its own cache**, keyed by the Japanese source string,
+  so a run pays only for strings it has never seen, and the source changes once
+  a year. Keying on the string rather than the row index means the city
+  reordering or renaming rows in April costs only the rows that actually changed;
+- **a per-run character budget** spent in a fixed language order, so a first run
+  fills English and French and later runs top up the rest, instead of one run
+  spending the month's quota.
+
+A language DeepL cannot translate into (Filipino) or has not been topped up to
+yet simply has no file: the entry then shows the city's Japanese wording with the
+hand-written category labels, and says so. The Japanese name is kept beside every
+machine translation regardless — it is what is printed on the bag, and it is the
+original wherever the translation is wrong.
+
 The two drop-off centres carry an **open/closed now** chip, which is why
 `src/lib/jp-holidays.ts` exists: both close on Sundays and public holidays, and a
 hardcoded "open Mon–Sat" would be wrong on the ~16 holidays a year — Golden Week

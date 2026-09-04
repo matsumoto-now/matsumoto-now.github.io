@@ -105,6 +105,11 @@ const guideIsOwnLanguage = Boolean(GUIDE_PDFS[lang]);
         <dt>{t('gb.notAccepted')}</dt>
         <dd>{t('gb.ccNo')}</dd>
       </dl>
+      {/* Address confirmed twice over: it is the contact block on the city's own
+          waste pages, and the district calendars place 資源循環推進課 on the Clean
+          Center's second floor. Left in Japanese, like the phone numbers — it is
+          what you type into a maps app. */}
+      <p class="card-note">〒390-0851 松本市島内7576-1</p>
       <p class="card-note">
         <a class="tel" href="tel:0263472079">0263-47-2079</a>
         {' · '}
@@ -170,6 +175,29 @@ const guideIsOwnLanguage = Boolean(GUIDE_PDFS[lang]);
       </p>
       <p class="card-note">{t('gb.attribution')}</p>
     </section>
+
+    {
+      features.garbageDictionary && (
+        <section class="card col-12" data-gb-dict>
+          <h2>{t('gb.dictTitle')}</h2>
+          <p class="card-sub">{t('gb.dictDesc')}</p>
+          <label class="gb-field">
+            <span class="gb-label">{t('gb.dictSearch')}</span>
+            <input
+              type="search"
+              class="gb-input"
+              data-gb-dict-search
+              placeholder={t('gb.dictPlaceholder')}
+              autocomplete="off"
+              enterkeyhint="search"
+            />
+          </label>
+          <div data-gb-dict-results />
+          <p class="card-note">{t('gb.dictMachine')}</p>
+          <p class="card-note">{t('gb.attribution')}</p>
+        </section>
+      )
+    }
   </div>
 </Base>
 

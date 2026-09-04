@@ -539,6 +539,23 @@ export const dict = {
   "src.garbage.name": "마쓰모토시 쓰레기·재활용품 수집 일정표",
   "src.garbage.what": "생활 쓰레기 수집 캘린더 (41개 지구 전체)",
   "src.garbage.license": "CC BY 4.0 (시 오픈데이터), 출처 松本市",
+  "gb.dictTitle": "쓰레기 처리 사전",
+  "gb.dictDesc": "시가 정리한 약 1,700개 품목 색인: 어느 구분인지, 거두어 가는지, 직접 가져갈 수 있는지.",
+  "gb.dictSearch": "품목 검색",
+  "gb.dictPlaceholder": "예: 우산, 이불, 傘",
+  "gb.dictNoMatch": "해당하는 품목이 없습니다. 더 짧은 말이나 일본어 이름으로 찾아보세요.",
+  "gb.dictCollected": "수집함",
+  "gb.dictNotCollected": "수집 안 함",
+  "gb.dictDropOff": "직접 가져갈 수 있음",
+  "gb.dictNoDropOff": "직접 가져갈 수 없음",
+  "gb.dictMore": "{n}건 더 있습니다. 검색어를 좁혀 주세요.",
+  "gb.dictMachine": "품목 이름과 안내는 시의 일본어를 기계 번역한 것입니다. 번역이 이상하면 옆의 일본어가 원문입니다.",
+  "gb.cat.bulky": "대형 쓰레기 (粗大ごみ)",
+  "gb.cat.hazardous": "형광등·체온계·스프레이 캔·라이터 (資源物)",
+  "gb.cat.cookingoil": "폐식용유 (廃食用油)",
+  "gb.cat.appliancelaw": "가전 리사이클법 대상 기기 (家電リサイクル法対象機器)",
+  "gb.cat.industrial": "산업 폐기물, 생활 쓰레기 아님 (産業廃棄物)",
+  "gb.cat.difficult": "특별 처리 필요 (処理困難物)",
 } as const;
 
 /** WMO weather-code labels (Open-Meteo `weather_code`). */
