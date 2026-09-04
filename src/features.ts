@@ -60,13 +60,17 @@ export const features = {
   // Pipelines are ready: scripts/fetch-fire-data.mjs, scripts/fetch-fire-stats.mjs.
   fireLiveData: false,
 
-  // The searchable 1,710-item 「ごみ処理辞典（ごみだす）」 on the waste page — OFF until
-  // 環境業務課 confirms it falls under the CC BY 4.0 open-data listing that already
-  // covers the collection calendar and the sorting guide, which the dictionary
-  // pages themselves are not named in. The rest of the waste page needs no
-  // permission and stays up, linking the city's own dictionary and its
-  // eight-language sorting-guide PDFs. Pipeline is ready:
-  // scripts/fetch-garbage-dictionary.mjs.
+  // The 1,675-item 「ごみ処理辞典（ごみだす）」 — OFF, and it needs permission rather
+  // than just a clarification. The city's site terms prohibit reuse by default
+  // (「松本市の許可なく…複製・転載…することはできません」, /site/userguide/58387.html) and
+  // the open-data catalogue is the carve-out, naming datasets one at a time. The
+  // collection calendar and the sorting guide are named there (CC BY 4.0); these
+  // dictionary pages are not, so ask 環境業務課 before turning this on.
+  //
+  // Only the pipeline exists so far (scripts/fetch-garbage-dictionary.mjs) — no
+  // in-page search UI, so turning this on today would fetch 1,675 items and show
+  // none of them. The waste page links the city's own dictionary instead, which
+  // needs no permission.
   garbageDictionary: false,
 
   resourcesPage: true,

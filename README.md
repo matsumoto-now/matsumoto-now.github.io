@@ -272,10 +272,14 @@ Currently `pollen` is **off** pending Weathernews' confirmation that
 public-site use of the Pollen Robo open data is acceptable, `fireLiveData`
 is **off** pending 松本広域消防局's confirmation (see below) — the fire page
 itself stays up, showing only what needs no permission — and
-`garbageDictionary` is **off** pending 環境業務課's confirmation that the
-「ごみ処理辞典」 pages fall under the same CC BY 4.0 open-data listing that already
-covers the collection calendar and the sorting guide, which they are not
-themselves named in. The waste page stays up either way: the calendar half needs
+`garbageDictionary` is **off** because it needs permission, not merely
+clarification. The city's site terms are prohibitive by default —
+「松本市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載…することはできません」
+(`/site/userguide/58387.html`) — and the open-data catalogue is the carve-out,
+naming datasets one at a time. The collection calendar and the sorting guide are
+named in it (CC BY 4.0, no permission needed); the 「ごみ処理辞典」 pages are not, so
+reproducing their ~1,700 rows needs a yes from 環境業務課. Linking them needs
+nothing, which is what the page does today. The waste page stays up either way: the calendar half needs
 no permission, and the dictionary is linked rather than reproduced.
 
 Attribution is derived from the feature flags in three places, never hardcoded:
@@ -306,7 +310,7 @@ old hardcoded footer had drifted exactly this way — it credited Weathernews wh
 | 松本市 GTFS (gtfs-data.jp) | bus routes & stops | CC BY 4.0, attribution (松本市) |
 | 松本市 バス時刻表ページ | per-line timetable & fare PDF links | city page, CC BY 4.0; only the URLs are stored, the PDFs are linked |
 | 松本市 ごみ・資源物収集日程表 | household collection calendar (41 districts) | listed in the city's open-data catalogue, CC BY 4.0, attribution 松本市 |
-| 松本市 ごみ処理辞典（ごみだす） | item-by-item disposal index (disabled) | not named in the open-data listing — ask 環境業務課 before enabling `garbageDictionary` |
+| 松本市 ごみ処理辞典（ごみだす） | item-by-item disposal index (disabled) | **not** in the open-data catalogue, so the site's default "no reuse without permission" applies — ask 環境業務課 before enabling `garbageDictionary` |
 | 国土地理院 指定緊急避難場所データ | evacuation shelters | attribution (政府標準利用規約) |
 | 松本市オープンデータ | AED locations | CC BY 4.0, attribution |
 | 環境省 そらまめくん | measured air quality (disabled) | preliminary values; non-national stations: confirm reuse with the operator (長野県) |
@@ -344,8 +348,9 @@ emergency follow official guidance (110 police / 119 fire & ambulance).
   pipelines are ready: `scripts/fetch-fire-data.mjs` (30 min) and
   `scripts/fetch-fire-stats.mjs` (monthly). No fire data is committed to
   `public/data/` while the flag is off, so nothing is republished early.
-- Searchable in-page waste dictionary. `scripts/fetch-garbage-dictionary.mjs` is
-  ready and yields 1,675 items across 20 categories with 536 distinct 備考, which
+- Searchable in-page waste dictionary — the UI does not exist yet, only the
+  pipeline, so `garbageDictionary: true` would currently fetch and display
+  nothing. `scripts/fetch-garbage-dictionary.mjs` yields 1,675 items across 20 categories with 536 distinct 備考, which
   it interns — that is what makes translation affordable: after de-duplication a
   language costs ~43 k characters (7.6 k of item names, 31 k of notes), one-time,
   cached by source string, against content that changes once a year. Nothing is
