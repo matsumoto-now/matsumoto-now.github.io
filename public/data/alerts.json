@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-04T01:11:13.006Z",
+  "fetched": "2026-09-04T06:18:33.449Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,22 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市職員採用資格試験の結果について",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/213213.html",
+      "date": "2026-09-04T06:00:00.000Z",
+      "titleEn": "Results of the Reiwa 8 Matsumoto City Employee Recruitment Qualifying Examination",
+      "titleFr": "Résultats du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "学生向け探究相談やってます",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/201127.html",
+      "date": "2026-09-03T15:00:00.000Z",
+      "titleEn": "We Offer Inquiry-Based Counseling for Students",
+      "titleFr": "Nous proposons des consultations sur les projets de recherche pour les étudiants"
     },
     {
       "source": "news",
@@ -128,22 +144,6 @@
       "date": "2026-08-31T15:00:00.000Z",
       "titleEn": "Notice Regarding the Opening of the Study Room for Children and Students (Ote Community Center)",
       "titleFr": "Annonce concernant l'ouverture des salles d'étude pour les enfants et les élèves (Centre communautaire d'Ote)"
-    },
-    {
-      "source": "news",
-      "title": "市民課受付予約と混雑状況のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2943.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "Information on Appointments and Crowd Levels at the Civic Affairs Division Reception Desk",
-      "titleFr": "Informations sur les rendez-vous à l'accueil du service des affaires civiles et sur l'affluence"
-    },
-    {
-      "source": "news",
-      "title": "第三地区の文化祭・作品展を開催します！",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/161283.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "We're hosting the Third District Cultural Festival and Art Exhibition!",
-      "titleFr": "Nous organisons le festival culturel et l'exposition d'œuvres de la 3e circonscription !"
     },
     {
       "source": "anshin",
