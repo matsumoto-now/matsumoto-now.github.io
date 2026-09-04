@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-04T06:18:33.449Z",
+  "fetched": "2026-09-04T11:34:08.777Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-09-03T15:00:00.000Z",
       "titleEn": "We Offer Inquiry-Based Counseling for Students",
       "titleFr": "Nous proposons des consultations sur les projets de recherche pour les étudiants"
+    },
+    {
+      "source": "news",
+      "title": "一般質問の件名と要旨　令和8年9月定例会",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/213/212955.html",
+      "date": "2026-09-03T15:00:00.000Z",
+      "titleEn": "Subject and Summary of General Questions: September Regular Session, Reiwa 8",
+      "titleFr": "Objet et résumé des questions générales – Séance ordinaire de septembre de l'année Reiwa 8"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-08-31T15:00:00.000Z",
       "titleEn": "A Nationwide Simultaneous Information Transmission Test for the National Instant Alert System (J-Alert) Will Be Conducted",
       "titleFr": "Un test de diffusion simultanée à l'échelle nationale du système d'alerte instantanée (J-Alert) va être effectué."
-    },
-    {
-      "source": "news",
-      "title": "こども向け・学生向け　自習室開放のお知らせ（大手公民館）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/83103.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "Notice Regarding the Opening of the Study Room for Children and Students (Ote Community Center)",
-      "titleFr": "Annonce concernant l'ouverture des salles d'étude pour les enfants et les élèves (Centre communautaire d'Ote)"
     },
     {
       "source": "anshin",
