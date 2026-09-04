@@ -48,6 +48,18 @@
   --aqi-6: #7a2233;
   --success-text: #006300;
 
+  /* Waste-collection groups (the city's 5分別). Three are the validated
+     categorical slots, 破砕 borrows the ramp's purple, and 埋立 is the one new
+     value — a muted earth that reads as "neither burnable nor recyclable" and
+     sits apart from all four. Colour is never the only signal here: every chip
+     on the page carries its category name, because a reader who could already
+     read the label on the bag would not need the page. */
+  --gb-burnable: var(--series-2);
+  --gb-plastic: var(--series-1);
+  --gb-recyclables: var(--series-3);
+  --gb-crush: var(--aqi-5);
+  --gb-landfill: #8a6f4b;
+
   --accent: var(--series-1);
   --accent-ink: #ffffff;
   --wash: rgba(42, 120, 214, 0.08);
@@ -82,6 +94,7 @@
     /* lifted for contrast on the dark plane */
     --aqi-5: #b46fbd;
     --aqi-6: #c9606f;
+    --gb-landfill: #b39168;
     --accent: var(--series-1);
     --wash: rgba(57, 135, 229, 0.14);
     --shadow: none;
@@ -108,6 +121,7 @@
   /* lifted for contrast on the dark plane */
   --aqi-5: #b46fbd;
   --aqi-6: #c9606f;
+  --gb-landfill: #b39168;
   --accent: var(--series-1);
   --wash: rgba(57, 135, 229, 0.14);
   --shadow: none;
@@ -1253,4 +1267,230 @@ body.map-locked {
 }
 .terms .terms-date {
   margin-bottom: 12px;
+}
+
+/* ---- waste page ---------------------------------------------------------- */
+
+.gb-picker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 4px;
+}
+@media (max-width: 640px) {
+  .gb-picker {
+    grid-template-columns: 1fr;
+  }
+}
+.gb-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.gb-label {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.gb-input {
+  font: inherit;
+  font-size: 15px;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  background: var(--surface);
+  color: var(--ink);
+  width: 100%;
+}
+.gb-input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* 町会 search results: the district is the answer, so it is the emphasis, and
+   the neighbourhood the reader typed is the confirmation. */
+.gb-matches {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.gb-match {
+  font: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  text-align: left;
+  padding: 7px 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+.gb-match:hover {
+  border-color: var(--accent);
+  background: var(--wash);
+}
+.gb-match-chokai {
+  font-size: 14px;
+}
+.gb-match-district {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.gb-when {
+  font-size: 27px;
+  font-weight: 650;
+  line-height: 1.2;
+  margin: 2px 0 10px;
+  letter-spacing: -0.01em;
+}
+.gb-when-date {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.gb-timing {
+  margin-top: 10px;
+}
+
+.gb-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+/* A pill stays on one line where there is room, but a category name is up to
+   "Plastikverpackungen (プラスチック資源)" long and the chip must never be what makes
+   the page scroll sideways — so it is allowed to wrap inside its own width
+   rather than pushing past the viewport. */
+.gb-chip {
+  font-size: 12.5px;
+  line-height: 1.35;
+  padding: 3px 9px 3px 8px;
+  border-radius: 12px;
+  border: 1px solid var(--gb-c);
+  border-left-width: 5px;
+  color: var(--ink);
+  background: var(--surface);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.gb-cta {
+  display: inline-block;
+  font-size: 14.5px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  text-decoration: none;
+}
+.gb-cta:hover {
+  filter: brightness(1.08);
+}
+
+/* Month grid. Chips wrap inside a cell rather than being clipped: a day can
+   carry four categories, and which four is the whole point. */
+.gb-grid-head,
+.gb-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+}
+.gb-grid-head {
+  margin-bottom: 4px;
+}
+.gb-grid-head div {
+  font-size: 11.5px;
+  color: var(--muted);
+  text-align: center;
+  padding: 2px 0;
+}
+.gb-cell {
+  min-height: 62px;
+  border: 1px solid var(--grid);
+  border-radius: 8px;
+  padding: 4px 4px 6px;
+}
+.gb-cell.empty {
+  border-color: transparent;
+}
+.gb-cell.today {
+  border-color: var(--accent);
+  background: var(--wash);
+}
+.gb-day {
+  font-size: 12px;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.gb-cell-chips {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 3px;
+}
+/* In a month cell the chip is a coloured rule with a label — a pill would not
+   fit seven to a row on a phone, and the label has to survive. */
+.gb-cell-chips .gb-chip {
+  font-size: 10.5px;
+  white-space: normal;
+  border: 0;
+  border-left: 4px solid var(--gb-c);
+  border-radius: 0 3px 3px 0;
+  padding: 0 3px;
+  background: none;
+  color: var(--ink-2);
+}
+/* Below ~560 px a seven-column grid gives each cell about 45 px, and
+   "Plastic packaging (プラスチック資源)" wraps to one character per line — the cell
+   grows to the height of a paragraph and the month stops being scannable. So on
+   phones the month view drops to one coloured bar per category: the legend is a
+   tap away in the card above, the fully labelled list of the coming collections
+   is directly above it, and the names stay in the DOM (clipped, not removed) for
+   screen readers and as the hover title. */
+@media (max-width: 560px) {
+  .gb-cell {
+    min-height: 42px;
+    padding: 3px 3px 4px;
+  }
+  .gb-cell-chips {
+    gap: 3px;
+  }
+  .gb-cell-chips .gb-chip {
+    display: block;
+    height: 5px;
+    padding: 0;
+    border: 0;
+    border-radius: 2px;
+    background: var(--gb-c);
+    overflow: hidden;
+    text-indent: -9999px;
+    white-space: nowrap;
+  }
+}
+
+.gb-facts {
+  margin: 10px 0 0;
+  font-size: 13.5px;
+}
+.gb-facts dt {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 9px;
+}
+.gb-facts dd {
+  margin: 2px 0 0;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+.gb-steps {
+  margin: 8px 0 0;
+  padding-left: 20px;
+  font-size: 13.5px;
+  color: var(--ink-2);
+  line-height: 1.6;
 }

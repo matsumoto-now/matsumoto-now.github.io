@@ -44,6 +44,9 @@ const sources: { slug: string; url: string }[] = [
   // to the bureau, so crediting them as a data source would be inaccurate.
   ...(features.fireLiveData ? [{ slug: 'fire', url: 'https://www.m-kouiki119.jp/' }] : []),
   ...(features.heatIndex ? [{ slug: 'heat', url: 'https://www.wbgt.env.go.jp/' }] : []),
+  ...(features.garbagePage
+    ? [{ slug: 'garbage', url: 'https://www.city.matsumoto.nagano.jp/soshiki/53/104597.html' }]
+    : []),
   { slug: 'gtfs', url: 'https://gtfs-data.jp/' },
   { slug: 'shelter', url: 'https://www.gsi.go.jp/bousaichiri/hinanbasho.html' },
   { slug: 'aed', url: 'https://www.city.matsumoto.nagano.jp/soshiki/5/4172.html' },

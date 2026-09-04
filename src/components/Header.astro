@@ -28,6 +28,7 @@ const items = [
     : []),
   ...(features.safetyPage ? [{ id: 'safety', path: 'safety', label: t('nav.safety') }] : []),
   ...(features.firePage ? [{ id: 'fire', path: 'fire', label: t('nav.fire') }] : []),
+  ...(features.garbagePage ? [{ id: 'garbage', path: 'garbage', label: t('nav.garbage') }] : []),
   ...(features.resourcesPage
     ? [{ id: 'resources', path: 'resources', label: t('nav.resources') }]
     : []),

@@ -4,7 +4,8 @@ An unofficial live dashboard for citizens of Matsumoto City, Nagano, in
 13 languages (English, 日本語, Français, Español, Português, Italiano, Deutsch,
 Norsk, 中文, 한국어, Filipino, Tiếng Việt, ไทย): weather, warnings, air quality,
 pollen, earthquakes, city alerts, crime statistics, city buses, evacuation
-shelters & AEDs, emergency medical contacts and fire & rescue information —
+shelters & AEDs, emergency medical contacts, fire & rescue information and the
+household waste collection calendar —
 all from free public data
 sources, hosted for free on GitHub Pages.
 
@@ -24,8 +25,9 @@ sources, hosted for free on GitHub Pages.
   by a GitHub Action (`.github/workflows/fetch-data.yml`) into
   `public/data/alerts.json` and committed, which redeploys the site.
   Slow-moving open data (police crime CSVs, GTFS bus feeds, shelter/AED
-  designations) is refreshed monthly by `.github/workflows/fetch-monthly.yml`
-  into `public/data/{crime,bus,shelters}.json`. The 30-minute job also fetches
+  designations, the waste collection calendar) is refreshed monthly by
+  `.github/workflows/fetch-monthly.yml` into
+  `public/data/{crime,bus,shelters,garbage}.json`. The 30-minute job also fetches
   the heat index and heat alerts into `public/data/heat.json` while
   `heatIndex` is on. The bus fetch also scrapes the
   city's bus page for each line's own timetable and fare PDF: every link there
@@ -53,6 +55,10 @@ npm run dev        # http://localhost:4321
 npm run build      # production build in dist/
 npm run fetch-data # populate public/data/alerts.json from the live city feeds
 ```
+
+`npm run fetch-monthly` additionally needs `pdftotext` (poppler-utils) on PATH,
+which is what reads the waste collection calendars:
+`brew install poppler` / `apt install poppler-utils`.
 
 ## Deploy to GitHub Pages
 
@@ -157,6 +163,72 @@ Three more weather cards answer questions one number cannot:
   between crescent and gibbous, so getting it backwards renders the whole cycle
   inside-out — new moon as a full disc.
 
+The **waste page** answers three questions in that order: what goes out where
+you live and when, how to get that into your own calendar, and where to take
+what the trucks will not.
+
+The city publishes the collection calendar as 41 per-district A3 PDFs — one per
+district, no HTML and no CSV — so `scripts/fetch-garbage-data.mjs` reads them
+with `pdftotext -bbox-layout` and recovers the grid from the word coordinates:
+six month blocks per page (Apr–Sep on the front, Oct–Mar on the back), a
+seven-column week, and each day's collection codes printed ~20 pt below the day
+number and centred on the same column. 40 of the 41 parse; the whole city, a
+full fiscal year and the 町会 index come to 17 kB gzipped, so every district
+ships in one file and switching district costs no network.
+
+Three assertions have to hold per district or it is marked unparsed and the page
+links its PDF instead — the same discipline as `timetable: null` on the buses
+page:
+
+- twelve month blocks in fiscal order;
+- every day of every month present exactly once, **and the column a day sits in
+  equal to that date's real weekday**. This is the one that matters: a layout
+  change that shifted the grid by one column would otherwise quietly move every
+  resident's collection day, and nothing on the page would look wrong;
+- every collection code (`可`, `プラ資・破`, `雑・ペ・小・電`, …) already in the code
+  table. An unrecognised code is reported by name and never guessed at, because a
+  new code means the city changed something a person should read.
+
+Two layout variants are handled: 島内A/B print the month label at the top *left*
+of its block where every other district puts it top right, so blocks are split
+by page half rather than by where the label is. 安曇 publishes a combined
+「くらしのカレンダー」 on an entirely different template and does not parse. As with
+the bus timetables, the 41 attachment IDs and the fiscal year are re-derived from
+the index page every run: the city replaces the whole set each April.
+
+The district is chosen by **町会** as well as from the list of 41. Nobody knows
+they live in 第一地区; they know they live in 中町2丁目. The 467 neighbourhood names
+come out of the same PDFs, so the lookup costs nothing to maintain.
+
+Each district also gets a **calendar subscription**, one `.ics` per language
+(`/[lang]/garbage/<district>.ics`, 520 files). This is the only part of the site
+that can reach a resident who is not looking at it: a static site cannot push a
+notification, but every event carries a `VALARM` at `-PT5H`, so the phone says
+"plastic tomorrow" at 19:00 the evening before, while there is still time to act.
+It is served as a subscription rather than a download so next April's reissue
+propagates on its own, and the UIDs are stable per district and date so a re-read
+updates events in place instead of duplicating them. `DTSTAMP` is the data file's
+fetch time, not the build time — the deploy runs on every push, and a moving
+`DTSTAMP` would tell every subscriber that all 190 events had changed.
+
+Colour is by the city's five sorting groups and is never the only signal: every
+chip carries its category name, because a reader who could already read the label
+on the bag would not need the page. Below ~560 px a seven-column grid gives each
+cell about 45 px and "Plastic packaging (プラスチック資源)" wraps to one character per
+line, so on phones the month view drops to one coloured bar per category — the
+fully labelled list of coming collections sits directly above it, and the names
+stay in the DOM, clipped rather than removed, for screen readers.
+
+The two drop-off centres carry an **open/closed now** chip, which is why
+`src/lib/jp-holidays.ts` exists: both close on Sundays and public holidays, and a
+hardcoded "open Mon–Sat" would be wrong on the ~16 holidays a year — Golden Week
+and the New Year fortnight included, which is exactly when someone has a car full
+of rubbish. Like `moon.ts` it is arithmetic rather than data: fixed dates, the
+happy-Monday rules, the equinoxes, 振替休日 and 国民の休日. Where the city page and the
+centre's own page disagree about the year-end closure, the page takes the
+stricter reading and links the centre's notice — sending someone home from a
+locked gate with a loaded car is the worse error.
+
 All three maps (buses, shelters, earthquakes) carry an **expand** button next to
 the locate button, which grows the map to fill the window (Escape or the button
 again returns it). It is a fixed-position CSS overlay, not the Fullscreen API:
@@ -173,11 +245,21 @@ privacy paragraph is a factual claim worth keeping true: the site sets no
 cookies, runs no analytics, and `localStorage` holds only the language and
 theme choice. Geolocation never leaves the browser.
 
-The nav wraps rather than scrolls horizontally: with 11 destinations (longer
+The nav wraps rather than scrolls horizontally: with 12 destinations (longer
 labels in German and French) a scrolling strip with a hidden scrollbar left
 items unreachable on phones. Every destination is now one tap away at every
-width — verified at 375 px in every language. Nav labels are Title Case in the
-Latin-script locales; page headings stay sentence case.
+width — verified at 375 px in every language, where German now wraps to five
+rows.
+
+**Capitalisation**, because it is easy to get wrong when adding a page: in the
+Latin-script locales — French, Spanish, Italian, Portuguese, Norwegian, Filipino
+and Vietnamese included — nav labels, page titles and card `<h2>`s are Title
+Case, with each language's own short function words left lowercase: *Abris
+d'Évacuation & DAE*, *Prévisions à 7 Jours*, *Cảnh Báo & Thông Báo của Thành
+Phố*. German follows German orthography rather than English Title Case (*Über
+die Seite & Daten*). Everything smaller stays sentence case: the collapsed
+`<summary>` of a "what does this mean?" panel, table column headings, `<dt>`
+field labels, and link and button text. CJK and Thai are unaffected.
 
 ## Feature toggles
 
@@ -187,9 +269,14 @@ from the dashboard (and their APIs are no longer called); disabled pages are
 not built and vanish from the navigation.
 
 Currently `pollen` is **off** pending Weathernews' confirmation that
-public-site use of the Pollen Robo open data is acceptable, and `fireLiveData`
+public-site use of the Pollen Robo open data is acceptable, `fireLiveData`
 is **off** pending 松本広域消防局's confirmation (see below) — the fire page
-itself stays up, showing only what needs no permission.
+itself stays up, showing only what needs no permission — and
+`garbageDictionary` is **off** pending 環境業務課's confirmation that the
+「ごみ処理辞典」 pages fall under the same CC BY 4.0 open-data listing that already
+covers the collection calendar and the sorting guide, which they are not
+themselves named in. The waste page stays up either way: the calendar half needs
+no permission, and the dictionary is linked rather than reproduced.
 
 Attribution is derived from the feature flags in three places, never hardcoded:
 the per-card notes where the data appears, the table on the **About & Data**
@@ -218,6 +305,8 @@ old hardcoded footer had drifted exactly this way — it credited Weathernews wh
 | 環境省 熱中症予防情報サイト | heat index (WBGT), 熱中症警戒アラート | PDL 1.0, attribution (出典: 環境省); published for third-party reuse, no permission needed |
 | 松本市 GTFS (gtfs-data.jp) | bus routes & stops | CC BY 4.0, attribution (松本市) |
 | 松本市 バス時刻表ページ | per-line timetable & fare PDF links | city page, CC BY 4.0; only the URLs are stored, the PDFs are linked |
+| 松本市 ごみ・資源物収集日程表 | household collection calendar (41 districts) | listed in the city's open-data catalogue, CC BY 4.0, attribution 松本市 |
+| 松本市 ごみ処理辞典（ごみだす） | item-by-item disposal index (disabled) | not named in the open-data listing — ask 環境業務課 before enabling `garbageDictionary` |
 | 国土地理院 指定緊急避難場所データ | evacuation shelters | attribution (政府標準利用規約) |
 | 松本市オープンデータ | AED locations | CC BY 4.0, attribution |
 | 環境省 そらまめくん | measured air quality (disabled) | preliminary values; non-national stations: confirm reuse with the operator (長野県) |
@@ -255,6 +344,18 @@ emergency follow official guidance (110 police / 119 fire & ambulance).
   pipelines are ready: `scripts/fetch-fire-data.mjs` (30 min) and
   `scripts/fetch-fire-stats.mjs` (monthly). No fire data is committed to
   `public/data/` while the flag is off, so nothing is republished early.
+- Searchable in-page waste dictionary. `scripts/fetch-garbage-dictionary.mjs` is
+  ready and yields 1,675 items across 20 categories with 536 distinct 備考, which
+  it interns — that is what makes translation affordable: after de-duplication a
+  language costs ~43 k characters (7.6 k of item names, 31 k of notes), one-time,
+  cached by source string, against content that changes once a year. Nothing is
+  committed to `public/data/` while `garbageDictionary` is off.
+- The 特別収集 dates (tyres, fire extinguishers, gas cylinders, car batteries) and
+  the mid-year rule changes are printed on the district calendars and exist
+  nowhere else, but sit outside the month grids the parser reads. Worth
+  extracting: they are the least findable thing on the sheet.
+- 安曇 and 島内A/B: 島内 now parses, 安曇's 「くらしのカレンダー」 still needs its own
+  layout branch (or should stay a PDF link — it is one district).
 - No fire-station map: residents dial 119 rather than travel to a station, and
   the ~15 Matsumoto fires a year are too sparse — and too close to
   sensationalism — to map at 町丁目 precision. The fire page shows live state

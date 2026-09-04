@@ -3,7 +3,8 @@ name: Fetch monthly data
 on:
   schedule:
     # Slow-moving open data: police crime CSVs (yearly, ~June), GTFS bus feeds
-    # (a few revisions per year), shelter/AED designations (rare).
+    # (a few revisions per year), shelter/AED designations (rare), and the
+    # household waste calendar (reissued every April, with new attachment IDs).
     - cron: '23 3 5 * *'
   workflow_dispatch:
 
@@ -29,11 +30,28 @@ jobs:
       # fetch-bus-data.mjs needs fflate to read the GTFS zip
       - run: npm ci
 
-      - name: Fetch crime, bus and shelter data
+      # fetch-garbage-data.mjs reads the 41 district calendars with pdftotext.
+      # It is present on the GitHub-hosted Ubuntu images, but installed
+      # explicitly so a change to the image cannot silently break the parse.
+      - name: Install poppler-utils
+        run: sudo apt-get install -y --no-install-recommends poppler-utils
+
+      - name: Fetch crime, bus, shelter and waste data
         run: |
           node scripts/fetch-crime-data.mjs
           node scripts/fetch-bus-data.mjs
           node scripts/fetch-shelter-data.mjs
+          node scripts/fetch-garbage-data.mjs
+
+      # The item-by-item waste dictionary — gated until 環境業務課 confirms it falls
+      # under the open-data listing that already covers the calendar.
+      - name: Fetch waste dictionary
+        run: |
+          if grep -q 'garbageDictionary: true' src/features.ts; then
+            node scripts/fetch-garbage-dictionary.mjs
+          else
+            echo "garbageDictionary is off — skipping."
+          fi
 
       # Yearly fire statistics — gated like the 30-minute fire fetch.
       - name: Fetch fire statistics
@@ -55,7 +73,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/
-          git commit -m "data: refresh monthly open data (crime, bus, shelters)"
+          git commit -m "data: refresh monthly open data (crime, bus, shelters, waste)"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

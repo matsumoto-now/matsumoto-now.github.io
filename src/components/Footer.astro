@@ -27,8 +27,10 @@ const usesOpenMeteo =
 // Map tiles are GSI's, and every map page uses them.
 const usesGsiTiles = features.sheltersPage || features.busesPage || features.earthquakesPage;
 
-// City open data: the alert feeds, the GTFS bus feed and the AED locations.
-const usesCityData = features.alertsPage || features.busesPage || features.sheltersPage;
+// City open data: the alert feeds, the GTFS bus feed, the AED locations and the
+// waste collection calendar.
+const usesCityData =
+  features.alertsPage || features.busesPage || features.sheltersPage || features.garbagePage;
 
 const credits = [
   features.warnings || features.currentConditions ? t('attr.jma') : null,

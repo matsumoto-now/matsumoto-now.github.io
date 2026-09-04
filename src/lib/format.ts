@@ -61,14 +61,23 @@ export function fmtNum(n: number, lang: Lang, digits = 0): string {
   }).format(n);
 }
 
-/** Date parts in JST for a given instant. */
-export function jstParts(d: Date): { y: number; m: number; d: number; h: number } {
+/** Date parts in JST for a given instant. `dow`: 0 = Sunday. */
+export function jstParts(d: Date): {
+  y: number;
+  m: number;
+  d: number;
+  h: number;
+  min: number;
+  dow: number;
+} {
   const shifted = new Date(d.getTime() + 9 * 3600 * 1000);
   return {
     y: shifted.getUTCFullYear(),
     m: shifted.getUTCMonth() + 1,
     d: shifted.getUTCDate(),
     h: shifted.getUTCHours(),
+    min: shifted.getUTCMinutes(),
+    dow: shifted.getUTCDay(),
   };
 }
 

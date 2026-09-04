@@ -1,0 +1,179 @@
+---
+import Base from '../../layouts/Base.astro';
+import { useTranslations, langParams, asLang } from '../../i18n/utils';
+import { features } from '../../features';
+import type { Lang } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return features.garbagePage ? langParams : [];
+}
+
+const lang = asLang(Astro.params.lang);
+const t = useTranslations(lang);
+
+// The city's own 「家庭ごみ・資源物の分け方・出し方」 exists in Japanese and eight
+// translations. Where the reader's language is one of them, link that edition
+// directly rather than the index page — the whole guide is a 2 MB PDF and
+// hunting for your language inside a Japanese page is the friction the link is
+// there to remove. The remaining four locales get the English edition, which is
+// what the site does elsewhere for curated content.
+const GUIDE_PDFS: Partial<Record<Lang, string>> = {
+  ja: '133616',
+  en: '133615',
+  zh: '133617',
+  ko: '133618',
+  es: '133619',
+  pt: '133620',
+  vi: '133621',
+  th: '133622',
+  tl: '133623',
+};
+const guideId = GUIDE_PDFS[lang] ?? GUIDE_PDFS.en;
+const guideUrl = `https://www.city.matsumoto.nagano.jp/uploaded/attachment/${guideId}.pdf`;
+const guideIsOwnLanguage = Boolean(GUIDE_PDFS[lang]);
+---
+
+<Base lang={lang} title={t('gb.title')} description={t('gb.subtitle')} active="garbage">
+  <h1 class="page-title">{t('gb.title')}</h1>
+  <p class="page-sub">{t('gb.subtitle')}</p>
+
+  <div class="grid" data-garbage>
+    <section class="card col-12">
+      <h2>{t('gb.whereTitle')}</h2>
+      <p class="card-sub">{t('gb.whereDesc')}</p>
+      <div class="gb-picker">
+        <label class="gb-field">
+          <span class="gb-label">{t('gb.searchChokai')}</span>
+          <input
+            type="search"
+            class="gb-input"
+            data-gb-search
+            placeholder={t('gb.searchPlaceholder')}
+            autocomplete="off"
+            enterkeyhint="search"
+          />
+        </label>
+        <label class="gb-field">
+          <span class="gb-label">{t('gb.district')}</span>
+          <select class="gb-input" data-gb-select aria-label={t('gb.district')}></select>
+        </label>
+      </div>
+      <div class="gb-matches" data-gb-matches hidden></div>
+    </section>
+
+    <section class="card col-7">
+      <h2>{t('gb.nextTitle')}</h2>
+      <div data-gb-next><p class="placeholder">{t('common.loading')}</p></div>
+      <ul class="item-list" data-gb-upcoming></ul>
+    </section>
+
+    <section class="card col-5">
+      <h2>{t('gb.subscribeTitle')}</h2>
+      <div data-gb-subscribe></div>
+      <details class="guide">
+        <summary>{t('gb.legendTitle')}</summary>
+        <div class="guide-body">
+          <div data-gb-legend></div>
+          <p>{t('gb.legendNote')}</p>
+        </div>
+      </details>
+    </section>
+
+    <section class="card col-12">
+      <div class="card-head">
+        <h2 data-gb-month-label></h2>
+        <div class="chip-row">
+          <button class="pill-btn" type="button" data-gb-prev aria-label={t('gb.prevMonth')}>‹</button>
+          <button class="pill-btn" type="button" data-gb-next-month aria-label={t('gb.nextMonth')}>›</button>
+        </div>
+      </div>
+      <div class="gb-month" data-gb-month></div>
+      <p class="card-note">{t('gb.calendarNote')}</p>
+    </section>
+
+    <section class="card col-6">
+      <h2>{t('gb.ccTitle')}</h2>
+      <p class="badge" data-gb-facility="cc"></p>
+      <p class="card-sub">{t('gb.ccDesc')}</p>
+      <dl class="gb-facts">
+        <dt>{t('gb.hours')}</dt>
+        <dd>{t('gb.hoursValue')}</dd>
+        <dt>{t('gb.fee')}</dt>
+        <dd>{t('gb.ccFee')}</dd>
+        <dt>{t('gb.bring')}</dt>
+        <dd>{t('gb.ccBring')}</dd>
+        <dt>{t('gb.notAccepted')}</dt>
+        <dd>{t('gb.ccNo')}</dd>
+      </dl>
+      <p class="card-note">
+        <a class="tel" href="tel:0263472079">0263-47-2079</a>
+        {' · '}
+        <a href="https://www.matsukuri.or.jp/facility/matsumoto/bring/" target="_blank" rel="noopener">
+          {t('gb.officialPage')} ↗
+        </a>
+      </p>
+      <p class="card-note">{t('gb.yearEndNote')}</p>
+    </section>
+
+    <section class="card col-6">
+      <h2>{t('gb.rcTitle')}</h2>
+      <p class="badge" data-gb-facility="rc"></p>
+      <p class="card-sub">{t('gb.rcDesc')}</p>
+      <dl class="gb-facts">
+        <dt>{t('gb.hours')}</dt>
+        <dd>{t('gb.hoursValue')}</dd>
+        <dt>{t('gb.fee')}</dt>
+        <dd>{t('gb.rcFee')}</dd>
+        <dt>{t('gb.bring')}</dt>
+        <dd>{t('gb.rcBring')}</dd>
+      </dl>
+      <p class="card-note">
+        <a class="tel" href="tel:0263400018">0263-40-0018</a>
+        {' · '}
+        <a href="https://www.city.matsumoto.nagano.jp/soshiki/53/2826.html" target="_blank" rel="noopener">
+          {t('gb.officialPage')} ↗
+        </a>
+      </p>
+      <p class="card-note">{t('gb.idNote')}</p>
+    </section>
+
+    <section class="card col-6">
+      <h2>{t('gb.bulkyTitle')}</h2>
+      <p class="card-sub">{t('gb.bulkyDesc')}</p>
+      <ol class="gb-steps">
+        <li>{t('gb.bulky1')}</li>
+        <li>{t('gb.bulky2')}</li>
+        <li>{t('gb.bulky3')}</li>
+      </ol>
+      <p class="card-note">
+        <a class="tel" href="tel:0263471096">0263-47-1096</a>
+        {' · '}
+        <a href="https://www.city.matsumoto.nagano.jp/soshiki/53/2854.html" target="_blank" rel="noopener">
+          {t('gb.bulkyFees')} ↗
+        </a>
+      </p>
+    </section>
+
+    <section class="card col-6">
+      <h2>{t('gb.sortTitle')}</h2>
+      <p class="card-sub">{t('gb.sortDesc')}</p>
+      <p>
+        <a class="gb-cta" href={guideUrl} target="_blank" rel="noopener">{t('gb.sortGuide')} ↗</a>
+      </p>
+      {!guideIsOwnLanguage && <p class="card-note">{t('gb.sortEnglishOnly')}</p>}
+      <p class="card-note">
+        <a href="https://www.city.matsumoto.nagano.jp/life/5/40/266/" target="_blank" rel="noopener">
+          {t('gb.dictionary')} ↗
+        </a>
+        <br />
+        {t('gb.dictionaryDesc')}
+      </p>
+      <p class="card-note">{t('gb.attribution')}</p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  import { initGarbagePage } from '../../lib/garbage-page';
+  initGarbagePage();
+</script>
