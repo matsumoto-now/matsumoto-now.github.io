@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-06T13:44:38.634Z",
+  "fetched": "2026-09-06T16:43:39.094Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "反射キーホルダー「こうつうあんぜんアルプちゃん」新発売！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/221/211125.html",
+      "date": "2026-09-06T15:00:00.000Z",
+      "titleEn": "New Reflective Keychain \"Alpu-chan: Traffic Safety\" Now on Sale!",
+      "titleFr": "Lancement du porte-clés réfléchissant « Alpu-chan, la sécurité routière » !"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-08-31T15:00:00.000Z",
       "titleEn": "We are accepting submissions for the reading cards for the “Matsumoto Festival Karuta.”",
       "titleFr": "Nous lançons un appel à contributions pour les cartes de lecture du « Matsumoto Omatsuri Karuta »"
-    },
-    {
-      "source": "news",
-      "title": "全国瞬時警報システム（Ｊアラート）全国一斉情報伝達試験を実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/2771.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "A Nationwide Simultaneous Information Transmission Test for the National Instant Alert System (J-Alert) Will Be Conducted",
-      "titleFr": "Un test de diffusion simultanée à l'échelle nationale du système d'alerte instantanée (J-Alert) va être effectué."
     },
     {
       "source": "anshin",
