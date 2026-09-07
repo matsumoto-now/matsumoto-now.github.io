@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-07T00:50:50.109Z",
+  "fetched": "2026-09-07T05:44:25.175Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
+      "date": "2026-09-06T15:00:00.000Z",
+      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
+      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-08-31T15:00:00.000Z",
       "titleEn": "The \"Child and Child-Rearing Support Grant Program\" began in Reiwa 8.",
       "titleFr": "Le « dispositif d'aide à l'enfance et à l'éducation des enfants » a été mis en place à partir de l'année Reiwa 8."
-    },
-    {
-      "source": "news",
-      "title": "【松本おまつりカルタ】の読み札を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/212551.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "We are accepting submissions for the reading cards for the “Matsumoto Festival Karuta.”",
-      "titleFr": "Nous lançons un appel à contributions pour les cartes de lecture du « Matsumoto Omatsuri Karuta »"
     },
     {
       "source": "anshin",
