@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-07T11:45:08.197Z",
+  "fetched": "2026-09-07T17:23:07.595Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "令和８年１０月途中入園の空き状況・申請フォーム",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
+      "date": "2026-09-07T15:00:00.000Z",
+      "titleEn": "Availability and Application Form for Mid-October Reiwa 8 Enrollment",
+      "titleFr": "Disponibilités et formulaire de demande d'inscription en cours d'année (octobre Reiwa 8)"
     },
     {
       "source": "news",
@@ -128,22 +136,6 @@
       "date": "2026-09-01T01:00:00.000Z",
       "titleEn": "The speed limit on residential streets has been lowered!",
       "titleFr": "La vitesse maximale autorisée sur les routes locales a été abaissée !"
-    },
-    {
-      "source": "news",
-      "title": "【花時計公園で集客イベントを開催する皆様へ】公園利用申請をワンストップ化します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/174410.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "[To Everyone Hosting Events to Attract Visitors at Hanatokei Park] We are streamlining the park usage application process into a one-stop service",
-      "titleFr": "[À l'attention de tous ceux qui organisent des événements destinés à attirer du public au parc Hanatokei] La procédure de demande d'autorisation d'utilisation du parc est désormais centralisée"
-    },
-    {
-      "source": "news",
-      "title": "”あいとぴあ”さんかくセミナー「都道府県版ジェンダー・ギャップ指数から見える課題と可能性」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/6/212960.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "\"Aitopia\" will host a \"Sankaku Seminar\" titled \"Challenges and Opportunities Revealed by the Prefectural Gender Gap Index.\"",
-      "titleFr": "« Aitopia » organise un séminaire « Les défis et les perspectives mis en lumière par l'indice de l'écart entre les sexes au niveau des préfectures »"
     },
     {
       "source": "anshin",
