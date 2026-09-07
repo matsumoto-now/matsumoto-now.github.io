@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-07T05:44:25.175Z",
+  "fetched": "2026-09-07T11:45:08.197Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "松本市の施設や事業で使える電子チケットのご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/144240.html",
+      "date": "2026-09-07T01:00:00.000Z",
+      "titleEn": "Information on Electronic Tickets for Use at Facilities and Programs in Matsumoto City",
+      "titleFr": "Informations sur les billets électroniques utilisables dans les établissements et pour les activités de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-08-31T15:00:00.000Z",
       "titleEn": "\"Aitopia\" will host a \"Sankaku Seminar\" titled \"Challenges and Opportunities Revealed by the Prefectural Gender Gap Index.\"",
       "titleFr": "« Aitopia » organise un séminaire « Les défis et les perspectives mis en lumière par l'indice de l'écart entre les sexes au niveau des préfectures »"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度から「子ども・子育て支援金制度」が始まりました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/64/195565.html",
-      "date": "2026-08-31T15:00:00.000Z",
-      "titleEn": "The \"Child and Child-Rearing Support Grant Program\" began in Reiwa 8.",
-      "titleFr": "Le « dispositif d'aide à l'enfance et à l'éducation des enfants » a été mis en place à partir de l'année Reiwa 8."
     },
     {
       "source": "anshin",
