@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-07T23:18:09.694Z",
+  "fetched": "2026-09-08T01:18:13.669Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "9月市民相談窓口のご案内（9月9日予約の枠あります）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
+      "date": "2026-09-08T01:00:00.000Z",
+      "titleEn": "Information on the September Citizen Consultation Desk (Appointments Available for September 9)",
+      "titleFr": "Informations sur le guichet d'accueil des citoyens du mois de septembre (il reste des créneaux disponibles pour le 9 septembre)"
     },
     {
       "source": "news",
@@ -128,14 +136,6 @@
       "date": "2026-09-01T03:00:00.000Z",
       "titleEn": "We rent out new sports equipment, para-sports equipment, and general sports gear.",
       "titleFr": "Nous proposons la location d'équipements pour les nouveaux sports, le handisport et le sport en général."
-    },
-    {
-      "source": "news",
-      "title": "生活道路の法定速度が引き下げられました！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/221/205896.html",
-      "date": "2026-09-01T01:00:00.000Z",
-      "titleEn": "The speed limit on residential streets has been lowered!",
-      "titleFr": "La vitesse maximale autorisée sur les routes locales a été abaissée !"
     },
     {
       "source": "anshin",
