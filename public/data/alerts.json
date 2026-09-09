@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-09-09T00:03:28.513Z",
+  "fetched": "2026-09-09T05:00:12.606Z",
   "items": [
+    {
+      "source": "important",
+      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
+      "date": "2026-09-09T01:00:00.000Z",
+      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
+      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -27,11 +35,43 @@
     },
     {
       "source": "news",
-      "title": "9月市民相談窓口のご案内（9月9日予約の枠あります）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
-      "date": "2026-09-08T01:00:00.000Z",
-      "titleEn": "Information on the September Citizen Consultation Desk (Appointments Available for September 9)",
-      "titleFr": "Informations sur le guichet d'accueil des citoyens du mois de septembre (il reste des créneaux disponibles pour le 9 septembre)"
+      "title": "2026ファミリースポーツカーニバルを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
+      "date": "2026-09-09T03:00:00.000Z",
+      "titleEn": "We're hosting the 2026 Family Sports Carnival",
+      "titleFr": "Nous organisons le « Family Sports Carnival 2026 »"
+    },
+    {
+      "source": "news",
+      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
+      "date": "2026-09-09T01:00:00.000Z",
+      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
+      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "【9月開始】令和8年度　こどものインフルエンザ任意予防接種費用を助成します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1701.html",
+      "date": "2026-09-08T15:00:00.000Z",
+      "titleEn": "[Starting in September] Financial Assistance for Voluntary Influenza Vaccinations for Children in Reiwa 8",
+      "titleFr": "[À partir de septembre] Subvention pour les frais de vaccination antigrippale facultative des enfants pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "【子どもから大人まで楽しめる】なんなんフェスタ2026を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/147550.html",
+      "date": "2026-09-08T15:00:00.000Z",
+      "titleEn": "[Fun for Everyone from Kids to Adults] We’re hosting the Nan-nan Festa 2026",
+      "titleFr": "[Pour le plaisir des petits comme des grands] : nous organisons le « Nannan Festa 2026 »"
+    },
+    {
+      "source": "news",
+      "title": "松本かっちん―光と氷の城下町まつり―の協賛企業を募集しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/76/213391.html",
+      "date": "2026-09-08T15:00:00.000Z",
+      "titleEn": "We are seeking corporate sponsors for the “Matsumoto Katchin—Town Festival of Light and Ice.”",
+      "titleFr": "Nous recherchons des entreprises partenaires pour le « Matsumoto Katchin — Festival de la ville fortifiée de lumière et de glace »."
     },
     {
       "source": "news",
@@ -112,22 +152,6 @@
       "date": "2026-09-03T02:00:00.000Z",
       "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
       "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "屋外広告物講習会を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/81/213057.html",
-      "date": "2026-09-02T15:00:00.000Z",
-      "titleEn": "We Will Be Holding a Workshop on Outdoor Advertising",
-      "titleFr": "Nous organisons une formation sur la publicité extérieure"
-    },
-    {
-      "source": "news",
-      "title": "2026ファミリースポーツカーニバルを開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
-      "date": "2026-09-02T08:00:00.000Z",
-      "titleEn": "We're hosting the 2026 Family Sports Carnival",
-      "titleFr": "Nous organisons le « Family Sports Carnival 2026 »"
     },
     {
       "source": "anshin",
