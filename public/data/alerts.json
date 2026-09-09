@@ -1,13 +1,21 @@
 {
-  "fetched": "2026-09-09T05:00:12.606Z",
+  "fetched": "2026-09-09T10:00:05.768Z",
   "items": [
     {
       "source": "important",
       "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
-      "date": "2026-09-09T01:00:00.000Z",
+      "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "important",
+      "title": "南部図書館の閉館時刻　変更のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/133/213615.html",
+      "date": "2026-09-08T15:00:00.000Z",
+      "titleEn": "Notice of Changes to the Closing Time at the Nanbu Library",
+      "titleFr": "Avis concernant la modification des horaires de fermeture de la bibliothèque du Sud"
     },
     {
       "source": "important",
@@ -35,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
+      "date": "2026-09-09T08:00:00.000Z",
+      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
+      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
       "title": "2026ファミリースポーツカーニバルを開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
       "date": "2026-09-09T03:00:00.000Z",
@@ -43,11 +59,19 @@
     },
     {
       "source": "news",
-      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
-      "date": "2026-09-09T01:00:00.000Z",
-      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
-      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+      "title": "【9月開始】令和8年度　高齢者インフルエンザ定期予防接種が受けられます",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1715.html",
+      "date": "2026-09-08T23:30:00.000Z",
+      "titleEn": "[Starting in September] Regular Influenza Vaccinations for Seniors for the Reiwa 8 Fiscal Year Are Now Available",
+      "titleFr": "[À partir de septembre] La vaccination préventive régulière contre la grippe pour les personnes âgées de l'année Reiwa 8 est disponible"
+    },
+    {
+      "source": "news",
+      "title": "南部図書館の閉館時刻　変更のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/133/213615.html",
+      "date": "2026-09-08T15:00:00.000Z",
+      "titleEn": "Notice Regarding Changes to the Closing Time of the Nanbu Library",
+      "titleFr": "Avis concernant la modification des horaires de fermeture de la bibliothèque du Sud"
     },
     {
       "source": "news",
@@ -136,22 +160,6 @@
       "date": "2026-09-03T15:00:00.000Z",
       "titleEn": "Matsumoto Castle Town Stage 2026 Citizen Exchange Project: Call for Citizen Cast Members for the 5th Session (October 2)",
       "titleFr": "Projet d'échange citoyen « Matsumoto Jōkamachi Butai 2026 » : 5e édition (2 octobre) – Appel à candidatures pour les rôles tenus par des citoyens"
-    },
-    {
-      "source": "news",
-      "title": "2026年ネパール洪水救援金を受け付けています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213239.html",
-      "date": "2026-09-03T05:00:00.000Z",
-      "titleEn": "We are accepting donations for the 2026 Nepal Flood Relief Fund",
-      "titleFr": "Nous acceptons actuellement les dons destinés aux victimes des inondations de 2026 au Népal"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-09-03T02:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "anshin",
