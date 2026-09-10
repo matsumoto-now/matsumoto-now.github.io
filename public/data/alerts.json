@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-09T22:58:44.584Z",
+  "fetched": "2026-09-10T00:58:50.738Z",
   "items": [
     {
       "source": "important",
@@ -8,14 +8,6 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
-    },
-    {
-      "source": "important",
-      "title": "南部図書館の閉館時刻　変更のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/133/213615.html",
-      "date": "2026-09-08T15:00:00.000Z",
-      "titleEn": "Notice of Changes to the Closing Time at the Nanbu Library",
-      "titleFr": "Avis concernant la modification des horaires de fermeture de la bibliothèque du Sud"
     },
     {
       "source": "important",
@@ -64,14 +56,6 @@
       "date": "2026-09-08T23:30:00.000Z",
       "titleEn": "[Starting in September] Regular Influenza Vaccinations for Seniors for the Reiwa 8 Fiscal Year Are Now Available",
       "titleFr": "[À partir de septembre] La vaccination préventive régulière contre la grippe pour les personnes âgées de l'année Reiwa 8 est disponible"
-    },
-    {
-      "source": "news",
-      "title": "南部図書館の閉館時刻　変更のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/133/213615.html",
-      "date": "2026-09-08T15:00:00.000Z",
-      "titleEn": "Notice Regarding Changes to the Closing Time of the Nanbu Library",
-      "titleFr": "Avis concernant la modification des horaires de fermeture de la bibliothèque du Sud"
     },
     {
       "source": "news",
@@ -160,6 +144,14 @@
       "date": "2026-09-03T15:00:00.000Z",
       "titleEn": "Matsumoto Castle Town Stage 2026 Citizen Exchange Project: Call for Citizen Cast Members for the 5th Session (October 2)",
       "titleFr": "Projet d'échange citoyen « Matsumoto Jōkamachi Butai 2026 » : 5e édition (2 octobre) – Appel à candidatures pour les rôles tenus par des citoyens"
+    },
+    {
+      "source": "news",
+      "title": "2026年ネパール洪水救援金を受け付けています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213239.html",
+      "date": "2026-09-03T05:00:00.000Z",
+      "titleEn": "We are accepting donations for the 2026 Nepal Flood Relief Fund",
+      "titleFr": "Nous acceptons actuellement les dons destinés aux victimes des inondations au Népal de 2026"
     },
     {
       "source": "anshin",
