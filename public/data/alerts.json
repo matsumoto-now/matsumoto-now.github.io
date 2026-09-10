@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-10T00:58:50.738Z",
+  "fetched": "2026-09-10T05:48:49.446Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
+      "date": "2026-09-09T15:00:00.000Z",
+      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
+      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
     },
     {
       "source": "news",
@@ -99,14 +107,6 @@
     },
     {
       "source": "news",
-      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
-      "date": "2026-09-06T15:00:00.000Z",
-      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
-      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
-    },
-    {
-      "source": "news",
       "title": "反射キーホルダー「こうつうあんぜんアルプちゃん」新発売！",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/221/211125.html",
       "date": "2026-09-06T15:00:00.000Z",
@@ -144,14 +144,6 @@
       "date": "2026-09-03T15:00:00.000Z",
       "titleEn": "Matsumoto Castle Town Stage 2026 Citizen Exchange Project: Call for Citizen Cast Members for the 5th Session (October 2)",
       "titleFr": "Projet d'échange citoyen « Matsumoto Jōkamachi Butai 2026 » : 5e édition (2 octobre) – Appel à candidatures pour les rôles tenus par des citoyens"
-    },
-    {
-      "source": "news",
-      "title": "2026年ネパール洪水救援金を受け付けています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213239.html",
-      "date": "2026-09-03T05:00:00.000Z",
-      "titleEn": "We are accepting donations for the 2026 Nepal Flood Relief Fund",
-      "titleFr": "Nous acceptons actuellement les dons destinés aux victimes des inondations au Népal de 2026"
     },
     {
       "source": "anshin",
