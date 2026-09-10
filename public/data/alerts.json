@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-10T05:48:49.446Z",
+  "fetched": "2026-09-10T10:46:47.127Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）9月10日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/213696.html",
+      "date": "2026-09-10T06:30:00.000Z",
+      "titleEn": "Mayor's Press Conference, September 10, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 10 septembre de l'année Reiwa 8 (2026)"
     },
     {
       "source": "news",
@@ -83,6 +91,14 @@
     },
     {
       "source": "news",
+      "title": "松本市母子父子寡婦福祉資金未収金整理業務委託に係る公募型プロポーザルを実施します。",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/209822.html",
+      "date": "2026-09-08T15:00:00.000Z",
+      "titleEn": "We will conduct an open call for proposals regarding the outsourcing of services to settle outstanding payments for the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
+      "titleFr": "La ville de Matsumoto lance un appel à propositions ouvert au public concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
+    },
+    {
+      "source": "news",
       "title": "松本かっちん―光と氷の城下町まつり―の協賛企業を募集しています",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/76/213391.html",
       "date": "2026-09-08T15:00:00.000Z",
@@ -123,27 +139,19 @@
     },
     {
       "source": "news",
+      "title": "令和8年8月27日からの大雨災害義援金を受け付けています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213456.html",
+      "date": "2026-09-04T05:00:00.000Z",
+      "titleEn": "We are accepting donations for relief efforts following the heavy rain disaster that began on August 27, Reiwa 8.",
+      "titleFr": "Nous acceptons les dons destinés aux victimes des inondations causées par les fortes pluies survenues à partir du 27 août de l'année Reiwa 8."
+    },
+    {
+      "source": "news",
       "title": "学生向け探究相談やってます",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/201127.html",
       "date": "2026-09-03T15:00:00.000Z",
       "titleEn": "We Offer Inquiry-Based Counseling for Students",
       "titleFr": "Nous proposons des consultations sur les projets de recherche pour les étudiants"
-    },
-    {
-      "source": "news",
-      "title": "一般質問の件名と要旨　令和8年9月定例会",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/213/212955.html",
-      "date": "2026-09-03T15:00:00.000Z",
-      "titleEn": "Subject and Summary of General Questions: September Regular Session, Reiwa 8",
-      "titleFr": "Objet et résumé des questions générales – Séance ordinaire de septembre de l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "まつもと城下町舞台2026市民交流プロジェクト　第5回（10月2日）市民キャストを募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/217/212199.html",
-      "date": "2026-09-03T15:00:00.000Z",
-      "titleEn": "Matsumoto Castle Town Stage 2026 Citizen Exchange Project: Call for Citizen Cast Members for the 5th Session (October 2)",
-      "titleFr": "Projet d'échange citoyen « Matsumoto Jōkamachi Butai 2026 » : 5e édition (2 octobre) – Appel à candidatures pour les rôles tenus par des citoyens"
     },
     {
       "source": "anshin",
