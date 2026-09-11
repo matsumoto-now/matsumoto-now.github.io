@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-09-11T06:26:57.954Z",
+  "fetched": "2026-09-11T11:42:43.470Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【林道宮ノ入線】通行止めのお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/213768.html",
+      "date": "2026-09-11T08:30:00.000Z",
+      "titleEn": "[Miyanoiri Forest Road] Notice of Road Closure",
+      "titleFr": "[Route forestière de Miyanoiri] Avis de fermeture à la circulation"
+    },
     {
       "source": "important",
       "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
@@ -35,6 +43,22 @@
     },
     {
       "source": "news",
+      "title": "【林道宮ノ入線】通行止めのお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/213768.html",
+      "date": "2026-09-11T08:30:00.000Z",
+      "titleEn": "[Miyanoiri Forest Road] Notice of Road Closure",
+      "titleFr": "[Route forestière de Miyanoiri] Avis de fermeture à la circulation"
+    },
+    {
+      "source": "news",
+      "title": "9月市民相談窓口のご案内（司法書士相談空きあります）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
+      "date": "2026-09-11T06:00:00.000Z",
+      "titleEn": "Information on the September Citizen Consultation Desk (Slots Available for Judicial Scrivener Consultations)",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre (il reste des places disponibles pour les consultations avec un notaire)"
+    },
+    {
+      "source": "news",
       "title": "9月からインフルエンザ予防接種が受けられます",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/213710.html",
       "date": "2026-09-10T15:00:00.000Z",
@@ -51,6 +75,14 @@
     },
     {
       "source": "news",
+      "title": "”木工の街”信州松本産木工フェアを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/210633.html",
+      "date": "2026-09-09T15:00:00.000Z",
+      "titleEn": "We are hosting the “Shinshu Matsumoto Woodworking Fair” in Matsumoto, known as the “City of Woodworking”",
+      "titleFr": "Nous organisons le salon du bois de Matsumoto, dans la région de Shinshu, « la ville du bois »"
+    },
+    {
+      "source": "news",
       "title": "移動採血車による献血会場のお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
       "date": "2026-09-09T15:00:00.000Z",
@@ -64,14 +96,6 @@
       "date": "2026-09-09T15:00:00.000Z",
       "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
       "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
-    },
-    {
-      "source": "news",
-      "title": "”木工の街”信州松本産木工フェアを開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/210633.html",
-      "date": "2026-09-09T15:00:00.000Z",
-      "titleEn": "We are hosting the “Shinshu Matsumoto Woodworking Fair” in Matsumoto, known as the “City of Woodworking”",
-      "titleFr": "Nous organisons le salon du bois de Matsumoto, dans la région de Shinshu, « la ville du bois »"
     },
     {
       "source": "news",
@@ -136,22 +160,6 @@
       "date": "2026-09-07T15:00:00.000Z",
       "titleEn": "Information on Availability and the Application Form for Mid-October Reiwa 8 Enrollment",
       "titleFr": "Informations sur les places disponibles et le formulaire de demande d'inscription pour les entrées en cours d'année en octobre de l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "松本市の施設や事業で使える電子チケットのご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/144240.html",
-      "date": "2026-09-07T01:00:00.000Z",
-      "titleEn": "Information on Electronic Tickets for Use at Facilities and Programs in Matsumoto City",
-      "titleFr": "Informations sur les billets électroniques utilisables dans les établissements et pour les activités de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "反射キーホルダー「こうつうあんぜんアルプちゃん」新発売！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/221/211125.html",
-      "date": "2026-09-06T15:00:00.000Z",
-      "titleEn": "New Reflective Keychain \"Alpu-chan: Traffic Safety\" Now on Sale!",
-      "titleFr": "Lancement du porte-clés réfléchissant « Alpu-chan, la sécurité routière » !"
     },
     {
       "source": "anshin",
