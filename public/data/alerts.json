@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-11T01:21:10.145Z",
+  "fetched": "2026-09-11T06:26:57.954Z",
   "items": [
     {
       "source": "important",
@@ -35,6 +35,14 @@
     },
     {
       "source": "news",
+      "title": "9月からインフルエンザ予防接種が受けられます",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/213710.html",
+      "date": "2026-09-10T15:00:00.000Z",
+      "titleEn": "Flu shots will be available starting in September.",
+      "titleFr": "La vaccination contre la grippe sera disponible à partir de septembre"
+    },
+    {
+      "source": "news",
       "title": "市長記者会見　令和8年（2026）9月10日",
       "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/213696.html",
       "date": "2026-09-10T06:30:00.000Z",
@@ -43,11 +51,27 @@
     },
     {
       "source": "news",
+      "title": "移動採血車による献血会場のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
+      "date": "2026-09-09T15:00:00.000Z",
+      "titleEn": "Notice Regarding Blood Donation Event at the Mobile Blood Collection Unit",
+      "titleFr": "Annonce concernant le lieu de collecte de sang par le bus de collecte mobile"
+    },
+    {
+      "source": "news",
       "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
       "date": "2026-09-09T15:00:00.000Z",
       "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
       "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
+    },
+    {
+      "source": "news",
+      "title": "”木工の街”信州松本産木工フェアを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/210633.html",
+      "date": "2026-09-09T15:00:00.000Z",
+      "titleEn": "We are hosting the “Shinshu Matsumoto Woodworking Fair” in Matsumoto, known as the “City of Woodworking”",
+      "titleFr": "Nous organisons le salon du bois de Matsumoto, dans la région de Shinshu, « la ville du bois »"
     },
     {
       "source": "news",
@@ -128,22 +152,6 @@
       "date": "2026-09-06T15:00:00.000Z",
       "titleEn": "New Reflective Keychain \"Alpu-chan: Traffic Safety\" Now on Sale!",
       "titleFr": "Lancement du porte-clés réfléchissant « Alpu-chan, la sécurité routière » !"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験の結果について",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/213213.html",
-      "date": "2026-09-04T06:00:00.000Z",
-      "titleEn": "Results of the Reiwa 8 Matsumoto City Employee Recruitment Qualifying Examination",
-      "titleFr": "Résultats du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "令和8年8月27日からの大雨災害義援金を受け付けています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213456.html",
-      "date": "2026-09-04T05:00:00.000Z",
-      "titleEn": "We are accepting donations for relief efforts following the heavy rain disaster that began on August 27, Reiwa 8.",
-      "titleFr": "Nous acceptons les dons destinés aux victimes des inondations causées par les fortes pluies survenues à partir du 27 août de l'année Reiwa 8."
     },
     {
       "source": "anshin",
