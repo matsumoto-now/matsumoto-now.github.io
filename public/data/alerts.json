@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-13T14:58:55.521Z",
+  "fetched": "2026-09-13T18:04:38.309Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "建設現場見学会を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/137487.html",
+      "date": "2026-09-13T15:00:00.000Z",
+      "titleEn": "We're hosting a construction site tour",
+      "titleFr": "Nous organisons une visite guidée du chantier"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-09-08T15:00:00.000Z",
       "titleEn": "We are seeking corporate sponsors for the “Matsumoto Katchin—Town Festival of Light and Ice.”",
       "titleFr": "Nous recherchons des entreprises partenaires pour le « Matsumoto Katchin — Festival de la ville fortifiée de lumière et de glace »."
-    },
-    {
-      "source": "news",
-      "title": "令和８年１０月途中入園の空き状況・申請フォームのご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-09-07T15:00:00.000Z",
-      "titleEn": "Information on Availability and Application Forms for Mid-October Reiwa 8 Enrollment",
-      "titleFr": "Informations sur les places disponibles et le formulaire de demande d'inscription pour les entrées en cours d'année en octobre de l'année Reiwa 8"
     },
     {
       "source": "anshin",
