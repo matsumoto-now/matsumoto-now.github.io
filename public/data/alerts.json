@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-13T23:20:27.371Z",
+  "fetched": "2026-09-14T01:23:57.548Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "上水道工事に伴う「夜間道路規制」のお知らせ（新橋）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/213648.html",
+      "date": "2026-09-14T00:00:00.000Z",
+      "titleEn": "Notice of “Nighttime Road Closures” Due to Water Main Construction (Shimbashi)",
+      "titleFr": "Avis concernant les « restrictions de circulation nocturnes » liées à des travaux sur le réseau d'eau potable (Shinbashi)"
+    },
+    {
+      "source": "news",
       "title": "建設現場見学会を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/137487.html",
       "date": "2026-09-13T15:00:00.000Z",
@@ -75,11 +83,27 @@
     },
     {
       "source": "news",
+      "title": "「松本市市民活動フェスタ2026」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/sapocen/208408.html",
+      "date": "2026-09-10T15:00:00.000Z",
+      "titleEn": "We will be holding the “Matsumoto City Civic Activities Festival 2026”",
+      "titleFr": "Organisation de la « Fête des activités citoyennes de Matsumoto 2026 »"
+    },
+    {
+      "source": "news",
       "title": "9月からインフルエンザ予防接種が受けられます",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/213710.html",
       "date": "2026-09-10T15:00:00.000Z",
       "titleEn": "Flu shots will be available starting in September.",
       "titleFr": "La vaccination contre la grippe sera disponible à partir de septembre"
+    },
+    {
+      "source": "news",
+      "title": "教育文化センター再整備事業工事に伴う事務所仮設のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/95/213116.html",
+      "date": "2026-09-10T15:00:00.000Z",
+      "titleEn": "Notice Regarding Temporary Office Relocation Due to Construction Work for the Education and Culture Center Renovation Project",
+      "titleFr": "Avis concernant l'installation de bureaux provisoires dans le cadre des travaux de rénovation du Centre éducatif et culturel"
     },
     {
       "source": "news",
@@ -136,30 +160,6 @@
       "date": "2026-09-08T23:30:00.000Z",
       "titleEn": "[Starting in September] Regular Influenza Vaccinations for Seniors for the Reiwa 8 Fiscal Year Are Now Available",
       "titleFr": "[À partir de septembre] La vaccination préventive régulière contre la grippe pour les personnes âgées de l'année Reiwa 8 est disponible"
-    },
-    {
-      "source": "news",
-      "title": "【9月開始】令和8年度　こどものインフルエンザ任意予防接種費用を助成します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1701.html",
-      "date": "2026-09-08T15:00:00.000Z",
-      "titleEn": "[Starting in September] Financial Assistance for Voluntary Influenza Vaccinations for Children in Reiwa 8",
-      "titleFr": "[À partir de septembre] Subvention pour les frais de vaccination antigrippale facultative des enfants pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "松本市母子父子寡婦福祉資金未収金整理業務委託に係る公募型プロポーザルを実施します。",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/209822.html",
-      "date": "2026-09-08T15:00:00.000Z",
-      "titleEn": "We will conduct an open call for proposals regarding the outsourcing of services to settle outstanding payments for the Matsumoto City Welfare Fund for Single-Parent Families and Widows.",
-      "titleFr": "La ville de Matsumoto lance un appel à propositions ouvert au public concernant la sous-traitance des opérations de recouvrement des créances impayées au titre du fonds d'aide sociale aux mères célibataires, aux pères célibataires et aux veuves."
-    },
-    {
-      "source": "news",
-      "title": "松本かっちん―光と氷の城下町まつり―の協賛企業を募集しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/76/213391.html",
-      "date": "2026-09-08T15:00:00.000Z",
-      "titleEn": "We are seeking corporate sponsors for the “Matsumoto Katchin—Town Festival of Light and Ice.”",
-      "titleFr": "Nous recherchons des entreprises partenaires pour le « Matsumoto Katchin — Festival de la ville fortifiée de lumière et de glace »."
     },
     {
       "source": "anshin",
