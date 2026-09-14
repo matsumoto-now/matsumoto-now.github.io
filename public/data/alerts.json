@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-14T01:23:57.548Z",
+  "fetched": "2026-09-14T06:47:04.137Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,22 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-09-14T06:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "本郷公民館からのお知らせ（令和8年9月14日更新）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/76356.html",
+      "date": "2026-09-14T05:00:00.000Z",
+      "titleEn": "Notice from the Hongo Community Center (Updated September 14, Reiwa 8)",
+      "titleFr": "Communiqué du centre communautaire de Hongo (mis à jour le 14 septembre de l'année Reiwa 8)"
     },
     {
       "source": "news",
@@ -144,22 +160,6 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
-    },
-    {
-      "source": "news",
-      "title": "2026ファミリースポーツカーニバルを開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
-      "date": "2026-09-09T03:00:00.000Z",
-      "titleEn": "We're hosting the 2026 Family Sports Carnival",
-      "titleFr": "Nous organisons le « Family Sports Carnival 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "【9月開始】令和8年度　高齢者インフルエンザ定期予防接種が受けられます",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1715.html",
-      "date": "2026-09-08T23:30:00.000Z",
-      "titleEn": "[Starting in September] Regular Influenza Vaccinations for Seniors for the Reiwa 8 Fiscal Year Are Now Available",
-      "titleFr": "[À partir de septembre] La vaccination préventive régulière contre la grippe pour les personnes âgées de l'année Reiwa 8 est disponible"
     },
     {
       "source": "anshin",
