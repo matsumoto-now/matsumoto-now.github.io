@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-14T06:47:04.137Z",
+  "fetched": "2026-09-14T13:41:56.145Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "10月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-09-14T08:00:00.000Z",
+      "titleEn": "Information on the October Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois d'octobre"
     },
     {
       "source": "news",
@@ -88,14 +96,6 @@
       "date": "2026-09-11T08:30:00.000Z",
       "titleEn": "[Miyanoiri Forest Road] Notice of Road Closure",
       "titleFr": "[Route forestière de Miyanoiri] Avis de fermeture à la circulation"
-    },
-    {
-      "source": "news",
-      "title": "9月市民相談窓口のご案内（司法書士相談空きあります）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
-      "date": "2026-09-11T06:00:00.000Z",
-      "titleEn": "Information on the September Citizen Consultation Desk (Slots Available for Judicial Scrivener Consultations)",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de septembre (il reste des places disponibles pour les consultations avec un notaire)"
     },
     {
       "source": "news",
