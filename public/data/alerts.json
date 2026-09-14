@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-14T13:41:56.145Z",
+  "fetched": "2026-09-14T19:03:38.818Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "Watch out for bears!",
       "titleFr": "Attention aux ours !"
+    },
+    {
+      "source": "news",
+      "title": "道路運送法の規定に基づく意見募集をします",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/222/211990.html",
+      "date": "2026-09-14T15:00:00.000Z",
+      "titleEn": "We are soliciting public comments in accordance with the provisions of the Road Transport Act.",
+      "titleFr": "Nous lançons un appel à contributions conformément aux dispositions de la loi sur le transport routier"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-09-09T15:00:00.000Z",
       "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
       "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
-    },
-    {
-      "source": "news",
-      "title": "「レベル5大雨特別警報」は自身の安全を確保しましょう",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
-      "date": "2026-09-09T08:00:00.000Z",
-      "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
-      "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
     },
     {
       "source": "anshin",
