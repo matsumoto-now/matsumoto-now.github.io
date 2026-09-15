@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-14T22:38:41.320Z",
+  "fetched": "2026-09-15T01:12:12.827Z",
   "items": [
     {
       "source": "important",
@@ -32,14 +32,6 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "[Warning] Please be wary of emails and LINE messages impersonating the mayor",
       "titleFr": "[Avertissement] Méfiez-vous des e-mails et des messages LINE prétendant provenir du maire"
-    },
-    {
-      "source": "important",
-      "title": "クマに注意！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/3168.html",
-      "date": "2026-06-23T15:00:00.000Z",
-      "titleEn": "Watch out for bears!",
-      "titleFr": "Attention aux ours !"
     },
     {
       "source": "news",
