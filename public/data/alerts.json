@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-15T12:02:10.635Z",
+  "fetched": "2026-09-15T17:11:54.274Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "[Warning] Please be wary of emails and LINE messages impersonating the mayor",
       "titleFr": "[Avertissement] Méfiez-vous des e-mails et des messages LINE prétendant provenir du maire"
+    },
+    {
+      "source": "news",
+      "title": "令和９年度幼稚園入園のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2691.html",
+      "date": "2026-09-15T15:00:00.000Z",
+      "titleEn": "Information on Kindergarten Enrollment for Reiwa 9",
+      "titleFr": "Informations sur les inscriptions à la maternelle pour l'année Reiwa 9"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-09-10T06:30:00.000Z",
       "titleEn": "Mayor's Press Conference, September 10, Reiwa 8 (2026)",
       "titleFr": "Conférence de presse du maire, le 10 septembre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "”木工の街”信州松本産木工フェアを開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/210633.html",
-      "date": "2026-09-09T15:00:00.000Z",
-      "titleEn": "We are hosting the “Shinshu Matsumoto Woodworking Fair” in Matsumoto, known as the “City of Woodworking”",
-      "titleFr": "Nous organisons le salon du bois de Matsumoto, dans la région de Shinshu, « la ville du bois »"
     },
     {
       "source": "anshin",
