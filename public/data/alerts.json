@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-15T06:28:38.409Z",
+  "fetched": "2026-09-15T12:02:10.635Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "[Warning] Please be wary of emails and LINE messages impersonating the mayor",
       "titleFr": "[Avertissement] Méfiez-vous des e-mails et des messages LINE prétendant provenir du maire"
+    },
+    {
+      "source": "news",
+      "title": "【受付終了】令和８年１０月途中入園の空き状況・申請フォーム",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
+      "date": "2026-09-15T08:15:00.000Z",
+      "titleEn": "[Registration Closed] Availability and Application Form for Mid-Reiwa 8 Enrollment",
+      "titleFr": "[Inscriptions closes] Disponibilités et formulaire de demande d'inscription en cours de mois d'octobre de l'année Reiwa 8"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-09-09T15:00:00.000Z",
       "titleEn": "We are hosting the “Shinshu Matsumoto Woodworking Fair” in Matsumoto, known as the “City of Woodworking”",
       "titleFr": "Nous organisons le salon du bois de Matsumoto, dans la région de Shinshu, « la ville du bois »"
-    },
-    {
-      "source": "news",
-      "title": "移動採血車による献血会場のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
-      "date": "2026-09-09T15:00:00.000Z",
-      "titleEn": "Notice Regarding Blood Donation Event at the Mobile Blood Collection Unit",
-      "titleFr": "Annonce concernant le lieu de collecte de sang par le bus de collecte mobile"
     },
     {
       "source": "anshin",
