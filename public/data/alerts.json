@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-15T01:12:12.827Z",
+  "fetched": "2026-09-15T06:28:38.409Z",
   "items": [
     {
       "source": "important",
@@ -35,19 +35,19 @@
     },
     {
       "source": "news",
+      "title": "10月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-09-15T06:00:00.000Z",
+      "titleEn": "Information on the October Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois d'octobre"
+    },
+    {
+      "source": "news",
       "title": "道路運送法の規定に基づく意見募集をします",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/222/211990.html",
       "date": "2026-09-14T15:00:00.000Z",
       "titleEn": "We are soliciting public comments in accordance with the provisions of the Road Transport Act.",
       "titleFr": "Nous lançons un appel à contributions conformément aux dispositions de la loi sur le transport routier"
-    },
-    {
-      "source": "news",
-      "title": "10月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-09-14T08:00:00.000Z",
-      "titleEn": "Information on the October Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois d'octobre"
     },
     {
       "source": "news",
@@ -64,6 +64,14 @@
       "date": "2026-09-14T05:00:00.000Z",
       "titleEn": "Notice from the Hongo Community Center (Updated September 14, Reiwa 8)",
       "titleFr": "Communiqué du centre communautaire de Hongo (mis à jour le 14 septembre de l'année Reiwa 8)"
+    },
+    {
+      "source": "news",
+      "title": "交通量の混雑ピーク分散にご協力をお願いします",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/224/50183.html",
+      "date": "2026-09-14T03:00:00.000Z",
+      "titleEn": "Please help us alleviate peak traffic congestion.",
+      "titleFr": "Nous vous remercions de votre coopération pour aider à répartir les pics de trafic."
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-09-09T15:00:00.000Z",
       "titleEn": "Notice Regarding Blood Donation Event at the Mobile Blood Collection Unit",
       "titleFr": "Annonce concernant le lieu de collecte de sang par le bus de collecte mobile"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
-      "date": "2026-09-09T15:00:00.000Z",
-      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
-      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
     },
     {
       "source": "anshin",
