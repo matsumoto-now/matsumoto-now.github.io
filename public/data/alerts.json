@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-16T07:19:26.260Z",
+  "fetched": "2026-09-16T12:43:31.501Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,22 @@
     },
     {
       "source": "news",
+      "title": "10月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-09-16T08:00:00.000Z",
+      "titleEn": "Information on the October Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois d'octobre"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）9月16日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/214060.html",
+      "date": "2026-09-16T06:30:00.000Z",
+      "titleEn": "Mayor's Press Conference, September 16, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 16 septembre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
       "title": "令和９年度幼稚園入園のご案内",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2691.html",
       "date": "2026-09-15T15:00:00.000Z",
@@ -56,14 +72,6 @@
       "date": "2026-09-15T08:15:00.000Z",
       "titleEn": "[Registration Closed] Availability and Application Form for Mid-Reiwa 8 Enrollment",
       "titleFr": "[Inscriptions closes] Disponibilités et formulaire de demande d'inscription en cours de mois d'octobre de l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "10月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-09-15T06:00:00.000Z",
-      "titleEn": "Information on the October Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois d'octobre"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-09-10T15:00:00.000Z",
       "titleEn": "Flu shots will be available starting in September.",
       "titleFr": "La vaccination contre la grippe sera disponible à partir de septembre"
-    },
-    {
-      "source": "news",
-      "title": "教育文化センター再整備事業工事に伴う事務所仮設のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/95/213116.html",
-      "date": "2026-09-10T15:00:00.000Z",
-      "titleEn": "Notice Regarding Temporary Office Relocation Due to Construction Work for the Education and Culture Center Renovation Project",
-      "titleFr": "Avis concernant l'installation de bureaux provisoires dans le cadre des travaux de rénovation du Centre éducatif et culturel"
     },
     {
       "source": "anshin",
