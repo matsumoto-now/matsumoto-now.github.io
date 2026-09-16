@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-16T01:32:33.536Z",
+  "fetched": "2026-09-16T07:19:26.260Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "[Warning] Please be wary of emails and LINE messages impersonating the mayor",
       "titleFr": "[Avertissement] Méfiez-vous des e-mails et des messages LINE prétendant provenir du maire"
+    },
+    {
+      "source": "news",
+      "title": "インフルエンザ注意報を発表します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/230/157503.html",
+      "date": "2026-09-16T05:00:00.000Z",
+      "titleEn": "We are issuing a flu advisory.",
+      "titleFr": "Nous émettons une alerte à la grippe"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-09-10T15:00:00.000Z",
       "titleEn": "Notice Regarding Temporary Office Relocation Due to Construction Work for the Education and Culture Center Renovation Project",
       "titleFr": "Avis concernant l'installation de bureaux provisoires dans le cadre des travaux de rénovation du Centre éducatif et culturel"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）9月10日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/213696.html",
-      "date": "2026-09-10T06:30:00.000Z",
-      "titleEn": "Mayor's Press Conference, September 10, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 10 septembre de l'année Reiwa 8 (2026)"
     },
     {
       "source": "anshin",
