@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-17T12:42:34.747Z",
+  "fetched": "2026-09-17T17:30:02.347Z",
   "items": [
     {
       "source": "important",
@@ -48,6 +48,14 @@
       "date": "2026-09-16T05:00:00.000Z",
       "titleEn": "We are issuing a flu advisory.",
       "titleFr": "Nous émettons une alerte à la grippe"
+    },
+    {
+      "source": "news",
+      "title": "不動産鑑定士無料相談会のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/208207.html",
+      "date": "2026-09-17T15:00:00.000Z",
+      "titleEn": "Notice Regarding a Free Consultation Session with a Real Estate Appraiser",
+      "titleFr": "Annonce concernant une séance de consultation gratuite avec un expert immobilier"
     },
     {
       "source": "news",
@@ -152,14 +160,6 @@
       "date": "2026-09-14T03:00:00.000Z",
       "titleEn": "Please help us alleviate peak traffic congestion.",
       "titleFr": "Nous vous remercions de votre coopération pour aider à répartir les pics de trafic."
-    },
-    {
-      "source": "news",
-      "title": "上水道工事に伴う「夜間道路規制」のお知らせ（新橋）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/213648.html",
-      "date": "2026-09-14T00:00:00.000Z",
-      "titleEn": "Notice of “Nighttime Road Closures” Due to Water Main Construction (Shimbashi)",
-      "titleFr": "Avis concernant les « restrictions de circulation nocturnes » liées à des travaux sur le réseau d'eau potable (Shinbashi)"
     },
     {
       "source": "anshin",
