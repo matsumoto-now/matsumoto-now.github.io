@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-16T23:10:06.196Z",
+  "fetched": "2026-09-17T01:37:01.501Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "9月24日から30日は結核・呼吸器感染症予防週間及び非結核性抗酸菌症啓発週間です",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/230/89270.html",
+      "date": "2026-09-16T23:30:00.000Z",
+      "titleEn": "September 24–30 is Tuberculosis and Respiratory Infections Prevention Week and Non-Tuberculous Mycobacterial Disease Awareness Week.",
+      "titleFr": "Du 24 au 30 septembre se déroule la semaine de prévention de la tuberculose et des infections respiratoires, ainsi que la semaine de sensibilisation aux mycoses non tuberculeuses."
+    },
+    {
+      "source": "news",
       "title": "10月市民相談窓口のご案内",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
       "date": "2026-09-16T08:00:00.000Z",
@@ -56,6 +64,22 @@
       "date": "2026-09-16T06:30:00.000Z",
       "titleEn": "Mayor's Press Conference, September 16, Reiwa 8 (2026)",
       "titleFr": "Conférence de presse du maire, le 16 septembre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
+      "title": "第三地区秋のミニ運動会を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/150526.html",
+      "date": "2026-09-15T15:00:00.000Z",
+      "titleEn": "We will be holding the Third District Fall Mini-Sports Day",
+      "titleFr": "Nous organisons la mini-journée sportive d'automne de la 3e circonscription"
+    },
+    {
+      "source": "news",
+      "title": "窓口受付時間変更（試行）のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213817.html",
+      "date": "2026-09-15T15:00:00.000Z",
+      "titleEn": "Notice of Changes to Counter Service Hours (Trial Period)",
+      "titleFr": "Avis concernant la modification des horaires d'ouverture du guichet (à titre expérimental)"
     },
     {
       "source": "news",
@@ -128,30 +152,6 @@
       "date": "2026-09-12T06:00:00.000Z",
       "titleEn": "Citizen Services Division: Information on Holiday Services",
       "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
-    },
-    {
-      "source": "news",
-      "title": "【林道宮ノ入線】通行止めのお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/213768.html",
-      "date": "2026-09-11T08:30:00.000Z",
-      "titleEn": "[Miyanoiri Forest Road] Notice of Road Closure",
-      "titleFr": "[Route forestière de Miyanoiri] Avis de fermeture à la circulation"
-    },
-    {
-      "source": "news",
-      "title": "「松本市市民活動フェスタ2026」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/sapocen/208408.html",
-      "date": "2026-09-10T15:00:00.000Z",
-      "titleEn": "We will be holding the “Matsumoto City Civic Activities Festival 2026”",
-      "titleFr": "Organisation de la « Fête des activités citoyennes de Matsumoto 2026 »"
-    },
-    {
-      "source": "news",
-      "title": "9月からインフルエンザ予防接種が受けられます",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/213710.html",
-      "date": "2026-09-10T15:00:00.000Z",
-      "titleEn": "Flu shots will be available starting in September.",
-      "titleFr": "La vaccination contre la grippe sera disponible à partir de septembre"
     },
     {
       "source": "anshin",
