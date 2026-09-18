@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-09-18T18:57:44.964Z",
+  "fetched": "2026-09-18T21:34:01.769Z",
   "items": [
+    {
+      "source": "important",
+      "title": "クマの目撃情報",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/180997.html",
+      "date": "2026-09-18T20:00:00.000Z",
+      "titleEn": "Bear Sightings",
+      "titleFr": "Signalements d'ours"
+    },
     {
       "source": "important",
       "title": "【林道宮ノ入線】通行止めのお知らせ",
@@ -16,14 +24,6 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
-    },
-    {
-      "source": "important",
-      "title": "クマの目撃情報",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/180997.html",
-      "date": "2026-08-04T23:30:00.000Z",
-      "titleEn": "Bear Sightings",
-      "titleFr": "Signalements d'ours"
     },
     {
       "source": "news",
