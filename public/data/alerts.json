@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-09-17T23:24:37.876Z",
+  "fetched": "2026-09-18T01:23:22.411Z",
   "items": [
-    {
-      "source": "important",
-      "title": "イノシシの目撃情報（下岡田地区）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/214136.html",
-      "date": "2026-09-17T02:00:00.000Z",
-      "titleEn": "Reports of Wild Boar Sightings (Shimo-Okada District)",
-      "titleFr": "Signalement d'un sanglier (quartier de Shimo-Okada)"
-    },
     {
       "source": "important",
       "title": "【林道宮ノ入線】通行止めのお知らせ",
@@ -43,27 +35,11 @@
     },
     {
       "source": "news",
-      "title": "インフルエンザ注意報を発表します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/230/157503.html",
-      "date": "2026-09-16T05:00:00.000Z",
-      "titleEn": "We are issuing a flu advisory.",
-      "titleFr": "Nous émettons une alerte à la grippe"
-    },
-    {
-      "source": "news",
       "title": "不動産鑑定士無料相談会のお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/208207.html",
       "date": "2026-09-17T15:00:00.000Z",
       "titleEn": "Notice Regarding a Free Consultation Session with a Real Estate Appraiser",
       "titleFr": "Annonce concernant une séance de consultation gratuite avec un expert immobilier"
-    },
-    {
-      "source": "news",
-      "title": "イノシシの目撃情報（下岡田地区）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/214136.html",
-      "date": "2026-09-17T02:00:00.000Z",
-      "titleEn": "Reports of Wild Boar Sightings (Shimo-Okada District)",
-      "titleFr": "Signalement d'un sanglier (quartier de Shimo-Okada)"
     },
     {
       "source": "news",
@@ -91,6 +67,14 @@
     },
     {
       "source": "news",
+      "title": "インフルエンザ注意報を発表します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/230/157503.html",
+      "date": "2026-09-16T05:00:00.000Z",
+      "titleEn": "We are issuing a flu advisory.",
+      "titleFr": "Nous émettons une alerte à la grippe"
+    },
+    {
+      "source": "news",
       "title": "2026ファミリースポーツカーニバルを開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/114387.html",
       "date": "2026-09-16T03:00:00.000Z",
@@ -99,19 +83,19 @@
     },
     {
       "source": "news",
-      "title": "第三地区秋のミニ運動会を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/150526.html",
-      "date": "2026-09-15T15:00:00.000Z",
-      "titleEn": "We will be holding the Third District Fall Mini-Sports Day",
-      "titleFr": "Nous organisons la mini-journée sportive d'automne de la 3e circonscription"
-    },
-    {
-      "source": "news",
       "title": "窓口受付時間変更（試行）のお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/213817.html",
       "date": "2026-09-15T15:00:00.000Z",
       "titleEn": "Notice of Changes to Counter Service Hours (Trial Period)",
       "titleFr": "Avis concernant la modification des horaires d'ouverture du guichet (à titre expérimental)"
+    },
+    {
+      "source": "news",
+      "title": "第三地区秋のミニ運動会を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/150526.html",
+      "date": "2026-09-15T15:00:00.000Z",
+      "titleEn": "We will be holding the Third District Fall Mini-Sports Day",
+      "titleFr": "Nous organisons la mini-journée sportive d'automne de la 3e circonscription"
     },
     {
       "source": "news",
@@ -160,6 +144,14 @@
       "date": "2026-09-14T03:00:00.000Z",
       "titleEn": "Please help us alleviate peak traffic congestion.",
       "titleFr": "Nous vous remercions de votre coopération pour aider à répartir les pics de trafic."
+    },
+    {
+      "source": "news",
+      "title": "上水道工事に伴う「夜間道路規制」のお知らせ（新橋）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/213648.html",
+      "date": "2026-09-14T00:00:00.000Z",
+      "titleEn": "Notice of “Nighttime Road Closures” Due to Water Main Construction (Shinbashi)",
+      "titleFr": "Avis concernant les « restrictions de circulation nocturnes » liées à des travaux sur le réseau d'eau potable (Shinbashi)"
     },
     {
       "source": "anshin",
