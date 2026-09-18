@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-18T01:23:22.411Z",
+  "fetched": "2026-09-18T06:22:02.121Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-06-23T15:00:00.000Z",
       "titleEn": "[Warning] Please be wary of emails and LINE messages impersonating the mayor",
       "titleFr": "[Avertissement] Méfiez-vous des e-mails et des messages LINE prétendant provenir du maire"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市職員選考採用試験案内【学校推薦（高校）】第2次試験結果",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/214224.html",
+      "date": "2026-09-18T06:00:00.000Z",
+      "titleEn": "Reiwa 8 Matsumoto City Employee Selection and Recruitment Examination Guide [School Recommendation (High School)] Second-Round Examination Results",
+      "titleFr": "Guide des concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [Recommandation scolaire (lycée)] : résultats de la deuxième épreuve"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-09-14T03:00:00.000Z",
       "titleEn": "Please help us alleviate peak traffic congestion.",
       "titleFr": "Nous vous remercions de votre coopération pour aider à répartir les pics de trafic."
-    },
-    {
-      "source": "news",
-      "title": "上水道工事に伴う「夜間道路規制」のお知らせ（新橋）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/213648.html",
-      "date": "2026-09-14T00:00:00.000Z",
-      "titleEn": "Notice of “Nighttime Road Closures” Due to Water Main Construction (Shinbashi)",
-      "titleFr": "Avis concernant les « restrictions de circulation nocturnes » liées à des travaux sur le réseau d'eau potable (Shinbashi)"
     },
     {
       "source": "anshin",
