@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-18T06:22:02.121Z",
+  "fetched": "2026-09-18T11:38:13.474Z",
   "items": [
     {
       "source": "important",
@@ -26,20 +26,20 @@
       "titleFr": "Signalements d'ours"
     },
     {
-      "source": "important",
-      "title": "【注意喚起】市長になりすましたメールやLINEに注意してください",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/0/206956.html",
-      "date": "2026-06-23T15:00:00.000Z",
-      "titleEn": "[Warning] Please be wary of emails and LINE messages impersonating the mayor",
-      "titleFr": "[Avertissement] Méfiez-vous des e-mails et des messages LINE prétendant provenir du maire"
-    },
-    {
       "source": "news",
       "title": "令和8年度松本市職員選考採用試験案内【学校推薦（高校）】第2次試験結果",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/214224.html",
       "date": "2026-09-18T06:00:00.000Z",
       "titleEn": "Reiwa 8 Matsumoto City Employee Selection and Recruitment Examination Guide [School Recommendation (High School)] Second-Round Examination Results",
       "titleFr": "Guide des concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [Recommandation scolaire (lycée)] : résultats de la deuxième épreuve"
+    },
+    {
+      "source": "news",
+      "title": "「松本市書かない窓口支援システム構築業務委託」公募型プロポーザルを実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/213985.html",
+      "date": "2026-09-18T04:00:00.000Z",
+      "titleEn": "We will conduct an open call for proposals for the “Contract for the Development of a Non-Written Service Counter Support System for Matsumoto City.”",
+      "titleFr": "Nous lançons un appel à propositions ouvert au public pour le « Contrat de prestation de services relatif à la mise en place d'un système d'assistance sans écriture à Matsumoto »."
     },
     {
       "source": "news",
@@ -144,14 +144,6 @@
       "date": "2026-09-14T05:00:00.000Z",
       "titleEn": "Notice from the Hongo Community Center (Updated September 14, Reiwa 8)",
       "titleFr": "Communiqué du centre communautaire de Hongo (mis à jour le 14 septembre de l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "交通量の混雑ピーク分散にご協力をお願いします",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/224/50183.html",
-      "date": "2026-09-14T03:00:00.000Z",
-      "titleEn": "Please help us alleviate peak traffic congestion.",
-      "titleFr": "Nous vous remercions de votre coopération pour aider à répartir les pics de trafic."
     },
     {
       "source": "anshin",
