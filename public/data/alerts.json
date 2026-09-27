@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-27T12:19:03.211Z",
+  "fetched": "2026-09-27T17:09:34.948Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,38 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "広報まつもと（10月号）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
+      "date": "2026-09-27T15:00:00.000Z",
+      "titleEn": "Matsumoto Public Relations (October Issue)",
+      "titleFr": "Matsumoto Information (numéro d'octobre)"
+    },
+    {
+      "source": "news",
+      "title": "延長決定！松本市エアコン設置促進事業補助金申請受付中(～12月28日（水曜日）まで）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/62/194432.html",
+      "date": "2026-09-27T15:00:00.000Z",
+      "titleEn": "Extension Announced! Applications Now Being Accepted for the Matsumoto City Air Conditioner Installation Promotion Program (Through Wednesday, December 28)",
+      "titleFr": "Prolongation confirmée ! Les demandes de subvention dans le cadre du programme de promotion de l'installation de climatiseurs de la ville de Matsumoto sont actuellement acceptées (jusqu'au mercredi 28 décembre)"
+    },
+    {
+      "source": "news",
+      "title": "マツモト建築芸術祭2026 ADVANCE【ボランティアスタッフ募集】",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/212011.html",
+      "date": "2026-09-27T15:00:00.000Z",
+      "titleEn": "Matsumoto Architecture and Art Festival 2026 ADVANCE [Call for Volunteer Staff]",
+      "titleFr": "Festival d'architecture et d'art de Matsumoto 2026 ADVANCE [Recrutement de bénévoles]"
+    },
+    {
+      "source": "news",
+      "title": "令和8年　親子ふれあい「竹の子教室」体験見学会・参加者募集",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/149224.html",
+      "date": "2026-09-27T15:00:00.000Z",
+      "titleEn": "Reiwa 8: Parent-Child Interaction “Bamboo Shoot Class” Experience and Open House—Call for Participants",
+      "titleFr": "Année Reiwa 8 : « Atelier des pousses de bambou » – Séance de découverte pour les parents et leurs enfants – Appel à candidatures"
     },
     {
       "source": "news",
