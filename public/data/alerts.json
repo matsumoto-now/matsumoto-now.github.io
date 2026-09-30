@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-30T04:21:34.711Z",
+  "fetched": "2026-09-30T10:39:19.545Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）9月30日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/215168.html",
+      "date": "2026-09-30T06:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, September 30, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 30 septembre de l'année Reiwa 8 (2026)"
     },
     {
       "source": "news",
@@ -67,19 +75,19 @@
     },
     {
       "source": "news",
-      "title": "延長決定！松本市エアコン設置促進事業補助金申請受付中(～12月28日（水曜日）まで）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/62/194432.html",
-      "date": "2026-09-27T15:00:00.000Z",
-      "titleEn": "Extension Announced! Applications Now Being Accepted for the Matsumoto City Air Conditioner Installation Promotion Program (Through Wednesday, December 28)",
-      "titleFr": "Prolongation confirmée ! Les demandes de subvention dans le cadre du programme de promotion de l'installation de climatiseurs de la ville de Matsumoto sont actuellement acceptées (jusqu'au mercredi 28 décembre)"
-    },
-    {
-      "source": "news",
       "title": "広報まつもと（10月号）",
       "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
       "date": "2026-09-27T15:00:00.000Z",
       "titleEn": "Matsumoto Public Relations (October Issue)",
       "titleFr": "Matsumoto Information (numéro d'octobre)"
+    },
+    {
+      "source": "news",
+      "title": "延長決定！松本市エアコン設置促進事業補助金申請受付中(～12月28日（水曜日）まで）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/62/194432.html",
+      "date": "2026-09-27T15:00:00.000Z",
+      "titleEn": "Extension Announced! Applications Now Being Accepted for the Matsumoto City Air Conditioner Installation Promotion Program (Through Wednesday, December 28)",
+      "titleFr": "Prolongation confirmée ! Les demandes de subvention dans le cadre du programme de promotion de l'installation de climatiseurs de la ville de Matsumoto sont actuellement acceptées (jusqu'au mercredi 28 décembre)"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-09-25T00:00:00.000Z",
       "titleEn": "Information on the Reiwa 9 Preschool Enrollment Reservation System for Children Returning from Parental Leave: Application Acceptance and Required Documents",
       "titleFr": "Informations sur le système de réservation d'inscription en crèche à l'issue du congé parental pour l'année Reiwa 9, ouverture des inscriptions et documents requis"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
-      "date": "2026-09-24T15:00:00.000Z",
-      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant.”",
-      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
     },
     {
       "source": "anshin",
