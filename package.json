@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "fetch-data": "node scripts/fetch-city-data.mjs",
-    "fetch-monthly": "node scripts/fetch-crime-data.mjs && node scripts/fetch-bus-data.mjs && node scripts/fetch-shelter-data.mjs",
+    "fetch-monthly": "node scripts/fetch-crime-data.mjs && node scripts/fetch-bus-data.mjs && node scripts/fetch-shelter-data.mjs && node scripts/fetch-garbage-data.mjs",
     "fetch-air": "node scripts/fetch-air-data.mjs"
   },
   "dependencies": {

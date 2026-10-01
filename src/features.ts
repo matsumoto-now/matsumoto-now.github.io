@@ -46,6 +46,10 @@ export const features = {
   medicalPage: true, // emergency medical contacts page (static, verified facts)
   safetyPage: true, // crime statistics from Nagano police open data (yearly)
   firePage: true, // fire & rescue page: 119, fire bureau contacts, wildfire rules
+  // Household waste page: the collection calendar for all 41 districts (parsed
+  // out of the city's per-district PDFs), calendar subscriptions, and where to
+  // take what the trucks will not.
+  garbagePage: true,
 
   // Scraped 松本広域消防局 content on the fire page: the live incident feed, 119
   // dispatch counters, wildfire-advisory status and yearly fire statistics — OFF
@@ -55,6 +59,19 @@ export const features = {
   // links to their own pages, and the wildfire rules (from city open data).
   // Pipelines are ready: scripts/fetch-fire-data.mjs, scripts/fetch-fire-stats.mjs.
   fireLiveData: false,
+
+  // The 1,675-item 「ごみ処理辞典（ごみだす）」 — OFF, and it needs permission rather
+  // than just a clarification. The city's site terms prohibit reuse by default
+  // (「松本市の許可なく…複製・転載…することはできません」, /site/userguide/58387.html) and
+  // the open-data catalogue is the carve-out, naming datasets one at a time. The
+  // collection calendar and the sorting guide are named there (CC BY 4.0); these
+  // dictionary pages are not, so ask 環境業務課 before turning this on.
+  //
+  // Only the pipeline exists so far (scripts/fetch-garbage-dictionary.mjs) — no
+  // in-page search UI, so turning this on today would fetch 1,675 items and show
+  // none of them. The waste page links the city's own dictionary instead, which
+  // needs no permission.
+  garbageDictionary: false,
 
   resourcesPage: true,
 } as const;
