@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-30T21:14:41.945Z",
+  "fetched": "2026-10-01T00:41:51.916Z",
   "items": [
     {
       "source": "important",
@@ -84,6 +84,14 @@
     {
       "source": "news",
       "title": "令和8年度松本市総合防災訓練を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/117217.html",
+      "date": "2026-09-28T15:00:00.000Z",
+      "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Comprehensive Disaster Prevention Drill",
+      "titleFr": "Organisation de l'exercice général de prévention des catastrophes de la ville de Matsumoto pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市総合防災訓練を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/117217.html",
       "date": "2026-09-28T15:00:00.000Z",
       "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Comprehensive Disaster Prevention Drill",
@@ -136,14 +144,6 @@
       "date": "2026-09-27T15:00:00.000Z",
       "titleEn": "Shinshu Matsumoto Tridents: Free Invitation to the 2026-27 Season Opener!!",
       "titleFr": "Invitation gratuite pour assister au match d'ouverture de la saison 2026-27 des Shinshu Matsumoto Tridents !!"
-    },
-    {
-      "source": "news",
-      "title": "令和8年　親子ふれあい「竹の子教室」体験見学会・参加者募集",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/149224.html",
-      "date": "2026-09-27T15:00:00.000Z",
-      "titleEn": "Reiwa 8: Parent-Child Interaction “Bamboo Shoot Class” Experience and Open House—Call for Participants",
-      "titleFr": "Année Reiwa 8 : « Atelier des pousses de bambou » – Séance de découverte pour les parents et leurs enfants – Appel à candidatures"
     },
     {
       "source": "anshin",
