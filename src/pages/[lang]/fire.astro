@@ -24,7 +24,7 @@ const live = features.fireLiveData;
   <div class="grid">
     {
       live && (
-        <section class="card col-12" data-widget="fire-advisory">
+        <section class="card col-12" data-widget="fire-advisory" aria-live="polite">
           <p class="placeholder">{t('common.loading')}</p>
         </section>
       )

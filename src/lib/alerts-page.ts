@@ -67,7 +67,7 @@ export function initAlertsPage(): void {
   const lang = getLang();
   const t = (key: UIKey): string => ui[lang][key] ?? ui.en[key];
 
-  void renderWarningsBanner(lang, t);
+  void import('./warnings-banner').then((m) => m.renderWarnings(lang, t));
 
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   fetch(`${base}/data/alerts.json`, { cache: 'no-store' })
@@ -80,51 +80,15 @@ export function initAlertsPage(): void {
       }
     })
     .catch(() => {
+      // An error, not "no alerts": an empty feed would read as all-clear.
       for (const host of document.querySelectorAll<HTMLElement>('[data-feed]')) {
         host.textContent = '';
-        host.appendChild(make('p', 'placeholder', t('alerts.empty')));
+        const p = make('p', 'placeholder error', `${t('common.error')} `);
+        const retry = make('button', 'link-button', t('common.retry')) as HTMLButtonElement;
+        retry.type = 'button';
+        retry.addEventListener('click', () => location.reload());
+        p.appendChild(retry);
+        host.appendChild(p);
       }
     });
-}
-
-async function renderWarningsBanner(lang: Lang, t: (k: UIKey) => string): Promise<void> {
-  const { fetchWarnings, warningLabel } = await import('./jma');
-  const { fmtDateTime: fmt } = await import('./format');
-  const host = document.getElementById('warnings');
-  if (!host) return;
-  try {
-    const { reportTime, active } = await fetchWarnings();
-    host.textContent = '';
-    const body = make('div');
-    if (!active.length) {
-      host.className = 'banner ok col-12';
-      body.appendChild(make('span', undefined, t('warnings.none')));
-    } else {
-      host.className = 'banner severe col-12';
-      body.appendChild(make('strong', undefined, `${t('warnings.title')} — ${t('warnings.for')}`));
-      const list = make('div', 'warn-list');
-      for (const w of active) {
-        const b = make('span', 'badge', warningLabel(w, lang));
-        const dot = make('span', 'dot');
-        dot.style.background =
-          w.level === 'emergency'
-            ? 'var(--status-critical)'
-            : w.level === 'warning'
-              ? 'var(--status-serious)'
-              : 'var(--status-warning)';
-        b.prepend(dot);
-        list.appendChild(b);
-      }
-      body.appendChild(list);
-    }
-    const meta = make('div', undefined, `${t('warnings.source')} · ${t('common.updated')} ${fmt(reportTime, lang)}`);
-    meta.style.color = 'var(--muted)';
-    meta.style.fontSize = '12px';
-    meta.style.marginTop = '4px';
-    body.appendChild(meta);
-    host.appendChild(body);
-  } catch {
-    host.textContent = '';
-    host.appendChild(make('p', 'placeholder error', t('common.error')));
-  }
 }

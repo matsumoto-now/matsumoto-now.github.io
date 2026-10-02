@@ -6,6 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import { ui, getLang, type Lang, type UIKey } from '../i18n/ui';
 import { chartMessage } from './chart';
 import { addLocateControl } from './geolocate';
+import { combobox, escapeHtml, fold } from './combobox';
 import { addExpandControl } from './map-expand';
 
 const MATSUMOTO: [number, number] = [36.238, 137.972];
@@ -798,32 +799,83 @@ function renderRouteList(
   host.appendChild(links);
 }
 
-/** Find a stop by name (romaji or Japanese) without hunting on the map. */
-function renderStopSearch(file: BusFile, lang: Lang, t: (k: UIKey) => string, map: MapControl | null): void {
+const RECENT_KEY = 'bus-recent-stops';
+
+/** Find a stop by name (romaji or Japanese) without hunting on the map. Picking
+ *  one centres the map on it (popup = next departures) and opens its timetable;
+ *  the last few picks stay as one-tap chips under the box. */
+function renderStopSearch(
+  file: BusFile,
+  lang: Lang,
+  t: (k: UIKey) => string,
+  map: MapControl | null,
+  timetable: TimetableControl | null,
+): void {
   const input = document.querySelector<HTMLInputElement>('#bus-stop-search');
-  const list = document.querySelector<HTMLDataListElement>('#bus-stop-list');
+  const list = document.getElementById('bus-stop-results');
+  const recentHost = document.querySelector<HTMLElement>('[data-bus-recent]');
   if (!input || !list || !map) return;
-  const byLabel = new Map<string, number>();
+
+  // one entry per distinct name: platforms of the same stop share it
+  const seen = new Set<string>();
+  const index: { i: number; key: string }[] = [];
   file.stops.forEach((stop, i) => {
-    const label = stopLabel(stop, lang);
-    if (!byLabel.has(label)) byLabel.set(label, i);
+    if (seen.has(stop.name)) return;
+    seen.add(stop.name);
+    index.push({ i, key: fold(`${stop.name} ${stop.nameEn ?? ''}`) });
   });
-  for (const label of [...byLabel.keys()].sort((a, b) => a.localeCompare(b))) {
-    const option = document.createElement('option');
-    option.value = label;
-    list.appendChild(option);
-  }
-  input.placeholder = t('bus.searchPlaceholder');
-  input.disabled = false;
-  const go = () => {
-    const idx = byLabel.get(input.value.trim());
-    if (idx === undefined) return;
-    input.blur(); // drops the phone keyboard so the map is visible
-    map.focusStop(idx);
+
+  const optionHtml = (i: number): string => {
+    const stop = file.stops[i];
+    return lang === 'ja' || !stop.nameEn
+      ? escapeHtml(stop.name)
+      : `${escapeHtml(stop.nameEn)} <span class="jp">${escapeHtml(stop.name)}</span>`;
   };
-  // datalist picks fire input (Chrome) or change (Safari/Firefox)
-  input.addEventListener('input', go);
-  input.addEventListener('change', go);
+
+  let recent: string[] = [];
+  try {
+    recent = JSON.parse(localStorage.getItem(RECENT_KEY) ?? '[]');
+  } catch {}
+  const renderRecent = (): void => {
+    if (!recentHost) return;
+    const idx = recent.map((n) => file.stops.findIndex((s) => s.name === n)).filter((i) => i >= 0);
+    recentHost.hidden = idx.length === 0;
+    recentHost.innerHTML = idx.length
+      ? `<span class="tt-label">${escapeHtml(t('bus.recent'))}</span>` +
+        idx.map((i) => `<button type="button" class="badge" data-i="${i}">${optionHtml(i)}</button>`).join('')
+      : '';
+  };
+
+  const pick = (i: number): void => {
+    const name = file.stops[i].name;
+    recent = [name, ...recent.filter((n) => n !== name)].slice(0, 4);
+    try {
+      localStorage.setItem(RECENT_KEY, JSON.stringify(recent));
+    } catch {}
+    renderRecent();
+    map.focusStop(i);
+    timetable?.show(i);
+  };
+
+  combobox({
+    input,
+    list,
+    noMatch: escapeHtml(t('bus.noMatch')),
+    search: (q) => {
+      const fq = fold(q);
+      return index
+        .filter((e) => e.key.includes(fq))
+        .sort((a, b) => Number(!a.key.startsWith(fq)) - Number(!b.key.startsWith(fq)))
+        .slice(0, 8)
+        .map((e) => ({ value: e.i, html: optionHtml(e.i) }));
+    },
+    onPick: pick,
+  });
+  recentHost?.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLElement>('[data-i]');
+    if (btn) pick(Number(btn.dataset.i));
+  });
+  renderRecent();
 }
 
 export function initBusPage(): void {
@@ -837,7 +889,7 @@ export function initBusPage(): void {
       const timetable = renderTimetable(file, lang, t);
       const map = renderMap(file, lang, t, timetable);
       renderRouteList(file, lang, t, map);
-      renderStopSearch(file, lang, t, map);
+      renderStopSearch(file, lang, t, map, timetable);
     })
     .catch(() => {
       const host = document.querySelector<HTMLElement>('[data-widget="bus-routes"]');

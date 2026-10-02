@@ -724,6 +724,29 @@ button.badge[aria-pressed='true'] {
 .banner.severe {
   border-left: 4px solid var(--status-critical);
 }
+.banner.loading,
+.banner.error {
+  color: var(--ink-2);
+}
+.banner.error {
+  border-left: 4px solid var(--baseline);
+}
+.banner-meta {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+.card p.flush,
+.card .card-sub.flush {
+  margin: 0;
+}
+.card .card-note.block {
+  display: inline-block;
+  margin-top: 4px;
+}
+.placeholder.flush {
+  padding: 0;
+}
 .banner .warn-list {
   display: flex;
   flex-wrap: wrap;
@@ -1537,6 +1560,85 @@ body.map-locked {
   outline-offset: 1px;
 }
 
+/* ---- search-as-you-type results (combobox.ts) ------------------------------ */
+
+.combo-list {
+  margin-top: 6px;
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  background: var(--surface);
+}
+.combo-list:has(.combo-empty) {
+  border: 0;
+  background: none;
+}
+.combo-option {
+  padding: 12px 14px;
+  min-height: 44px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.combo-option:last-child {
+  border-bottom: 0;
+}
+.combo-option:hover,
+.combo-option[aria-selected='true'] {
+  background: var(--wash);
+}
+.combo-option .jp,
+.bus-recent .jp {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+.combo-empty {
+  margin: 6px 0 0;
+}
+.bus-recent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+.bus-recent .badge {
+  cursor: pointer;
+  font: inherit;
+  font-size: 13.5px;
+  background: var(--surface);
+  color: var(--ink);
+  min-height: 36px;
+}
+
+/* Saved district: the answer cards move above a collapsed picker. */
+.gb-current {
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin: 6px 0 0;
+  font-weight: 600;
+}
+.gb-saved > .gb-answer {
+  order: -1;
+}
+.gb-saved .gb-current {
+  display: none;
+}
+.gb-saved .gb-current[hidden] {
+  display: flex;
+}
+.gb-current[hidden] {
+  display: none;
+}
+.gb-saved .gb-where .card-sub,
+.gb-saved .gb-where .gb-picker,
+.gb-saved .gb-where .combo-list {
+  display: none;
+}
+
 /* 町会 search results: the district is the answer, so it is the emphasis, and
    the neighbourhood the reader typed is the confirmation. */
 .gb-matches {
@@ -1546,22 +1648,9 @@ body.map-locked {
   gap: 8px;
 }
 .gb-match {
-  font: inherit;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 1px;
-  text-align: left;
-  padding: 7px 13px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-s);
-  background: var(--surface);
-  color: var(--ink);
-  cursor: pointer;
-}
-.gb-match:hover {
-  border-color: var(--accent);
-  background: var(--wash);
 }
 .gb-match-chokai {
   font-size: 14px;

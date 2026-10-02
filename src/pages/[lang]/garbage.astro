@@ -38,8 +38,12 @@ const guideIsOwnLanguage = Boolean(GUIDE_PDFS[lang]);
   <p class="page-sub">{t('gb.subtitle')}</p>
 
   <div class="grid" data-garbage>
-    <section class="card col-12">
+    <section class="card col-12 gb-where">
       <h2>{t('gb.whereTitle')}</h2>
+      <p class="gb-current" data-gb-current>
+        <span data-gb-current-name></span>
+        <button class="pill-btn" type="button" data-gb-change>{t('gb.change')}</button>
+      </p>
       <p class="card-sub">{t('gb.whereDesc')}</p>
       <div class="gb-picker">
         <label class="gb-field">
@@ -55,19 +59,19 @@ const guideIsOwnLanguage = Boolean(GUIDE_PDFS[lang]);
         </label>
         <label class="gb-field">
           <span class="gb-label">{t('gb.district')}</span>
-          <select class="gb-input" data-gb-select aria-label={t('gb.district')}></select>
+          <select class="gb-input" data-gb-select></select>
         </label>
       </div>
-      <div class="gb-matches" data-gb-matches hidden></div>
+      <div class="combo-list" id="gb-matches" data-gb-matches hidden></div>
     </section>
 
-    <section class="card col-7">
+    <section class="card col-7 gb-answer">
       <h2>{t('gb.nextTitle')}</h2>
-      <div data-gb-next><p class="placeholder">{t('common.loading')}</p></div>
+      <div data-gb-next aria-live="polite"><p class="placeholder">{t('common.loading')}</p></div>
       <ul class="item-list" data-gb-upcoming></ul>
     </section>
 
-    <section class="card col-5">
+    <section class="card col-5 gb-answer">
       <h2>{t('gb.subscribeTitle')}</h2>
       <div data-gb-subscribe></div>
       <details class="guide">

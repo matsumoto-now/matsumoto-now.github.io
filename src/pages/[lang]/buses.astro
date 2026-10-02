@@ -16,17 +16,19 @@ const t = useTranslations(lang);
   <p class="page-sub">{t('bus.subtitle')}</p>
 
   <div class="grid">
-    <section class="card col-12">
+    <section class="card col-12" aria-labelledby="bus-map-h">
+      <h2 class="visually-hidden" id="bus-map-h">{t('bus.title')}</h2>
       <label class="gb-label" for="bus-stop-search">{t('bus.searchStop')}</label>
       <input
         class="gb-input bus-search"
         id="bus-stop-search"
         type="search"
-        list="bus-stop-list"
         autocomplete="off"
-        disabled
+        enterkeyhint="search"
+        placeholder={t('bus.searchPlaceholder')}
       />
-      <datalist id="bus-stop-list"></datalist>
+      <div class="combo-list" id="bus-stop-results" hidden></div>
+      <div class="bus-recent" data-bus-recent hidden></div>
       <div class="map-frame map-tall" id="bus-map"></div>
       <p class="card-note">
         {t('bus.zoomNote')}
@@ -35,7 +37,7 @@ const t = useTranslations(lang);
       </p>
     </section>
 
-    <section class="card col-12" id="bus-stop-timetable" hidden>
+    <section class="card col-12" id="bus-stop-timetable" aria-live="polite" hidden>
       <h2>{t('bus.stopTimetable')}</h2>
       <div data-widget="bus-timetable"></div>
     </section>

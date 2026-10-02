@@ -12,11 +12,12 @@ const t = useTranslations(lang);
 ---
 
 <Base lang={lang} title={t('nav.dashboard')} description={t('site.tagline')} active="dashboard">
+  <h1 class="visually-hidden">{t('site.name')}</h1>
   <div class="grid">
     {
       features.warnings && (
-        <section id="warnings" class="banner ok col-12" aria-live="polite" data-widget="warnings">
-          <p class="placeholder" style="padding: 0">
+        <section id="warnings" class="banner loading col-12" aria-live="polite" data-widget="warnings">
+          <p class="placeholder flush">
             {t('common.loading')}
           </p>
         </section>

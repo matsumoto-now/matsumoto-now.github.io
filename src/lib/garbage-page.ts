@@ -19,6 +19,7 @@
  *  reader cannot yet read the label on the bag.
  */
 
+import { combobox, fold } from './combobox';
 import { ui, getLang, type Lang, type UIKey } from '../i18n/ui';
 import { fmtDateShort, fmtWeekday, jstParts, locale, pad2 } from './format';
 import { isHoliday } from './jp-holidays';
@@ -272,13 +273,6 @@ function bilingualHtml(ja: string, latin: string | null | undefined, lang: Lang)
   return `${latin} <span class="jp">${ja}</span>`;
 }
 
-/** Lowercase without macrons, so "hongo" finds "Hongō". */
-const fold = (s: string) =>
-  s
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
-
 export function initGarbagePage(): void {
   const root = document.querySelector<HTMLElement>('[data-garbage]');
   if (!root) return;
@@ -310,7 +304,7 @@ export function initGarbagePage(): void {
     })
     .then((data) => start(data))
     .catch(() => {
-      if (nextBox) nextBox.innerHTML = `<p class="placeholder">${t('common.error')}</p>`;
+      if (nextBox) nextBox.innerHTML = `<p class="placeholder error">${t('common.error')}</p>`;
     });
 
   function start(data: GarbageFile) {
@@ -336,9 +330,7 @@ export function initGarbagePage(): void {
         .join('');
       select.addEventListener('change', () => {
         const i = Number(select.value);
-        try {
-          localStorage.setItem(STORE_KEY, data.districts[i]?.slug ?? '');
-        } catch {}
+        remember(i);
         show(i);
       });
     }
@@ -353,41 +345,43 @@ export function initGarbagePage(): void {
           return { c, r, i, key: fold(`${c} ${r ?? ''} ${d.name} ${d.romaji ?? ''}`) };
         }),
       );
-      const render = () => {
-        const q = search.value.trim();
-        if (!q) {
-          matches.innerHTML = '';
-          matches.hidden = true;
-          return;
-        }
-        const fq = fold(q);
-        const hits = index.filter((e) => e.key.includes(fq)).slice(0, 8);
-        matches.hidden = false;
-        matches.innerHTML = hits.length
-          ? hits
-              .map(
-                (h) =>
-                  `<button type="button" class="gb-match" data-i="${h.i}">` +
-                  `<span class="gb-match-chokai">${bilingualHtml(h.c, h.r, lang)}</span>` +
-                  `<span class="gb-match-district">${bilingual(data.districts[h.i].name, data.districts[h.i].romaji, lang)}</span></button>`,
-              )
-              .join('')
-          : `<p class="card-note" style="margin:6px 0 0">${t('gb.noMatch')}</p>`;
-      };
-      search.addEventListener('input', render);
-      matches.addEventListener('click', (ev) => {
-        const btn = (ev.target as HTMLElement).closest<HTMLElement>('.gb-match');
-        if (!btn) return;
-        const i = Number(btn.dataset.i);
-        if (select) select.value = String(i);
-        try {
-          localStorage.setItem(STORE_KEY, data.districts[i]?.slug ?? '');
-        } catch {}
-        search.value = '';
-        matches.hidden = true;
-        matches.innerHTML = '';
-        show(i);
+      combobox({
+        input: search,
+        list: matches,
+        optionClass: 'combo-option gb-match',
+        noMatch: t('gb.noMatch'),
+        search: (q) => {
+          const fq = fold(q);
+          return index
+            .filter((e) => e.key.includes(fq))
+            .slice(0, 8)
+            .map((h) => ({
+              value: h.i,
+              html:
+                `<span class="gb-match-chokai">${bilingualHtml(h.c, h.r, lang)}</span>` +
+                `<span class="gb-match-district">${bilingual(data.districts[h.i].name, data.districts[h.i].romaji, lang)}</span>`,
+            }));
+        },
+        onPick: (i) => {
+          if (select) select.value = String(i);
+          remember(i);
+          show(i);
+        },
       });
+    }
+
+    // Returning visitors: answer first. With a saved district the picker
+    // collapses to "District · Change" and the next-collection cards move up.
+    const currentName = root.querySelector<HTMLElement>('[data-gb-current-name]');
+    root.querySelector('[data-gb-change]')?.addEventListener('click', () => {
+      root.classList.remove('gb-saved');
+      search?.focus();
+    });
+    function remember(i: number) {
+      try {
+        localStorage.setItem(STORE_KEY, data.districts[i]?.slug ?? '');
+      } catch {}
+      root!.classList.add('gb-saved');
     }
 
     /** Month currently shown in the grid; null until the first render picks one. */
@@ -402,12 +396,14 @@ export function initGarbagePage(): void {
       data.districts.findIndex((d) => d.slug === saved),
     );
     if (select) select.value = String(initial);
+    if (saved && data.districts[initial]?.slug === saved) root.classList.add('gb-saved');
     show(initial);
 
     function show(i: number) {
       const district = data.districts[i];
       if (!district) return;
       cursor = null;
+      if (currentName) currentName.textContent = `${t('gb.district')}: ${bilingual(district.name, district.romaji, lang)}`;
       renderNext(district);
       renderMonth(district);
       renderSubscribe(district);

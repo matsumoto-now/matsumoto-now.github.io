@@ -2,7 +2,8 @@
 
 import { ui, getLang, type Lang, type UIKey } from '../i18n/ui';
 import { fmtTime, fmtDateShort, fmtWeekday, fmtDateTime, fmtNum } from './format';
-import { fetchAmedasNow, fetchWarnings, windDirLabel, warningLabel } from './jma';
+import { fetchAmedasNow, windDirLabel } from './jma';
+import { renderWarnings } from './warnings-banner';
 import { fetchForecast, fetchAirQuality, pm25Level, type Forecast } from './openmeteo';
 import {
   BAND_COLOR,
@@ -108,58 +109,6 @@ const decimal = (lang: Lang) => (v: number) =>
   Number.isInteger(v) ? fmtNum(v, lang) : fmtNum(v, lang, 1);
 
 /* ---- widgets ----------------------------------------------------------- */
-
-async function initWarnings(lang: Lang, t: (k: UIKey) => string): Promise<void> {
-  const host = document.getElementById('warnings');
-  if (!host) return;
-  try {
-    const { reportTime, active } = await fetchWarnings();
-    host.textContent = '';
-
-    const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    icon.setAttribute('viewBox', '0 0 24 24');
-    icon.setAttribute('class', 'b-icon');
-    icon.setAttribute('aria-hidden', 'true');
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    if (active.length === 0) {
-      path.setAttribute('d', 'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 13.6-3.4-3.4 1.4-1.4 2 2 4.6-4.6 1.4 1.4z');
-      path.setAttribute('fill', 'var(--status-good)');
-    } else {
-      path.setAttribute('d', 'M12 2 1 21h22L12 2zm1 14h-2v2h2v-2zm0-7h-2v5h2V9z');
-      path.setAttribute('fill', LEVEL_COLORS[active[0]!.level]!);
-    }
-    icon.appendChild(path);
-    host.appendChild(icon);
-
-    const body = make('div');
-    if (active.length === 0) {
-      host.className = 'banner ok col-12';
-      body.appendChild(make('span', undefined, t('warnings.none')));
-      const meta = make('span', undefined, ` — ${t('warnings.source')}, ${fmtTime(reportTime, lang)}`);
-      meta.style.color = 'var(--muted)';
-      meta.style.fontSize = '12.5px';
-      body.appendChild(meta);
-    } else {
-      host.className = 'banner severe col-12';
-      const head = make('strong', undefined, `${t('warnings.title')} — ${t('warnings.for')}`);
-      body.appendChild(head);
-      const list = make('div', 'warn-list');
-      for (const w of active) {
-        list.appendChild(badge(warningLabel(w, lang), w.level));
-      }
-      body.appendChild(list);
-      const meta = make('div', undefined, `${t('warnings.source')} · ${t('common.updated')} ${fmtDateTime(reportTime, lang)}`);
-      meta.style.color = 'var(--muted)';
-      meta.style.fontSize = '12px';
-      meta.style.marginTop = '6px';
-      body.appendChild(meta);
-    }
-    host.appendChild(body);
-  } catch {
-    host.textContent = '';
-    host.appendChild(make('p', 'placeholder error', t('common.error')));
-  }
-}
 
 async function initNow(
   lang: Lang,
@@ -992,7 +941,7 @@ export function initWidgets(): void {
   // skipped entirely — including their API calls.
   const needsForecast = ['now', 'hourly-temp', 'week', 'precip', 'uv'].some((n) => widget(n));
   const forecastP = needsForecast ? fetchForecast() : null;
-  void initWarnings(lang, t);
+  void renderWarnings(lang, t);
   void initNow(lang, t, forecastP);
   void initForecast(lang, t, forecastP);
   void initAir(lang, t);
