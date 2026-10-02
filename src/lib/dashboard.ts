@@ -936,15 +936,68 @@ async function initQuakes(lang: Lang, t: (k: UIKey) => string): Promise<void> {
  *  Used by both the dashboard (warnings, earthquakes) and the weather page
  *  (conditions, forecast, air, pollen, UV) — each init below no-ops when its
  *  host element is absent, so a page only pays for the widgets it includes. */
+/** Weather page headline: today's outlook, rain chance and UV in one row, so
+ *  the three things people check first don't need any scrolling. */
+async function initSummary(
+  lang: Lang,
+  t: (k: UIKey) => string,
+  forecastP: Promise<Forecast> | null,
+): Promise<void> {
+  const host = widget('summary');
+  if (!host || !forecastP) return;
+  try {
+    const fc = await forecastP;
+    const today = fc.daily[0];
+    if (!today) throw new Error('no daily forecast');
+    const now = Date.now();
+    const next24 = fc.hourly.filter((h) => h.time.getTime() >= now - 3.6e6).slice(0, 24);
+    const pop = Math.max(0, ...next24.map((h) => h.pop));
+    const level = uvLevelOf(today.uvMax);
+
+    const tile = (label: string, value: string, sub: string, color?: string): HTMLElement => {
+      const box = make('div', 'wx-tile');
+      box.appendChild(make('div', 'wx-tile-label', label));
+      const v = make('div', 'wx-tile-value', value);
+      if (color) v.style.color = color;
+      box.appendChild(v);
+      box.appendChild(make('div', 'wx-tile-sub', sub));
+      return box;
+    };
+    host.replaceChildren(
+      tile(
+        t('common.today'),
+        `${wmoIcon(today.weatherCode)} ${fmtNum(Math.round(today.tMax), lang)}° / ${fmtNum(Math.round(today.tMin), lang)}°`,
+        wmoLabel(today.weatherCode, lang),
+      ),
+      tile(
+        t('forecast.precipChance'),
+        `${fmtNum(pop, lang)} %`,
+        `${fmtNum(next24.reduce((sum, h) => sum + h.precip, 0), lang, 1)} mm / 24 h`,
+      ),
+      tile(
+        t('forecast.uv'),
+        fmtNum(today.uvMax, lang, 1),
+        t(`forecast.uv.${level}` as UIKey),
+        BAND_COLOR[uvBand(today.uvMax)],
+      ),
+    );
+  } catch {
+    host.replaceChildren(make('p', 'placeholder error', t('common.error')));
+  } finally {
+    host.removeAttribute('aria-busy');
+  }
+}
+
 export function initWidgets(): void {
   const lang = getLang();
   const t = (key: UIKey): string => ui[lang][key] ?? ui.en[key];
 
   // Widgets absent from the page (feature toggles, see src/features.ts) are
   // skipped entirely — including their API calls.
-  const needsForecast = ['now', 'hourly-temp', 'week', 'precip', 'uv'].some((n) => widget(n));
+  const needsForecast = ['summary', 'now', 'hourly-temp', 'week', 'precip', 'uv'].some((n) => widget(n));
   const forecastP = needsForecast ? fetchForecast() : null;
   void renderWarnings(lang, t);
+  void initSummary(lang, t, forecastP);
   void initNow(lang, t, forecastP);
   void initForecast(lang, t, forecastP);
   void initAir(lang, t);

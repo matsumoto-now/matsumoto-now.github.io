@@ -1497,6 +1497,45 @@ body.map-locked {
 
 /* ---- weather: grouped sections ---------------------------------------------- */
 
+.wx-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 0 0 18px;
+}
+.wx-tile {
+  padding: 14px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  background: var(--surface);
+  min-width: 0;
+}
+.wx-tile-label {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+.wx-tile-value {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+}
+.wx-tile-sub {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+@media (max-width: 640px) {
+  .wx-summary {
+    gap: 8px;
+  }
+  .wx-tile {
+    padding: 10px 12px;
+  }
+  .wx-tile-value {
+    font-size: 20px;
+  }
+}
+
 .jump-nav {
   display: flex;
   flex-wrap: wrap;

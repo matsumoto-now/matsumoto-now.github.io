@@ -15,6 +15,14 @@ const t = useTranslations(lang);
   <h1 class="page-title">{t('weather.title')}</h1>
   <p class="page-sub">{t('weather.subtitle')}</p>
 
+  {
+    (features.weekOutlook || features.currentConditions) && (
+      <section class="wx-summary" data-widget="summary" aria-label={t('common.today')} aria-busy="true">
+        <p class="placeholder flush">{t('common.loading')}</p>
+      </section>
+    )
+  }
+
   <nav class="jump-nav" aria-label={t('nav.menu')}>
     <a href="#forecast">{t('wx.groupForecast')}</a>
     <a href="#health">{t('wx.groupHealth')}</a>
