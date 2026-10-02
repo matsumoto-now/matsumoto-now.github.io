@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-02T04:25:07.953Z",
+  "fetched": "2026-10-02T10:39:53.939Z",
   "items": [
     {
       "source": "important",
@@ -27,11 +27,59 @@
     },
     {
       "source": "news",
+      "title": "令和8年度松本市職員選考採用試験案内【学校推薦（高校）】第3次試験結果",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/215499.html",
+      "date": "2026-10-02T06:00:00.000Z",
+      "titleEn": "Reiwa 8 Matsumoto City Employee Selection and Recruitment Examination Guide [School Recommendation (High School)] Third-Round Examination Results",
+      "titleFr": "Guide des concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [Recommandation scolaire (lycée)] : résultats de la 3e épreuve"
+    },
+    {
+      "source": "news",
+      "title": "令和9年4月保育施設入園申込の受付・必要書類",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "date": "2026-10-02T06:00:00.000Z",
+      "titleEn": "Reiwa 9 April: Application Acceptance and Required Documents for Childcare Facilities",
+      "titleFr": "Réception des demandes d'inscription dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 et documents requis"
+    },
+    {
+      "source": "news",
+      "title": "令和9年度育児休業明け入園予約制度のご案内・申込み受付・必要書類",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2437.html",
+      "date": "2026-10-02T06:00:00.000Z",
+      "titleEn": "Information on the Reiwa 9 Enrollment Reservation System for Children Returning from Parental Leave: Application Process and Required Documents",
+      "titleFr": "Informations sur le système de réservation d'inscription en crèche à l'issue d'un congé parental pour l'année Reiwa 9, ouverture des inscriptions et documents requis"
+    },
+    {
+      "source": "news",
       "title": "市民に身近な市役所づくり　新庁舎整備の現在地",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/215085.html",
       "date": "2026-10-01T23:30:00.000Z",
       "titleEn": "Creating a City Hall That Is Close to Citizens: The Current Status of the New City Hall Construction",
       "titleFr": "Créer une mairie proche des citoyens : état d'avancement de la construction du nouveau bâtiment"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
+      "date": "2026-10-01T15:00:00.000Z",
+      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant”",
+      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
+    },
+    {
+      "source": "news",
+      "title": "「信州・松本そば祭り」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/119911.html",
+      "date": "2026-10-01T15:00:00.000Z",
+      "titleEn": "We will be holding the “Shinshu Matsumoto Soba Festival”",
+      "titleFr": "Nous organisons le « Festival du soba de Matsumoto, dans la région du Shinshu »"
+    },
+    {
+      "source": "news",
+      "title": "松塩筑木曽老人福祉施設組合施設の移管先法人を再公募しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/63/215447.html",
+      "date": "2026-10-01T15:00:00.000Z",
+      "titleEn": "We are reopening the call for proposals to select a new operating entity for the Matsushio-Chikuso Elderly Welfare Facilities Association.",
+      "titleFr": "Un nouvel appel d'offres est lancé pour désigner l'organisme chargé de la prise en charge des établissements du Groupement des établissements de protection sociale pour personnes âgées de Matsushio-Chikushino."
     },
     {
       "source": "news",
@@ -96,54 +144,6 @@
       "date": "2026-09-28T15:00:00.000Z",
       "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Comprehensive Disaster Prevention Drill",
       "titleFr": "Organisation de l'exercice général de prévention des catastrophes de la ville de Matsumoto pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-09-28T02:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "【松本市職員共済組合】松本市役所現庁舎の福利厚生サービス提案を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/213937.html",
-      "date": "2026-09-28T01:00:00.000Z",
-      "titleEn": "[Matsumoto City Employees' Mutual Aid Association] Call for Proposals for Employee Welfare Services at the Current Matsumoto City Hall Building",
-      "titleFr": "[Association de mutuelle des agents de la ville de Matsumoto] Appel à propositions pour des services de bien-être au sein du bâtiment actuel de la mairie de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "広報まつもと（10月号）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
-      "date": "2026-09-27T15:00:00.000Z",
-      "titleEn": "Matsumoto Public Relations (October Issue)",
-      "titleFr": "Matsumoto Information (numéro d'octobre)"
-    },
-    {
-      "source": "news",
-      "title": "延長決定！松本市エアコン設置促進事業補助金申請受付中(～12月28日（水曜日）まで）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/62/194432.html",
-      "date": "2026-09-27T15:00:00.000Z",
-      "titleEn": "Extension Announced! Applications Now Being Accepted for the Matsumoto City Air Conditioner Installation Promotion Program (Through Wednesday, December 28)",
-      "titleFr": "Prolongation confirmée ! Les demandes de subvention dans le cadre du programme de promotion de l'installation de climatiseurs de la ville de Matsumoto sont actuellement acceptées (jusqu'au mercredi 28 décembre)"
-    },
-    {
-      "source": "news",
-      "title": "マツモト建築芸術祭2026 ADVANCE【ボランティアスタッフ募集】",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/212011.html",
-      "date": "2026-09-27T15:00:00.000Z",
-      "titleEn": "Matsumoto Architecture and Art Festival 2026 ADVANCE [Call for Volunteer Staff]",
-      "titleFr": "Festival d'architecture et d'art de Matsumoto 2026 ADVANCE [Recrutement de bénévoles]"
-    },
-    {
-      "source": "news",
-      "title": "信州松本トライデンツ　2026-27シーズン開幕戦　観戦無料ご招待！！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/99736.html",
-      "date": "2026-09-27T15:00:00.000Z",
-      "titleEn": "Shinshu Matsumoto Tridents: Free Invitation to the 2026-27 Season Opener!!",
-      "titleFr": "Invitation gratuite pour assister au match d'ouverture de la saison 2026-27 des Shinshu Matsumoto Tridents !!"
     },
     {
       "source": "anshin",
