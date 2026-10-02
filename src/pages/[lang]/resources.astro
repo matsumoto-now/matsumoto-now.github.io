@@ -12,7 +12,7 @@ const lang = asLang(Astro.params.lang);
 const t = useTranslations(lang);
 
 // Names/descriptions live in the locale dictionaries (res.<slug>.name/desc).
-const resources: { slug: string; url: string }[] = [
+const all: { slug: string; url: string }[] = [
   { slug: 'city', url: 'https://www.city.matsumoto.nagano.jp/' },
   { slug: 'bousai', url: 'https://www.city.matsumoto.nagano.jp/site/bousai/' },
   { slug: 'anshin', url: 'https://www.city.matsumoto.nagano.jp/soshiki/7/2746.html' },
@@ -25,6 +25,13 @@ const resources: { slug: string; url: string }[] = [
   { slug: 'bus', url: 'https://www.city.matsumoto.nagano.jp/soshiki/222/3237.html' },
   { slug: 'line', url: 'https://page.line.me/ric7546t' },
 ];
+const url = (slug: string) => all.find((r) => r.slug === slug)!.url;
+// Grouped by when you'd need them: emergencies first.
+const groups: { title: UIKey; slugs: string[] }[] = [
+  { title: 'res.groupEmergency', slugs: ['bousai', 'kawabou', 'dutyDoctor', 'raipolice', 'anshin'] },
+  { title: 'res.groupCity', slugs: ['city', 'garbage', 'bus'] },
+  { title: 'res.groupInfo', slugs: ['line', 'soramame'] },
+];
 ---
 
 <Base lang={lang} title={t('resources.title')} description={t('resources.subtitle')} active="resources">
@@ -33,16 +40,19 @@ const resources: { slug: string; url: string }[] = [
 
   <div class="grid">
     {
-      resources.map((r) => (
-        <section class="card col-6">
-          <h3>
-            <a href={r.url} target="_blank" rel="noopener">
-              {t(`res.${r.slug}.name` as UIKey)} ↗
-            </a>
-          </h3>
-          <p class="card-sub" style="margin-bottom: 0">
-            {t(`res.${r.slug}.desc` as UIKey)}
-          </p>
+      groups.map((g) => (
+        <section class="card col-12">
+          <h2>{t(g.title)}</h2>
+          <ul class="link-list">
+            {g.slugs.map((slug) => (
+              <li>
+                <a href={url(slug)} target="_blank" rel="noopener">
+                  {t(`res.${slug}.name` as UIKey)} <span aria-hidden="true">↗</span>
+                </a>
+                <p>{t(`res.${slug}.desc` as UIKey)}</p>
+              </li>
+            ))}
+          </ul>
         </section>
       ))
     }

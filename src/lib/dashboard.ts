@@ -225,11 +225,16 @@ async function initForecast(
 
       // two charts, because they answer different questions: whether to take an
       // umbrella, and whether the umbrella will be enough
-      const chanceTitle = make('p', 'card-sub', t('forecast.precipChance'));
-      chanceTitle.style.margin = '14px 0 2px';
-      hostPrecip.appendChild(chanceTitle);
+      // side by side when wide: the charts have a fixed aspect ratio, so one
+      // full-width chart would scale up to an oversized block
+      const pair = make('div', 'chart-pair');
+      hostPrecip.appendChild(pair);
+      const colChance = make('div');
+      const colAmount = make('div');
+      pair.append(colChance, colAmount);
+      colChance.appendChild(make('p', 'card-sub chart-title', t('forecast.precipChance')));
       const chance = make('div');
-      hostPrecip.appendChild(chance);
+      colChance.appendChild(chance);
       barChart(
         chance,
         next24.map((h) => ({ label: fmtTime(h.time, lang), value: h.pop })),
@@ -246,11 +251,9 @@ async function initForecast(
         },
       );
 
-      const amountTitle = make('p', 'card-sub', t('forecast.precipAmount'));
-      amountTitle.style.margin = '14px 0 2px';
-      hostPrecip.appendChild(amountTitle);
+      colAmount.appendChild(make('p', 'card-sub chart-title', t('forecast.precipAmount')));
       const amount = make('div');
-      hostPrecip.appendChild(amount);
+      colAmount.appendChild(amount);
       barChart(
         amount,
         next24.map((h) => ({ label: fmtTime(h.time, lang), value: h.precip })),

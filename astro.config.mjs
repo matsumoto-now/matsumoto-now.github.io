@@ -15,6 +15,8 @@ export default defineConfig({
   site,
   base,
   trailingSlash: 'ignore',
+  // Fetch same-site pages on hover/tap-start so moving between pages feels instant.
+  prefetch: { prefetchAll: true, defaultStrategy: 'hover' },
   build: {
     format: 'directory',
   },

@@ -54,3 +54,20 @@ export function addExpandControl(map: L.Map, t: (k: UIKey) => string): void {
   });
   map.addControl(new Expand());
 }
+
+/** Failed map load: collapse the tall frame to a short message with a retry,
+ *  instead of a big empty box with a small line of text in it. */
+export function mapError(host: HTMLElement, t: (k: UIKey) => string): void {
+  host.textContent = '';
+  host.classList.add('map-error');
+  const p = document.createElement('p');
+  p.className = 'placeholder error';
+  p.textContent = `${t('common.error')} `;
+  const retry = document.createElement('button');
+  retry.type = 'button';
+  retry.className = 'link-button';
+  retry.textContent = t('common.retry');
+  retry.addEventListener('click', () => location.reload());
+  p.appendChild(retry);
+  host.appendChild(p);
+}

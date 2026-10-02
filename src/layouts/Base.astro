@@ -73,5 +73,23 @@ const pageTitle = `${title} · ${t('site.name')}`;
       <slot />
     </main>
     <Footer lang={lang} />
+    <script is:inline data-newtab={t('common.newTab')}>
+      // Screen readers get "(opens in a new tab)" on every target=_blank link,
+      // including ones the page scripts add later (feeds, popups, lists).
+      (() => {
+        const label = document.currentScript.dataset.newtab;
+        const mark = (root) => {
+          for (const a of root.querySelectorAll('a[target="_blank"]:not([data-nt])')) {
+            a.dataset.nt = '';
+            const s = document.createElement('span');
+            s.className = 'visually-hidden';
+            s.textContent = ' ' + label;
+            a.append(s);
+          }
+        };
+        mark(document);
+        new MutationObserver(() => mark(document.body)).observe(document.body, { childList: true, subtree: true });
+      })();
+    </script>
   </body>
 </html>

@@ -27,7 +27,7 @@ const t = useTranslations(lang);
     <section class="card col-5">
       <h2>{t('quakes.mapTitle')}</h2>
       <p class="card-sub">{t('quakes.circleNote')}</p>
-      <div class="map-frame" id="quake-map"></div>
+      <div class="map-frame" id="quake-map" role="region" aria-label={t('quakes.mapTitle')}></div>
     </section>
   </div>
 </Base>

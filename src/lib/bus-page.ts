@@ -7,7 +7,7 @@ import { ui, getLang, type Lang, type UIKey } from '../i18n/ui';
 import { chartMessage } from './chart';
 import { addLocateControl } from './geolocate';
 import { combobox, escapeHtml, fold } from './combobox';
-import { addExpandControl } from './map-expand';
+import { addExpandControl, mapError } from './map-expand';
 
 const MATSUMOTO: [number, number] = [36.238, 137.972];
 const STOP_MIN_ZOOM = 14;
@@ -895,9 +895,6 @@ export function initBusPage(): void {
       const host = document.querySelector<HTMLElement>('[data-widget="bus-routes"]');
       if (host) chartMessage(host, t('common.error'), true);
       const mapHost = document.getElementById('bus-map');
-      if (mapHost) {
-        mapHost.textContent = '';
-        mapHost.appendChild(make('p', 'placeholder error', t('common.error')));
-      }
+      if (mapHost) mapError(mapHost, t);
     });
 }

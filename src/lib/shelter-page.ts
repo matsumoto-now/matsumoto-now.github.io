@@ -6,7 +6,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { ui, getLang, type Lang, type UIKey } from '../i18n/ui';
 import { addLocateControl } from './geolocate';
-import { addExpandControl } from './map-expand';
+import { addExpandControl, mapError } from './map-expand';
 
 const MATSUMOTO: [number, number] = [36.238, 137.972];
 const AED_MIN_ZOOM = 14;
@@ -189,7 +189,8 @@ export function initShelterPage(): void {
             [t('shelter.floodLayer')]: floodLayer,
             [t('shelter.landslideLayer')]: landslideLayer,
           },
-          { collapsed: false },
+          // open on desktop; on phones it would cover most of the map
+          { collapsed: window.matchMedia('(max-width: 640px)').matches },
         )
         .addTo(map);
       syncAed();
@@ -267,8 +268,5 @@ export function initShelterPage(): void {
         for (const h of HAZARDS) addButton(t(`shelter.hazard.${h}` as UIKey), h);
       }
     })
-    .catch(() => {
-      mapHost.textContent = '';
-      mapHost.appendChild(make('p', 'placeholder error', t('common.error')));
-    });
+    .catch(() => mapError(mapHost, t));
 }

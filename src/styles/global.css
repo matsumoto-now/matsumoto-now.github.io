@@ -199,8 +199,17 @@ a:hover {
   padding: 8px 14px;
   transition: top 0.15s ease;
 }
+.skip-link {
+  color: var(--ink);
+  font-weight: 600;
+}
 .skip-link:focus {
   top: 12px;
+}
+
+/* hidden must win over component display rules (li, flex rows…) */
+[hidden] {
+  display: none !important;
 }
 
 /* ---- layout ------------------------------------------------------------ */
@@ -263,6 +272,15 @@ main.container {
   font-weight: 700;
   font-size: 19px;
   letter-spacing: -0.01em;
+}
+.brand {
+  min-width: 0;
+}
+.brand > span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .brand:hover {
   text-decoration: none;
@@ -692,6 +710,10 @@ button.badge[aria-pressed='true'] {
 .line-detail .card-note {
   margin: 4px 0 6px;
 }
+.show-more {
+  margin-top: 10px;
+  min-height: 36px;
+}
 .link-button {
   font: inherit;
   font-size: 13.5px;
@@ -755,6 +777,15 @@ button.badge[aria-pressed='true'] {
 }
 
 /* ---- charts ------------------------------------------------------------- */
+
+.chart-pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0 28px;
+}
+.card .chart-title {
+  margin: 14px 0 2px;
+}
 
 .viz {
   position: relative;
@@ -1187,6 +1218,26 @@ select.lang-select {
 .map-frame.map-tall {
   height: 560px;
 }
+.map-frame.map-error {
+  height: auto;
+  padding: 16px;
+}
+
+/* Touch screens: 44px targets for map controls and small icon buttons. */
+@media (pointer: coarse) {
+  .leaflet-touch .leaflet-bar a,
+  .leaflet-bar button.locate-btn {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+  }
+  /* page buttons only — header buttons stay compact (40px) by choice */
+  main .pill-btn {
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+}
 
 .map-frame .locate-btn,
 .map-frame .expand-btn {
@@ -1404,6 +1455,35 @@ body.map-locked {
 .nav-more-panel a:hover {
   background: var(--wash);
   text-decoration: none;
+}
+
+/* ---- resources: grouped link list ------------------------------------------ */
+
+.link-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 28px;
+}
+.link-list li {
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+}
+.link-list a {
+  font-weight: 600;
+}
+.link-list p {
+  margin: 4px 0 0;
+  color: var(--ink-2);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+@media (max-width: 640px) {
+  .link-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---- weather: grouped sections ---------------------------------------------- */
@@ -1729,13 +1809,7 @@ body.map-locked {
   order: -1;
 }
 .gb-saved .gb-current {
-  display: none;
-}
-.gb-saved .gb-current[hidden] {
   display: flex;
-}
-.gb-current[hidden] {
-  display: none;
 }
 .gb-saved .gb-where .card-sub,
 .gb-saved .gb-where .gb-picker,

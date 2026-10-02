@@ -33,6 +33,8 @@ function make(tag: string, className?: string, text?: string): HTMLElement {
   return node;
 }
 
+const FIRST_SHOWN = 5;
+
 function renderFeed(host: HTMLElement, items: AlertItem[], lang: Lang, t: (k: UIKey) => string): void {
   host.textContent = '';
   if (!items.length) {
@@ -40,8 +42,10 @@ function renderFeed(host: HTMLElement, items: AlertItem[], lang: Lang, t: (k: UI
     return;
   }
   const list = make('ul', 'item-list');
-  for (const item of items.slice(0, 12)) {
+  const shown = items.slice(0, 12);
+  for (const [n, item] of shown.entries()) {
     const li = make('li');
+    li.hidden = n >= FIRST_SHOWN; // short feeds keep the other sections in view
     const when = make('span', 'when', item.date ? fmtDateTime(new Date(item.date), lang) : '—');
     li.appendChild(when);
     const what = make('div', 'what');
@@ -50,17 +54,27 @@ function renderFeed(host: HTMLElement, items: AlertItem[], lang: Lang, t: (k: UI
     a.href = item.link;
     a.target = '_blank';
     a.rel = 'noopener';
-    const shown = displayTitle(item, lang);
-    a.textContent = shown;
+    const label = displayTitle(item, lang);
+    a.textContent = label;
     title.appendChild(a);
     what.appendChild(title);
-    if (lang !== 'ja' && shown !== item.title) {
+    if (lang !== 'ja' && label !== item.title) {
       what.appendChild(make('div', 'meta', item.title));
     }
     li.appendChild(what);
     list.appendChild(li);
   }
   host.appendChild(list);
+  if (shown.length > FIRST_SHOWN) {
+    const more = make('button', 'link-button show-more', `${t('common.showMore')} (${shown.length - FIRST_SHOWN})`);
+    (more as HTMLButtonElement).type = 'button';
+    more.addEventListener('click', () => {
+      for (const li of list.querySelectorAll<HTMLElement>('li[hidden]')) li.hidden = false;
+      more.remove();
+      (list.children[FIRST_SHOWN] as HTMLElement | undefined)?.querySelector('a')?.focus();
+    });
+    host.appendChild(more);
+  }
 }
 
 export function initAlertsPage(): void {
