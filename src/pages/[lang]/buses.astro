@@ -17,12 +17,27 @@ const t = useTranslations(lang);
 
   <div class="grid">
     <section class="card col-12">
+      <label class="gb-label" for="bus-stop-search">{t('bus.searchStop')}</label>
+      <input
+        class="gb-input bus-search"
+        id="bus-stop-search"
+        type="search"
+        list="bus-stop-list"
+        autocomplete="off"
+        disabled
+      />
+      <datalist id="bus-stop-list"></datalist>
       <div class="map-frame map-tall" id="bus-map"></div>
       <p class="card-note">
         {t('bus.zoomNote')}
         {' · '}
         {t('bus.attribution')}
       </p>
+    </section>
+
+    <section class="card col-12" id="bus-stop-timetable" hidden>
+      <h2>{t('bus.stopTimetable')}</h2>
+      <div data-widget="bus-timetable"></div>
     </section>
 
     <section class="card col-12">

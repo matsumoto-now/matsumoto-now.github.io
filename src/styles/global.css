@@ -1548,3 +1548,336 @@ body.map-locked {
   line-height: 1.55;
   max-width: 74ch;
 }
+
+.bus-search {
+  margin: 4px 0 12px;
+}
+.jp {
+  font-size: 0.85em;
+  font-weight: 400;
+  color: var(--muted);
+}
+button.badge[aria-pressed='true'] .jp {
+  color: inherit;
+  opacity: 0.75;
+}
+
+
+/* ---- bus stop popup & timetable ------------------------------------------ */
+
+@media (max-width: 640px) {
+  .popup-open .leaflet-top {
+    display: none;
+  }
+}
+
+/* a line: one card, edged in the line's map colour */
+.line-name {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  align-items: center;
+  gap: 4px 7px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.line-name .loop-badge {
+  grid-column: 2;
+  justify-self: start;
+}
+.line-name .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: none;
+}
+.pop-line {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--line, var(--accent));
+  border-radius: var(--radius-s);
+  background: var(--surface);
+}
+.pop-dir {
+  margin-top: 8px;
+}
+.pop-dir + .pop-dir {
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+/* a direction: label, destination, ride time, next stops — each its own line */
+.dir-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dir-dest {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 8px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.dir-ride {
+  margin-top: 3px;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+.dir-next {
+  margin-top: 3px;
+  font-size: 12px;
+  color: var(--ink-2);
+  line-height: 1.45;
+}
+.dir-next-label {
+  color: var(--muted);
+  margin-right: 6px;
+}
+.dir-arrow {
+  margin: 0 5px;
+  color: var(--muted);
+}
+.dir-big .dir-label {
+  font-size: 11.5px;
+}
+.dir-big .dir-dest {
+  font-size: 19px;
+}
+.dir-big .dir-ride {
+  font-size: 14.5px;
+}
+.dir-big .dir-next {
+  font-size: 14px;
+}
+
+.fast-badge,
+.loop-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 0 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.fast-badge {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.loop-badge {
+  border: 1px solid var(--border);
+  color: var(--ink-2);
+  font-weight: 600;
+  cursor: help;
+}
+
+.time-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+.time-chip {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  background: var(--wash);
+}
+.time-chip.soon {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.tt-open {
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  width: 100%;
+  padding: 8px 10px;
+  margin: 6px 0 4px;
+  border: 0;
+  border-radius: var(--radius-s);
+  background: var(--accent);
+  color: var(--accent-ink);
+  cursor: pointer;
+}
+
+/* full timetable: stop name, then numbered-feeling sections split by rules */
+.tt-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.tt-stop {
+  font-size: 20px;
+}
+.tt-section {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.tt-section:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.tt-label {
+  margin-bottom: 8px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.tt-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.tt-date {
+  width: auto;
+  padding: 5px 10px;
+}
+.tt-dir-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px 16px;
+  max-width: 640px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--line, var(--accent));
+  border-radius: var(--radius-s);
+  background: var(--surface);
+}
+.tt-dir-card .dir {
+  flex: 1 1 260px;
+}
+.tt-swap {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--accent);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tt-swap:hover {
+  background: var(--wash);
+}
+.loop-note {
+  flex-basis: 100%;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  border-radius: var(--radius-s);
+  background: var(--wash);
+  color: var(--ink-2);
+}
+@media (max-width: 640px) {
+  .tt-swap {
+    width: 100%;
+  }
+}
+
+.tt-table {
+  margin-top: 14px;
+  max-width: 640px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  overflow: hidden;
+  font-size: 17px;
+  font-variant-numeric: tabular-nums;
+}
+.tt-row {
+  display: grid;
+  grid-template-columns: 3.4em 1fr;
+}
+.tt-row + .tt-row {
+  border-top: 1px solid var(--border);
+}
+.tt-row:nth-child(even) {
+  background: var(--wash);
+}
+.tt-hour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 9px 0;
+  border-right: 1px solid var(--border);
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+}
+.tt-mins {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 20px;
+  padding: 9px 16px;
+}
+.tt-past {
+  color: var(--muted);
+  opacity: 0.55;
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--muted) 60%, transparent);
+}
+.tt-next {
+  font-weight: 700;
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-radius: 4px;
+  padding: 0 6px;
+  margin: 0 -6px;
+}
+
+/* popups follow the page theme. Leaflet's stylesheet paints them white and,
+   imported by the page script, can load after this file — scoped under
+   .map-frame (as the layer switcher above) so ours wins regardless of order */
+.map-frame .leaflet-popup-content-wrapper,
+.map-frame .leaflet-popup-tip {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.35);
+}
+.map-frame .leaflet-popup-content-wrapper {
+  border: 1px solid var(--border);
+}
+.map-frame a.leaflet-popup-close-button {
+  color: var(--muted);
+}
+.map-frame a.leaflet-popup-close-button:hover {
+  color: var(--ink);
+}
+.pop-line {
+  background: var(--plane);
+}
+.map-frame .leaflet-tooltip {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--border);
+}
+.map-frame .leaflet-tooltip-top::before {
+  border-top-color: var(--surface);
+}
+.map-frame .leaflet-tooltip-bottom::before {
+  border-bottom-color: var(--surface);
+}
+.map-frame .leaflet-tooltip-left::before {
+  border-left-color: var(--surface);
+}
+.map-frame .leaflet-tooltip-right::before {
+  border-right-color: var(--surface);
+}
