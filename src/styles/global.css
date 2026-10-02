@@ -1358,7 +1358,6 @@ body.map-locked {
 
 .nav-more {
   display: none;
-  position: relative;
 }
 .nav-more summary {
   list-style: none;
@@ -1380,12 +1379,14 @@ body.map-locked {
   background: var(--wash);
   color: var(--ink);
 }
+/* Anchored to the nav (not the button) and spanning its width, so it can
+   never hang off-screen whichever row or side the button wraps to. */
 .nav-more-panel {
   position: absolute;
+  left: 0;
   right: 0;
-  top: calc(100% + 6px);
+  top: calc(100% - 4px);
   z-index: 1100;
-  min-width: 220px;
   display: flex;
   flex-direction: column;
   padding: 6px;
@@ -1544,6 +1545,7 @@ body.map-locked {
 @media (max-width: 640px) {
   .site-nav {
     align-items: center;
+    position: relative;
   }
   .site-nav .nav-secondary {
     display: none;
