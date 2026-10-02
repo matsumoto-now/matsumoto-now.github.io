@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Os dias de recolha são definidos por zona. Procure a sua associação de bairro (町会) — o nome que consta do contrato de arrendamento ou da placa da sua rua — ou escolha a zona diretamente.",
   "gb.district": "Zona",
   "gb.searchChokai": "Procurar por bairro (町会)",
-  "gb.searchPlaceholder": "ex.: 中町2丁目",
+  "gb.searchPlaceholder": "ex.: Nakamachi, 中町2丁目",
   "gb.noMatch": "Sem resultados. Tente menos caracteres, ou escolha a sua zona na lista.",
   "gb.nextTitle": "Próxima Recolha",
   "gb.putOutBy": "Coloque entre as 7:00 e as 8:15 da manhã, no ponto de recolha do seu bairro, no saco oficial com o seu nome escrito.",

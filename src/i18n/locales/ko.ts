@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "수집 일정은 지구별로 정해져 있습니다. 초카이(町会, 주민 자치회) 이름으로 검색하거나 — 임대차 계약서나 거리 표지판에 있는 이름입니다 — 지구를 직접 고르세요.",
   "gb.district": "지구",
   "gb.searchChokai": "초카이(町会) 이름으로 검색",
-  "gb.searchPlaceholder": "예: 中町2丁目",
+  "gb.searchPlaceholder": "예: Nakamachi, 中町2丁目",
   "gb.noMatch": "해당하는 곳이 없습니다. 글자를 줄여 보시거나 목록에서 지구를 고르세요.",
   "gb.nextTitle": "다음 수집일",
   "gb.putOutBy": "아침 7:00에서 8:15 사이에, 우리 초카이 쓰레기장으로. 지정 봉투에 이름을 적어 주세요.",

@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Ngày thu gom được ấn định theo từng khu. Hãy tìm theo tên hội khu phố (町会) — tên ghi trên hợp đồng thuê nhà hoặc trên biển tên đường — hoặc chọn khu trực tiếp.",
   "gb.district": "Khu",
   "gb.searchChokai": "Tìm theo khu phố (町会)",
-  "gb.searchPlaceholder": "ví dụ 中町2丁目",
+  "gb.searchPlaceholder": "ví dụ Nakamachi, 中町2丁目",
   "gb.noMatch": "Không có kết quả. Hãy thử ít chữ hơn, hoặc chọn khu từ danh sách.",
   "gb.nextTitle": "Lần Thu Gom Tới",
   "gb.putOutBy": "Mang ra trong khoảng 7:00 đến 8:15 sáng, tại điểm thu gom của khu phố, đựng trong túi quy định có ghi tên bạn.",

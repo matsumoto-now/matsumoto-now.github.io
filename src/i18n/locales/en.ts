@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Collection days are set per district. Search for your neighbourhood association (町会) — the name on your street sign or your rental contract — or pick the district directly.",
   "gb.district": "District",
   "gb.searchChokai": "Search by neighbourhood (町会)",
-  "gb.searchPlaceholder": "e.g. 中町2丁目",
+  "gb.searchPlaceholder": "e.g. Nakamachi, 中町2丁目",
   "gb.noMatch": "Nothing matches that. Try fewer characters, or pick your district from the list.",
   "gb.nextTitle": "Next Collection",
   "gb.putOutBy": "Out between 7:00 and 8:15 in the morning, at your neighbourhood's collection point, in the designated bag with your name on it.",

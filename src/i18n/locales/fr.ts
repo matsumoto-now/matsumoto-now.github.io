@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Les jours de collecte sont fixés par secteur. Cherchez votre association de quartier (町会) — le nom qui figure sur votre bail ou sur le panneau de votre rue — ou choisissez directement le secteur.",
   "gb.district": "Secteur",
   "gb.searchChokai": "Rechercher par quartier (町会)",
-  "gb.searchPlaceholder": "ex. 中町2丁目",
+  "gb.searchPlaceholder": "ex. Nakamachi, 中町2丁目",
   "gb.noMatch": "Aucun résultat. Essayez moins de caractères, ou choisissez votre secteur dans la liste.",
   "gb.nextTitle": "Prochaine Collecte",
   "gb.putOutBy": "À sortir entre 7h00 et 8h15 du matin, au point de collecte de votre quartier, dans le sac réglementaire portant votre nom.",

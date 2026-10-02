@@ -46,6 +46,7 @@
  */
 
 import { writeFile, mkdtemp, rm } from 'node:fs/promises';
+import { DISTRICT_ROMAJI, chokaiRomaji } from './garbage-romaji.mjs';
 import { readFileSync } from 'node:fs';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -442,9 +443,11 @@ async function main() {
       }
       out.push({
         name: d.name,
+        romaji: DISTRICT_ROMAJI[d.name] ?? null,
         slug: SLUGS[d.name],
         pdf: d.pdf,
         chokai: r.chokai,
+        chokaiRomaji: r.chokai.map(chokaiRomaji),
         // Category indices into `categories`, keyed by ISO date. Omitted when
         // the parse failed, so the page can only ever link the PDF.
         days: parsed

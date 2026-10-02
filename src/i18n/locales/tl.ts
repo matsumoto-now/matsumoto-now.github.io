@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Ang mga araw ng koleksyon ay itinakda kada distrito. Hanapin ang inyong neighborhood association (町会) — ang pangalang nasa kontrata ng upa o sa karatula ng kalye — o piliin na lang ang distrito.",
   "gb.district": "Distrito",
   "gb.searchChokai": "Hanapin ayon sa 町会 (neighborhood)",
-  "gb.searchPlaceholder": "hal. 中町2丁目",
+  "gb.searchPlaceholder": "hal. Nakamachi, 中町2丁目",
   "gb.noMatch": "Walang tumugma. Subukan ang mas kaunting titik, o piliin ang distrito mula sa listahan.",
   "gb.nextTitle": "Susunod na Koleksyon",
   "gb.putOutBy": "Ilabas sa pagitan ng 7:00 at 8:15 ng umaga, sa collection point ng inyong 町会, sa itinakdang supot na may nakasulat na pangalan mo.",

@@ -25,9 +25,13 @@ import { isHoliday } from './jp-holidays';
 
 interface District {
   name: string;
+  /** Hepburn reading; null when the fetch script's table has none. */
+  romaji: string | null;
   slug: string;
   pdf: string;
   chokai: string[];
+  /** Readings parallel to `chokai`. */
+  chokaiRomaji: (string | null)[];
   /** Category indices into `categories`, by ISO date. Null when the PDF did not parse. */
   days: Record<string, number[]> | null;
 }
@@ -255,6 +259,26 @@ function groupFor(category: string): string {
   return 'landfill';
 }
 
+/** Romanized name with the Japanese kept alongside (it is what the PDFs and
+ *  the neighbourhood notice boards show); Japanese only for ja readers. */
+function bilingual(ja: string, latin: string | null | undefined, lang: Lang): string {
+  if (lang === 'ja' || !latin) return ja;
+  return `${latin}（${ja}）`;
+}
+
+/** Same, as markup, with the Japanese set smaller and muted. */
+function bilingualHtml(ja: string, latin: string | null | undefined, lang: Lang): string {
+  if (lang === 'ja' || !latin) return ja;
+  return `${latin} <span class="jp">${ja}</span>`;
+}
+
+/** Lowercase without macrons, so "hongo" finds "Hongō". */
+const fold = (s: string) =>
+  s
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+
 export function initGarbagePage(): void {
   const root = document.querySelector<HTMLElement>('[data-garbage]');
   if (!root) return;
@@ -308,7 +332,7 @@ export function initGarbagePage(): void {
 
     if (select) {
       select.innerHTML = data.districts
-        .map((d, i) => `<option value="${i}">${d.name}</option>`)
+        .map((d, i) => `<option value="${i}">${bilingual(d.name, d.romaji, lang)}</option>`)
         .join('');
       select.addEventListener('change', () => {
         const i = Number(select.value);
@@ -320,9 +344,15 @@ export function initGarbagePage(): void {
     }
 
     // 町会 → district. Matching is substring on the raw name, which is what a
-    // resident types; the district's own name matches too, so "本郷" works.
+    // resident types, or on its reading with macrons folded away; the
+    // district's own name matches too, so "本郷" and "hongo" work.
     if (search && matches) {
-      const index = data.districts.flatMap((d, i) => d.chokai.map((c) => ({ c, i })));
+      const index = data.districts.flatMap((d, i) =>
+        d.chokai.map((c, k) => {
+          const r = d.chokaiRomaji?.[k] ?? null;
+          return { c, r, i, key: fold(`${c} ${r ?? ''} ${d.name} ${d.romaji ?? ''}`) };
+        }),
+      );
       const render = () => {
         const q = search.value.trim();
         if (!q) {
@@ -330,15 +360,16 @@ export function initGarbagePage(): void {
           matches.hidden = true;
           return;
         }
-        const hits = index.filter((e) => e.c.includes(q)).slice(0, 8);
+        const fq = fold(q);
+        const hits = index.filter((e) => e.key.includes(fq)).slice(0, 8);
         matches.hidden = false;
         matches.innerHTML = hits.length
           ? hits
               .map(
                 (h) =>
                   `<button type="button" class="gb-match" data-i="${h.i}">` +
-                  `<span class="gb-match-chokai">${h.c}</span>` +
-                  `<span class="gb-match-district">${data.districts[h.i].name}</span></button>`,
+                  `<span class="gb-match-chokai">${bilingualHtml(h.c, h.r, lang)}</span>` +
+                  `<span class="gb-match-district">${bilingual(data.districts[h.i].name, data.districts[h.i].romaji, lang)}</span></button>`,
               )
               .join('')
           : `<p class="card-note" style="margin:6px 0 0">${t('gb.noMatch')}</p>`;
@@ -406,7 +437,7 @@ export function initGarbagePage(): void {
         nextBox.innerHTML =
           `<p class="placeholder">${t('gb.noParse')}</p>` +
           `<p class="card-note"><a href="${district.pdf}" target="_blank" rel="noopener">` +
-          `${t('gb.pdfFor').replace('{district}', district.name)} ↗</a></p>`;
+          `${t('gb.pdfFor').replace('{district}', bilingual(district.name, district.romaji, lang))} ↗</a></p>`;
         if (upcoming) upcoming.innerHTML = '';
         return;
       }
@@ -529,7 +560,7 @@ export function initGarbagePage(): void {
         // repeating the paragraph here would just push the PDF link down.
         subscribe.innerHTML =
           `<p><a class="gb-cta" href="${district.pdf}" target="_blank" rel="noopener">` +
-          `${t('gb.pdfFor').replace('{district}', district.name)} ↗</a></p>`;
+          `${t('gb.pdfFor').replace('{district}', bilingual(district.name, district.romaji, lang))} ↗</a></p>`;
         return;
       }
       const path = `${base}/${lang}/garbage/${district.slug}.ics`;
@@ -539,7 +570,7 @@ export function initGarbagePage(): void {
         `<p class="card-note">${t('gb.subscribeDesc')}</p>` +
         `<p class="card-note"><a href="${path}" download>${t('gb.download')}</a>` +
         ` · <a href="${district.pdf}" target="_blank" rel="noopener">` +
-        `${t('gb.pdfFor').replace('{district}', district.name)} ↗</a></p>`;
+        `${t('gb.pdfFor').replace('{district}', bilingual(district.name, district.romaji, lang))} ↗</a></p>`;
     }
   }
 }

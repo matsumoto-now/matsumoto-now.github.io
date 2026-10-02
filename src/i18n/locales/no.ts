@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Innsamlingsdagene er fastsatt for hver krets. Søk opp nabolagsforeningen din (町会) — navnet som står på leiekontrakten eller på gateskiltet — eller velg kretsen direkte.",
   "gb.district": "Krets",
   "gb.searchChokai": "Søk etter nabolag (町会)",
-  "gb.searchPlaceholder": "f.eks. 中町2丁目",
+  "gb.searchPlaceholder": "f.eks. Nakamachi, 中町2丁目",
   "gb.noMatch": "Ingen treff. Prøv med færre tegn, eller velg kretsen fra listen.",
   "gb.nextTitle": "Neste Innsamling",
   "gb.putOutBy": "Sett det ut mellom 07:00 og 08:15 om morgenen, på nabolagets innsamlingspunkt, i den påbudte sekken med navnet ditt på.",

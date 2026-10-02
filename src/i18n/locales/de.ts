@@ -485,7 +485,7 @@ export const dict = {
   "gb.whereDesc": "Die Sammeltage sind je Bezirk festgelegt. Suchen Sie nach Ihrer Nachbarschaftsvereinigung (町会) — dem Namen auf Ihrem Mietvertrag oder dem Straßenschild — oder wählen Sie den Bezirk direkt.",
   "gb.district": "Bezirk",
   "gb.searchChokai": "Nach Nachbarschaft suchen (町会)",
-  "gb.searchPlaceholder": "z. B. 中町2丁目",
+  "gb.searchPlaceholder": "z. B. Nakamachi, 中町2丁目",
   "gb.noMatch": "Kein Treffer. Versuchen Sie es mit weniger Zeichen, oder wählen Sie den Bezirk aus der Liste.",
   "gb.nextTitle": "Nächste Sammlung",
   "gb.putOutBy": "Zwischen 7:00 und 8:15 Uhr morgens an der Sammelstelle Ihrer Nachbarschaft bereitstellen, im vorgeschriebenen Sack mit Ihrem Namen darauf.",

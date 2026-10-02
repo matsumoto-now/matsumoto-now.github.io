@@ -23,6 +23,7 @@ import garbage from '../../../../public/data/garbage.json';
 
 interface District {
   name: string;
+  romaji: string | null;
   slug: string;
   pdf: string;
   days: Record<string, number[]> | null;
@@ -97,7 +98,7 @@ export const GET: APIRoute = ({ params }) => {
     'PRODID:-//matsumoto-now//garbage-calendar//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    `X-WR-CALNAME:${esc(`${t('gb.title')} — ${district.name}`)}`,
+    `X-WR-CALNAME:${esc(`${t('gb.title')} — ${lang === 'ja' || !district.romaji ? district.name : `${district.romaji}（${district.name}）`}`)}`,
     // The district's own PDF and the "out by 7:00–8:15" instruction live here,
     // once, rather than on all ~190 events: repeating them per event tripled the
     // file for nothing a calendar app shows any better.
