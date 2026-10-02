@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "Om og Data",
   "nav.menu": "Meny",
   "common.language": "Språk",
+  "common.noscript": "Dette nettstedet trenger JavaScript for å laste inn sanntidsdata. I en nødsituasjon, ring 119 (brann og ambulanse) eller 110 (politi).",
   "res.groupEmergency": "Nødsituasjoner og katastrofer",
   "res.groupCity": "Kommunale tjenester",
   "res.groupInfo": "Hold deg oppdatert",

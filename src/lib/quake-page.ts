@@ -53,7 +53,7 @@ function renderList(
           : t('quakes.feltNagano');
       const felt = make('span', 'badge', text);
       felt.style.marginLeft = '8px';
-      felt.style.fontSize = '11.5px';
+      felt.style.fontSize = 'var(--fs-xs)';
       felt.style.padding = '2px 9px';
       const dot = make('span', 'dot');
       dot.style.background = q.matsumotoScale !== null ? 'var(--status-serious)' : 'var(--series-2)';

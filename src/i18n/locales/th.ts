@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "เกี่ยวกับ",
   "nav.menu": "เมนู",
   "common.language": "ภาษา",
+  "common.noscript": "เว็บไซต์นี้ต้องใช้ JavaScript เพื่อโหลดข้อมูลสด กรณีฉุกเฉินโทร 119 (ดับเพลิงและรถพยาบาล) หรือ 110 (ตำรวจ)",
   "res.groupEmergency": "เหตุฉุกเฉินและภัยพิบัติ",
   "res.groupCity": "บริการของเมือง",
   "res.groupInfo": "ติดตามข่าวสาร",

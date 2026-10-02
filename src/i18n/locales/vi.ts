@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "Giới Thiệu",
   "nav.menu": "Menu",
   "common.language": "Ngôn ngữ",
+  "common.noscript": "Trang này cần JavaScript để tải dữ liệu trực tiếp. Khi khẩn cấp, hãy gọi 119 (cứu hỏa & cấp cứu) hoặc 110 (cảnh sát).",
   "res.groupEmergency": "Khẩn cấp & thiên tai",
   "res.groupCity": "Dịch vụ của thành phố",
   "res.groupInfo": "Cập nhật thông tin",

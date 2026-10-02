@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "このサイトについて",
   "nav.menu": "メニュー",
   "common.language": "言語",
+  "common.noscript": "ライブデータの表示にはJavaScriptが必要です。緊急時は119（消防・救急）または110（警察）に電話してください。",
   "res.groupEmergency": "緊急・防災",
   "res.groupCity": "市のサービス",
   "res.groupInfo": "情報を受け取る",

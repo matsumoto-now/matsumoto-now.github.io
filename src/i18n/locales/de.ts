@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "Über & Daten",
   "nav.menu": "Menü",
   "common.language": "Sprache",
+  "common.noscript": "Diese Seite benötigt JavaScript, um Live-Daten zu laden. Im Notfall: 119 (Feuerwehr & Rettung) oder 110 (Polizei).",
   "res.groupEmergency": "Notfälle & Katastrophen",
   "res.groupCity": "Städtische Dienste",
   "res.groupInfo": "Informiert bleiben",

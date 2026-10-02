@@ -70,6 +70,7 @@ const pageTitle = `${title} · ${t('site.name')}`;
     <a class="skip-link" href="#main">{t('common.skipToContent')}</a>
     <Header lang={lang} active={active} />
     <main id="main" class="container">
+      <noscript><p class="banner noscript">{t('common.noscript')}</p></noscript>
       <slot />
     </main>
     <Footer lang={lang} />

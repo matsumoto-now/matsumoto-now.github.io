@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "About & Data",
   "nav.menu": "Menu",
   "common.language": "Language",
+  "common.noscript": "This site needs JavaScript to load live data. In an emergency call 119 (fire & ambulance) or 110 (police).",
   "res.groupEmergency": "Emergencies & disasters",
   "res.groupCity": "City services",
   "res.groupInfo": "Stay informed",

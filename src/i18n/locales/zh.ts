@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "关于与数据",
   "nav.menu": "菜单",
   "common.language": "语言",
+  "common.noscript": "本网站需要JavaScript来加载实时数据。紧急情况请拨打119（火警与急救）或110（警察）。",
   "res.groupEmergency": "紧急与防灾",
   "res.groupCity": "市政服务",
   "res.groupInfo": "获取信息",

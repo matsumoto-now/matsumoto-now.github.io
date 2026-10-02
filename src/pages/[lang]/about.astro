@@ -60,9 +60,13 @@ const sources: { slug: string; url: string }[] = [
 
   <div class="prose">
     {/* No disclaimer card above the table: it repeated, less precisely, what
-        the Terms of use section below now says, and the footer already carries
-        the emergency numbers on every page. */}
-    <h2>{t('about.dataTitle')}</h2>
+        the Terms of use section below now says, and the footer carries the
+        emergency numbers on every page. */}
+    <nav class="jump-nav" aria-label={t('nav.menu')}>
+      <a href="#data">{t('about.dataTitle')}</a>
+      <a href="#terms">{t('terms.title')}</a>
+    </nav>
+    <h2 id="data">{t('about.dataTitle')}</h2>
     <div class="card table-scroll">
       <table class="data">
         <thead>
@@ -97,10 +101,17 @@ const sources: { slug: string; url: string }[] = [
     <div class="card terms">
       <p class="card-note terms-date">{`${t('terms.updated')}: ${termsDate}`}</p>
       <p>{t('terms.intro')}</p>
+      <ol class="terms-toc">
+        {termsSections.map((s) => (
+          <li>
+            <a href={`#terms-${s}`}>{t(`terms.${s}.h` as UIKey)}</a>
+          </li>
+        ))}
+      </ol>
       {
         termsSections.map((s) => (
           <>
-            <h3>{t(`terms.${s}.h` as UIKey)}</h3>
+            <h3 id={`terms-${s}`}>{t(`terms.${s}.h` as UIKey)}</h3>
             <p>{t(`terms.${s}.p` as UIKey)}</p>
           </>
         ))

@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "Tungkol at Datos",
   "nav.menu": "Menu",
   "common.language": "Wika",
+  "common.noscript": "Kailangan ng site na ito ang JavaScript para mag-load ng live na data. Sa emergency, tumawag sa 119 (bumbero at ambulansya) o 110 (pulis).",
   "res.groupEmergency": "Emergency at sakuna",
   "res.groupCity": "Mga serbisyo ng lungsod",
   "res.groupInfo": "Manatiling may alam",

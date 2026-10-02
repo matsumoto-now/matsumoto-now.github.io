@@ -904,13 +904,13 @@ async function initQuakes(lang: Lang, t: (k: UIKey) => string): Promise<void> {
           'elevated',
         );
         felt.style.marginLeft = '8px';
-        felt.style.fontSize = '11.5px';
+        felt.style.fontSize = 'var(--fs-xs)';
         felt.style.padding = '2px 9px';
         title.appendChild(felt);
       } else if (q.feltNagano) {
         const felt = badge(t('quakes.feltNagano'), 'moderate');
         felt.style.marginLeft = '8px';
-        felt.style.fontSize = '11.5px';
+        felt.style.fontSize = 'var(--fs-xs)';
         felt.style.padding = '2px 9px';
         title.appendChild(felt);
       }

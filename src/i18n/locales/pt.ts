@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "Sobre e Dados",
   "nav.menu": "Menu",
   "common.language": "Idioma",
+  "common.noscript": "Este site precisa de JavaScript para carregar dados em tempo real. Em caso de emergência ligue 119 (bombeiros e ambulância) ou 110 (polícia).",
   "res.groupEmergency": "Emergências e catástrofes",
   "res.groupCity": "Serviços municipais",
   "res.groupInfo": "Manter-se informado",

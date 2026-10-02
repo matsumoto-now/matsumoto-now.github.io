@@ -16,6 +16,7 @@ export const dict = {
   "nav.about": "소개·데이터",
   "nav.menu": "메뉴",
   "common.language": "언어",
+  "common.noscript": "실시간 데이터를 불러오려면 JavaScript가 필요합니다. 긴급 시 119(소방·구급) 또는 110(경찰)에 전화하세요.",
   "res.groupEmergency": "긴급·재난",
   "res.groupCity": "시 서비스",
   "res.groupInfo": "정보 받기",
