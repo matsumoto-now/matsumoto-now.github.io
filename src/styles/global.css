@@ -1405,6 +1405,108 @@ body.map-locked {
   text-decoration: none;
 }
 
+/* ---- weather: grouped sections ---------------------------------------------- */
+
+.jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -8px 0 20px;
+}
+.jump-nav a {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--ink-2);
+  font-size: 14px;
+}
+.jump-nav a:hover {
+  background: var(--wash);
+  text-decoration: none;
+}
+.group-title {
+  margin: 12px 0 -6px;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 16px;
+}
+.group-title:first-child {
+  margin-top: 0;
+}
+
+/* ---- dashboard: who to call -------------------------------------------------- */
+
+.call-grid {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.call-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 100%;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  background: var(--plane);
+  color: var(--ink);
+}
+.call-tile:hover {
+  background: var(--wash);
+  text-decoration: none;
+}
+.call-tile.critical {
+  border-left: 4px solid var(--status-critical);
+}
+.call-num {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.call-tile.critical .call-num {
+  color: var(--status-critical);
+}
+.call-title {
+  font-weight: 650;
+}
+.call-desc {
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.call-more {
+  margin-top: 16px;
+}
+.call-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+}
+@media (max-width: 760px) {
+  .call-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  /* number beside its label, so all three fit on one phone screen */
+  .call-tile {
+    display: grid;
+    grid-template-columns: 5.2em 1fr;
+    column-gap: 12px;
+    align-items: center;
+    padding: 12px 14px;
+  }
+  .call-num {
+    grid-row: span 2;
+    font-size: 24px;
+  }
+}
+
 /* ---- footer emergency strip ----------------------------------------------- */
 
 .emergency-strip {

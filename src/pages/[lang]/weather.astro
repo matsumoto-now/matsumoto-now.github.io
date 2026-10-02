@@ -15,12 +15,20 @@ const t = useTranslations(lang);
   <h1 class="page-title">{t('weather.title')}</h1>
   <p class="page-sub">{t('weather.subtitle')}</p>
 
+  <nav class="jump-nav" aria-label={t('nav.menu')}>
+    <a href="#forecast">{t('wx.groupForecast')}</a>
+    <a href="#health">{t('wx.groupHealth')}</a>
+    <a href="#more">{t('wx.groupMore')}</a>
+  </nav>
+
   <div class="grid">
+    <h2 class="group-title col-12" id="forecast">{t('wx.groupForecast')}</h2>
+
     {
       features.currentConditions && (
         <section class="card col-5">
           <div class="card-head">
-            <h2>{t('now.title')}</h2>
+            <h3>{t('now.title')}</h3>
             <span class="updated" data-now-updated />
           </div>
           <p class="card-sub">{t('now.station')}</p>
@@ -35,7 +43,7 @@ const t = useTranslations(lang);
       features.hourlyTemperature && (
         <section class="card col-7">
           <div class="card-head">
-            <h2>{t('forecast.hourly')}</h2>
+            <h3>{t('forecast.hourly')}</h3>
             <span class="updated" data-forecast-updated />
           </div>
           <p class="card-sub">{t('forecast.attribution')}</p>
@@ -49,7 +57,7 @@ const t = useTranslations(lang);
     {
       features.weekOutlook && (
         <section class="card col-12">
-          <h2>{t('forecast.week')}</h2>
+          <h3>{t('forecast.week')}</h3>
           <p class="card-sub">{t('forecast.attribution')}</p>
           <div data-widget="week">
             <p class="placeholder">{t('common.loading')}</p>
@@ -61,7 +69,7 @@ const t = useTranslations(lang);
     {
       features.precipitationChart && (
         <section class="card col-12">
-          <h2>{t('forecast.precip')}</h2>
+          <h3>{t('forecast.precip')}</h3>
           <p class="card-sub">{t('forecast.attribution')}</p>
           <div data-widget="precip">
             <p class="placeholder">{t('common.loading')}</p>
@@ -70,22 +78,13 @@ const t = useTranslations(lang);
       )
     }
 
-    {
-      features.uv && (
-        <section class="card col-6">
-          <h2>{t('forecast.uv')}</h2>
-          <p class="card-sub">{t('forecast.attribution')}</p>
-          <div data-widget="uv">
-            <p class="placeholder">{t('common.loading')}</p>
-          </div>
-        </section>
-      )
-    }
+    <h2 class="group-title col-12" id="health">{t('wx.groupHealth')}</h2>
+
     {
       features.heatIndex && (
         <section class="card col-6">
           <div class="card-head">
-            <h2>{t('heat.title')}</h2>
+            <h3>{t('heat.title')}</h3>
             <span class="updated" data-heat-updated />
           </div>
           <p class="card-sub">{t('heat.subtitle')}</p>
@@ -98,10 +97,22 @@ const t = useTranslations(lang);
     }
 
     {
+      features.uv && (
+        <section class="card col-6">
+          <h3>{t('forecast.uv')}</h3>
+          <p class="card-sub">{t('forecast.attribution')}</p>
+          <div data-widget="uv">
+            <p class="placeholder">{t('common.loading')}</p>
+          </div>
+        </section>
+      )
+    }
+
+    {
       features.airQuality && (
         <section class="card col-12">
           <div class="card-head">
-            <h2>{t('air.title')}</h2>
+            <h3>{t('air.title')}</h3>
             <span class="updated" data-air-updated />
           </div>
           <p class="card-sub">{t('air.subtitle')}</p>
@@ -119,37 +130,10 @@ const t = useTranslations(lang);
     }
 
     {
-      features.stationMap && (
-        <section class="card col-8">
-          <div class="card-head">
-            <h2>{t('stations.title')}</h2>
-            <span class="updated" data-stations-updated />
-          </div>
-          <p class="card-sub">{t('stations.subtitle')}</p>
-          <div data-widget="stations">
-            <p class="placeholder">{t('common.loading')}</p>
-          </div>
-        </section>
-      )
-    }
-
-    {
-      features.moon && (
-        <section class="card col-4">
-          <h2>{t('moon.title')}</h2>
-          <p class="card-sub">{t('moon.subtitle')}</p>
-          <div data-widget="moon">
-            <p class="placeholder">{t('common.loading')}</p>
-          </div>
-        </section>
-      )
-    }
-
-    {
       features.measuredAir && (
         <section class="card col-6">
           <div class="card-head">
-            <h2>{t('airStation.title')}</h2>
+            <h3>{t('airStation.title')}</h3>
             <span class="updated" data-air-station-updated />
           </div>
           <p class="card-sub">{t('airStation.subtitle')}</p>
@@ -168,8 +152,8 @@ const t = useTranslations(lang);
 
     {
       features.pollen && (
-        <section class="card col-8">
-          <h2>{t('pollen.title')}</h2>
+        <section class="card col-6">
+          <h3>{t('pollen.title')}</h3>
           <p class="card-sub">{t('pollen.subtitle')}</p>
           <div data-widget="pollen">
             <p class="placeholder">{t('common.loading')}</p>
@@ -177,6 +161,36 @@ const t = useTranslations(lang);
         </section>
       )
     }
+
+    <h2 class="group-title col-12" id="more">{t('wx.groupMore')}</h2>
+
+    {
+      features.stationMap && (
+        <section class="card col-8">
+          <div class="card-head">
+            <h3>{t('stations.title')}</h3>
+            <span class="updated" data-stations-updated />
+          </div>
+          <p class="card-sub">{t('stations.subtitle')}</p>
+          <div data-widget="stations">
+            <p class="placeholder">{t('common.loading')}</p>
+          </div>
+        </section>
+      )
+    }
+
+    {
+      features.moon && (
+        <section class="card col-4">
+          <h3>{t('moon.title')}</h3>
+          <p class="card-sub">{t('moon.subtitle')}</p>
+          <div data-widget="moon">
+            <p class="placeholder">{t('common.loading')}</p>
+          </div>
+        </section>
+      )
+    }
+
 
   </div>
 </Base>

@@ -25,71 +25,36 @@ const t = useTranslations(lang);
     }
 
     {
-      /* Who to call, in the order you would need them. Weather, air quality and
-         forecasts live on the weather page — the dashboard is for the things
-         that matter when something is wrong. */
+      /* Who to call, in the order you would need them: the three numbers for
+         "something is wrong now" as big tap targets, the advice lines below.
+         Weather, air quality and forecasts live on the weather page. */
       features.emergencyContacts && (
-        <section class="card fit col-4">
-          <h2>{t('dash.fireTitle')}</h2>
-          <ul class="contact-list">
+        <section class="card col-12" aria-labelledby="call-h">
+          <h2 id="call-h">{t('dash.callTitle')}</h2>
+          <ul class="call-grid">
             <li>
-              <a class="tel" href="tel:119">119</a>
-              <div class="what">
-                <div class="title">{t('fire.emergency119')}</div>
-                <div class="meta">{t('fire.emergency119Desc')}</div>
-              </div>
+              <a class="call-tile critical" href="tel:119">
+                <span class="call-num">119</span>
+                <span class="call-title">{t('fire.emergency119')}</span>
+                <span class="call-desc">{t('med.emergencyScope')}</span>
+              </a>
+            </li>
+            <li>
+              <a class="call-tile" href="tel:110">
+                <span class="call-num">110</span>
+                <span class="call-title">{t('safety.police110')}</span>
+                <span class="call-desc">{t('safety.police110Desc')}</span>
+              </a>
+            </li>
+            <li>
+              <a class="call-tile" href="tel:%237119">
+                <span class="call-num">#7119</span>
+                <span class="call-title">{t('med.adult')}</span>
+                <span class="call-desc">{t('med.adultDesc')}</span>
+              </a>
             </li>
           </ul>
-          {features.firePage && (
-            <p class="card-note">
-              <a href={localePath(lang, 'fire')}>{t('dash.viewPage')} →</a>
-            </p>
-          )}
-        </section>
-      )
-    }
-
-    {
-      features.emergencyContacts && (
-        <section class="card fit col-4">
-          <h2>{t('dash.policeTitle')}</h2>
-          <ul class="contact-list">
-            <li>
-              <a class="tel" href="tel:110">110</a>
-              <div class="what">
-                <div class="title">{t('safety.police110')}</div>
-                <div class="meta">{t('safety.police110Desc')}</div>
-              </div>
-            </li>
-            <li>
-              <a class="tel" href="tel:%239110">#9110</a>
-              <div class="what">
-                <div class="title">{t('safety.consult')}</div>
-                <div class="meta">{t('safety.consultDesc')}</div>
-              </div>
-            </li>
-          </ul>
-          {features.safetyPage && (
-            <p class="card-note">
-              <a href={localePath(lang, 'safety')}>{t('dash.viewPage')} →</a>
-            </p>
-          )}
-        </section>
-      )
-    }
-
-    {
-      features.emergencyContacts && (
-        <section class="card fit col-4">
-          <h2>{t('dash.medicalTitle')}</h2>
-          <ul class="contact-list">
-            <li>
-              <a class="tel" href="tel:%237119">#7119</a>
-              <div class="what">
-                <div class="title">{t('med.adult')}</div>
-                <div class="meta">{t('med.adultDesc')}</div>
-              </div>
-            </li>
+          <ul class="contact-list call-more">
             <li>
               <a class="tel" href="tel:%238000">#8000</a>
               <div class="what">
@@ -104,12 +69,19 @@ const t = useTranslations(lang);
                 <div class="meta">{t('med.nightDesc')}</div>
               </div>
             </li>
+            <li>
+              <a class="tel" href="tel:%239110">#9110</a>
+              <div class="what">
+                <div class="title">{t('safety.consult')}</div>
+                <div class="meta">{t('safety.consultDesc')}</div>
+              </div>
+            </li>
           </ul>
-          {features.medicalPage && (
-            <p class="card-note">
-              <a href={localePath(lang, 'medical')}>{t('dash.viewPage')} →</a>
-            </p>
-          )}
+          <p class="card-note call-links">
+            {features.firePage && <a href={localePath(lang, 'fire')}>{t('nav.fire')} <span aria-hidden="true">→</span></a>}
+            {features.safetyPage && <a href={localePath(lang, 'safety')}>{t('nav.safety')} <span aria-hidden="true">→</span></a>}
+            {features.medicalPage && <a href={localePath(lang, 'medical')}>{t('nav.medical')} <span aria-hidden="true">→</span></a>}
+          </p>
         </section>
       )
     }
@@ -120,7 +92,7 @@ const t = useTranslations(lang);
           <div class="card-head">
             <h2>{t('quakes.title')}</h2>
             {features.earthquakesPage && (
-              <a href={localePath(lang, 'earthquakes')}>{t('quakes.viewAll')} →</a>
+              <a href={localePath(lang, 'earthquakes')}>{t('quakes.viewAll')} <span aria-hidden="true">→</span></a>
             )}
           </div>
           <p class="card-sub">{t('quakes.localSub')}</p>
