@@ -35,6 +35,11 @@ const items = [
   { id: 'about', path: 'about', label: t('nav.about') },
 ];
 
+// On phones only these stay in the strip (plus the current page); the rest sit
+// behind a "Menu" disclosure so the header no longer wraps to 4–5 rows.
+const primary = new Set(['dashboard', 'alerts', 'shelters', 'medical']);
+const isPrimary = (id: string) => primary.has(id) || id === active;
+
 const activeItem = items.find((i) => i.id === active);
 const activePath = activeItem?.path ?? '';
 ---
@@ -57,28 +62,43 @@ const activePath = activeItem?.path ?? '';
         <select
           class="pill-btn lang-select"
           data-lang-select
-          aria-label="Language"
+          aria-label={t('common.language')}
           data-paths={JSON.stringify(Object.fromEntries(allLangs.map((l) => [l, localePath(l, activePath)])))}
         >
           {allLangs.map((l) => (
-            <option value={l} selected={l === lang}>
+            <option value={l} lang={l} selected={l === lang}>
               {languages[l]}
             </option>
           ))}
         </select>
-        <button class="pill-btn" type="button" data-theme-toggle aria-label={t('common.themeToggle')}>
-          <span aria-hidden="true" data-theme-icon>◐</span>
+        <button class="pill-btn icon-btn" type="button" data-theme-toggle aria-label={t('common.themeToggle')}>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"></circle><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"></path></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z" fill="currentColor"></path></svg>
         </button>
       </div>
     </div>
     <nav class="site-nav" aria-label={t('nav.menu')}>
       {
         items.map((item) => (
-          <a href={localePath(lang, item.path)} aria-current={item.id === active ? 'page' : undefined}>
+          <a
+            href={localePath(lang, item.path)}
+            class={isPrimary(item.id) ? undefined : 'nav-secondary'}
+            aria-current={item.id === active ? 'page' : undefined}
+          >
             {item.label}
           </a>
         ))
       }
+      <details class="nav-more">
+        <summary>{t('nav.menu')}</summary>
+        <div class="nav-more-panel">
+          {
+            items
+              .filter((item) => !isPrimary(item.id))
+              .map((item) => <a href={localePath(lang, item.path)}>{item.label}</a>)
+          }
+        </div>
+      </details>
     </nav>
   </div>
 </header>
@@ -86,13 +106,15 @@ const activePath = activeItem?.path ?? '';
 <script>
   // Theme toggle: stamp data-theme so the choice wins over the OS setting both ways.
   const toggle = document.querySelector('[data-theme-toggle]');
+  const isDark = () =>
+    (document.documentElement.dataset.theme ??
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark';
+  toggle?.setAttribute('aria-pressed', String(isDark()));
   toggle?.addEventListener('click', () => {
     const root = document.documentElement;
-    const current =
-      root.dataset.theme ??
-      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    const next = current === 'dark' ? 'light' : 'dark';
+    const next = isDark() ? 'light' : 'dark';
     root.dataset.theme = next;
+    toggle.setAttribute('aria-pressed', String(next === 'dark'));
     try {
       localStorage.setItem('theme', next);
     } catch {}
@@ -107,5 +129,19 @@ const activePath = activeItem?.path ?? '';
     } catch {}
     const paths = JSON.parse(langSelect.dataset.paths ?? '{}') as Record<string, string>;
     if (paths[lang]) location.href = paths[lang];
+  });
+</script>
+
+<script>
+  // Close the mobile "Menu" disclosure on outside tap or Escape.
+  const more = document.querySelector<HTMLDetailsElement>('.nav-more');
+  document.addEventListener('click', (e) => {
+    if (more?.open && !more.contains(e.target as Node)) more.open = false;
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && more?.open) {
+      more.open = false;
+      more.querySelector('summary')?.focus();
+    }
   });
 </script>

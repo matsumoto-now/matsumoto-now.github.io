@@ -51,6 +51,14 @@ const gap = /[\uff1a\u3001\u3002]$/.test(prefix) ? '' : ' ';
 
 <footer class="site-footer">
   <div class="container">
+    <ul class="emergency-strip">
+      <li>
+        <a class="tel-btn critical" href="tel:119"><strong>119</strong> <span>{t('fire.emergency119')}</span></a>
+      </li>
+      <li>
+        <a class="tel-btn" href="tel:110"><strong>110</strong> <span>{t('safety.police110')}</span></a>
+      </li>
+    </ul>
     {
       credits.length > 0 && (
         <p>

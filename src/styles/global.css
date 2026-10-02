@@ -13,7 +13,7 @@
   --surface: #fcfcfb;
   --ink: #0b0b0b;
   --ink-2: #52514e;
-  --muted: #898781;
+  --muted: #6b6a65;
   --grid: #e1e0d9;
   --baseline: #c3c2b7;
   --border: rgba(11, 11, 11, 0.1);
@@ -79,7 +79,7 @@
     --surface: #1a1a19;
     --ink: #ffffff;
     --ink-2: #c3c2b7;
-    --muted: #898781;
+    --muted: #a3a29b;
     --grid: #2c2c2a;
     --baseline: #383835;
     --border: rgba(255, 255, 255, 0.1);
@@ -106,7 +106,7 @@
   --surface: #1a1a19;
   --ink: #ffffff;
   --ink-2: #c3c2b7;
-  --muted: #898781;
+  --muted: #a3a29b;
   --grid: #2c2c2a;
   --baseline: #383835;
   --border: rgba(255, 255, 255, 0.1);
@@ -325,6 +325,7 @@ main.container {
   font: inherit;
   font-size: 13.5px;
   line-height: 1.2;
+  min-height: 40px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -1171,6 +1172,113 @@ select.lang-select {
   text-decoration: none;
 }
 
+/* The locate control is a real <button> (Space/Enter work, no href="#"), so it
+   needs the look Leaflet only gives to .leaflet-bar a. */
+.leaflet-bar button.locate-btn {
+  display: block;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+}
+.leaflet-bar button.locate-btn:hover {
+  background: #f4f4f4;
+}
+
+/* ---- shelters: nearest list ----------------------------------------------- */
+
+.nearest-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.nearest-head h2 {
+  margin: 0 0 2px;
+  font-size: 16.5px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+.nearest-head .card-sub {
+  margin-bottom: 0;
+}
+.primary-btn {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.primary-btn:disabled {
+  opacity: 0.5;
+  cursor: progress;
+}
+.nearest-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nearest-list:not(:empty) {
+  margin-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.nearest-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.nearest-main {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  padding: 12px 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.nearest-main strong {
+  overflow-wrap: anywhere;
+}
+.nearest-dist {
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+.nearest-meta {
+  grid-column: 1 / -1;
+  color: var(--ink-2);
+  font-size: 13px;
+}
+.nearest-dir {
+  white-space: nowrap;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 14px;
+}
+.nearest-dir:hover {
+  background: var(--wash);
+  text-decoration: none;
+}
+
 /* Expanded map: a fixed overlay rather than the Fullscreen API, which iOS
    Safari refuses for non-video elements. 100dvh so the mobile URL bar
    collapsing doesn't leave the bottom of the map under it. */
@@ -1200,7 +1308,130 @@ body.map-locked {
   font-size: 12.5px;
 }
 
+/* ---- header: theme icon, mobile "Menu" disclosure --------------------------- */
+
+.icon-btn {
+  min-width: 40px;
+  justify-content: center;
+  padding: 6px 10px;
+}
+.icon-moon {
+  display: none;
+}
+:root[data-theme='dark'] .icon-sun {
+  display: none;
+}
+:root[data-theme='dark'] .icon-moon {
+  display: block;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .icon-sun {
+    display: none;
+  }
+  :root:not([data-theme='light']) .icon-moon {
+    display: block;
+  }
+}
+
+.nav-more {
+  display: none;
+  position: relative;
+}
+.nav-more summary {
+  list-style: none;
+  cursor: pointer;
+  color: var(--ink-2);
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+.nav-more summary::-webkit-details-marker {
+  display: none;
+}
+.nav-more summary::after {
+  content: ' ▾';
+}
+.nav-more[open] summary {
+  background: var(--wash);
+  color: var(--ink);
+}
+.nav-more-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 1100;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-s);
+  box-shadow: 0 8px 24px rgba(11, 11, 11, 0.16);
+}
+.nav-more-panel a {
+  color: var(--ink);
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.nav-more-panel a:hover {
+  background: var(--wash);
+  text-decoration: none;
+}
+
+/* ---- footer emergency strip ----------------------------------------------- */
+
+.emergency-strip {
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tel-btn {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+}
+.tel-btn strong {
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+.tel-btn.critical strong {
+  color: var(--status-critical);
+}
+.tel-btn:hover {
+  background: var(--wash);
+  text-decoration: none;
+}
+
 @media (max-width: 640px) {
+  .site-nav {
+    align-items: center;
+  }
+  .site-nav .nav-secondary {
+    display: none;
+  }
+  .nav-more {
+    display: block;
+  }
+  .emergency-strip li {
+    flex: 1 1 100%;
+  }
+  .tel-btn {
+    width: 100%;
+  }
   .map-frame {
     height: 340px;
   }

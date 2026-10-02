@@ -4,36 +4,57 @@
 import L from 'leaflet';
 import type { UIKey } from '../i18n/ui';
 
+/** Non-blocking status line under the map (replaces the old alert()). */
+function setStatus(map: L.Map, text: string): void {
+  const host = map.getContainer();
+  let node = host.nextElementSibling as HTMLElement | null;
+  if (!node?.classList.contains('locate-status')) {
+    node = document.createElement('p');
+    node.className = 'locate-status card-note';
+    node.setAttribute('role', 'status');
+    host.after(node);
+  }
+  node.textContent = text;
+  node.hidden = text === '';
+}
+
+/** Adds the control and returns a function that triggers the same lookup, so
+ *  page buttons outside the map (e.g. "nearest shelters") can reuse it. */
 export function addLocateControl(
   map: L.Map,
   t: (k: UIKey) => string,
   onLocate?: (latlng: L.LatLng) => void,
-): void {
+): () => void {
+  let trigger: () => void = () => {};
   const Locate = L.Control.extend({
     options: { position: 'topleft' },
     onAdd(): HTMLElement {
       const div = L.DomUtil.create('div', 'leaflet-bar');
-      const btn = L.DomUtil.create('a', 'locate-btn', div);
-      btn.href = '#';
+      const btn = L.DomUtil.create('button', 'locate-btn', div) as HTMLButtonElement;
+      btn.type = 'button';
       btn.title = t('map.locate');
-      btn.setAttribute('role', 'button');
       btn.setAttribute('aria-label', t('map.locate'));
-      btn.textContent = '⌖';
+      const glyph = '<span aria-hidden="true">⌖</span>';
+      btn.innerHTML = glyph;
 
       let marker: L.CircleMarker | null = null;
       let accuracy: L.Circle | null = null;
 
-      L.DomEvent.on(btn, 'click', (e) => {
-        L.DomEvent.preventDefault(e);
-        L.DomEvent.stopPropagation(e);
+      const done = (): void => {
+        btn.innerHTML = glyph;
+        btn.removeAttribute('aria-busy');
+      };
+      trigger = () => {
         if (!('geolocation' in navigator)) {
-          alert(t('map.locateError'));
+          setStatus(map, t('map.locateError'));
           return;
         }
-        btn.textContent = '…';
+        btn.innerHTML = '<span aria-hidden="true">…</span>';
+        btn.setAttribute('aria-busy', 'true');
+        setStatus(map, '');
         navigator.geolocation.getCurrentPosition(
           (pos) => {
-            btn.textContent = '⌖';
+            done();
             const ll = L.latLng(pos.coords.latitude, pos.coords.longitude);
             marker?.remove();
             accuracy?.remove();
@@ -56,14 +77,20 @@ export function addLocateControl(
             onLocate?.(ll);
           },
           () => {
-            btn.textContent = '⌖';
-            alert(t('map.locateError'));
+            done();
+            setStatus(map, t('map.locateError'));
           },
           { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 },
         );
+      };
+      L.DomEvent.disableClickPropagation(div);
+      L.DomEvent.on(btn, 'click', (e) => {
+        L.DomEvent.preventDefault(e);
+        trigger();
       });
       return div;
     },
   });
   map.addControl(new Locate());
+  return () => trigger();
 }

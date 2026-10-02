@@ -16,7 +16,21 @@ const t = useTranslations(lang);
   <p class="page-sub">{t('shelter.subtitle')}</p>
 
   <div class="grid">
-    <section class="card col-12">
+    <section class="card col-12" aria-labelledby="nearest-h">
+      <div class="nearest-head">
+        <div>
+          <h2 id="nearest-h">{t('shelter.nearestTitle')}</h2>
+          <p class="card-sub">{t('shelter.nearestHint')}</p>
+        </div>
+        <button class="primary-btn" type="button" data-nearest-btn disabled>
+          <span aria-hidden="true">⌖</span>
+          {t('map.locate')}
+        </button>
+      </div>
+      <ol class="nearest-list" data-nearest-list aria-live="polite"></ol>
+    </section>
+    <section class="card col-12" aria-labelledby="map-h">
+      <h2 class="visually-hidden" id="map-h">{t('shelter.evacSites')}</h2>
       <div class="filter-row" data-widget="hazard-filter" role="group" aria-label={t('shelter.filterLabel')}>
         <span class="flabel">{t('shelter.filterLabel')}</span>
       </div>

@@ -79,11 +79,17 @@ function shelterPopup(s: Shelter, t: (k: UIKey) => string): HTMLElement {
   return box;
 }
 
+function formatDistance(m: number): string {
+  return m < 1000 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1)} km`;
+}
+
 export function initShelterPage(): void {
   const lang = getLang();
   const t = (key: UIKey): string => ui[lang][key] ?? ui.en[key];
   const mapHost = document.getElementById('shelter-map');
   const filterHost = document.querySelector<HTMLElement>('[data-widget="hazard-filter"]');
+  const nearestBtn = document.querySelector<HTMLButtonElement>('[data-nearest-btn]');
+  const nearestList = document.querySelector<HTMLElement>('[data-nearest-list]');
   if (!mapHost) return;
 
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -188,15 +194,53 @@ export function initShelterPage(): void {
         .addTo(map);
       syncAed();
 
-      // locate button: center on the visitor and open the nearest visible site
-      addLocateControl(map, t, (ll) => {
-        let best: { marker: L.CircleMarker; d: number } | null = null;
-        for (const { s, marker } of visibleShelters) {
-          const d = map.distance(ll, [s.lat, s.lon]);
-          if (!best || d < best.d) best = { marker, d };
-        }
-        best?.marker.openPopup();
+      // locate: center on the visitor, open the nearest visible site and list
+      // the closest few above the map (re-ranked when the hazard filter changes)
+      let here: L.LatLng | null = null;
+      const renderNearest = (): void => {
+        if (!here || !nearestList) return;
+        const origin = here;
+        const ranked = visibleShelters
+          .map((v) => ({ ...v, d: map.distance(origin, [v.s.lat, v.s.lon]) }))
+          .sort((a, b) => a.d - b.d)
+          .slice(0, 5);
+        ranked[0]?.marker.openPopup();
+        nearestList.replaceChildren(
+          ...ranked.map(({ s, marker, d }) => {
+            const li = make('li', 'nearest-item');
+            const main = make('button', 'nearest-main') as HTMLButtonElement;
+            main.type = 'button';
+            main.appendChild(make('strong', undefined, s.name));
+            main.appendChild(make('span', 'nearest-dist', formatDistance(d)));
+            main.appendChild(
+              make(
+                'span',
+                'nearest-meta',
+                s.hazards.map((h) => t(`shelter.hazard.${h}` as UIKey)).join(' · '),
+              ),
+            );
+            main.addEventListener('click', () => {
+              map.setView([s.lat, s.lon], Math.max(map.getZoom(), 16));
+              marker.openPopup();
+              mapHost.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
+            const dir = make('a', 'nearest-dir', t('shelter.directions')) as HTMLAnchorElement;
+            dir.href = `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lon}&travelmode=walking`;
+            dir.target = '_blank';
+            dir.rel = 'noopener';
+            li.append(main, dir);
+            return li;
+          }),
+        );
+      };
+      const locate = addLocateControl(map, t, (ll) => {
+        here = ll;
+        renderNearest();
       });
+      if (nearestBtn) {
+        nearestBtn.disabled = false;
+        nearestBtn.addEventListener('click', locate);
+      }
       addExpandControl(map, t);
 
       // hazard filter chips
@@ -214,6 +258,7 @@ export function initShelterPage(): void {
           btn.addEventListener('click', () => {
             for (const b of buttons) b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
             renderShelters(hazard);
+            renderNearest();
           });
           buttons.push(btn);
           filterHost.appendChild(btn);
