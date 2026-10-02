@@ -70,7 +70,7 @@ const findLinks = [
     <section class="card col-6">
       <h2>{t('med.dutyTitle')}</h2>
       <p class="card-sub">{t('med.dutyDesc')}</p>
-      <p style="margin: 0">
+      <p class="flush">
         <a href="https://www.matsu-med.or.jp/" target="_blank" rel="noopener">
           matsu-med.or.jp ↗
         </a>
@@ -81,7 +81,7 @@ const findLinks = [
       <h2>{t('med.findTitle')}</h2>
       {
         findLinks.map((l) => (
-          <p class="card-sub" style="margin-bottom: 10px">
+          <p class="card-sub tight">
             <a href={l.url} target="_blank" rel="noopener">
               {l.name} ↗
             </a>

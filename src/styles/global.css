@@ -775,6 +775,15 @@ button.badge[aria-pressed='true'] {
   display: inline-block;
   margin-top: 4px;
 }
+.card .card-note.block-gap {
+  margin-bottom: 10px;
+}
+.card .card-note.flush {
+  margin: 0;
+}
+.card .card-sub.tight {
+  margin-bottom: 10px;
+}
 .placeholder.flush {
   padding: 0;
 }
