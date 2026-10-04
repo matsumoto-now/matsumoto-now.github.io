@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-04T13:44:42.528Z",
+  "fetched": "2026-10-04T17:59:57.250Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,22 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "マイナ保険証をご利用ください",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kokuho/1856.html",
+      "date": "2026-10-04T15:00:00.000Z",
+      "titleEn": "Please use your MyNa health insurance card.",
+      "titleFr": "Veuillez utiliser votre carte d'assurance maladie « Myna »"
+    },
+    {
+      "source": "news",
+      "title": "松本市役所広告付き庁舎案内板設置事業者を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/13/215138.html",
+      "date": "2026-10-04T15:00:00.000Z",
+      "titleEn": "Matsumoto City Hall is seeking contractors to install informational signs featuring advertisements on city hall buildings.",
+      "titleFr": "Appel à candidatures pour le choix d'un prestataire chargé de l'installation de panneaux d'information publicitaires dans les bâtiments de la mairie de Matsumoto"
     },
     {
       "source": "news",
@@ -128,22 +144,6 @@
       "date": "2026-09-29T23:30:00.000Z",
       "titleEn": "We are hosting “Strawberries and Inspiration,” an event designed to promote connections and interaction among young people.",
       "titleFr": "Nous organisons « Des fraises et des idées », un événement visant à favoriser les rencontres et les échanges entre les jeunes"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市総合防災訓練を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/117217.html",
-      "date": "2026-09-28T15:00:00.000Z",
-      "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Comprehensive Disaster Prevention Drill",
-      "titleFr": "Organisation de l'exercice général de prévention des catastrophes de la ville de Matsumoto pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市総合防災訓練を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/chiku-info/117217.html",
-      "date": "2026-09-28T15:00:00.000Z",
-      "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Comprehensive Disaster Prevention Drill",
-      "titleFr": "Organisation de l'exercice général de prévention des catastrophes de la ville de Matsumoto pour l'année Reiwa 8"
     },
     {
       "source": "anshin",
