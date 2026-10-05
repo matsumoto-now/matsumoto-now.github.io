@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-05T00:04:27.172Z",
+  "fetched": "2026-10-05T06:03:08.832Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,30 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市職員採用資格試験【9月】　第1次試験結果",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/215591.html",
+      "date": "2026-10-05T03:00:00.000Z",
+      "titleEn": "Reiwa 8 Matsumoto City Civil Service Qualification Examination [September]—First-Round Results",
+      "titleFr": "Résultats de la première épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
+    },
+    {
+      "source": "news",
+      "title": "動物愛護のためのクラウドファンディング型ふるさと納税受付中！",
+      "link": "https://www.city.matsumoto.nagano.jp/site/benricho/180072.html",
+      "date": "2026-10-05T01:00:00.000Z",
+      "titleEn": "We're currently accepting crowdfunding-style \"Hometown Tax\" donations to support animal welfare!",
+      "titleFr": "Nous acceptons actuellement les dons dans le cadre du programme « Furusato Nozei » (don à sa région d'origine) via une campagne de financement participatif en faveur de la protection des animaux !"
+    },
+    {
+      "source": "news",
+      "title": "動物愛護のためのクラウドファンディング型ふるさと納税受付中！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/231/180072.html",
+      "date": "2026-10-05T01:00:00.000Z",
+      "titleEn": "We're currently accepting crowdfunding-style \"Hometown Tax\" donations to support animal welfare!",
+      "titleFr": "Nous acceptons actuellement les dons dans le cadre du programme « Furusato Nozei » via une campagne de financement participatif en faveur de la protection des animaux !"
     },
     {
       "source": "news",
@@ -120,30 +144,6 @@
       "date": "2026-09-30T15:00:00.000Z",
       "titleEn": "We are accepting applications for food truck vendors at the 54th Matsumoto Children’s Festival",
       "titleFr": "Appel à candidatures pour les exploitants de food trucks participant à la 54e édition du Festival des enfants de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）9月30日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/215168.html",
-      "date": "2026-09-30T06:00:00.000Z",
-      "titleEn": "Mayor's Press Conference, September 30, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 30 septembre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "職員の懲戒処分について（令和8年9月29日）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/149699.html",
-      "date": "2026-09-30T02:00:00.000Z",
-      "titleEn": "Regarding Disciplinary Action Against a Staff Member (September 29, Reiwa 8)",
-      "titleFr": "Mesures disciplinaires à l'encontre d'un agent (29 septembre de l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "若者の出会い・交流促進企画「いちごと、ひらめきと。」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kekkon-shien/214810.html",
-      "date": "2026-09-29T23:30:00.000Z",
-      "titleEn": "We are hosting “Strawberries and Inspiration,” an event designed to promote connections and interaction among young people.",
-      "titleFr": "Nous organisons « Des fraises et des idées », un événement visant à favoriser les rencontres et les échanges entre les jeunes"
     },
     {
       "source": "anshin",
