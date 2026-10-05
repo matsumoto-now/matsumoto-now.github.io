@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-05T06:03:08.832Z",
+  "fetched": "2026-10-05T15:07:38.771Z",
   "items": [
     {
       "source": "important",
@@ -27,6 +27,30 @@
     },
     {
       "source": "news",
+      "title": "市長記者会見　令和8年（2026）10月5日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/215623.html",
+      "date": "2026-10-05T06:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, October 5, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 5 octobre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市文化芸術表彰式典を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/217/92837.html",
+      "date": "2026-10-05T06:00:00.000Z",
+      "titleEn": "The Reiwa 8 Matsumoto City Culture and Arts Awards Ceremony Will Be Held",
+      "titleFr": "Cérémonie de remise des prix de la culture et des arts de la ville de Matsumoto pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "建設現場見学会を開催します（申込期間延長しました）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/137487.html",
+      "date": "2026-10-05T05:00:00.000Z",
+      "titleEn": "We are hosting a construction site tour (the registration period has been extended)",
+      "titleFr": "Nous organisons une visite guidée d'un chantier (la période d'inscription a été prolongée)"
+    },
+    {
+      "source": "news",
       "title": "令和8年度松本市職員採用資格試験【9月】　第1次試験結果",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/215591.html",
       "date": "2026-10-05T03:00:00.000Z",
@@ -37,14 +61,6 @@
       "source": "news",
       "title": "動物愛護のためのクラウドファンディング型ふるさと納税受付中！",
       "link": "https://www.city.matsumoto.nagano.jp/site/benricho/180072.html",
-      "date": "2026-10-05T01:00:00.000Z",
-      "titleEn": "We're currently accepting crowdfunding-style \"Hometown Tax\" donations to support animal welfare!",
-      "titleFr": "Nous acceptons actuellement les dons dans le cadre du programme « Furusato Nozei » (don à sa région d'origine) via une campagne de financement participatif en faveur de la protection des animaux !"
-    },
-    {
-      "source": "news",
-      "title": "動物愛護のためのクラウドファンディング型ふるさと納税受付中！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/231/180072.html",
       "date": "2026-10-05T01:00:00.000Z",
       "titleEn": "We're currently accepting crowdfunding-style \"Hometown Tax\" donations to support animal welfare!",
       "titleFr": "Nous acceptons actuellement les dons dans le cadre du programme « Furusato Nozei » via une campagne de financement participatif en faveur de la protection des animaux !"
@@ -128,22 +144,6 @@
       "date": "2026-09-30T15:00:00.000Z",
       "titleEn": "The reception hours at the Civic Affairs Division counter have changed.",
       "titleFr": "Les horaires d'ouverture du guichet du service des affaires civiles ont changé"
-    },
-    {
-      "source": "news",
-      "title": "市民課受付予約と混雑状況のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2943.html",
-      "date": "2026-09-30T15:00:00.000Z",
-      "titleEn": "Information on Appointments and Crowd Levels at the Civic Affairs Division Reception Desk",
-      "titleFr": "Informations sur les rendez-vous à l'accueil du service des affaires civiles et sur l'affluence"
-    },
-    {
-      "source": "news",
-      "title": "第54回松本子どもまつりのキッチンカー出店者を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/212437.html",
-      "date": "2026-09-30T15:00:00.000Z",
-      "titleEn": "We are accepting applications for food truck vendors at the 54th Matsumoto Children’s Festival",
-      "titleFr": "Appel à candidatures pour les exploitants de food trucks participant à la 54e édition du Festival des enfants de Matsumoto"
     },
     {
       "source": "anshin",
