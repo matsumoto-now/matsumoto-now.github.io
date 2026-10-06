@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-06T02:24:10.759Z",
+  "fetched": "2026-10-06T09:13:45.885Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "マンションの適正管理・相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/173525.html",
+      "date": "2026-10-05T15:00:00.000Z",
+      "titleEn": "Information on Proper Condominium Management and Consultation Services",
+      "titleFr": "Informations sur la gestion adéquate des copropriétés et le service d'assistance"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-10-01T15:00:00.000Z",
       "titleEn": "We are reopening the call for proposals to select a new operating entity for the Matsushio-Chikuso Elderly Welfare Facilities Association.",
       "titleFr": "Un nouvel appel d'offres est lancé pour désigner l'organisme chargé de la prise en charge des établissements du Groupement des établissements de protection sociale pour personnes âgées de Matsushio-Chikushino."
-    },
-    {
-      "source": "news",
-      "title": "市民課窓口の受付時間が変わりました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/189574.html",
-      "date": "2026-09-30T15:00:00.000Z",
-      "titleEn": "The reception hours at the Civic Affairs Division counter have changed.",
-      "titleFr": "Les horaires d'ouverture du guichet du service des affaires civiles ont changé"
     },
     {
       "source": "anshin",
