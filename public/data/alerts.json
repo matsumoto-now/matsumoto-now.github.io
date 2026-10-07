@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-10-07T00:54:54.934Z",
+  "fetched": "2026-10-07T06:53:26.227Z",
   "items": [
-    {
-      "source": "important",
-      "title": "「松本市公式ホームページ」つながりにくくなっています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/215776.html",
-      "date": "2026-10-06T15:00:00.000Z",
-      "titleEn": "The \"Matsumoto City Official Website\" is currently experiencing connectivity issues.",
-      "titleFr": "Le site officiel de la ville de Matsumoto est difficile d'accès."
-    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -35,11 +27,27 @@
     },
     {
       "source": "news",
-      "title": "「松本市公式ホームページ」つながりにくくなっています",
+      "title": "「松本市公式ホームページ」接続障害は復旧しました",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/215776.html",
+      "date": "2026-10-07T02:00:00.000Z",
+      "titleEn": "The connection issue with the \"Matsumoto City Official Website\" has been resolved.",
+      "titleFr": "Le problème de connexion au « site officiel de la ville de Matsumoto » a été résolu"
+    },
+    {
+      "source": "news",
+      "title": "【国民健康保険】マイナ保険証の利用登録解除ができます",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kokuho/155090.html",
       "date": "2026-10-06T15:00:00.000Z",
-      "titleEn": "The \"Matsumoto City Official Website\" is currently experiencing connectivity issues.",
-      "titleFr": "Le site officiel de la ville de Matsumoto est difficile d'accès"
+      "titleEn": "[National Health Insurance] You can cancel your registration for the My Number health insurance card",
+      "titleFr": "[Assurance maladie nationale] Vous pouvez désactiver l'utilisation de votre carte d'assurance maladie MINA"
+    },
+    {
+      "source": "news",
+      "title": "マイナ保険証をご利用ください",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kokuho/1856.html",
+      "date": "2026-10-05T15:00:00.000Z",
+      "titleEn": "Please use your MyNa health insurance card.",
+      "titleFr": "Veuillez utiliser votre carte d'assurance maladie « Myna »"
     },
     {
       "source": "news",
@@ -91,14 +99,6 @@
     },
     {
       "source": "news",
-      "title": "マイナ保険証をご利用ください",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kokuho/1856.html",
-      "date": "2026-10-04T15:00:00.000Z",
-      "titleEn": "Please use your MyNa health insurance card.",
-      "titleFr": "Veuillez utiliser votre carte d'assurance maladie « Myna »"
-    },
-    {
-      "source": "news",
       "title": "松本市役所広告付き庁舎案内板設置事業者を募集します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/13/215138.html",
       "date": "2026-10-04T15:00:00.000Z",
@@ -144,14 +144,6 @@
       "date": "2026-10-01T15:00:00.000Z",
       "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant”",
       "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
-    },
-    {
-      "source": "news",
-      "title": "「信州・松本そば祭り」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/119911.html",
-      "date": "2026-10-01T15:00:00.000Z",
-      "titleEn": "We will be holding the “Shinshu Matsumoto Soba Festival”",
-      "titleFr": "Nous organisons le « Festival du soba de Matsumoto, dans la région du Shinshu »"
     },
     {
       "source": "anshin",
