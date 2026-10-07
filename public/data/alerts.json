@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-07T14:14:55.191Z",
+  "fetched": "2026-10-07T20:04:30.255Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "令和８年１１月途中入園の空き状況・申請フォーム",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
+      "date": "2026-10-07T15:00:00.000Z",
+      "titleEn": "Availability and Application Form for Mid-Reiwa 8 Enrollment",
+      "titleFr": "Disponibilités et formulaire de demande d'inscription en cours de mois de novembre de l'année Reiwa 8"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-10-01T23:30:00.000Z",
       "titleEn": "Creating a City Hall That Is Close to Citizens: The Current Status of the New City Hall Construction",
       "titleFr": "Créer une mairie proche des citoyens : état d'avancement de la construction du nouveau bâtiment"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
-      "date": "2026-10-01T15:00:00.000Z",
-      "titleEn": "We are now accepting applications for the Reiwa 8 “Zero-Carbon Housing Promotion Grant”",
-      "titleFr": "Les demandes de « subvention pour la promotion des logements zéro carbone » pour l'année Reiwa 8 sont désormais acceptées."
     },
     {
       "source": "anshin",
