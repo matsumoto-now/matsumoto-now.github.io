@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-07T20:04:30.255Z",
+  "fetched": "2026-10-08T00:20:08.395Z",
   "items": [
     {
       "source": "important",
@@ -40,6 +40,14 @@
       "date": "2026-10-07T02:00:00.000Z",
       "titleEn": "The connection issue with the \"Matsumoto City Official Website\" has been resolved.",
       "titleFr": "Le problème de connexion au « site officiel de la ville de Matsumoto » a été résolu"
+    },
+    {
+      "source": "news",
+      "title": "東アジア文化都市2026松本「今の居間」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/217/215833.html",
+      "date": "2026-10-06T15:00:00.000Z",
+      "titleEn": "East Asia Culture City 2026 Matsumoto Presents “The Living Room Today”",
+      "titleFr": "Matsumoto, « Ville de la culture d'Asie de l'Est 2026 », organise l'exposition « Le salon d'aujourd'hui »"
     },
     {
       "source": "news",
@@ -107,6 +115,14 @@
     },
     {
       "source": "news",
+      "title": "ボーダレスローカルアカデミー in 松本アルプスエリアの受講者を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/78/215792.html",
+      "date": "2026-10-04T15:00:00.000Z",
+      "titleEn": "We are accepting applications for the Borderless Local Academy in the Matsumoto Alps area.",
+      "titleFr": "Nous recrutons des participants pour la « Borderless Local Academy » dans la région des Alpes de Matsumoto"
+    },
+    {
+      "source": "news",
       "title": "松本市役所広告付き庁舎案内板設置事業者を募集します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/13/215138.html",
       "date": "2026-10-04T15:00:00.000Z",
@@ -128,22 +144,6 @@
       "date": "2026-10-02T06:00:00.000Z",
       "titleEn": "Reiwa 9 April: Application Acceptance and Required Documents for Childcare Facilities",
       "titleFr": "Réception des demandes d'inscription dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 et documents requis"
-    },
-    {
-      "source": "news",
-      "title": "令和9年度育児休業明け入園予約制度のご案内・申込み受付・必要書類",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2437.html",
-      "date": "2026-10-02T06:00:00.000Z",
-      "titleEn": "Information on the Reiwa 9 Enrollment Reservation System for Children Returning from Parental Leave: Application Process and Required Documents",
-      "titleFr": "Informations sur le système de réservation d'inscription en crèche à l'issue d'un congé parental pour l'année Reiwa 9, ouverture des inscriptions et documents requis"
-    },
-    {
-      "source": "news",
-      "title": "市民に身近な市役所づくり　新庁舎整備の現在地",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/215085.html",
-      "date": "2026-10-01T23:30:00.000Z",
-      "titleEn": "Creating a City Hall That Is Close to Citizens: The Current Status of the New City Hall Construction",
-      "titleFr": "Créer une mairie proche des citoyens : état d'avancement de la construction du nouveau bâtiment"
     },
     {
       "source": "anshin",
