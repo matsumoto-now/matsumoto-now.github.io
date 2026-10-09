@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-10-09T06:30:01.849Z",
+  "fetched": "2026-10-09T13:40:17.037Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【国道158号】片側交互通行",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
+      "date": "2026-10-09T06:45:00.000Z",
+      "titleEn": "[National Route 158] Alternating one-way traffic",
+      "titleFr": "[Route nationale 158] Circulation alternée dans un sens"
+    },
     {
       "source": "important",
       "title": "クマの目撃情報",
@@ -27,11 +35,51 @@
     },
     {
       "source": "news",
+      "title": "【国道158号】片側交互通行",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
+      "date": "2026-10-09T06:45:00.000Z",
+      "titleEn": "[National Route 158] Alternating one-way traffic",
+      "titleFr": "[Route nationale 158] Circulation alternée dans un sens"
+    },
+    {
+      "source": "news",
+      "title": "物価高騰対応松本市中高生年代対象こそだて支援電子クーポンを配布します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/226/183850.html",
+      "date": "2026-10-09T01:00:00.000Z",
+      "titleEn": "In Response to Rising Prices: Matsumoto City to Distribute Electronic Coupons to Support Parents of Middle and High School Students",
+      "titleFr": "En réponse à la flambée des prix, la ville de Matsumoto distribue des bons d'achat électroniques destinés à soutenir les familles ayant des enfants au collège et au lycée."
+    },
+    {
+      "source": "news",
       "title": "第43回松本市青少年健全育成市民大会・「松本子どもの権利の日」市民フォーラムを開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/213207.html",
       "date": "2026-10-09T00:15:00.000Z",
       "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
       "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour l'épanouissement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
+    },
+    {
+      "source": "news",
+      "title": "移動採血車による献血会場のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
+      "date": "2026-10-08T15:00:00.000Z",
+      "titleEn": "Notice Regarding Blood Donation Events at the Mobile Blood Collection Unit",
+      "titleFr": "Annonce concernant le site de don du sang organisé par le bus de collecte mobile"
+    },
+    {
+      "source": "news",
+      "title": "R8信大連携サイエンスカレッジ　を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/95/137609.html",
+      "date": "2026-10-08T15:00:00.000Z",
+      "titleEn": "We will be holding the R8 Shinshu University Collaborative Science College",
+      "titleFr": "Organisation du « R8 Science College », en collaboration avec l'Université de Shinshu"
+    },
+    {
+      "source": "news",
+      "title": "キッセイ薬品工業（株）とカガク☆ラボ　を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/95/93033.html",
+      "date": "2026-10-08T15:00:00.000Z",
+      "titleEn": "Kissei Pharmaceutical Co., Ltd. and Kagaku☆Labo are hosting an event",
+      "titleFr": "Nous organisons un événement en collaboration avec Kissei Pharmaceutical Co., Ltd. et Kagaku☆Labo"
     },
     {
       "source": "news",
@@ -104,46 +152,6 @@
       "date": "2026-10-05T06:00:00.000Z",
       "titleEn": "The Reiwa 8 Matsumoto City Culture and Arts Awards Ceremony Will Be Held",
       "titleFr": "Cérémonie de remise des prix de la culture et des arts de la ville de Matsumoto pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "建設現場見学会を開催します（申込期間延長しました）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/137487.html",
-      "date": "2026-10-05T05:00:00.000Z",
-      "titleEn": "We are hosting a construction site tour (the registration period has been extended)",
-      "titleFr": "Nous organisons une visite guidée d'un chantier (la période d'inscription a été prolongée)"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験【9月】　第1次試験結果",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/215591.html",
-      "date": "2026-10-05T03:00:00.000Z",
-      "titleEn": "Reiwa 8 Matsumoto City Civil Service Qualification Examination [September]—First-Round Results",
-      "titleFr": "Résultats de la première épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
-    },
-    {
-      "source": "news",
-      "title": "動物愛護のためのクラウドファンディング型ふるさと納税受付中！",
-      "link": "https://www.city.matsumoto.nagano.jp/site/benricho/180072.html",
-      "date": "2026-10-05T01:00:00.000Z",
-      "titleEn": "We're currently accepting crowdfunding-style \"Hometown Tax\" donations to support animal welfare!",
-      "titleFr": "Nous acceptons actuellement les dons dans le cadre du programme « Furusato Nozei » via une campagne de financement participatif en faveur de la protection des animaux !"
-    },
-    {
-      "source": "news",
-      "title": "ボーダレスローカルアカデミー in 松本アルプスエリアの受講者を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/78/215792.html",
-      "date": "2026-10-04T15:00:00.000Z",
-      "titleEn": "We are accepting applications for the Borderless Local Academy in the Matsumoto Alps area.",
-      "titleFr": "Nous recrutons des participants pour la « Borderless Local Academy » dans la région des Alpes de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "松本市役所広告付き庁舎案内板設置事業者を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/13/215138.html",
-      "date": "2026-10-04T15:00:00.000Z",
-      "titleEn": "Matsumoto City Hall is seeking contractors to install informational signs featuring advertisements on city hall buildings.",
-      "titleFr": "Appel à candidatures pour le choix d'un prestataire chargé de l'installation de panneaux d'information publicitaires dans les bâtiments de la mairie de Matsumoto"
     },
     {
       "source": "anshin",
