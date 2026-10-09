@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-09T00:09:39.950Z",
+  "fetched": "2026-10-09T06:30:01.849Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "第43回松本市青少年健全育成市民大会・「松本子どもの権利の日」市民フォーラムを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/213207.html",
+      "date": "2026-10-09T00:15:00.000Z",
+      "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
+      "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour l'épanouissement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-10-04T15:00:00.000Z",
       "titleEn": "Matsumoto City Hall is seeking contractors to install informational signs featuring advertisements on city hall buildings.",
       "titleFr": "Appel à candidatures pour le choix d'un prestataire chargé de l'installation de panneaux d'information publicitaires dans les bâtiments de la mairie de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "令和9年4月保育施設入園申込の受付・必要書類",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
-      "date": "2026-10-02T06:00:00.000Z",
-      "titleEn": "Reiwa 9 April: Application Acceptance and Required Documents for Childcare Facilities",
-      "titleFr": "Réception des demandes d'inscription dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 et documents requis"
     },
     {
       "source": "anshin",
