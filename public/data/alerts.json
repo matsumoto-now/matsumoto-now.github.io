@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-10T02:34:10.885Z",
+  "fetched": "2026-10-10T09:30:17.851Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "市民課 休日窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2949.html",
+      "date": "2026-10-10T06:00:00.000Z",
+      "titleEn": "Citizen Services Division: Information on Holiday Service Hours",
+      "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-10-05T06:00:00.000Z",
       "titleEn": "Mayor's Press Conference, October 5, Reiwa 8 (2026)",
       "titleFr": "Conférence de presse du maire, le 5 octobre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市文化芸術表彰式典を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/217/92837.html",
-      "date": "2026-10-05T06:00:00.000Z",
-      "titleEn": "The Reiwa 8 Matsumoto City Culture and Arts Awards Ceremony Will Be Held",
-      "titleFr": "Cérémonie de remise des prix de la culture et des arts de la ville de Matsumoto pour l'année Reiwa 8"
     },
     {
       "source": "anshin",
