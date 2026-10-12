@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-12T12:48:19.373Z",
+  "fetched": "2026-10-12T21:34:59.099Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "道路交通規制のお知らせ(並柳3丁目他)",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/215943.html",
+      "date": "2026-10-12T15:00:00.000Z",
+      "titleEn": "Notice of Traffic Restrictions (Namiyagi 3-chome and Other Areas)",
+      "titleFr": "Avis concernant les restrictions de circulation (Namiyagi 3-chome et autres)"
     },
     {
       "source": "news",
@@ -128,22 +136,6 @@
       "date": "2026-10-06T15:00:00.000Z",
       "titleEn": "[National Health Insurance] You can cancel your registration for the My Number health insurance card",
       "titleFr": "[Assurance maladie nationale] Vous pouvez désactiver l'utilisation de votre carte d'assurance maladie MINA"
-    },
-    {
-      "source": "news",
-      "title": "マイナ保険証をご利用ください",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kokuho/1856.html",
-      "date": "2026-10-05T15:00:00.000Z",
-      "titleEn": "Please use your MyNa health insurance card.",
-      "titleFr": "Veuillez utiliser votre carte d'assurance maladie « Myna »"
-    },
-    {
-      "source": "news",
-      "title": "マンションの適正管理・相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/173525.html",
-      "date": "2026-10-05T15:00:00.000Z",
-      "titleEn": "Information on Proper Condominium Management and Consultation Services",
-      "titleFr": "Informations sur la gestion adéquate des copropriétés et le service d'assistance"
     },
     {
       "source": "anshin",
