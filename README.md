@@ -366,6 +366,24 @@ emergency follow official guidance (110 police / 119 fire & ambulance).
   with no `stop_sequence`, so ordering by first departure interleaves services
   and produces a wrong sequence — it would need `scripts/fetch-bus-data.mjs` to
   carry the sequence through from `stop_times.txt`.
+- Live bus positions on the bus map (checked 2026-10-12). The "real-time bus
+  location" link on the Buses page goes to the city's page for the TicketQR
+  (Wakoticket) バスロケーション service. Its map polls one public CSV per
+  network every 10 s, no auth:
+  `https://dashboard.wakoticket.net/information/<net>/latlon.csv` with `<net>` =
+  `matsumotoshiei` (city buses), `alpicokotsu` (ぐるっとまつもと general routes),
+  `matsumotoshicombus` (regional link buses). Rows are
+  `vehicle_id,timestamp,lat,lon,…` (ids are named in each network's
+  `settings.js`; stops in `bus_stop.csv`). Caveats: it is an undocumented
+  internal feed, not GTFS-RT, with no published licence or terms (the CC BY 4.0
+  on the city GTFS covers static data only), so ask 交通ネットワーク課
+  (0263-34-3286) before relying on it; the server sends no CORS headers, so the
+  static site cannot `fetch` it from the browser — it needs a small proxy (e.g. a
+  Cloudflare Worker with ~10 s cache); some rows are stale (2023/2025
+  timestamps), so filter by age; buses in 回送 (out of service) are not shown on
+  the official map. Sketch: a "live buses" layer on `bus-page.ts`, refreshed
+  every ~10–15 s, hidden when no fresh positions, with a feature flag in
+  `features.ts`.
 - Crime map (the police CSVs have neighborhood names but no coordinates —
   would need geocoding against MLIT 位置参照情報).
 - Enable `measuredAir` once Nagano Prefecture confirms republication of the
