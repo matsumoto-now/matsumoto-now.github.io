@@ -81,6 +81,16 @@ const pageTitle = `${title} · ${t('site.name')}`;
       <slot />
     </main>
     <Footer lang={lang} />
+    {
+      import.meta.env.PROD && (
+        <script
+          is:inline
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "3ac05f0d825c4f7e8b4a9fa47eb93caf"}'
+        />
+      )
+    }
     <script is:inline data-newtab={t('common.newTab')}>
       // Screen readers get "(opens in a new tab)" on every target=_blank link,
       // including ones the page scripts add later (feeds, popups, lists).

@@ -272,8 +272,9 @@ privacy, and how it may change. Its date is a constant in `about.astro`
 (`TERMS_REVISED`) rather than the build date — the build date moves on every
 deploy and would imply the terms had been revised when they had not. The
 privacy paragraph is a factual claim worth keeping true: the site sets no
-cookies, runs no analytics, and `localStorage` holds only the language and
-theme choice. Geolocation never leaves the browser.
+cookies, its only analytics is cookie-free Cloudflare Web Analytics (beacon in
+`Base.astro`, production builds only), and `localStorage` holds only the
+language and theme choice. Geolocation never leaves the browser.
 
 The nav wraps rather than scrolls horizontally: with 12 destinations (longer
 labels in German and French) a scrolling strip with a hidden scrollbar left
