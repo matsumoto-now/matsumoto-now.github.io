@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-10-13T02:51:33.548Z",
+  "fetched": "2026-10-13T10:10:57.603Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
+      "date": "2026-10-13T09:00:00.000Z",
+      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
     {
       "source": "important",
       "title": "【月見橋（右岸）アンダーパス】通行止めのお知らせ",
@@ -8,14 +16,6 @@
       "date": "2026-10-13T00:30:00.000Z",
       "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
       "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de fermeture à la circulation"
-    },
-    {
-      "source": "important",
-      "title": "【国道158号】片側交互通行",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
-      "date": "2026-10-09T06:45:00.000Z",
-      "titleEn": "[National Route 158] Alternating one-way traffic",
-      "titleFr": "[Route nationale 158] Circulation alternée dans un sens"
     },
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
+      "date": "2026-10-13T09:00:00.000Z",
+      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
       "title": "【月見橋（右岸）アンダーパス】通行止めのお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/82/216063.html",
       "date": "2026-10-13T00:30:00.000Z",
@@ -64,14 +72,6 @@
       "date": "2026-10-10T06:00:00.000Z",
       "titleEn": "Citizen Services Division: Information on Holiday Service Hours",
       "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
-    },
-    {
-      "source": "news",
-      "title": "【国道158号】片側交互通行",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/80/212566.html",
-      "date": "2026-10-09T06:45:00.000Z",
-      "titleEn": "[National Route 158] Alternating one-way traffic",
-      "titleFr": "[Route nationale 158] Circulation alternée dans un sens"
     },
     {
       "source": "news",
