@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-10-12T21:34:59.099Z",
+  "fetched": "2026-10-13T02:51:33.548Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【月見橋（右岸）アンダーパス】通行止めのお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/82/216063.html",
+      "date": "2026-10-13T00:30:00.000Z",
+      "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
+      "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de fermeture à la circulation"
+    },
     {
       "source": "important",
       "title": "【国道158号】片側交互通行",
@@ -32,6 +40,14 @@
       "date": "2026-09-09T08:00:00.000Z",
       "titleEn": "\"Level 5 Heavy Rain Special Warning\": Please ensure your own safety.",
       "titleFr": "« Alerte spéciale de niveau 5 pour fortes pluies » : veillez à votre sécurité"
+    },
+    {
+      "source": "news",
+      "title": "【月見橋（右岸）アンダーパス】通行止めのお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/82/216063.html",
+      "date": "2026-10-13T00:30:00.000Z",
+      "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
+      "titleFr": "[Passage souterrain de Tsukimi-bashi (rive droite)] Avis de fermeture à la circulation"
     },
     {
       "source": "news",
