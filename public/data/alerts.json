@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-14T12:40:40.152Z",
+  "fetched": "2026-10-14T17:48:49.737Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-13T00:30:00.000Z",
       "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
       "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de fermeture à la circulation"
+    },
+    {
+      "source": "news",
+      "title": "幸せの食卓づくり―発酵調味料からアジア・世界を味わう―　参加者を募集します（東アジア文化都市2026松本）",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/213878.html",
+      "date": "2026-10-14T15:00:00.000Z",
+      "titleEn": "Creating a Table of Happiness—Tasting Asia and the World Through Fermented Condiments—Now Accepting Participants (Matsumoto, East Asia Culture City 2026)",
+      "titleFr": "« Créer des repas qui font le bonheur : découvrir les saveurs de l'Asie et du monde grâce aux condiments fermentés » – Appel à candidatures (Matsumoto, Ville de la culture d'Asie de l'Est 2026)"
     },
     {
       "source": "news",
@@ -112,14 +120,6 @@
       "date": "2026-10-08T01:00:00.000Z",
       "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
       "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "令和８年１１月途中入園の空き状況・申請フォーム",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-10-07T15:00:00.000Z",
-      "titleEn": "Availability and Application Form for Mid-Reiwa 8 Enrollment",
-      "titleFr": "Disponibilités et formulaire de demande d'inscription en cours de mois de novembre de l'année Reiwa 8"
     },
     {
       "source": "anshin",
