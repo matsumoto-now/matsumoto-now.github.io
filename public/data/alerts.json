@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-14T01:19:46.330Z",
+  "fetched": "2026-10-14T06:31:12.919Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-13T00:30:00.000Z",
       "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
       "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de fermeture à la circulation"
+    },
+    {
+      "source": "news",
+      "title": "「松本市町会デジタル化支援アプリの使用に関する契約」の企画提案事業者を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/215997.html",
+      "date": "2026-10-13T15:00:00.000Z",
+      "titleEn": "We are seeking proposals from contractors for the “Contract Regarding the Use of the Matsumoto City Neighborhood Association Digitalization Support App”",
+      "titleFr": "Appel à candidatures pour les prestataires souhaitant soumettre une proposition relative au « Contrat concernant l'utilisation de l'application d'aide à la numérisation des associations de quartier de Matsumoto »"
     },
     {
       "source": "news",
@@ -104,14 +112,6 @@
       "date": "2026-10-07T15:00:00.000Z",
       "titleEn": "Availability and Application Form for Mid-Reiwa 8 Enrollment",
       "titleFr": "Disponibilités et formulaire de demande d'inscription en cours de mois de novembre de l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "「松本市公式ホームページ」接続障害は復旧しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/215776.html",
-      "date": "2026-10-07T02:00:00.000Z",
-      "titleEn": "The connection issue with the \"Matsumoto City Official Website\" has been resolved.",
-      "titleFr": "Le problème de connexion au « site officiel de la ville de Matsumoto » a été résolu"
     },
     {
       "source": "anshin",
