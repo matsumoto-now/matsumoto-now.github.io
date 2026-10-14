@@ -1,11 +1,11 @@
 {
-  "fetched": "2026-10-14T06:31:12.919Z",
+  "fetched": "2026-10-14T12:40:40.152Z",
   "items": [
     {
       "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
-      "date": "2026-10-13T09:00:00.000Z",
+      "date": "2026-10-14T09:30:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
     },
@@ -19,19 +19,27 @@
     },
     {
       "source": "news",
+      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
+      "date": "2026-10-14T09:30:00.000Z",
+      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）10月14日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216282.html",
+      "date": "2026-10-14T07:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, October 14, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 14 octobre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
       "title": "「松本市町会デジタル化支援アプリの使用に関する契約」の企画提案事業者を募集します",
       "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/215997.html",
       "date": "2026-10-13T15:00:00.000Z",
       "titleEn": "We are seeking proposals from contractors for the “Contract Regarding the Use of the Matsumoto City Neighborhood Association Digitalization Support App”",
       "titleFr": "Appel à candidatures pour les prestataires souhaitant soumettre une proposition relative au « Contrat concernant l'utilisation de l'application d'aide à la numérisation des associations de quartier de Matsumoto »"
-    },
-    {
-      "source": "news",
-      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
-      "date": "2026-10-13T09:00:00.000Z",
-      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
     },
     {
       "source": "news",
