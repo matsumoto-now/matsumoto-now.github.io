@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-15T05:00:02.699Z",
+  "fetched": "2026-10-15T09:46:25.003Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-14T09:30:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【受付終了】令和８年１１月途中入園の空き状況・申請フォーム",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
+      "date": "2026-10-15T08:15:00.000Z",
+      "titleEn": "[Registration Closed] Availability and Application Form for Mid-Reiwa 8 Enrollment",
+      "titleFr": "[Inscriptions closes] Disponibilités et formulaire de demande d'inscription pour une entrée en cours de mois de novembre de l'année Reiwa 8"
     },
     {
       "source": "news",
