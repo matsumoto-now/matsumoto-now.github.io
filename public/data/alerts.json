@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-10-15T00:00:51.387Z",
+  "fetched": "2026-10-15T05:00:02.699Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【月見橋（右岸）アンダーパス】通行止め解除のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/82/216063.html",
+      "date": "2026-10-15T03:00:00.000Z",
+      "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Reopening",
+      "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de levée de la fermeture à la circulation"
+    },
     {
       "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
@@ -10,12 +18,12 @@
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
     },
     {
-      "source": "important",
-      "title": "【月見橋（右岸）アンダーパス】通行止めのお知らせ",
+      "source": "news",
+      "title": "【月見橋（右岸）アンダーパス】通行止め解除のお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/82/216063.html",
-      "date": "2026-10-13T00:30:00.000Z",
-      "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
-      "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de fermeture à la circulation"
+      "date": "2026-10-15T03:00:00.000Z",
+      "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Reopening",
+      "titleFr": "[Passage souterrain de Tsukimibashi (rive droite)] Avis de levée de la fermeture à la circulation"
     },
     {
       "source": "news",
@@ -48,14 +56,6 @@
       "date": "2026-10-13T15:00:00.000Z",
       "titleEn": "We are seeking proposals from contractors for the “Contract Regarding the Use of the Matsumoto City Neighborhood Association Digitalization Support App”",
       "titleFr": "Appel à candidatures pour les prestataires souhaitant soumettre une proposition relative au « Contrat concernant l'utilisation de l'application d'aide à la numérisation des associations de quartier de Matsumoto »"
-    },
-    {
-      "source": "news",
-      "title": "【月見橋（右岸）アンダーパス】通行止めのお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/82/216063.html",
-      "date": "2026-10-13T00:30:00.000Z",
-      "titleEn": "[Tsukimibashi (Right Bank) Underpass] Notice of Road Closure",
-      "titleFr": "[Passage souterrain de Tsukimi-bashi (rive droite)] Avis de fermeture à la circulation"
     },
     {
       "source": "news",
@@ -112,14 +112,6 @@
       "date": "2026-10-08T15:00:00.000Z",
       "titleEn": "Kissei Pharmaceutical Co., Ltd. and Kagaku☆Labo are hosting an event",
       "titleFr": "Nous organisons un événement en collaboration avec Kissei Pharmaceutical Co., Ltd. et Kagaku☆Labo"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-10-08T01:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "anshin",
