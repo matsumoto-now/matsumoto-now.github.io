@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-16T09:31:24.118Z",
+  "fetched": "2026-10-16T14:35:06.070Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-14T09:30:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「松本市立小・中学校等外国語指導助手派遣業務」公募型プロポーザルの実施について",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/216308.html",
+      "date": "2026-10-16T10:00:00.000Z",
+      "titleEn": "Implementation of an Open Call for Proposals for the “Matsumoto City Elementary and Junior High School Foreign Language Teaching Assistant Dispatch Program”",
+      "titleFr": "Mise en œuvre d'un appel à propositions concernant le « Service de détachement d'assistants d'enseignement des langues étrangères dans les écoles primaires et collèges municipaux de Matsumoto »"
     },
     {
       "source": "news",
