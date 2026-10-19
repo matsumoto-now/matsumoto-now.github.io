@@ -1,13 +1,29 @@
 {
-  "fetched": "2026-10-19T03:34:15.499Z",
+  "fetched": "2026-10-19T09:38:45.992Z",
   "items": [
     {
       "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
-      "date": "2026-10-14T09:30:00.000Z",
+      "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
+      "date": "2026-10-19T06:00:00.000Z",
+      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-10-19T03:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -32,14 +48,6 @@
       "date": "2026-10-14T15:00:00.000Z",
       "titleEn": "Creating a Table of Happiness—Tasting Asia and the World Through Fermented Condiments—Now Accepting Participants (Matsumoto, East Asia Culture City 2026)",
       "titleFr": "« Créer des repas qui font le bonheur : découvrir les saveurs de l'Asie et du monde grâce aux condiments fermentés » – Appel à candidatures (Matsumoto, Ville de la culture d'Asie de l'Est 2026)"
-    },
-    {
-      "source": "news",
-      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
-      "date": "2026-10-14T09:30:00.000Z",
-      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
     },
     {
       "source": "news",
