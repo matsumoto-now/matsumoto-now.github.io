@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-20T00:31:08.512Z",
+  "fetched": "2026-10-20T05:42:02.910Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "灯油の流出にご注意ください",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/52/216105.html",
+      "date": "2026-10-20T01:00:00.000Z",
+      "titleEn": "Please be careful of kerosene spills",
+      "titleFr": "Faites attention aux déversements de fioul"
+    },
+    {
+      "source": "news",
+      "title": "第43回松本市青少年健全育成市民大会・「松本子どもの権利の日」市民フォーラムを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/213207.html",
+      "date": "2026-10-20T00:15:00.000Z",
+      "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
+      "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour le développement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
     },
     {
       "source": "news",
