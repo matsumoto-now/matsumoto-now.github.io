@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-19T21:21:06.807Z",
+  "fetched": "2026-10-20T00:31:08.512Z",
   "items": [
     {
       "source": "important",
@@ -27,6 +27,14 @@
     },
     {
       "source": "news",
+      "title": "「第49回寿地区文化祭」開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/114/213618.html",
+      "date": "2026-10-18T15:00:00.000Z",
+      "titleEn": "The \"49th Kotobuki District Cultural Festival\" Will Be Held",
+      "titleFr": "Le « 49e Festival culturel du quartier de Kotobuki » aura lieu"
+    },
+    {
+      "source": "news",
       "title": "「松本市立小・中学校等外国語指導助手派遣業務」公募型プロポーザルを実施します",
       "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/216308.html",
       "date": "2026-10-16T10:00:00.000Z",
@@ -48,6 +56,14 @@
       "date": "2026-10-14T15:00:00.000Z",
       "titleEn": "Creating a Table of Happiness—Tasting Asia and the World Through Fermented Condiments—Now Accepting Participants (Matsumoto, East Asia Culture City 2026)",
       "titleFr": "« Créer des repas qui font le bonheur : découvrir les saveurs de l'Asie et du monde grâce aux condiments fermentés » – Appel à candidatures (Matsumoto, Ville de la culture d'Asie de l'Est 2026)"
+    },
+    {
+      "source": "news",
+      "title": "島内山田地区にクラインガルテンがオープンします！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/72/208412.html",
+      "date": "2026-10-14T15:00:00.000Z",
+      "titleEn": "A Kleingarten is opening in the Yamada district of Shima!",
+      "titleFr": "Un « Kleingarten » va ouvrir ses portes dans le quartier de Yamada, sur l'île !"
     },
     {
       "source": "news",
