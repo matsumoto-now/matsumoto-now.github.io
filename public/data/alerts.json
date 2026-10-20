@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-20T11:00:34.606Z",
+  "fetched": "2026-10-20T15:44:33.400Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "令和9年度育児休業明け入園予約制度のご案内・申込み受付・必要書類",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2437.html",
+      "date": "2026-10-20T15:00:00.000Z",
+      "titleEn": "Information on the Reiwa 9 Preschool Enrollment Reservation System for Children Returning from Parental Leave: Application Process and Required Documents",
+      "titleFr": "Informations sur le système de réservation d'inscription en crèche à l'issue d'un congé parental pour l'année Reiwa 9, ouverture des inscriptions et documents requis"
     },
     {
       "source": "news",
@@ -104,14 +112,6 @@
       "date": "2026-10-14T07:00:00.000Z",
       "titleEn": "Mayor's Press Conference, October 14, Reiwa 8 (2026)",
       "titleFr": "Conférence de presse du maire, le 14 octobre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "「松本市町会デジタル化支援アプリの使用に関する契約」の企画提案事業者を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/215997.html",
-      "date": "2026-10-13T15:00:00.000Z",
-      "titleEn": "We are seeking proposals from contractors for the “Contract Regarding the Use of the Matsumoto City Neighborhood Association Digitalization Support App”",
-      "titleFr": "Appel à candidatures pour les prestataires souhaitant soumettre une proposition relative au « Contrat concernant l'utilisation de l'application d'aide à la numérisation des associations de quartier de Matsumoto »"
     },
     {
       "source": "anshin",
