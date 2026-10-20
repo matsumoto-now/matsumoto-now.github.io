@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-20T05:42:02.910Z",
+  "fetched": "2026-10-20T11:00:34.606Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）10月20日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216696.html",
+      "date": "2026-10-20T07:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, October 20, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 20 octobre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
+      "title": "11月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-10-20T06:00:00.000Z",
+      "titleEn": "Information on the November Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
     },
     {
       "source": "news",
