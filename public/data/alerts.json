@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-20T22:57:18.387Z",
+  "fetched": "2026-10-21T01:25:27.544Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「松本市産業団地等基本構想策定業務委託」公募型プロポーザルを実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/215571.html",
+      "date": "2026-10-21T01:00:00.000Z",
+      "titleEn": "We will conduct an open proposal solicitation for the “Matsumoto City Industrial Park Basic Plan Development Project.”",
+      "titleFr": "Nous lançons un appel à propositions ouvert au public pour la « mission de formulation d'un plan directeur pour les zones industrielles de la ville de Matsumoto »."
     },
     {
       "source": "news",
