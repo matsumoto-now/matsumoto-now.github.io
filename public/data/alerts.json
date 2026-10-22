@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-21T21:19:27.912Z",
+  "fetched": "2026-10-22T00:06:44.440Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "灯油の流出にご注意ください",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/52/216105.html",
+      "date": "2026-10-22T00:00:00.000Z",
+      "titleEn": "Please be careful of kerosene spills",
+      "titleFr": "Faites attention aux déversements de fioul"
     },
     {
       "source": "news",
@@ -40,14 +48,6 @@
       "date": "2026-10-20T06:00:00.000Z",
       "titleEn": "Information on the November Citizen Consultation Desk",
       "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
-    },
-    {
-      "source": "news",
-      "title": "灯油の流出にご注意ください",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/52/216105.html",
-      "date": "2026-10-20T01:00:00.000Z",
-      "titleEn": "Please be careful of kerosene spills",
-      "titleFr": "Faites attention aux déversements de fioul"
     },
     {
       "source": "news",
