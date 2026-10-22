@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-10-22T00:06:44.440Z",
+  "fetched": "2026-10-22T05:11:55.155Z",
   "items": [
+    {
+      "source": "important",
+      "title": "システムメンテナンスに伴いホームページの一部が利用できなくなります",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
+      "date": "2026-10-22T04:30:00.000Z",
+      "titleEn": "Due to system maintenance, some parts of the website will be unavailable.",
+      "titleFr": "En raison d'une maintenance du système, certaines parties du site Web seront temporairement indisponibles."
+    },
     {
       "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
@@ -8,6 +16,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
+      "date": "2026-10-22T05:00:00.000Z",
+      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
+      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
+    },
+    {
+      "source": "news",
+      "title": "システムメンテナンスに伴いホームページの一部が利用できなくなります",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
+      "date": "2026-10-22T04:30:00.000Z",
+      "titleEn": "Due to system maintenance, some parts of the website will be unavailable.",
+      "titleFr": "En raison d'une maintenance du système, certaines parties du site Web seront temporairement inaccessibles."
     },
     {
       "source": "news",
@@ -24,6 +48,14 @@
       "date": "2026-10-21T01:00:00.000Z",
       "titleEn": "We will conduct an open proposal solicitation for the “Matsumoto City Industrial Park Basic Plan Development Project.”",
       "titleFr": "Nous lançons un appel à propositions ouvert au public pour la « mission de formulation d'un plan directeur pour les zones industrielles de la ville de Matsumoto »."
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市総合防災訓練を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/117217.html",
+      "date": "2026-10-20T15:00:00.000Z",
+      "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Fiscal Year Comprehensive Disaster Prevention Drill",
+      "titleFr": "Organisation de l'exercice général de prévention des catastrophes de la ville de Matsumoto pour l'année Reiwa 8"
     },
     {
       "source": "news",
