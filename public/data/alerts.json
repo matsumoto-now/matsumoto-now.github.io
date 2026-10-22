@@ -1,13 +1,13 @@
 {
-  "fetched": "2026-10-22T05:11:55.155Z",
+  "fetched": "2026-10-22T10:26:33.459Z",
   "items": [
     {
       "source": "important",
-      "title": "システムメンテナンスに伴いホームページの一部が利用できなくなります",
+      "title": "【緊急メンテナンス】ホームページの一部が利用できません",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
-      "date": "2026-10-22T04:30:00.000Z",
-      "titleEn": "Due to system maintenance, some parts of the website will be unavailable.",
-      "titleFr": "En raison d'une maintenance du système, certaines parties du site Web seront temporairement indisponibles."
+      "date": "2026-10-22T07:00:00.000Z",
+      "titleEn": "[Emergency Maintenance] Part of the website is currently unavailable",
+      "titleFr": "[Maintenance d'urgence] Une partie du site web est indisponible"
     },
     {
       "source": "important",
@@ -19,19 +19,19 @@
     },
     {
       "source": "news",
-      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
-      "date": "2026-10-22T05:00:00.000Z",
-      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
-      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
+      "title": "【緊急メンテナンス】ホームページの一部が利用できません",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
+      "date": "2026-10-22T07:00:00.000Z",
+      "titleEn": "[Emergency Maintenance] Part of the website is currently unavailable",
+      "titleFr": "[Maintenance d'urgence] Une partie du site web est indisponible"
     },
     {
       "source": "news",
-      "title": "システムメンテナンスに伴いホームページの一部が利用できなくなります",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
-      "date": "2026-10-22T04:30:00.000Z",
-      "titleEn": "Due to system maintenance, some parts of the website will be unavailable.",
-      "titleFr": "En raison d'une maintenance du système, certaines parties du site Web seront temporairement inaccessibles."
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-10-22T07:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -99,14 +99,6 @@
     },
     {
       "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-10-19T03:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
       "title": "「第49回寿地区文化祭」開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/114/213618.html",
       "date": "2026-10-18T15:00:00.000Z",
@@ -120,14 +112,6 @@
       "date": "2026-10-16T10:00:00.000Z",
       "titleEn": "We will conduct an open call for proposals for the “Matsumoto City Elementary and Junior High School Foreign Language Teaching Assistant Dispatch Program”",
       "titleFr": "Nous lançons un appel à propositions pour le « Service de détachement d'assistants d'enseignement des langues étrangères dans les écoles primaires et collèges municipaux de Matsumoto »."
-    },
-    {
-      "source": "news",
-      "title": "【受付終了】令和８年１１月途中入園の空き状況・申請フォーム",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-10-15T08:15:00.000Z",
-      "titleEn": "[Registration Closed] Availability and Application Form for Mid-Reiwa 8 Enrollment",
-      "titleFr": "[Inscriptions closes] Disponibilités et formulaire de demande d'inscription pour une entrée en cours de mois de novembre de l'année Reiwa 8"
     },
     {
       "source": "anshin",
