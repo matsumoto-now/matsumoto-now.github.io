@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-23T01:24:06.849Z",
+  "fetched": "2026-10-23T06:19:22.843Z",
   "items": [
     {
       "source": "important",
@@ -27,6 +27,14 @@
     },
     {
       "source": "news",
+      "title": "令和8年度松本市職員採用資格試験【9月】の結果について",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217111.html",
+      "date": "2026-10-23T05:00:00.000Z",
+      "titleEn": "Results of the Reiwa 8 Matsumoto City Employee Recruitment Qualifying Examination [September]",
+      "titleFr": "Résultats de l'examen de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
+    },
+    {
+      "source": "news",
       "title": "【緊急メンテナンス】ホームページの一部が利用できません",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
       "date": "2026-10-22T07:00:00.000Z",
@@ -48,6 +56,14 @@
       "date": "2026-10-22T00:00:00.000Z",
       "titleEn": "Please be careful of kerosene spills",
       "titleFr": "Faites attention aux déversements de fioul"
+    },
+    {
+      "source": "news",
+      "title": "まつもと探究部はじまります！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/216648.html",
+      "date": "2026-10-21T15:00:00.000Z",
+      "titleEn": "The Matsumoto Research Club is starting!",
+      "titleFr": "Le club de recherche de Matsumoto démarre !"
     },
     {
       "source": "news",
