@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-22T22:59:25.241Z",
+  "fetched": "2026-10-23T01:24:06.849Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,14 @@
       "date": "2026-10-22T07:00:00.000Z",
       "titleEn": "[Emergency Maintenance] Part of the website is currently unavailable",
       "titleFr": "[Maintenance d'urgence] Une partie du site web est indisponible"
+    },
+    {
+      "source": "important",
+      "title": "「レベル5大雨特別警報」が発令されたら自身の安全を確保しましょう",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
+      "date": "2026-10-21T15:00:00.000Z",
+      "titleEn": "If a “Level 5 Heavy Rain Special Warning” is issued, ensure your own safety.",
+      "titleFr": "Si une « alerte spéciale de niveau 5 pour fortes pluies » est émise, veillez à votre sécurité."
     },
     {
       "source": "important",
