@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-23T06:19:22.843Z",
+  "fetched": "2026-10-23T11:55:52.764Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "新庁舎建設事業における要求水準書（案）及び募集要項（案）の検討内容等を特別委員会に協議します。",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/216991.html",
+      "date": "2026-10-23T07:00:00.000Z",
+      "titleEn": "The Special Committee will discuss the details of the review of the draft requirements specification and draft solicitation guidelines for the new city hall construction project.",
+      "titleFr": "La commission spéciale examinera notamment le contenu des discussions relatives au cahier des charges (projet) et au règlement du concours (projet) concernant le projet de construction du nouveau bâtiment administratif."
+    },
+    {
+      "source": "news",
+      "title": "【スポーツ施設】工事予定の変更により予約を開放します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/184164.html",
+      "date": "2026-10-23T05:30:00.000Z",
+      "titleEn": "[Sports Facilities] Reservations Are Now Open Due to Changes in the Construction Schedule",
+      "titleFr": "[Installations sportives] Les réservations sont à nouveau ouvertes en raison d'un changement dans le calendrier des travaux"
     },
     {
       "source": "news",
@@ -83,6 +99,14 @@
     },
     {
       "source": "news",
+      "title": "松本市内で移住者が営むお店のご紹介",
+      "link": "https://www.city.matsumoto.nagano.jp/site/matsumotogurashi/4082.html",
+      "date": "2026-10-20T15:00:00.000Z",
+      "titleEn": "Introducing Shops in Matsumoto City Run by New Residents",
+      "titleFr": "Présentation des commerces tenus par des nouveaux arrivants à Matsumoto"
+    },
+    {
+      "source": "news",
       "title": "令和9年度育児休業明け入園予約制度のご案内・申込み受付・必要書類",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2437.html",
       "date": "2026-10-20T15:00:00.000Z",
@@ -120,22 +144,6 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
-    },
-    {
-      "source": "news",
-      "title": "「第49回寿地区文化祭」開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/114/213618.html",
-      "date": "2026-10-18T15:00:00.000Z",
-      "titleEn": "The \"49th Kotobuki District Cultural Festival\" Will Be Held",
-      "titleFr": "Le « 49e Festival culturel du quartier de Kotobuki » aura lieu"
-    },
-    {
-      "source": "news",
-      "title": "「松本市立小・中学校等外国語指導助手派遣業務」公募型プロポーザルを実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/216308.html",
-      "date": "2026-10-16T10:00:00.000Z",
-      "titleEn": "We will conduct an open call for proposals for the “Matsumoto City Elementary and Junior High School Foreign Language Teaching Assistant Dispatch Program”",
-      "titleFr": "Nous lançons un appel à propositions pour le « Service de détachement d'assistants d'enseignement des langues étrangères dans les écoles primaires et collèges municipaux de Matsumoto »."
     },
     {
       "source": "anshin",
