@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-24T21:03:43.983Z",
+  "fetched": "2026-10-24T23:32:19.887Z",
   "items": [
     {
       "source": "important",
@@ -8,14 +8,6 @@
       "date": "2026-10-24T20:00:00.000Z",
       "titleEn": "Bear Sightings",
       "titleFr": "Signalements d'ours"
-    },
-    {
-      "source": "important",
-      "title": "里山辺地区における水道管漏水に伴う緊急断水のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/217183.html",
-      "date": "2026-10-23T15:00:00.000Z",
-      "titleEn": "Notice of Emergency Water Shutdown Due to a Water Main Leak in the Satoyamabe District",
-      "titleFr": "Avis de coupure d'eau d'urgence due à une fuite sur une conduite d'eau dans le quartier de Satoyama-be"
     },
     {
       "source": "important",
@@ -43,11 +35,11 @@
     },
     {
       "source": "news",
-      "title": "里山辺地区における水道管漏水に伴う緊急断水のお知らせ",
+      "title": "里山辺地区における漏水対応・通行止めについて（継続対応中）",
       "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/217183.html",
-      "date": "2026-10-23T15:00:00.000Z",
-      "titleEn": "Notice of Emergency Water Shutdown Due to a Water Main Leak in the Satoyamabe District",
-      "titleFr": "Avis de coupure d'eau d'urgence due à une fuite sur une conduite d'eau dans le quartier de Satoyama-be"
+      "date": "2026-10-24T22:00:00.000Z",
+      "titleEn": "Regarding Water Leak Response and Road Closures in the Satoyamabe District (Ongoing Response)",
+      "titleFr": "Mesures prises suite à une fuite d'eau et fermeture de la circulation dans le quartier de Satoyama-be (intervention en cours)"
     },
     {
       "source": "news",
