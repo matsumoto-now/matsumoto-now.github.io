@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-24T11:52:30.042Z",
+  "fetched": "2026-10-24T15:29:30.362Z",
   "items": [
     {
       "source": "important",
@@ -8,6 +8,14 @@
       "date": "2026-10-23T20:00:00.000Z",
       "titleEn": "Bear Sightings",
       "titleFr": "Signalements d'ours"
+    },
+    {
+      "source": "important",
+      "title": "里山辺地区における水道管漏水に伴う緊急断水のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/217183.html",
+      "date": "2026-10-23T15:00:00.000Z",
+      "titleEn": "Notice of Emergency Water Shutdown Due to a Water Main Leak in the Satoyamabe District",
+      "titleFr": "Avis de coupure d'eau d'urgence due à une fuite sur une conduite d'eau dans le quartier de Satoyama-be"
     },
     {
       "source": "important",
@@ -32,6 +40,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "里山辺地区における水道管漏水に伴う緊急断水のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/217183.html",
+      "date": "2026-10-23T15:00:00.000Z",
+      "titleEn": "Notice of Emergency Water Shutdown Due to a Water Main Leak in the Satoyamabe District",
+      "titleFr": "Avis de coupure d'eau d'urgence due à une fuite sur une conduite d'eau dans le quartier de Satoyama-be"
     },
     {
       "source": "news",
@@ -144,14 +160,6 @@
       "date": "2026-10-20T00:15:00.000Z",
       "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
       "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour le développement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
-    },
-    {
-      "source": "news",
-      "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
-      "date": "2026-10-19T06:00:00.000Z",
-      "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
     },
     {
       "source": "anshin",
