@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-25T13:39:45.578Z",
+  "fetched": "2026-10-25T17:26:26.273Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,78 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "ものづくり体験講座「干支の飾りを押絵で作ってみましょう！」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/213386.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "We are hosting a hands-on crafting workshop titled “Let’s Make Zodiac Ornaments Using Appliqué!”",
+      "titleFr": "Nous organisons un atelier pratique intitulé « Créons une décoration du signe du zodiaque en oshi-e ! »"
+    },
+    {
+      "source": "news",
+      "title": "広報まつもと（11月号）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "Matsumoto Public Relations (November Issue)",
+      "titleFr": "Matsumoto Information (numéro de novembre)"
+    },
+    {
+      "source": "news",
+      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
+      "titleFr": "Nous organisons le « Forum des citoyens d'Ekishiro » (réunion de débat)"
+    },
+    {
+      "source": "news",
+      "title": "国保体力測定＆運動体験会を開催します！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/64/215838.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "We're hosting a National Health Insurance Physical Fitness Test & Exercise Experience Event!",
+      "titleFr": "Nous organisons une séance de tests de condition physique et d'initiation à l'activité physique dans le cadre de l'assurance maladie nationale !"
+    },
+    {
+      "source": "news",
+      "title": "エアコン設置促進事業の申請期間を延長します。",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/214004.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "The application period for the Air Conditioner Installation Promotion Program will be extended.",
+      "titleFr": "La période de dépôt des demandes dans le cadre du programme de promotion de l'installation de climatiseurs est prolongée."
+    },
+    {
+      "source": "news",
+      "title": "体力測定＆運動体験会を開催します！",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/214807.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "We're hosting a physical fitness assessment and exercise workshop!",
+      "titleFr": "Nous organisons une séance de tests physiques et d'initiation au sport !"
+    },
+    {
+      "source": "news",
+      "title": "信州まつもと空港冬期利用促進助成金交付開始のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/213927.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "Notice Regarding the Start of Grant Disbursements for the Shinshu Matsumoto Airport Winter Usage Promotion Program",
+      "titleFr": "Annonce concernant le lancement du programme de subventions visant à promouvoir la fréquentation de l'aéroport de Shinshu-Matsumoto pendant la saison hivernale"
+    },
+    {
+      "source": "news",
+      "title": "コンビニ交付サービス休止のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/213782.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "Notice of Suspension of the Convenience Store Issuance Service",
+      "titleFr": "Avis de suspension du service de délivrance dans les supérettes"
+    },
+    {
+      "source": "news",
+      "title": "学都松本推進事業 だいず大作戦～食改さんとお豆腐作り～を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/shokuiku/213090.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "We will be holding the \"Matsumoto Academic City Promotion Project: The Great Soybean Operation—Making Tofu with Shokukai-san\" event.",
+      "titleFr": "Dans le cadre du projet de promotion de Matsumoto, « ville universitaire », nous organisons l'événement « Opération Soja : fabrication de tofu avec Shokukai-san »."
     },
     {
       "source": "news",
@@ -80,78 +152,6 @@
       "date": "2026-10-22T07:00:00.000Z",
       "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
       "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "灯油の流出にご注意ください",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/52/216105.html",
-      "date": "2026-10-22T00:00:00.000Z",
-      "titleEn": "Please be careful of kerosene spills",
-      "titleFr": "Faites attention aux déversements de fioul"
-    },
-    {
-      "source": "news",
-      "title": "まつもと探究部はじまります！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/216648.html",
-      "date": "2026-10-21T15:00:00.000Z",
-      "titleEn": "The Matsumoto Research Club is starting!",
-      "titleFr": "Le club de recherche de Matsumoto démarre !"
-    },
-    {
-      "source": "news",
-      "title": "「松本市産業団地等基本構想策定業務委託」公募型プロポーザルを実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/215571.html",
-      "date": "2026-10-21T01:00:00.000Z",
-      "titleEn": "We will conduct an open proposal solicitation for the “Matsumoto City Industrial Park Basic Plan Development Project.”",
-      "titleFr": "Nous lançons un appel à propositions ouvert au public pour la « mission de formulation d'un plan directeur pour les zones industrielles de la ville de Matsumoto »."
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市総合防災訓練を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/117217.html",
-      "date": "2026-10-20T15:00:00.000Z",
-      "titleEn": "Matsumoto City Will Hold Its Reiwa 8 Fiscal Year Comprehensive Disaster Prevention Drill",
-      "titleFr": "Organisation de l'exercice général de prévention des catastrophes de la ville de Matsumoto pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "松本市内で移住者が営むお店のご紹介",
-      "link": "https://www.city.matsumoto.nagano.jp/site/matsumotogurashi/4082.html",
-      "date": "2026-10-20T15:00:00.000Z",
-      "titleEn": "Introducing Shops in Matsumoto City Run by New Residents",
-      "titleFr": "Présentation des commerces tenus par des nouveaux arrivants à Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "令和9年度育児休業明け入園予約制度のご案内・申込み受付・必要書類",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2437.html",
-      "date": "2026-10-20T15:00:00.000Z",
-      "titleEn": "Information on the Reiwa 9 Preschool Enrollment Reservation System for Children Returning from Parental Leave: Application Process and Required Documents",
-      "titleFr": "Informations sur le système de réservation d'inscription en crèche à l'issue d'un congé parental pour l'année Reiwa 9, ouverture des inscriptions et documents requis"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）10月20日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216696.html",
-      "date": "2026-10-20T07:00:00.000Z",
-      "titleEn": "Mayor's Press Conference, October 20, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 20 octobre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "11月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-10-20T06:00:00.000Z",
-      "titleEn": "Information on the November Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
-    },
-    {
-      "source": "news",
-      "title": "第43回松本市青少年健全育成市民大会・「松本子どもの権利の日」市民フォーラムを開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/213207.html",
-      "date": "2026-10-20T00:15:00.000Z",
-      "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
-      "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour le développement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
     },
     {
       "source": "anshin",
