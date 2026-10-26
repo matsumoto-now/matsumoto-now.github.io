@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-26T05:48:23.127Z",
+  "fetched": "2026-10-26T12:22:58.956Z",
   "items": [
     {
       "source": "important",
@@ -43,6 +43,14 @@
     },
     {
       "source": "news",
+      "title": "広報まつもと（11月号）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "Matsumoto Public Relations (November Issue)",
+      "titleFr": "Matsumoto Information (numéro de novembre)"
+    },
+    {
+      "source": "news",
       "title": "ものづくり体験講座「干支の飾りを押絵で作ってみましょう！」を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/koho/213386.html",
       "date": "2026-10-25T15:00:00.000Z",
@@ -51,11 +59,11 @@
     },
     {
       "source": "news",
-      "title": "広報まつもと（11月号）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
+      "title": "道路交通規制のお知らせ(平田東3丁目)",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/217165.html",
       "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Matsumoto Public Relations (November Issue)",
-      "titleFr": "Matsumoto Information (numéro de novembre)"
+      "titleEn": "Notice of Traffic Restrictions (Hirata Higashi 3-chome)",
+      "titleFr": "Avis de restrictions de circulation (Hirata-Higashi 3-chome)"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-10-23T05:30:00.000Z",
       "titleEn": "[Sports Facilities] Reservations Are Now Open Due to Changes in the Construction Schedule",
       "titleFr": "[Installations sportives] Les réservations sont à nouveau ouvertes en raison d'un changement dans le calendrier des travaux"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験【9月】の結果について",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217111.html",
-      "date": "2026-10-23T05:00:00.000Z",
-      "titleEn": "Results of the Reiwa 8 Matsumoto City Employee Recruitment Qualifying Examination [September]",
-      "titleFr": "Résultats de l'examen de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
     },
     {
       "source": "anshin",
