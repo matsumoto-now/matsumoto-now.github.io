@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-25T22:19:56.324Z",
+  "fetched": "2026-10-26T00:34:05.727Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "司法書士・税理士による「相続・贈与・成年後見ワンストップ無料相談」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/183012.html",
+      "date": "2026-10-26T00:00:00.000Z",
+      "titleEn": "We will be holding a “One-Stop Free Consultation on Inheritance, Gifting, and Adult Guardianship” led by judicial scriveners and certified public tax accountants.",
+      "titleFr": "Nous organisons une « séance de consultation gratuite et centralisée sur les successions, les donations et la tutelle des majeurs », animée par des notaires et des experts-comptables."
     },
     {
       "source": "news",
@@ -144,14 +152,6 @@
       "date": "2026-10-22T07:00:00.000Z",
       "titleEn": "[Emergency Maintenance] Part of the website is currently unavailable",
       "titleFr": "[Maintenance d'urgence] Une partie du site web est indisponible"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-10-22T07:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "anshin",
