@@ -1,21 +1,13 @@
 {
-  "fetched": "2026-10-26T00:34:05.727Z",
+  "fetched": "2026-10-26T05:48:23.127Z",
   "items": [
     {
       "source": "important",
-      "title": "クマの目撃情報",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/180997.html",
-      "date": "2026-10-25T20:00:00.000Z",
-      "titleEn": "Bear Sightings",
-      "titleFr": "Signalements d'ours"
-    },
-    {
-      "source": "important",
-      "title": "【緊急メンテナンス】ホームページの一部が利用できません",
+      "title": "【ホームページ】緊急メンテナンスが終了しました",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
-      "date": "2026-10-22T07:00:00.000Z",
-      "titleEn": "[Emergency Maintenance] Part of the website is currently unavailable",
-      "titleFr": "[Maintenance d'urgence] Une partie du site web est indisponible"
+      "date": "2026-10-26T05:00:00.000Z",
+      "titleEn": "[Homepage] Emergency Maintenance Has Ended",
+      "titleFr": "[Site web] La maintenance d'urgence est terminée"
     },
     {
       "source": "important",
@@ -32,6 +24,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【ホームページ】緊急メンテナンスが終了しました",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
+      "date": "2026-10-26T05:00:00.000Z",
+      "titleEn": "[Homepage] Emergency Maintenance Has Ended",
+      "titleFr": "[Site web] La maintenance d'urgence est terminée"
     },
     {
       "source": "news",
@@ -144,14 +144,6 @@
       "date": "2026-10-23T05:00:00.000Z",
       "titleEn": "Results of the Reiwa 8 Matsumoto City Employee Recruitment Qualifying Examination [September]",
       "titleFr": "Résultats de l'examen de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
-    },
-    {
-      "source": "news",
-      "title": "【緊急メンテナンス】ホームページの一部が利用できません",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
-      "date": "2026-10-22T07:00:00.000Z",
-      "titleEn": "[Emergency Maintenance] Part of the website is currently unavailable",
-      "titleFr": "[Maintenance d'urgence] Une partie du site web est indisponible"
     },
     {
       "source": "anshin",
