@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-26T12:22:58.956Z",
+  "fetched": "2026-10-26T18:48:44.781Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "体力測定＆運動体験会を開催します！",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/214807.html",
+      "date": "2026-10-26T15:00:00.000Z",
+      "titleEn": "We're hosting a physical fitness assessment and exercise workshop!",
+      "titleFr": "Nous organisons une séance de tests physiques et d'initiation au sport !"
     },
     {
       "source": "news",
@@ -88,14 +96,6 @@
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "The application period for the Air Conditioner Installation Promotion Program will be extended.",
       "titleFr": "La période de dépôt des demandes dans le cadre du programme de promotion de l'installation de climatiseurs est prolongée."
-    },
-    {
-      "source": "news",
-      "title": "体力測定＆運動体験会を開催します！",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/214807.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "We're hosting a physical fitness assessment and exercise workshop!",
-      "titleFr": "Nous organisons une séance de tests physiques et d'initiation au sport !"
     },
     {
       "source": "news",
