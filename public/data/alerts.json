@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-27T19:51:22.827Z",
+  "fetched": "2026-10-27T23:32:58.824Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "みんなの声を聞かせて！アーバンスポーツアンケートやってます",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/216714.html",
+      "date": "2026-10-27T23:00:00.000Z",
+      "titleEn": "Let us hear what you have to say! We're conducting an urban sports survey.",
+      "titleFr": "Donnez-nous votre avis ! Nous menons actuellement une enquête sur les sports urbains"
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "We will be holding the \"Matsumoto Academic City Promotion Project: The Great Soybean Operation—Making Tofu with Shokukai-san\" event.",
       "titleFr": "Dans le cadre du projet de promotion de Matsumoto, « ville universitaire », nous organisons l'événement « Opération Soja : fabrication de tofu avec Shokukai-san »."
-    },
-    {
-      "source": "news",
-      "title": "新庁舎建設事業における要求水準書（案）及び募集要項（案）の検討内容等を特別委員会に協議します。",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/216991.html",
-      "date": "2026-10-23T07:00:00.000Z",
-      "titleEn": "The Special Committee will discuss the details of the review of the draft requirements specification and draft solicitation guidelines for the new city hall construction project.",
-      "titleFr": "La commission spéciale examinera notamment le contenu des discussions relatives au cahier des charges (projet) et au règlement du concours (projet) concernant le projet de construction du nouveau bâtiment administratif."
     },
     {
       "source": "anshin",
