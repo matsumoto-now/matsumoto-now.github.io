@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-27T02:18:36.358Z",
+  "fetched": "2026-10-27T08:13:30.059Z",
   "items": [
     {
       "source": "important",
@@ -67,11 +67,27 @@
     },
     {
       "source": "news",
+      "title": "「第49回寿地区文化祭」開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/114/213618.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "The \"49th Kotobuki District Cultural Festival\" Will Be Held",
+      "titleFr": "La « 49e édition du Festival culturel du quartier de Kotobuki » aura lieu"
+    },
+    {
+      "source": "news",
       "title": "道路交通規制のお知らせ(平田東3丁目)",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/217165.html",
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "Notice of Traffic Restrictions (Hirata Higashi 3-chome)",
       "titleFr": "Avis de restrictions de circulation (Hirata-Higashi 3-chome)"
+    },
+    {
+      "source": "news",
+      "title": "三献運動推進市民大会を開催します！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/216880.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "We're holding a Citizens' Rally to Promote the \"Three Offerings\" Movement!",
+      "titleFr": "Nous organisons un rassemblement citoyen pour promouvoir le mouvement des « trois offrandes » !"
     },
     {
       "source": "news",
@@ -128,22 +144,6 @@
       "date": "2026-10-25T01:00:00.000Z",
       "titleEn": "Lifting of the Emergency Water Shutdown and Complete Road Closure in the Satoyamabe District",
       "titleFr": "Levée de la coupure d'eau d'urgence et de la fermeture totale à la circulation dans le quartier de Satoyama-be"
-    },
-    {
-      "source": "news",
-      "title": "新庁舎建設事業における要求水準書（案）及び募集要項（案）の検討内容等を特別委員会に協議します。",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/246/216991.html",
-      "date": "2026-10-23T07:00:00.000Z",
-      "titleEn": "The Special Committee will discuss the details of the review of the draft requirements specification and draft solicitation guidelines for the new city hall construction project.",
-      "titleFr": "La commission spéciale examinera notamment le contenu des discussions relatives au cahier des charges (projet) et au règlement du concours (projet) concernant le projet de construction du nouveau bâtiment administratif."
-    },
-    {
-      "source": "news",
-      "title": "【スポーツ施設】工事予定の変更により予約を開放します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/184164.html",
-      "date": "2026-10-23T05:30:00.000Z",
-      "titleEn": "[Sports Facilities] Reservations Are Now Open Due to Changes in the Construction Schedule",
-      "titleFr": "[Installations sportives] Les réservations sont à nouveau ouvertes en raison d'un changement dans le calendrier des travaux"
     },
     {
       "source": "anshin",
