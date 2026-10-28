@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-28T04:22:58.250Z",
+  "fetched": "2026-10-28T10:44:34.301Z",
   "items": [
     {
       "source": "important",
@@ -11,14 +11,6 @@
     },
     {
       "source": "important",
-      "title": "「レベル5大雨特別警報」が発令されたら自身の安全を確保しましょう",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/212233.html",
-      "date": "2026-10-21T15:00:00.000Z",
-      "titleEn": "If a “Level 5 Heavy Rain Special Warning” is issued, ensure your own safety.",
-      "titleFr": "Si une « alerte spéciale de niveau 5 pour fortes pluies » est émise, veillez à votre sécurité."
-    },
-    {
-      "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/7/216138.html",
       "date": "2026-10-19T06:00:00.000Z",
@@ -27,9 +19,17 @@
     },
     {
       "source": "news",
+      "title": "11月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
+      "date": "2026-10-28T08:00:00.000Z",
+      "titleEn": "Information on the November Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
+    },
+    {
+      "source": "news",
       "title": "みんなの声を聞かせて！アーバンスポーツアンケートやってます",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/216714.html",
-      "date": "2026-10-27T23:00:00.000Z",
+      "date": "2026-10-28T00:15:00.000Z",
       "titleEn": "Let us hear what you have to say! We're conducting an urban sports survey.",
       "titleFr": "Donnez-nous votre avis ! Nous menons actuellement une enquête sur les sports urbains"
     },
@@ -136,14 +136,6 @@
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "Notice of Suspension of the Convenience Store Issuance Service",
       "titleFr": "Avis de suspension du service de délivrance dans les supérettes"
-    },
-    {
-      "source": "news",
-      "title": "学都松本推進事業 だいず大作戦～食改さんとお豆腐作り～を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/shokuiku/213090.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "We will be holding the \"Matsumoto Academic City Promotion Project: The Great Soybean Operation—Making Tofu with Shokukai-san\" event.",
-      "titleFr": "Dans le cadre du projet de promotion de Matsumoto, « ville universitaire », nous organisons l'événement « Opération Soja : fabrication de tofu avec Shokukai-san »."
     },
     {
       "source": "anshin",
