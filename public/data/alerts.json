@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-29T01:35:27.992Z",
+  "fetched": "2026-10-29T08:06:56.775Z",
   "items": [
     {
       "source": "important",
@@ -21,9 +21,25 @@
       "source": "news",
       "title": "11月市民相談窓口のご案内",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
-      "date": "2026-10-28T08:00:00.000Z",
+      "date": "2026-10-29T04:00:00.000Z",
       "titleEn": "Information on the November Citizen Consultation Desk",
       "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
+    },
+    {
+      "source": "news",
+      "title": "青空図書館を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/202756.html",
+      "date": "2026-10-28T15:00:00.000Z",
+      "titleEn": "We're hosting the Blue Sky Library",
+      "titleFr": "Nous organisons la « Bibliothèque sous le ciel bleu »"
+    },
+    {
+      "source": "news",
+      "title": "「松本道場 ローカルヒーロートークセッション vol.4」を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/217481.html",
+      "date": "2026-10-28T15:00:00.000Z",
+      "titleEn": "We will be hosting “Matsumoto Dojo: Local Hero Talk Session Vol. 4”",
+      "titleFr": "Nous organisons la « Session de discussion avec les héros locaux du dojo de Matsumoto, vol. 4 »"
     },
     {
       "source": "news",
@@ -56,6 +72,14 @@
       "date": "2026-10-26T00:00:00.000Z",
       "titleEn": "We will be holding a “One-Stop Free Consultation on Inheritance, Gifting, and Adult Guardianship” led by judicial scriveners and certified public tax accountants.",
       "titleFr": "Nous organisons une « séance de consultation gratuite et centralisée sur les successions, les donations et la tutelle des majeurs », animée par des notaires et des experts-comptables."
+    },
+    {
+      "source": "news",
+      "title": "信州まつもと空港冬期利用促進助成金交付開始のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/koho/213927.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "Notice Regarding the Start of Grant Disbursements for the Shinshu Matsumoto Airport Winter Usage Promotion Program",
+      "titleFr": "Annonce concernant le lancement du programme de subventions visant à promouvoir la fréquentation de l'aéroport de Shinshu-Matsumoto pendant la saison hivernale"
     },
     {
       "source": "news",
@@ -112,30 +136,6 @@
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "We're hosting a National Health Insurance Physical Fitness Test & Exercise Experience Event!",
       "titleFr": "Nous organisons une séance de tests de condition physique et d'initiation à l'activité physique dans le cadre de l'assurance maladie nationale !"
-    },
-    {
-      "source": "news",
-      "title": "エアコン設置促進事業の申請期間を延長します。",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/214004.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "The application period for the Air Conditioner Installation Promotion Program will be extended.",
-      "titleFr": "La période de dépôt des demandes dans le cadre du programme de promotion de l'installation de climatiseurs est prolongée."
-    },
-    {
-      "source": "news",
-      "title": "信州まつもと空港冬期利用促進助成金交付開始のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/213927.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Notice Regarding the Start of Grant Disbursements for the Shinshu Matsumoto Airport Winter Usage Promotion Program",
-      "titleFr": "Annonce concernant le lancement du programme de subventions visant à promouvoir la fréquentation de l'aéroport de Shinshu-Matsumoto pendant la saison hivernale"
-    },
-    {
-      "source": "news",
-      "title": "コンビニ交付サービス休止のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/213782.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Notice of Suspension of the Convenience Store Issuance Service",
-      "titleFr": "Avis de suspension du service de délivrance dans les supérettes"
     },
     {
       "source": "anshin",
