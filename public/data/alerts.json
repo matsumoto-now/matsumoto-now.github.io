@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-30T00:09:29.136Z",
+  "fetched": "2026-10-30T06:14:07.629Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「かいご」の「しごと」を応援します。",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/1749.html",
+      "date": "2026-10-29T15:00:00.000Z",
+      "titleEn": "We support “care” “work.”",
+      "titleFr": "Nous soutenons les « métiers » du « secteur des soins »."
     },
     {
       "source": "news",
@@ -75,6 +83,14 @@
     },
     {
       "source": "news",
+      "title": "道路交通規制のお知らせ(平田東3丁目)",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/217165.html",
+      "date": "2026-10-25T15:00:00.000Z",
+      "titleEn": "Notice of Traffic Restrictions (Hirata Higashi 3-chome)",
+      "titleFr": "Avis de restrictions de circulation (Hirata-Higashi 3-chome)"
+    },
+    {
+      "source": "news",
       "title": "信州まつもと空港冬期利用促進助成金交付開始のお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/koho/213927.html",
       "date": "2026-10-25T15:00:00.000Z",
@@ -107,14 +123,6 @@
     },
     {
       "source": "news",
-      "title": "道路交通規制のお知らせ(平田東3丁目)",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/217165.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Notice of Traffic Restrictions (Hirata Higashi 3-chome)",
-      "titleFr": "Avis de restrictions de circulation (Hirata-Higashi 3-chome)"
-    },
-    {
-      "source": "news",
       "title": "三献運動推進市民大会を開催します！",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/216880.html",
       "date": "2026-10-25T15:00:00.000Z",
@@ -128,14 +136,6 @@
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
       "titleFr": "Nous organisons le « Forum des citoyens d'Ekishiro » (réunion de débat)"
-    },
-    {
-      "source": "news",
-      "title": "国保体力測定＆運動体験会を開催します！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/64/215838.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "We're hosting a National Health Insurance Physical Fitness Test & Exercise Experience Event!",
-      "titleFr": "Nous organisons une séance de tests de condition physique et d'initiation à l'activité physique dans le cadre de l'assurance maladie nationale !"
     },
     {
       "source": "anshin",
