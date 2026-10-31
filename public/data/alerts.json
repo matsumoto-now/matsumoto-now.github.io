@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-31T08:40:59.777Z",
+  "fetched": "2026-10-31T15:06:43.441Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "市民課受付予約と混雑状況のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2943.html",
+      "date": "2026-10-31T15:00:00.000Z",
+      "titleEn": "Information on Appointments and Crowd Levels at the Civic Affairs Division Reception Desk",
+      "titleFr": "Informations sur les rendez-vous à l'accueil du service des affaires civiles et sur l'affluence"
     },
     {
       "source": "news",
@@ -128,14 +136,6 @@
       "date": "2026-10-25T15:00:00.000Z",
       "titleEn": "We are hosting a hands-on crafting workshop titled “Let’s Make Zodiac Ornaments Using Appliqué!”",
       "titleFr": "Nous organisons un atelier pratique intitulé « Créons une décoration du signe du zodiaque en oshi-e ! »"
-    },
-    {
-      "source": "news",
-      "title": "「第49回寿地区文化祭」開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/114/213618.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "The \"49th Kotobuki District Cultural Festival\" Will Be Held",
-      "titleFr": "La « 49e édition du Festival culturel du quartier de Kotobuki » aura lieu"
     },
     {
       "source": "anshin",
