@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-01T08:48:49.081Z",
+  "fetched": "2026-11-01T15:49:28.958Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "date": "2026-11-01T15:00:00.000Z",
+      "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
+      "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
     },
     {
       "source": "news",
@@ -104,38 +112,6 @@
       "date": "2026-10-26T00:00:00.000Z",
       "titleEn": "We will be holding a “One-Stop Free Consultation on Inheritance, Gifting, and Adult Guardianship” led by judicial scriveners and certified public tax accountants.",
       "titleFr": "Nous organisons une « séance de consultation gratuite et centralisée sur les successions, les donations et la tutelle des majeurs », animée par des notaires et des experts-comptables."
-    },
-    {
-      "source": "news",
-      "title": "道路交通規制のお知らせ(平田東3丁目)",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/217165.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Notice of Traffic Restrictions (Hirata Higashi 3-chome)",
-      "titleFr": "Avis de restrictions de circulation (Hirata-Higashi 3-chome)"
-    },
-    {
-      "source": "news",
-      "title": "信州まつもと空港冬期利用促進助成金交付開始のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/213927.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Notice Regarding the Start of Grant Disbursements for the Shinshu Matsumoto Airport Winter Usage Promotion Program",
-      "titleFr": "Annonce concernant le lancement du programme de subventions visant à promouvoir la fréquentation de l'aéroport de Shinshu-Matsumoto pendant la saison hivernale"
-    },
-    {
-      "source": "news",
-      "title": "広報まつもと（11月号）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kouhoumatsumoto/",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "Matsumoto Public Relations (November Issue)",
-      "titleFr": "Matsumoto Information (numéro de novembre)"
-    },
-    {
-      "source": "news",
-      "title": "ものづくり体験講座「干支の飾りを押絵で作ってみましょう！」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/213386.html",
-      "date": "2026-10-25T15:00:00.000Z",
-      "titleEn": "We are hosting a hands-on crafting workshop titled “Let’s Make Zodiac Ornaments Using Appliqué!”",
-      "titleFr": "Nous organisons un atelier pratique intitulé « Créons une décoration du signe du zodiaque en oshi-e ! »"
     },
     {
       "source": "anshin",
