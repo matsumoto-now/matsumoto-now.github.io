@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-11-02T04:46:53.851Z",
+  "fetched": "2026-11-02T13:09:36.910Z",
   "items": [
-    {
-      "source": "important",
-      "title": "【緊急メンテナンス】ホームページの閲覧を一時的に停止します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/218017.html",
-      "date": "2026-11-02T03:00:00.000Z",
-      "titleEn": "[Emergency Maintenance] Website Access Will Be Temporarily Suspended",
-      "titleFr": "[Maintenance d'urgence] L'accès au site web sera temporairement interrompu"
-    },
     {
       "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
@@ -16,14 +8,6 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
-    },
-    {
-      "source": "news",
-      "title": "【緊急メンテナンス】ホームページの閲覧を一時的に停止します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/218017.html",
-      "date": "2026-11-02T03:00:00.000Z",
-      "titleEn": "[Emergency Maintenance] Website Access Will Be Temporarily Suspended",
-      "titleFr": "[Maintenance d'urgence] L'accès au site web sera temporairement interrompu"
     },
     {
       "source": "news",
