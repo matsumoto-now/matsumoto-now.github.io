@@ -1,13 +1,13 @@
 {
-  "fetched": "2026-11-01T23:46:06.022Z",
+  "fetched": "2026-11-02T04:46:53.851Z",
   "items": [
     {
       "source": "important",
-      "title": "【ホームページ】緊急メンテナンスが終了しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
-      "date": "2026-10-26T05:00:00.000Z",
-      "titleEn": "[Homepage] Emergency Maintenance Has Ended",
-      "titleFr": "[Site web] La maintenance d'urgence est terminée"
+      "title": "【緊急メンテナンス】ホームページの閲覧を一時的に停止します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/218017.html",
+      "date": "2026-11-02T03:00:00.000Z",
+      "titleEn": "[Emergency Maintenance] Website Access Will Be Temporarily Suspended",
+      "titleFr": "[Maintenance d'urgence] L'accès au site web sera temporairement interrompu"
     },
     {
       "source": "important",
@@ -19,11 +19,43 @@
     },
     {
       "source": "news",
+      "title": "【緊急メンテナンス】ホームページの閲覧を一時的に停止します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/218017.html",
+      "date": "2026-11-02T03:00:00.000Z",
+      "titleEn": "[Emergency Maintenance] Website Access Will Be Temporarily Suspended",
+      "titleFr": "[Maintenance d'urgence] L'accès au site web sera temporairement interrompu"
+    },
+    {
+      "source": "news",
+      "title": "松本市上下水道局ＷＥＢ照会サイト",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/89981.html",
+      "date": "2026-11-02T01:00:00.000Z",
+      "titleEn": "Matsumoto City Water and Sewerage Bureau Online Inquiry Site",
+      "titleFr": "Site Web de consultation du Service des eaux et de l'assainissement de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "狂犬病予防注射の制度が変わります（令和９年３月２日から）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/benricho/217370.html",
+      "date": "2026-11-01T15:00:00.000Z",
+      "titleEn": "Changes to the Rabies Vaccination Program (Effective March 2, Reiwa 9)",
+      "titleFr": "Le système de vaccination contre la rage va changer (à compter du 2 mars de l'année Reiwa 9)"
+    },
+    {
+      "source": "news",
       "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
       "date": "2026-11-01T15:00:00.000Z",
       "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
       "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
+    },
+    {
+      "source": "news",
+      "title": "フレイル予防通信11月号～定期的に歯科健診を受けて「いい歯」でおいしく食べましょう～",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/215852.html",
+      "date": "2026-10-31T23:00:00.000Z",
+      "titleEn": "November Issue of the Frailty Prevention Newsletter—Get Regular Dental Checkups and Enjoy Delicious Meals with Healthy Teeth—",
+      "titleFr": "Lettre d'information sur la prévention de la fragilité, numéro de novembre ~ Passez régulièrement des examens dentaires pour pouvoir manger avec appétit grâce à de « belles dents » ~"
     },
     {
       "source": "news",
@@ -83,6 +115,14 @@
     },
     {
       "source": "news",
+      "title": "オレンジリボン・児童虐待防止推進キャンペーンを実施しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/226/185885.html",
+      "date": "2026-10-28T15:00:00.000Z",
+      "titleEn": "We are conducting the Orange Ribbon Campaign to Prevent Child Abuse",
+      "titleFr": "Nous menons actuellement une campagne de sensibilisation à la prévention de la maltraitance des enfants sous le slogan « Ruban orange »."
+    },
+    {
+      "source": "news",
       "title": "みんなの声を聞かせて！アーバンスポーツアンケートやってます",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/216714.html",
       "date": "2026-10-28T00:15:00.000Z",
@@ -96,22 +136,6 @@
       "date": "2026-10-26T15:00:00.000Z",
       "titleEn": "We're hosting a physical fitness assessment and exercise workshop!",
       "titleFr": "Nous organisons une séance de tests physiques et d'initiation au sport !"
-    },
-    {
-      "source": "news",
-      "title": "【ホームページ】緊急メンテナンスが終了しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/216869.html",
-      "date": "2026-10-26T05:00:00.000Z",
-      "titleEn": "[Homepage] Emergency Maintenance Has Ended",
-      "titleFr": "[Site web] La maintenance d'urgence est terminée"
-    },
-    {
-      "source": "news",
-      "title": "司法書士・税理士による「相続・贈与・成年後見ワンストップ無料相談」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/183012.html",
-      "date": "2026-10-26T00:00:00.000Z",
-      "titleEn": "We will be holding a “One-Stop Free Consultation on Inheritance, Gifting, and Adult Guardianship” led by judicial scriveners and certified public tax accountants.",
-      "titleFr": "Nous organisons une « séance de consultation gratuite et centralisée sur les successions, les donations et la tutelle des majeurs », animée par des notaires et des experts-comptables."
     },
     {
       "source": "anshin",
