@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-02T13:09:36.910Z",
+  "fetched": "2026-11-02T22:25:16.182Z",
   "items": [
     {
       "source": "important",
@@ -83,14 +83,6 @@
     },
     {
       "source": "news",
-      "title": "青空図書館を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/202756.html",
-      "date": "2026-10-28T15:00:00.000Z",
-      "titleEn": "We're hosting the Blue Sky Library",
-      "titleFr": "Nous organisons la « Bibliothèque sous le ciel bleu »"
-    },
-    {
-      "source": "news",
       "title": "「松本道場 ローカルヒーロートークセッション vol.4」を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/217481.html",
       "date": "2026-10-28T15:00:00.000Z",
@@ -112,14 +104,6 @@
       "date": "2026-10-28T00:15:00.000Z",
       "titleEn": "Let us hear what you have to say! We're conducting an urban sports survey.",
       "titleFr": "Donnez-nous votre avis ! Nous menons actuellement une enquête sur les sports urbains"
-    },
-    {
-      "source": "news",
-      "title": "体力測定＆運動体験会を開催します！",
-      "link": "https://www.city.matsumoto.nagano.jp/koho/214807.html",
-      "date": "2026-10-26T15:00:00.000Z",
-      "titleEn": "We're hosting a physical fitness assessment and exercise workshop!",
-      "titleFr": "Nous organisons une séance de tests physiques et d'initiation au sport !"
     },
     {
       "source": "anshin",
