@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-04T06:51:54.949Z",
+  "fetched": "2026-11-04T15:09:34.778Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "松本広域鳥獣被害防止総合対策協議会　事後審査型一般競争入札のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/217684.html",
+      "date": "2026-11-04T15:00:00.000Z",
+      "titleEn": "Notice of a Post-Review Open Competitive Bidding Process by the Matsumoto Wide-Area Council for Comprehensive Measures to Prevent Wildlife Damage",
+      "titleFr": "Avis d'appel d'offres ouvert avec examen a posteriori publié par le Conseil consultatif régional de Matsumoto pour la prévention des dégâts causés par la faune sauvage"
+    },
+    {
+      "source": "news",
+      "title": "「白板地区公民館」フリースペースを開放します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/103/146355.html",
+      "date": "2026-11-04T08:00:00.000Z",
+      "titleEn": "The \"Shiraban District Community Center\" Free Space Will Be Open to the Public",
+      "titleFr": "Ouverture de l'espace libre du « Centre communautaire du quartier de Shiroita »"
     },
     {
       "source": "news",
@@ -120,22 +136,6 @@
       "date": "2026-10-30T08:00:00.000Z",
       "titleEn": "We will conduct an open call for proposals for the “Matsumoto City Elementary and Junior High School Foreign Language Teaching Assistant Dispatch Program”",
       "titleFr": "Nous lançons un appel à propositions pour le « Service de détachement d'assistants d'enseignement des langues étrangères dans les écoles primaires et collèges municipaux de Matsumoto »."
-    },
-    {
-      "source": "news",
-      "title": "「かいご」の「しごと」を応援します。",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/1749.html",
-      "date": "2026-10-29T15:00:00.000Z",
-      "titleEn": "We support “care” “work.”",
-      "titleFr": "Nous soutenons les « métiers » du « secteur des soins »."
-    },
-    {
-      "source": "news",
-      "title": "「松本道場 ローカルヒーロートークセッション vol.4」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/217481.html",
-      "date": "2026-10-28T15:00:00.000Z",
-      "titleEn": "We will be hosting “Matsumoto Dojo: Local Hero Talk Session Vol. 4”",
-      "titleFr": "Nous organisons la « Session de discussion avec les héros locaux du dojo de Matsumoto, vol. 4 »"
     },
     {
       "source": "anshin",
