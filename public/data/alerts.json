@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-11-04T00:06:09.887Z",
+  "fetched": "2026-11-04T06:51:54.949Z",
   "items": [
+    {
+      "source": "important",
+      "title": "オンライン申請フォーム（LoGoフォーム）は緊急メンテナンスのため現在利用できません",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
+      "date": "2026-11-04T03:00:00.000Z",
+      "titleEn": "The online application form (LoGo Form) is currently unavailable due to emergency maintenance.",
+      "titleFr": "Le formulaire de demande en ligne (formulaire LoGo) n'est actuellement pas disponible en raison d'une maintenance d'urgence."
+    },
     {
       "source": "important",
       "title": "【注意喚起】松本安心ネットメールシステムへの不正アクセスについて",
@@ -8,6 +16,38 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）11月4日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/218222.html",
+      "date": "2026-11-04T05:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, November 4, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 4 novembre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
+      "title": "オンライン申請フォーム（LoGoフォーム）は緊急メンテナンスのため現在利用できません",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
+      "date": "2026-11-04T03:00:00.000Z",
+      "titleEn": "The online application form (LoGo Form) is currently unavailable due to emergency maintenance.",
+      "titleFr": "Le formulaire de demande en ligne (formulaire LoGo) n'est actuellement pas disponible en raison d'une maintenance d'urgence."
+    },
+    {
+      "source": "news",
+      "title": "【林道宮ノ入線】通行止め解除のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/213768.html",
+      "date": "2026-11-04T03:00:00.000Z",
+      "titleEn": "[Miyanoiri Forest Road] Notice of Road Reopening",
+      "titleFr": "[Route forestière de Miyanoiri] Avis de levée de la fermeture à la circulation"
+    },
+    {
+      "source": "news",
+      "title": "第43回松本市青少年健全育成市民大会・「松本子どもの権利の日」市民フォーラムを開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/213207.html",
+      "date": "2026-11-04T00:00:00.000Z",
+      "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
+      "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour le développement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
     },
     {
       "source": "news",
@@ -35,19 +75,19 @@
     },
     {
       "source": "news",
-      "title": "狂犬病予防注射の制度が変わります（令和９年３月２日から）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/benricho/217370.html",
-      "date": "2026-11-01T15:00:00.000Z",
-      "titleEn": "Changes to the Rabies Vaccination Program (Effective March 2, Reiwa 9)",
-      "titleFr": "Le système de vaccination contre la rage va changer (à compter du 2 mars de l'année Reiwa 9)"
-    },
-    {
-      "source": "news",
       "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
       "date": "2026-11-01T15:00:00.000Z",
       "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
       "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
+    },
+    {
+      "source": "news",
+      "title": "狂犬病予防注射の制度が変わります（令和９年３月２日から）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/benricho/217370.html",
+      "date": "2026-11-01T15:00:00.000Z",
+      "titleEn": "Changes to the Rabies Vaccination Program (Effective March 2, Reiwa 9)",
+      "titleFr": "Le système de vaccination contre la rage va changer (à compter du 2 mars de l'année Reiwa 9)"
     },
     {
       "source": "news",
@@ -91,35 +131,11 @@
     },
     {
       "source": "news",
-      "title": "11月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
-      "date": "2026-10-29T04:00:00.000Z",
-      "titleEn": "Information on the November Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
-    },
-    {
-      "source": "news",
       "title": "「松本道場 ローカルヒーロートークセッション vol.4」を開催します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/217481.html",
       "date": "2026-10-28T15:00:00.000Z",
       "titleEn": "We will be hosting “Matsumoto Dojo: Local Hero Talk Session Vol. 4”",
       "titleFr": "Nous organisons la « Session de discussion avec les héros locaux du dojo de Matsumoto, vol. 4 »"
-    },
-    {
-      "source": "news",
-      "title": "オレンジリボン・児童虐待防止推進キャンペーンを実施しています",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/226/185885.html",
-      "date": "2026-10-28T15:00:00.000Z",
-      "titleEn": "We are conducting the Orange Ribbon Campaign to Prevent Child Abuse",
-      "titleFr": "Nous menons actuellement une campagne de sensibilisation à la prévention de la maltraitance des enfants sous le slogan « Ruban orange »."
-    },
-    {
-      "source": "news",
-      "title": "みんなの声を聞かせて！アーバンスポーツアンケートやってます",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/216714.html",
-      "date": "2026-10-28T00:15:00.000Z",
-      "titleEn": "Let us hear what you have to say! We're conducting an urban sports survey.",
-      "titleFr": "Donnez-nous votre avis ! Nous menons actuellement une enquête sur les sports urbains"
     },
     {
       "source": "anshin",
