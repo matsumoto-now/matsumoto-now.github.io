@@ -1,13 +1,13 @@
 {
-  "fetched": "2026-11-05T09:02:04.007Z",
+  "fetched": "2026-11-05T17:32:39.039Z",
   "items": [
     {
       "source": "important",
-      "title": "オンライン申請フォーム（LoGoフォーム）は緊急メンテナンスのため現在利用できません",
+      "title": "オンライン申請システム（LoGoフォーム）は復旧しました",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
-      "date": "2026-11-04T03:00:00.000Z",
-      "titleEn": "The online application form (LoGo Form) is currently unavailable due to emergency maintenance.",
-      "titleFr": "Le formulaire de demande en ligne (formulaire LoGo) n'est actuellement pas disponible en raison d'une maintenance d'urgence."
+      "date": "2026-11-05T09:00:00.000Z",
+      "titleEn": "The online application system (LoGo Form) has been restored.",
+      "titleFr": "Le système de demande en ligne (formulaire LoGo) a été rétabli"
     },
     {
       "source": "important",
@@ -16,6 +16,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "令和８年１２月途中入園の空き状況・申請フォーム",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
+      "date": "2026-11-05T15:00:00.000Z",
+      "titleEn": "Availability and Application Form for Mid-December Reiwa 8 Enrollment",
+      "titleFr": "Disponibilités et formulaire de demande d'inscription en cours de l'année Reiwa 8 (décembre)"
+    },
+    {
+      "source": "news",
+      "title": "オンライン申請システム（LoGoフォーム）は復旧しました",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
+      "date": "2026-11-05T09:00:00.000Z",
+      "titleEn": "The online application system (LoGo Form) has been restored.",
+      "titleFr": "Le système de demande en ligne (formulaire LoGo) a été rétabli"
     },
     {
       "source": "news",
@@ -48,14 +64,6 @@
       "date": "2026-11-04T05:00:00.000Z",
       "titleEn": "Mayor's Press Conference, November 4, Reiwa 8 (2026)",
       "titleFr": "Conférence de presse du maire, le 4 novembre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "オンライン申請フォーム（LoGoフォーム）は緊急メンテナンスのため現在利用できません",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
-      "date": "2026-11-04T03:00:00.000Z",
-      "titleEn": "The online application form (LoGo Form) is currently unavailable due to emergency maintenance.",
-      "titleFr": "Le formulaire de demande en ligne (formulaire LoGo) n'est actuellement pas disponible en raison d'une maintenance d'urgence."
     },
     {
       "source": "news",
@@ -128,14 +136,6 @@
       "date": "2026-10-30T08:15:00.000Z",
       "titleEn": "[Registration Closed] Information on the Reiwa 9 Enrollment Reservation System for Children Returning from Parental Leave: Application Process and Required Documents",
       "titleFr": "[Inscriptions closes] Informations sur le système de réservation d'inscription à la crèche à l'issue du congé parental pour l'année Reiwa 9, modalités d'inscription et documents requis"
-    },
-    {
-      "source": "news",
-      "title": "「松本市立小・中学校等外国語指導助手派遣業務」公募型プロポーザルを実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/216308.html",
-      "date": "2026-10-30T08:00:00.000Z",
-      "titleEn": "We will conduct an open call for proposals for the “Matsumoto City Elementary and Junior High School Foreign Language Teaching Assistant Dispatch Program”",
-      "titleFr": "Nous lançons un appel à propositions pour le « Service de détachement d'assistants d'enseignement des langues étrangères dans les écoles primaires et collèges municipaux de Matsumoto »."
     },
     {
       "source": "anshin",
