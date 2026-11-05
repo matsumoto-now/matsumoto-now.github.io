@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-05T01:40:31.659Z",
+  "fetched": "2026-11-05T09:02:04.007Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「松本市上下水道局ＷＥＢ照会サイト」の一部システムを停止しています",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/89981.html",
+      "date": "2026-11-05T01:00:00.000Z",
+      "titleEn": "Some systems on the “Matsumoto City Water and Sewerage Bureau Online Inquiry Site” are currently unavailable.",
+      "titleFr": "Une partie du système du « site Web de renseignements du Service des eaux et de l'assainissement de la ville de Matsumoto » est actuellement hors service."
     },
     {
       "source": "news",
@@ -80,14 +88,6 @@
       "date": "2026-11-03T15:00:00.000Z",
       "titleEn": "Notice from the Matsumoto Tax Office (Reiwa 8 Fiscal Year Financial Results Briefing and Consumption Tax Briefing)",
       "titleFr": "Communiqué du bureau des impôts de Matsumoto (Organisation de réunions d'information sur les comptes annuels et la taxe sur la consommation, etc., pour l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "松本市上下水道局ＷＥＢ照会サイト",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/89981.html",
-      "date": "2026-11-02T01:00:00.000Z",
-      "titleEn": "Matsumoto City Water and Sewerage Bureau Online Inquiry Site",
-      "titleFr": "Site Web de consultation du Service des eaux et de l'assainissement de la ville de Matsumoto"
     },
     {
       "source": "news",
