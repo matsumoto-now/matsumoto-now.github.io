@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-11-06T03:32:44.866Z",
+  "fetched": "2026-11-06T11:51:18.694Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
+      "date": "2026-11-06T09:00:00.000Z",
+      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
+    },
     {
       "source": "important",
       "title": "オンライン申請システム（LoGoフォーム）は復旧しました",
@@ -19,11 +27,51 @@
     },
     {
       "source": "news",
+      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
+      "date": "2026-11-06T09:00:00.000Z",
+      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-11-06T07:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
+      "date": "2026-11-06T06:00:00.000Z",
+      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
+      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
+    },
+    {
+      "source": "news",
       "title": "第43回松本市青少年健全育成市民大会・「松本子どもの権利の日」市民フォーラムを開催します",
       "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/213207.html",
       "date": "2026-11-05T23:15:00.000Z",
       "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
       "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour le développement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
+    },
+    {
+      "source": "news",
+      "title": "三献運動推進市民大会を開催します！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/216880.html",
+      "date": "2026-11-05T15:00:00.000Z",
+      "titleEn": "We're holding a Citizens' Rally to Promote the \"Three Offerings\" Movement!",
+      "titleFr": "Nous organisons un rassemblement citoyen pour promouvoir le mouvement des « trois offrandes » !"
+    },
+    {
+      "source": "news",
+      "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "date": "2026-11-05T15:00:00.000Z",
+      "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
+      "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
     },
     {
       "source": "news",
@@ -96,46 +144,6 @@
       "date": "2026-11-03T15:00:00.000Z",
       "titleEn": "Notice from the Matsumoto Tax Office (Reiwa 8 Fiscal Year Financial Results Briefing and Consumption Tax Briefing)",
       "titleFr": "Communiqué du bureau des impôts de Matsumoto (Organisation de réunions d'information sur les comptes annuels et la taxe sur la consommation, etc., pour l'année Reiwa 8)"
-    },
-    {
-      "source": "news",
-      "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
-      "date": "2026-11-01T15:00:00.000Z",
-      "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
-      "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
-    },
-    {
-      "source": "news",
-      "title": "狂犬病予防注射の制度が変わります（令和９年３月２日から）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/benricho/217370.html",
-      "date": "2026-11-01T15:00:00.000Z",
-      "titleEn": "Changes to the Rabies Vaccination Program (Effective March 2, Reiwa 9)",
-      "titleFr": "Le système de vaccination contre la rage va changer (à compter du 2 mars de l'année Reiwa 9)"
-    },
-    {
-      "source": "news",
-      "title": "フレイル予防通信11月号～定期的に歯科健診を受けて「いい歯」でおいしく食べましょう～",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/215852.html",
-      "date": "2026-10-31T23:00:00.000Z",
-      "titleEn": "November Issue of the Frailty Prevention Newsletter—Get Regular Dental Checkups and Enjoy Delicious Meals with Healthy Teeth—",
-      "titleFr": "Lettre d'information sur la prévention de la fragilité, numéro de novembre ~ Passez régulièrement des examens dentaires pour pouvoir manger avec appétit grâce à de « belles dents » ~"
-    },
-    {
-      "source": "news",
-      "title": "市民課受付予約と混雑状況のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2943.html",
-      "date": "2026-10-31T15:00:00.000Z",
-      "titleEn": "Information on Appointments and Crowd Levels at the Civic Affairs Division Reception Desk",
-      "titleFr": "Informations sur les rendez-vous à l'accueil du service des affaires civiles et sur l'affluence"
-    },
-    {
-      "source": "news",
-      "title": "【受付終了】令和9年度育児休業明け入園予約制度のご案内・申込み受付・必要書類",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/2437.html",
-      "date": "2026-10-30T08:15:00.000Z",
-      "titleEn": "[Registration Closed] Information on the Reiwa 9 Enrollment Reservation System for Children Returning from Parental Leave: Application Process and Required Documents",
-      "titleFr": "[Inscriptions closes] Informations sur le système de réservation d'inscription à la crèche à l'issue du congé parental pour l'année Reiwa 9, modalités d'inscription et documents requis"
     },
     {
       "source": "anshin",
