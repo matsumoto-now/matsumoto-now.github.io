@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-08T14:10:56.387Z",
+  "fetched": "2026-11-08T18:57:30.536Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "令和９年度松本市会計年度任用職員を募集します。",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217801.html",
+      "date": "2026-11-08T15:00:00.000Z",
+      "titleEn": "We are accepting applications for fiscal year Reiwa 9 temporary staff positions in Matsumoto City.",
+      "titleFr": "Nous recrutons des agents contractuels pour l'exercice budgétaire de l'année Reiwa 9 de la ville de Matsumoto."
     },
     {
       "source": "news",
@@ -136,14 +144,6 @@
       "date": "2026-11-03T15:00:00.000Z",
       "titleEn": "We will be holding “Matsumoto Quest,” the project that won the Grand Prize at the 1st Matsumoto City Youth Project Contest.",
       "titleFr": "Nous organisons « Matsumoto Quest », le projet lauréat du Grand Prix du 1er Concours de projets pour les jeunes de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "松本税務署からのお知らせ（令和８年分　決算説明会・消費税等説明会の開催）",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/14/216945.html",
-      "date": "2026-11-03T15:00:00.000Z",
-      "titleEn": "Notice from the Matsumoto Tax Office (Reiwa 8 Fiscal Year Financial Results Briefing and Consumption Tax Briefing)",
-      "titleFr": "Communiqué du bureau des impôts de Matsumoto (Organisation de réunions d'information sur les comptes annuels et la taxe sur la consommation, etc., pour l'année Reiwa 8)"
     },
     {
       "source": "anshin",
