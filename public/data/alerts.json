@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-10T03:21:47.841Z",
+  "fetched": "2026-11-10T11:32:45.176Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,30 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "市長記者会見　令和8年（2026）11月10日",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/218732.html",
+      "date": "2026-11-10T06:00:00.000Z",
+      "titleEn": "Mayor's Press Conference, November 10, Reiwa 8 (2026)",
+      "titleFr": "Conférence de presse du maire, le 10 novembre de l'année Reiwa 8 (2026)"
+    },
+    {
+      "source": "news",
+      "title": "大ヒット上映中「山崎監督作品『ゴジラ-0.0』」のタイアップ企画を開催中！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/76/217388.html",
+      "date": "2026-11-10T05:00:00.000Z",
+      "titleEn": "We're currently running a promotional campaign in conjunction with the blockbuster hit \"Godzilla: 0.0,\" directed by Yamazaki!",
+      "titleFr": "Dans le cadre du grand succès actuel du film « Godzilla -0.0 » du réalisateur Yamazaki, nous organisons actuellement une opération promotionnelle en partenariat avec ce film !"
+    },
+    {
+      "source": "news",
+      "title": "11月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
+      "date": "2026-11-10T04:30:00.000Z",
+      "titleEn": "Information on the November Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
     },
     {
       "source": "news",
@@ -40,6 +64,14 @@
       "date": "2026-11-08T23:45:00.000Z",
       "titleEn": "[Sports Facilities] Reservations Are Now Open Due to Changes in the Construction Schedule",
       "titleFr": "[Installations sportives] Les réservations sont à nouveau ouvertes en raison d'un changement dans le calendrier des travaux"
+    },
+    {
+      "source": "news",
+      "title": "道路交通規制のお知らせ(笹賀東耕地)",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/218535.html",
+      "date": "2026-11-08T15:00:00.000Z",
+      "titleEn": "Notice of Traffic Restrictions (Sasaga Higashi Farmland)",
+      "titleFr": "Avis de restrictions de circulation (terres agricoles de Sasaga-Higashi)"
     },
     {
       "source": "news",
@@ -104,38 +136,6 @@
       "date": "2026-11-05T01:00:00.000Z",
       "titleEn": "Some systems on the “Matsumoto City Water and Sewerage Bureau Online Inquiry Site” are currently unavailable.",
       "titleFr": "Une partie du système du « site Web de renseignements du Service des eaux et de l'assainissement de la ville de Matsumoto » est actuellement hors service."
-    },
-    {
-      "source": "news",
-      "title": "松本広域鳥獣被害防止総合対策協議会　事後審査型一般競争入札のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/site/nyusatsu-keiyaku/217684.html",
-      "date": "2026-11-04T15:00:00.000Z",
-      "titleEn": "Notice of a Post-Review Open Competitive Bidding Process by the Matsumoto Wide-Area Council for Comprehensive Measures to Prevent Wildlife Damage",
-      "titleFr": "Avis d'appel d'offres ouvert avec examen a posteriori publié par le Conseil consultatif régional de Matsumoto pour la prévention des dégâts causés par la faune sauvage"
-    },
-    {
-      "source": "news",
-      "title": "「白板地区公民館」フリースペースを開放します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/103/146355.html",
-      "date": "2026-11-04T08:00:00.000Z",
-      "titleEn": "The \"Shiraban District Community Center\" Free Space Will Be Open to the Public",
-      "titleFr": "Ouverture de l'espace libre du « Centre communautaire du quartier de Shiroita »"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）11月4日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/218222.html",
-      "date": "2026-11-04T05:00:00.000Z",
-      "titleEn": "Mayor's Press Conference, November 4, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 4 novembre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "【林道宮ノ入線】通行止め解除のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/74/213768.html",
-      "date": "2026-11-04T03:00:00.000Z",
-      "titleEn": "[Miyanoiri Forest Road] Notice of Road Reopening",
-      "titleFr": "[Route forestière de Miyanoiri] Avis de levée de la fermeture à la circulation"
     },
     {
       "source": "anshin",
