@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-11-09T20:57:24.006Z",
+  "fetched": "2026-11-10T03:21:47.841Z",
   "items": [
-    {
-      "source": "important",
-      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
-      "date": "2026-11-06T09:00:00.000Z",
-      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
-    },
     {
       "source": "important",
       "title": "オンライン申請システム（LoGoフォーム）は復旧しました",
@@ -27,6 +19,14 @@
     },
     {
       "source": "news",
+      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
+      "date": "2026-11-09T09:00:00.000Z",
+      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
       "title": "令和９年度松本市会計年度任用職員を募集します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217801.html",
       "date": "2026-11-09T01:15:00.000Z",
@@ -35,11 +35,11 @@
     },
     {
       "source": "news",
-      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
-      "date": "2026-11-06T09:00:00.000Z",
-      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
+      "title": "【スポーツ施設】工事予定の変更により予約を開放します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/239/184164.html",
+      "date": "2026-11-08T23:45:00.000Z",
+      "titleEn": "[Sports Facilities] Reservations Are Now Open Due to Changes in the Construction Schedule",
+      "titleFr": "[Installations sportives] Les réservations sont à nouveau ouvertes en raison d'un changement dans le calendrier des travaux"
     },
     {
       "source": "news",
@@ -136,14 +136,6 @@
       "date": "2026-11-04T03:00:00.000Z",
       "titleEn": "[Miyanoiri Forest Road] Notice of Road Reopening",
       "titleFr": "[Route forestière de Miyanoiri] Avis de levée de la fermeture à la circulation"
-    },
-    {
-      "source": "news",
-      "title": "第1回松本市若者企画コンテスト大賞受賞企画「まつもとクエスト」を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/216954.html",
-      "date": "2026-11-03T15:00:00.000Z",
-      "titleEn": "We will be holding “Matsumoto Quest,” the project that won the Grand Prize at the 1st Matsumoto City Youth Project Contest.",
-      "titleFr": "Nous organisons « Matsumoto Quest », le projet lauréat du Grand Prix du 1er Concours de projets pour les jeunes de Matsumoto"
     },
     {
       "source": "anshin",
