@@ -1,13 +1,29 @@
 {
-  "fetched": "2026-11-11T00:11:02.275Z",
+  "fetched": "2026-11-11T06:56:18.348Z",
   "items": [
     {
       "source": "important",
-      "title": "オンライン申請システム（LoGoフォーム）は復旧しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
-      "date": "2026-11-05T09:00:00.000Z",
-      "titleEn": "The online application system (LoGo Form) has been restored.",
-      "titleFr": "Le système de demande en ligne (formulaire LoGo) a été rétabli"
+      "title": "清水地区・やまびこ道路での漏水事故対応に伴う断水と通行規制のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218815.html",
+      "date": "2026-11-11T05:00:00.000Z",
+      "titleEn": "Notice of Water Service Interruption and Traffic Restrictions Due to Response to a Water Leak on Yamabiko Road in the Shimizu District",
+      "titleFr": "Avis concernant une coupure d'eau et des restrictions de circulation liées à l'intervention suite à une fuite sur la route Yamabiko, dans le quartier de Shimizu"
+    },
+    {
+      "source": "important",
+      "title": "【路線バス】一部のバス停で迂回運行しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/222/218841.html",
+      "date": "2026-11-11T05:00:00.000Z",
+      "titleEn": "[Bus Routes] Buses are operating on a detour route at some bus stops",
+      "titleFr": "[Bus de ligne] Le service est dévié à certains arrêts"
+    },
+    {
+      "source": "important",
+      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
+      "date": "2026-11-11T02:00:00.000Z",
+      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
     },
     {
       "source": "important",
@@ -16,6 +32,30 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "清水地区・やまびこ道路での漏水事故対応に伴う断水と通行規制のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218815.html",
+      "date": "2026-11-11T05:00:00.000Z",
+      "titleEn": "Notice of Water Service Interruption and Traffic Restrictions Due to Response to a Water Leak on Yamabiko Road in the Shimizu District",
+      "titleFr": "Avis concernant une coupure d'eau et des restrictions de circulation liées à l'intervention suite à une fuite sur la route Yamabiko, dans le quartier de Shimizu"
+    },
+    {
+      "source": "news",
+      "title": "【路線バス】一部のバス停で迂回運行しています",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/222/218841.html",
+      "date": "2026-11-11T05:00:00.000Z",
+      "titleEn": "[Bus Routes] Buses are taking a detour at some bus stops",
+      "titleFr": "[Bus de ligne] Le service est dévié à certains arrêts"
+    },
+    {
+      "source": "news",
+      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
+      "date": "2026-11-11T02:00:00.000Z",
+      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
+      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -43,11 +83,11 @@
     },
     {
       "source": "news",
-      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
-      "date": "2026-11-09T09:00:00.000Z",
-      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
+      "title": "移動採血車による献血会場のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
+      "date": "2026-11-09T15:00:00.000Z",
+      "titleEn": "Notice Regarding Blood Donation Events at the Mobile Blood Collection Unit",
+      "titleFr": "Annonce concernant le site de don du sang organisé par le bus de collecte mobile"
     },
     {
       "source": "news",
@@ -114,28 +154,12 @@
       "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
     },
     {
-      "source": "news",
-      "title": "令和８年１２月途中入園の空き状況・申請フォーム",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-11-05T15:00:00.000Z",
-      "titleEn": "Availability and Application Form for Mid-December Reiwa 8 Enrollment",
-      "titleFr": "Disponibilités et formulaire de demande d'inscription en cours de l'année Reiwa 8 (décembre)"
-    },
-    {
-      "source": "news",
-      "title": "オンライン申請システム（LoGoフォーム）は復旧しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/5/218107.html",
-      "date": "2026-11-05T09:00:00.000Z",
-      "titleEn": "The online application system (LoGo Form) has been restored.",
-      "titleFr": "Le système de demande en ligne (formulaire LoGo) a été rétabli"
-    },
-    {
-      "source": "news",
-      "title": "「松本市上下水道局ＷＥＢ照会サイト」の一部システムを停止しています",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/89981.html",
-      "date": "2026-11-05T01:00:00.000Z",
-      "titleEn": "Some systems on the “Matsumoto City Water and Sewerage Bureau Online Inquiry Site” are currently unavailable.",
-      "titleFr": "Une partie du système du « site Web de renseignements du Service des eaux et de l'assainissement de la ville de Matsumoto » est actuellement hors service."
+      "source": "anshin",
+      "title": "国民保護関連情報　即時音声書換情報",
+      "link": "https://matsumoto-city.site2.ktaiwork.jp/?p=151",
+      "date": "2026-11-11T02:01:11.000Z",
+      "titleEn": "Civil Protection-Related Information: Immediate Voice-to-Text Information",
+      "titleFr": "Informations relatives à la protection civile – Informations audio mises à jour en temps réel"
     },
     {
       "source": "anshin",
@@ -208,14 +232,6 @@
       "date": "2026-04-18T07:57:02.000Z",
       "titleEn": "Regarding the April 18 Earthquake in Northern Nagano Prefecture [Please Review Your Earthquake Preparedness]",
       "titleFr": "À propos du séisme survenu le 18 avril dans le nord de la préfecture de Nagano [Vérifiez vos mesures de prévention en cas de séisme]"
-    },
-    {
-      "source": "anshin",
-      "title": "地震情報　震度速報　震度４",
-      "link": "https://matsumoto-city.site2.ktaiwork.jp/?p=131",
-      "date": "2026-04-18T05:56:33.000Z",
-      "titleEn": "Earthquake Information: Preliminary Seismic Intensity Report—Intensity 4",
-      "titleFr": "Informations sur le séisme - Alerte rapide sur l'intensité sismique - Intensité 4"
     }
   ]
 }
