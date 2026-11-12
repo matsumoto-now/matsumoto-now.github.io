@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-12T10:42:22.612Z",
+  "fetched": "2026-11-12T18:42:47.906Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市表彰者及び顕彰者を紹介します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/123759.html",
+      "date": "2026-11-12T15:00:00.000Z",
+      "titleEn": "Introducing the Recipients of Matsumoto City Awards and Honors for Reiwa 8",
+      "titleFr": "Voici la liste des lauréats et des personnes honorées par la ville de Matsumoto pour l'année Reiwa 8"
     },
     {
       "source": "news",
@@ -128,22 +136,6 @@
       "date": "2026-11-05T23:15:00.000Z",
       "titleEn": "The 43rd Matsumoto City Citizens' Conference on the Healthy Development of Youth and the \"Matsumoto Children's Rights Day\" Citizens' Forum Will Be Held",
       "titleFr": "Organisation de la 43e édition du Congrès citoyen de Matsumoto pour le développement harmonieux des jeunes et du forum citoyen « Journée des droits de l'enfant à Matsumoto »"
-    },
-    {
-      "source": "news",
-      "title": "三献運動推進市民大会を開催します！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/216880.html",
-      "date": "2026-11-05T15:00:00.000Z",
-      "titleEn": "We're holding a Citizens' Rally to Promote the \"Three Offerings\" Movement!",
-      "titleFr": "Nous organisons un rassemblement citoyen pour promouvoir le mouvement des « trois offrandes » !"
-    },
-    {
-      "source": "news",
-      "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
-      "date": "2026-11-05T15:00:00.000Z",
-      "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
-      "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
     },
     {
       "source": "anshin",
