@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-11-12T02:43:15.877Z",
+  "fetched": "2026-11-12T10:42:22.612Z",
   "items": [
-    {
-      "source": "important",
-      "title": "【路線バス】迂回運行を通常のルートに戻しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/222/218841.html",
-      "date": "2026-11-11T21:15:00.000Z",
-      "titleEn": "[Bus Routes] Detour Service Has Returned to the Normal Route",
-      "titleFr": "[Bus de ligne] Le service, qui avait été dévié, a repris son itinéraire habituel"
-    },
     {
       "source": "important",
       "title": "清水地区・やまびこ道路での緊急断水と通行規制解除のお知らせ（12日5時00分時更新）",
@@ -40,14 +32,6 @@
       "date": "2026-11-12T00:00:00.000Z",
       "titleEn": "We are accepting applications for Matsumoto City’s Fiscal Year Reiwa 9 Temporary Staff Positions",
       "titleFr": "Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 9 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "【路線バス】迂回運行を通常のルートに戻しました",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/222/218841.html",
-      "date": "2026-11-11T21:15:00.000Z",
-      "titleEn": "[Bus Routes] Detour Service Has Returned to the Regular Route",
-      "titleFr": "[Bus de ligne] Le service, qui avait été dévié, a repris son itinéraire habituel"
     },
     {
       "source": "news",
@@ -152,6 +136,14 @@
       "date": "2026-11-05T15:00:00.000Z",
       "titleEn": "We're holding a Citizens' Rally to Promote the \"Three Offerings\" Movement!",
       "titleFr": "Nous organisons un rassemblement citoyen pour promouvoir le mouvement des « trois offrandes » !"
+    },
+    {
+      "source": "news",
+      "title": "【受付中】令和9年4月保育施設入園申込の受付・必要書類",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/91265.html",
+      "date": "2026-11-05T15:00:00.000Z",
+      "titleEn": "[Now Accepting Applications] Applications and Required Documents for Childcare Facilities for April Reiwa 9",
+      "titleFr": "[Ouvert] Inscriptions pour l'admission dans les structures d'accueil pour enfants en avril de l'année Reiwa 9 – Documents requis"
     },
     {
       "source": "anshin",
