@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-12T23:58:38.425Z",
+  "fetched": "2026-11-13T06:23:35.355Z",
   "items": [
     {
       "source": "important",
@@ -27,6 +27,14 @@
     },
     {
       "source": "news",
+      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
+      "date": "2026-11-13T00:00:00.000Z",
+      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
+      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
+    },
+    {
+      "source": "news",
       "title": "令和8年度松本市表彰者及び顕彰者を紹介します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/123759.html",
       "date": "2026-11-12T15:00:00.000Z",
@@ -48,14 +56,6 @@
       "date": "2026-11-11T20:00:00.000Z",
       "titleEn": "Notice Regarding the Lifting of the Emergency Water Shutdown and Traffic Restrictions on Yamabiko Road in the Shimizu District (Updated at 5:00 a.m. on the 12th)",
       "titleFr": "Avis concernant la levée de la coupure d'eau d'urgence et des restrictions de circulation dans le quartier de Shimizu et sur la route Yamabiko (mis à jour le 12 à 5 h 00)"
-    },
-    {
-      "source": "news",
-      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
-      "date": "2026-11-11T06:00:00.000Z",
-      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
-      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
     },
     {
       "source": "news",
@@ -88,14 +88,6 @@
       "date": "2026-11-10T05:00:00.000Z",
       "titleEn": "We're currently running a promotional campaign in conjunction with the blockbuster hit \"Godzilla: 0.0,\" directed by Yamazaki!",
       "titleFr": "Dans le cadre du grand succès actuel du film « Godzilla -0.0 » du réalisateur Yamazaki, nous organisons actuellement une opération promotionnelle en partenariat avec ce film !"
-    },
-    {
-      "source": "news",
-      "title": "11月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/3216.html",
-      "date": "2026-11-10T04:30:00.000Z",
-      "titleEn": "Information on the November Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de novembre"
     },
     {
       "source": "news",
