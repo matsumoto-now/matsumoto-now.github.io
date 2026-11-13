@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-11-13T06:23:35.355Z",
+  "fetched": "2026-11-13T14:48:34.987Z",
   "items": [
-    {
-      "source": "important",
-      "title": "清水地区・やまびこ道路での緊急断水と通行規制解除のお知らせ（12日5時00分時更新）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218815.html",
-      "date": "2026-11-11T20:00:00.000Z",
-      "titleEn": "Notice Regarding the Lifting of the Emergency Water Shutdown and Traffic Restrictions on Yamabiko Road in the Shimizu District (Updated at 5:00 a.m. on the 12th)",
-      "titleFr": "Avis concernant la levée de la coupure d'eau d'urgence et des restrictions de circulation dans le quartier de Shimizu et sur la route Yamabiko (mis à jour le 12 à 5 h 00)"
-    },
     {
       "source": "important",
       "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
@@ -24,6 +16,30 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【受付終了】令和８年１２月途中入園の空き状況・申請フォーム",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
+      "date": "2026-11-13T08:15:00.000Z",
+      "titleEn": "[Registration Closed] Availability and Application Form for Mid-Reiwa 8 Enrollment",
+      "titleFr": "[Inscriptions closes] Disponibilités et formulaire de demande d'inscription pour une entrée en cours de mois de décembre de l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "ウォークラリー参加者募集",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/212251.html",
+      "date": "2026-11-13T08:00:00.000Z",
+      "titleEn": "Call for Participants in the Walking Rally",
+      "titleFr": "Appel à participants pour la randonnée-jeu"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度松本市職員採用資格試験【9月】　第3次試験結果",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/219022.html",
+      "date": "2026-11-13T06:00:00.000Z",
+      "titleEn": "Reiwa 8 Matsumoto City Civil Service Qualifying Examination [September]—Third-Round Examination Results",
+      "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
     },
     {
       "source": "news",
@@ -112,14 +128,6 @@
       "date": "2026-11-08T15:00:00.000Z",
       "titleEn": "Notice of Traffic Restrictions (Sasaga Higashi Farmland)",
       "titleFr": "Avis de restrictions de circulation (terres agricoles de Sasaga-Higashi)"
-    },
-    {
-      "source": "news",
-      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
-      "date": "2026-11-06T07:00:00.000Z",
-      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
-      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "anshin",
