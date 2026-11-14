@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-14T01:36:04.707Z",
+  "fetched": "2026-11-14T08:40:38.624Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【11/14更新】観戦者募集！野球オーストリア代表vs松本大学野球部練習試合",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/215/216604.html",
+      "date": "2026-11-14T07:30:00.000Z",
+      "titleEn": "[Updated 11/14] Calling for Spectators! Austria National Baseball Team vs. Matsumoto University Baseball Team Exhibition Game",
+      "titleFr": "[Mise à jour du 14 novembre] Appel aux spectateurs ! Match d'entraînement entre l'équipe nationale autrichienne de baseball et l'équipe de baseball de l'université de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "市民課 休日窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2949.html",
+      "date": "2026-11-14T06:00:00.000Z",
+      "titleEn": "Citizen Services Division: Information on Holiday Services",
+      "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
     },
     {
       "source": "news",
@@ -120,14 +136,6 @@
       "date": "2026-11-08T23:45:00.000Z",
       "titleEn": "[Sports Facilities] Reservations Are Now Open Due to Changes in the Construction Schedule",
       "titleFr": "[Installations sportives] Les réservations sont à nouveau ouvertes en raison d'un changement dans le calendrier des travaux"
-    },
-    {
-      "source": "news",
-      "title": "道路交通規制のお知らせ(笹賀東耕地)",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/83/218535.html",
-      "date": "2026-11-08T15:00:00.000Z",
-      "titleEn": "Notice of Traffic Restrictions (Sasaga Higashi Farmland)",
-      "titleFr": "Avis de restrictions de circulation (terres agricoles de Sasaga-Higashi)"
     },
     {
       "source": "anshin",
