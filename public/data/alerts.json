@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-16T00:11:08.070Z",
+  "fetched": "2026-11-16T07:04:00.083Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「松本市上下水道局ＷＥＢ照会サイト」のシステム復旧のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/89981.html",
+      "date": "2026-11-16T01:00:00.000Z",
+      "titleEn": "Notice Regarding the Restoration of the “Matsumoto City Water and Sewerage Bureau Online Inquiry Site”",
+      "titleFr": "Avis concernant la remise en service du système du « site Web de consultation du Service des eaux et de l'assainissement de la ville de Matsumoto »"
     },
     {
       "source": "news",
