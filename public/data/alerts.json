@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-16T07:04:00.083Z",
+  "fetched": "2026-11-16T17:17:35.239Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,22 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "令和９年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217801.html",
+      "date": "2026-11-16T08:00:00.000Z",
+      "titleEn": "We are accepting applications for Matsumoto City’s Fiscal Year Reiwa 9 Temporary Staff Positions",
+      "titleFr": "Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 9 de la ville de Matsumoto"
+    },
+    {
+      "source": "news",
+      "title": "【追加募集】令和8年度松本市会計年度任用職員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/198161.html",
+      "date": "2026-11-16T08:00:00.000Z",
+      "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
+      "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
     },
     {
       "source": "news",
@@ -75,14 +91,6 @@
     },
     {
       "source": "news",
-      "title": "令和９年度松本市会計年度任用職員を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217801.html",
-      "date": "2026-11-12T00:00:00.000Z",
-      "titleEn": "We are accepting applications for Matsumoto City’s Fiscal Year Reiwa 9 Temporary Staff Positions",
-      "titleFr": "Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 9 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
       "title": "清水地区・やまびこ道路での緊急断水と通行規制解除のお知らせ（12日5時00分時更新）",
       "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218815.html",
       "date": "2026-11-11T20:00:00.000Z",
@@ -120,14 +128,6 @@
       "date": "2026-11-10T05:00:00.000Z",
       "titleEn": "We're currently running a promotional campaign in conjunction with the blockbuster hit \"Godzilla: 0.0,\" directed by Yamazaki!",
       "titleFr": "Dans le cadre du grand succès actuel du film « Godzilla -0.0 » du réalisateur Yamazaki, nous organisons actuellement une opération promotionnelle en partenariat avec ce film !"
-    },
-    {
-      "source": "news",
-      "title": "移動採血車による献血会場のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/65/1863.html",
-      "date": "2026-11-09T15:00:00.000Z",
-      "titleEn": "Notice Regarding Blood Donation Events at the Mobile Blood Collection Unit",
-      "titleFr": "Annonce concernant le site de don du sang organisé par le bus de collecte mobile"
     },
     {
       "source": "anshin",
