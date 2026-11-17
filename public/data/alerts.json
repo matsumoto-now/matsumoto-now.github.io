@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-17T08:57:59.638Z",
+  "fetched": "2026-11-17T18:23:49.942Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,46 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度　市税等納期のお知らせ",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/16/3589.html",
+      "date": "2026-11-17T15:00:00.000Z",
+      "titleEn": "Notice Regarding Payment Deadlines for City Taxes, etc., for Reiwa 8",
+      "titleFr": "Avis concernant les dates d'échéance des impôts municipaux pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "松本市役所 令和9年春季インターンシップ・職場体験を実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/218958.html",
+      "date": "2026-11-17T15:00:00.000Z",
+      "titleEn": "Matsumoto City Hall to Hold Reiwa 9 Spring Internship and Workplace Experience Program",
+      "titleFr": "La mairie de Matsumoto organise des stages et des expériences professionnelles au printemps de l'année Reiwa 9"
+    },
+    {
+      "source": "news",
+      "title": "令和8年度パブリックコメント募集中",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/218628.html",
+      "date": "2026-11-17T15:00:00.000Z",
+      "titleEn": "Call for Public Comments for Reiwa 8 is Now Open",
+      "titleFr": "Appel à commentaires publics pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "第2期松本市水道事業経営戦略（案）・第2期松本市下水道事業及び農業集落排水事業経営戦略（案）に対するパブリックコメントを実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218397.html",
+      "date": "2026-11-17T15:00:00.000Z",
+      "titleEn": "We are soliciting public comments on the Draft Second-Term Matsumoto City Waterworks Business Management Strategy and the Draft Second-Term Matsumoto City Sewerage and Agricultural Village Wastewater Treatment Business Management Strategy.",
+      "titleFr": "Une consultation publique est organisée concernant le projet de stratégie de gestion de la 2e phase du service des eaux de la ville de Matsumoto et le projet de stratégie de gestion de la 2e phase du service d'assainissement et du service d'évacuation des eaux usées des agglomérations agricoles de la ville de Matsumoto."
+    },
+    {
+      "source": "news",
+      "title": "第4次松本市教育振興基本計画（案）に対するご意見を募集します（パブリックコメント）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/217723.html",
+      "date": "2026-11-17T15:00:00.000Z",
+      "titleEn": "We are soliciting comments on the Draft 4th Matsumoto City Basic Plan for the Promotion of Education (Public Comment)",
+      "titleFr": "Appel à commentaires sur le projet de 4e plan directeur de promotion de l'éducation de la ville de Matsumoto (consultation publique)"
     },
     {
       "source": "news",
@@ -98,44 +138,12 @@
       "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
     },
     {
-      "source": "news",
-      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
-      "date": "2026-11-13T00:00:00.000Z",
-      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
-      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市表彰者及び顕彰者を紹介します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/216/123759.html",
-      "date": "2026-11-12T15:00:00.000Z",
-      "titleEn": "Introducing the Recipients of Matsumoto City Awards and Honors for Reiwa 8",
-      "titleFr": "Voici la liste des lauréats et des personnes honorées par la ville de Matsumoto pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "清水地区・やまびこ道路での緊急断水と通行規制解除のお知らせ（12日5時00分時更新）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218815.html",
-      "date": "2026-11-11T20:00:00.000Z",
-      "titleEn": "Notice Regarding the Lifting of the Emergency Water Shutdown and Traffic Restrictions on Yamabiko Road in the Shimizu District (Updated at 5:00 a.m. on the 12th)",
-      "titleFr": "Avis concernant la levée de la coupure d'eau d'urgence et des restrictions de circulation dans le quartier de Shimizu et sur la route Yamabiko (mis à jour le 12 à 5 h 00)"
-    },
-    {
-      "source": "news",
-      "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/228/218352.html",
-      "date": "2026-11-11T02:00:00.000Z",
-      "titleEn": "[Alert] Regarding Unauthorized Access to the Matsumoto City Disaster Telephone Service System",
-      "titleFr": "[Avertissement] Concernant un accès non autorisé au système de service téléphonique d'urgence de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "若者△プロジェクト「つながるキッチン」参加者を募集します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/208444.html",
-      "date": "2026-11-11T00:00:00.000Z",
-      "titleEn": "We are recruiting participants for the Youth △ Project “Connecting Kitchens”",
-      "titleFr": "Appel à candidatures pour le projet « Tsunagaru Kitchen » destiné aux jeunes △"
+      "source": "anshin",
+      "title": "NTT回線故障情報のお知らせ",
+      "link": "https://matsumoto-city.site2.ktaiwork.jp/?p=153",
+      "date": "2026-11-17T10:30:03.000Z",
+      "titleEn": "Notice Regarding NTT Line Outages",
+      "titleFr": "Avis concernant une panne sur le réseau NTT"
     },
     {
       "source": "anshin",
@@ -208,14 +216,6 @@
       "date": "2026-05-21T23:14:34.000Z",
       "titleEn": "Regarding Bear Sightings",
       "titleFr": "À propos des signalements d'ours"
-    },
-    {
-      "source": "anshin",
-      "title": "４月１８日の長野県北部の地震について【地震の備えの確認を】",
-      "link": "https://matsumoto-city.site2.ktaiwork.jp/?p=133",
-      "date": "2026-04-18T07:57:02.000Z",
-      "titleEn": "Regarding the April 18 Earthquake in Northern Nagano Prefecture [Please Review Your Earthquake Preparedness]",
-      "titleFr": "À propos du séisme survenu le 18 avril dans le nord de la préfecture de Nagano [Vérifiez vos mesures de prévention en cas de séisme]"
     }
   ]
 }
