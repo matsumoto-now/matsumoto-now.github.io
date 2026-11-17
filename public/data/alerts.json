@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-17T00:57:38.274Z",
+  "fetched": "2026-11-17T08:57:59.638Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,30 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "司法書士オンライン相談のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/123829.html",
+      "date": "2026-11-17T06:00:00.000Z",
+      "titleEn": "Information on Online Consultations with Judicial Scriveners",
+      "titleFr": "Informations sur les consultations en ligne avec un notaire"
+    },
+    {
+      "source": "news",
+      "title": "12月市民相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
+      "date": "2026-11-17T06:00:00.000Z",
+      "titleEn": "Information on the December Citizen Consultation Desk",
+      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de décembre"
+    },
+    {
+      "source": "news",
+      "title": "マンションの適正管理・相談窓口のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/173525.html",
+      "date": "2026-11-16T15:00:00.000Z",
+      "titleEn": "Information on Proper Condominium Management and Consultation Services",
+      "titleFr": "Informations sur la gestion adéquate des copropriétés et le service d'assistance"
     },
     {
       "source": "news",
@@ -112,22 +136,6 @@
       "date": "2026-11-11T00:00:00.000Z",
       "titleEn": "We are recruiting participants for the Youth △ Project “Connecting Kitchens”",
       "titleFr": "Appel à candidatures pour le projet « Tsunagaru Kitchen » destiné aux jeunes △"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）11月10日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/218732.html",
-      "date": "2026-11-10T06:00:00.000Z",
-      "titleEn": "Mayor's Press Conference, November 10, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 10 novembre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "大ヒット上映中「山崎監督作品『ゴジラ-0.0』」のタイアップ企画を開催中！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/76/217388.html",
-      "date": "2026-11-10T05:00:00.000Z",
-      "titleEn": "We're currently running a promotional campaign in conjunction with the blockbuster hit \"Godzilla: 0.0,\" directed by Yamazaki!",
-      "titleFr": "Dans le cadre du grand succès actuel du film « Godzilla -0.0 » du réalisateur Yamazaki, nous organisons actuellement une opération promotionnelle en partenariat avec ce film !"
     },
     {
       "source": "anshin",
