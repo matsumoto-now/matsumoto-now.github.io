@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-18T08:54:51.267Z",
+  "fetched": "2026-11-18T17:49:43.021Z",
   "items": [
     {
       "source": "important",
@@ -19,6 +19,30 @@
     },
     {
       "source": "news",
+      "title": "令和8年度パブリックコメント募集中",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/218628.html",
+      "date": "2026-11-18T15:00:00.000Z",
+      "titleEn": "Call for Public Comments for Reiwa 8 is Now Open",
+      "titleFr": "Appel à commentaires publics pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "第10期介護保険事業計画・高齢者福祉計画「安心・いきいきプラン松本（案）」に対する意見を募集します（パブリックコメント）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/kourei/216053.html",
+      "date": "2026-11-18T15:00:00.000Z",
+      "titleEn": "We are soliciting comments on the 10th Term Long-Term Care Insurance Business Plan and Elderly Welfare Plan, “Matsumoto Peace of Mind and Vitality Plan (Draft)” (Public Comment Period)",
+      "titleFr": "Appel à commentaires (consultation publique) sur le projet de « Plan Matsumoto pour la sécurité et le bien-être des personnes âgées » (10e plan d'action relatif à l'assurance dépendance et au bien-être des personnes âgées)"
+    },
+    {
+      "source": "news",
+      "title": "「第5次松本市障がい者計画」の策定にあたり意見を募集します（パブリックコメント）",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/61/217853.html",
+      "date": "2026-11-18T15:00:00.000Z",
+      "titleEn": "We are soliciting public input regarding the formulation of the “5th Matsumoto City Plan for Persons with Disabilities” (Public Comment)",
+      "titleFr": "Appel à contributions dans le cadre de l'élaboration du « 5e plan municipal de Matsumoto en faveur des personnes en situation de handicap » (consultation publique)"
+    },
+    {
+      "source": "news",
       "title": "令和8年度　市税等納期のお知らせ",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/16/3589.html",
       "date": "2026-11-17T15:00:00.000Z",
@@ -32,14 +56,6 @@
       "date": "2026-11-17T15:00:00.000Z",
       "titleEn": "Matsumoto City Hall to Hold Reiwa 9 Spring Internship and Workplace Experience Program",
       "titleFr": "La mairie de Matsumoto organise des stages et des expériences professionnelles au printemps de l'année Reiwa 9"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度パブリックコメント募集中",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/218628.html",
-      "date": "2026-11-17T15:00:00.000Z",
-      "titleEn": "Call for Public Comments for Reiwa 8 is Now Open",
-      "titleFr": "Appel à commentaires publics pour l'année Reiwa 8"
     },
     {
       "source": "news",
@@ -120,22 +136,6 @@
       "date": "2026-11-14T06:00:00.000Z",
       "titleEn": "Citizen Services Division: Information on Holiday Services",
       "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
-    },
-    {
-      "source": "news",
-      "title": "【受付終了】令和８年１２月途中入園の空き状況・申請フォーム",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kosodate/55781.html",
-      "date": "2026-11-13T08:15:00.000Z",
-      "titleEn": "[Registration Closed] Availability and Application Form for Mid-Reiwa 8 Enrollment",
-      "titleFr": "[Inscriptions closes] Disponibilités et formulaire de demande d'inscription pour une entrée en cours de mois de décembre de l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度松本市職員採用資格試験【9月】　第3次試験結果",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/219022.html",
-      "date": "2026-11-13T06:00:00.000Z",
-      "titleEn": "Reiwa 8 Matsumoto City Civil Service Qualifying Examination [September]—Third-Round Examination Results",
-      "titleFr": "Résultats de la troisième épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [septembre]"
     },
     {
       "source": "anshin",
