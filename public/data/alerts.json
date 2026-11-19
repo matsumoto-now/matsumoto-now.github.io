@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-19T06:52:22.879Z",
+  "fetched": "2026-11-19T16:21:44.594Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "市民相談特別相談員（保健師）と消費生活相談員を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/219083.html",
+      "date": "2026-11-19T15:00:00.000Z",
+      "titleEn": "We are recruiting Special Citizen Consultation Officers (Public Health Nurses) and Consumer Affairs Counselors",
+      "titleFr": "Nous recrutons des conseillers spéciaux pour le service d'aide aux citoyens (infirmiers de santé publique) et des conseillers en consommation"
     },
     {
       "source": "news",
@@ -128,14 +136,6 @@
       "date": "2026-11-16T08:00:00.000Z",
       "titleEn": "[Additional Recruitment] We are recruiting staff for fiscal year Reiwa 8 in Matsumoto City",
       "titleFr": "[Recrutement supplémentaire] Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 8 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "「松本市上下水道局ＷＥＢ照会サイト」のシステム復旧のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/89981.html",
-      "date": "2026-11-16T01:00:00.000Z",
-      "titleEn": "Notice Regarding the Restoration of the “Matsumoto City Water and Sewerage Bureau Online Inquiry Site”",
-      "titleFr": "Avis concernant la remise en service du système du « site Web de consultation du Service des eaux et de l'assainissement de la ville de Matsumoto »"
     },
     {
       "source": "anshin",
