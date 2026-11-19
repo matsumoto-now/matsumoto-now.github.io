@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-18T23:57:07.640Z",
+  "fetched": "2026-11-19T06:52:22.879Z",
   "items": [
     {
       "source": "important",
@@ -24,6 +24,22 @@
       "date": "2026-11-18T15:00:00.000Z",
       "titleEn": "Call for Public Comments for Reiwa 8 is Now Open",
       "titleFr": "Appel à commentaires publics pour l'année Reiwa 8"
+    },
+    {
+      "source": "news",
+      "title": "R8信大連携サイエンスカレッジ　を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/95/137609.html",
+      "date": "2026-11-18T15:00:00.000Z",
+      "titleEn": "We will be holding the R8 Shinshu University Collaborative Science College",
+      "titleFr": "Organisation du « R8 Science College », en collaboration avec l'Université de Shinshu"
+    },
+    {
+      "source": "news",
+      "title": "「松本道場 起業プログラム（上級コース）」の参加者を募集します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/219247.html",
+      "date": "2026-11-18T15:00:00.000Z",
+      "titleEn": "We are accepting applications for the “Matsumoto Dojo Entrepreneurship Program (Advanced Course)”",
+      "titleFr": "Nous recrutons des participants pour le « Programme de création d'entreprise du Dojo Matsumoto (cours avancé) »"
     },
     {
       "source": "news",
@@ -120,22 +136,6 @@
       "date": "2026-11-16T01:00:00.000Z",
       "titleEn": "Notice Regarding the Restoration of the “Matsumoto City Water and Sewerage Bureau Online Inquiry Site”",
       "titleFr": "Avis concernant la remise en service du système du « site Web de consultation du Service des eaux et de l'assainissement de la ville de Matsumoto »"
-    },
-    {
-      "source": "news",
-      "title": "【11/15 9:45更新】観戦者募集！野球オーストリア代表vs松本大学野球部練習試合",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/215/216604.html",
-      "date": "2026-11-14T23:00:00.000Z",
-      "titleEn": "[Updated 11/15 at 9:45 a.m.] Calling All Spectators! Austria National Baseball Team vs. Matsumoto University Baseball Team Exhibition Game",
-      "titleFr": "[Mise à jour du 15/11 à 9 h 45] Appel aux spectateurs ! Match d'entraînement entre l'équipe nationale autrichienne de baseball et l'équipe de baseball de l'université de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "市民課 休日窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/50/2949.html",
-      "date": "2026-11-14T06:00:00.000Z",
-      "titleEn": "Citizen Services Division: Information on Holiday Services",
-      "titleFr": "Service des affaires civiles – Informations sur les guichets ouverts les jours fériés"
     },
     {
       "source": "anshin",
