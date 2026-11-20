@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-20T04:09:54.068Z",
+  "fetched": "2026-11-20T13:26:14.247Z",
   "items": [
     {
       "source": "important",
@@ -19,6 +19,14 @@
     },
     {
       "source": "news",
+      "title": "令和8年度松本市職員採用資格試験【11月】の第1次試験結果",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/219506.html",
+      "date": "2026-11-20T04:00:00.000Z",
+      "titleEn": "Results of the First Round of the Reiwa 8 Matsumoto City Civil Service Qualifying Examination [November]",
+      "titleFr": "Résultats de la première épreuve du concours de recrutement des agents de la ville de Matsumoto pour l'année Reiwa 8 [novembre]"
+    },
+    {
+      "source": "news",
       "title": "令和９年度松本市会計年度任用職員を募集します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/217801.html",
       "date": "2026-11-20T02:00:00.000Z",
@@ -35,11 +43,27 @@
     },
     {
       "source": "news",
+      "title": "シン・公務員講座のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/219513.html",
+      "date": "2026-11-19T15:00:00.000Z",
+      "titleEn": "Information on the Shin Civil Service Prep Course",
+      "titleFr": "Présentation du cours « Shin » destiné aux fonctionnaires"
+    },
+    {
+      "source": "news",
       "title": "市民相談特別相談員（保健師）と消費生活相談員を募集します",
       "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/219083.html",
       "date": "2026-11-19T15:00:00.000Z",
       "titleEn": "We are recruiting Special Citizen Consultation Officers (Public Health Nurses) and Consumer Affairs Counselors",
       "titleFr": "Nous recrutons des conseillers spéciaux pour le service d'aide aux citoyens (infirmiers de santé publique) et des conseillers en consommation"
+    },
+    {
+      "source": "news",
+      "title": "松本市議会ペーパーレス会議システム使用に関する契約に係る公募型プロポーザルを実施します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/gikai/219054.html",
+      "date": "2026-11-19T15:00:00.000Z",
+      "titleEn": "The Matsumoto City Council will conduct an open call for proposals regarding a contract for the use of a paperless meeting system.",
+      "titleFr": "Le conseil municipal de Matsumoto lance un appel d'offres ouvert concernant le contrat relatif à l'utilisation d'un système de réunion sans papier."
     },
     {
       "source": "news",
@@ -112,30 +136,6 @@
       "date": "2026-11-17T15:00:00.000Z",
       "titleEn": "We are soliciting comments on the Draft 4th Matsumoto City Basic Plan for the Promotion of Education (Public Comment)",
       "titleFr": "Appel à commentaires sur le projet de 4e plan directeur de promotion de l'éducation de la ville de Matsumoto (consultation publique)"
-    },
-    {
-      "source": "news",
-      "title": "司法書士オンライン相談のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/123829.html",
-      "date": "2026-11-17T06:00:00.000Z",
-      "titleEn": "Information on Online Consultations with Judicial Scriveners",
-      "titleFr": "Informations sur les consultations en ligne avec un notaire"
-    },
-    {
-      "source": "news",
-      "title": "12月市民相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/17/95121.html",
-      "date": "2026-11-17T06:00:00.000Z",
-      "titleEn": "Information on the December Citizen Consultation Desk",
-      "titleFr": "Informations sur le guichet d'aide aux citoyens du mois de décembre"
-    },
-    {
-      "source": "news",
-      "title": "マンションの適正管理・相談窓口のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/85/173525.html",
-      "date": "2026-11-16T15:00:00.000Z",
-      "titleEn": "Information on Proper Condominium Management and Consultation Services",
-      "titleFr": "Informations sur la gestion adéquate des copropriétés et le service d'assistance"
     },
     {
       "source": "anshin",
