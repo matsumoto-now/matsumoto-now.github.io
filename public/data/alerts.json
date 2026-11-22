@@ -1,6 +1,14 @@
 {
-  "fetched": "2026-11-22T02:50:37.814Z",
+  "fetched": "2026-11-22T10:47:28.464Z",
   "items": [
+    {
+      "source": "important",
+      "title": "【三才山・稲倉地区】火災の消火活動に伴う濁水のお知らせ（21日13時更新）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/219567.html",
+      "date": "2026-11-21T04:00:00.000Z",
+      "titleEn": "[Sansaiyama/Inakura Area] Notice Regarding Turbid Water Due to Firefighting Operations (Updated at 1:00 p.m. on the 21st)",
+      "titleFr": "[Quartier de Misayama et Inakura] Avis concernant la turbidité de l'eau due aux opérations de lutte contre l'incendie (mis à jour le 21 à 13 h)"
+    },
     {
       "source": "important",
       "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
@@ -16,6 +24,14 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "【三才山・稲倉地区】火災の消火活動に伴う濁水のお知らせ（21日13時更新）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/219567.html",
+      "date": "2026-11-21T04:00:00.000Z",
+      "titleEn": "[Sansaiyama/Inakura Area] Notice Regarding Turbid Water Due to Firefighting Operations (Updated at 1:00 p.m. on the 21st)",
+      "titleFr": "[Quartier de Misayama et Inakura] Avis concernant la turbidité de l'eau due aux opérations de lutte contre l'incendie (mis à jour le 21 à 13 h)"
     },
     {
       "source": "news",
@@ -48,6 +64,14 @@
       "date": "2026-11-19T15:00:00.000Z",
       "titleEn": "Information on the Shin Civil Service Prep Course",
       "titleFr": "Présentation du cours « Shin » destiné aux fonctionnaires"
+    },
+    {
+      "source": "news",
+      "title": "舗装本復旧工事に伴う「道路規制」のお知らせ（女鳥羽三丁目他）",
+      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/219386.html",
+      "date": "2026-11-19T15:00:00.000Z",
+      "titleEn": "Notice of “Road Closures” Due to Pavement Restoration Work (Meguroba 3-chome and Other Areas)",
+      "titleFr": "Avis concernant les « restrictions de circulation » liées aux travaux de réfection de la chaussée (Meotoba 3-chome et autres)"
     },
     {
       "source": "news",
@@ -120,22 +144,6 @@
       "date": "2026-11-17T15:00:00.000Z",
       "titleEn": "Matsumoto City Hall to Hold Reiwa 9 Spring Internship and Workplace Experience Program",
       "titleFr": "La mairie de Matsumoto organise des stages et des expériences professionnelles au printemps de l'année Reiwa 9"
-    },
-    {
-      "source": "news",
-      "title": "第2期松本市水道事業経営戦略（案）・第2期松本市下水道事業及び農業集落排水事業経営戦略（案）に対するパブリックコメントを実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/218397.html",
-      "date": "2026-11-17T15:00:00.000Z",
-      "titleEn": "We are soliciting public comments on the Draft Second-Term Matsumoto City Waterworks Business Management Strategy and the Draft Second-Term Matsumoto City Sewerage and Agricultural Village Wastewater Treatment Business Management Strategy.",
-      "titleFr": "Une consultation publique est organisée concernant le projet de stratégie de gestion de la 2e phase du service des eaux de la ville de Matsumoto et le projet de stratégie de gestion de la 2e phase du service d'assainissement et du service d'évacuation des eaux usées des agglomérations agricoles de la ville de Matsumoto."
-    },
-    {
-      "source": "news",
-      "title": "第4次松本市教育振興基本計画（案）に対するご意見を募集します（パブリックコメント）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/kyoiku/217723.html",
-      "date": "2026-11-17T15:00:00.000Z",
-      "titleEn": "We are soliciting comments on the Draft 4th Matsumoto City Basic Plan for the Promotion of Education (Public Comment)",
-      "titleFr": "Appel à commentaires sur le projet de 4e plan directeur de promotion de l'éducation de la ville de Matsumoto (consultation publique)"
     },
     {
       "source": "anshin",
