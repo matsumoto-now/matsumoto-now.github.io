@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-23T18:37:04.797Z",
+  "fetched": "2026-11-24T04:11:41.830Z",
   "items": [
     {
       "source": "important",
@@ -59,19 +59,19 @@
     },
     {
       "source": "news",
-      "title": "シン・公務員講座のご案内",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/219513.html",
-      "date": "2026-11-19T15:00:00.000Z",
-      "titleEn": "Information on the Shin Civil Service Prep Course",
-      "titleFr": "Présentation du cours « Shin » destiné aux fonctionnaires"
-    },
-    {
-      "source": "news",
       "title": "舗装本復旧工事に伴う「道路規制」のお知らせ（女鳥羽三丁目他）",
       "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/219386.html",
       "date": "2026-11-19T15:00:00.000Z",
       "titleEn": "Notice of “Road Closures” Due to Pavement Restoration Work (Meguroba 3-chome and Other Areas)",
       "titleFr": "Avis concernant les « restrictions de circulation » liées aux travaux de réfection de la chaussée (Meotoba 3-chome et autres)"
+    },
+    {
+      "source": "news",
+      "title": "シン・公務員講座のご案内",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/244/219513.html",
+      "date": "2026-11-19T15:00:00.000Z",
+      "titleEn": "Information on the Shin Civil Service Prep Course",
+      "titleFr": "Présentation du cours « Shin » destiné aux fonctionnaires"
     },
     {
       "source": "news",
