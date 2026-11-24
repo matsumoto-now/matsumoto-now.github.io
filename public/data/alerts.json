@@ -1,14 +1,6 @@
 {
-  "fetched": "2026-11-24T04:11:41.830Z",
+  "fetched": "2026-11-24T15:07:33.510Z",
   "items": [
-    {
-      "source": "important",
-      "title": "【三才山・稲倉地区】濁水解消のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/219567.html",
-      "date": "2026-11-22T18:00:00.000Z",
-      "titleEn": "[Sansaiyama/Inakura Area] Notice Regarding the Resolution of Turbid Water Issues",
-      "titleFr": "[Quartier de Misayama et Inakura] Avis concernant la fin de la turbidité de l'eau"
-    },
     {
       "source": "important",
       "title": "【注意喚起】松本市災害電話サービスシステムへの不正アクセスについて",
@@ -27,11 +19,19 @@
     },
     {
       "source": "news",
-      "title": "【三才山・稲倉地区】濁水解消のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/site/jougesuidou/219567.html",
-      "date": "2026-11-22T18:00:00.000Z",
-      "titleEn": "[Sansaiyama/Inakura Area] Notice Regarding the Resolution of Turbid Water Issues",
-      "titleFr": "[Quartier de Misayama et Inakura] Avis concernant la fin de la turbidité de l'eau"
+      "title": "信州松本トライデンツ　2026年ラストゲーム　観戦無料ご招待！！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/99736.html",
+      "date": "2026-11-24T15:00:00.000Z",
+      "titleEn": "Shinshu Matsumoto Tridents: Free Invitation to the 2026 Season Finale!!",
+      "titleFr": "Invitation gratuite pour assister au dernier match des Shinshu Matsumoto Tridents de 2026 !!"
+    },
+    {
+      "source": "news",
+      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
+      "date": "2026-11-24T04:30:00.000Z",
+      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
+      "titleFr": "Nous organisons le « Forum citoyen d'Ekishiro » (réunion de débat)"
     },
     {
       "source": "news",
@@ -48,14 +48,6 @@
       "date": "2026-11-20T02:00:00.000Z",
       "titleEn": "We are accepting applications for Matsumoto City’s Fiscal Year Reiwa 9 Temporary Staff Positions",
       "titleFr": "Recrutement d'agents contractuels pour l'exercice budgétaire de l'année Reiwa 9 de la ville de Matsumoto"
-    },
-    {
-      "source": "news",
-      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します（締切を24日に延長しました）",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
-      "date": "2026-11-19T23:30:00.000Z",
-      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Open Discussion Session) (The deadline has been extended to the 24th)",
-      "titleFr": "Organisation du « Forum citoyen d'Ekishiro » (débat public) (la date limite a été repoussée au 24)"
     },
     {
       "source": "news",
@@ -128,22 +120,6 @@
       "date": "2026-11-18T15:00:00.000Z",
       "titleEn": "We are soliciting public input regarding the formulation of the “5th Matsumoto City Plan for Persons with Disabilities” (Public Comment)",
       "titleFr": "Appel à contributions dans le cadre de l'élaboration du « 5e plan municipal de Matsumoto en faveur des personnes en situation de handicap » (consultation publique)"
-    },
-    {
-      "source": "news",
-      "title": "令和8年度　市税等納期のお知らせ",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/16/3589.html",
-      "date": "2026-11-17T15:00:00.000Z",
-      "titleEn": "Notice Regarding Payment Deadlines for City Taxes, etc., for Reiwa 8",
-      "titleFr": "Avis concernant les dates d'échéance des impôts municipaux pour l'année Reiwa 8"
-    },
-    {
-      "source": "news",
-      "title": "松本市役所 令和9年春季インターンシップ・職場体験を実施します",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/4/218958.html",
-      "date": "2026-11-17T15:00:00.000Z",
-      "titleEn": "Matsumoto City Hall to Hold Reiwa 9 Spring Internship and Workplace Experience Program",
-      "titleFr": "La mairie de Matsumoto organise des stages et des expériences professionnelles au printemps de l'année Reiwa 9"
     },
     {
       "source": "anshin",
