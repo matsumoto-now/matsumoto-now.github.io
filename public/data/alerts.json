@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-26T02:03:07.207Z",
+  "fetched": "2026-11-26T11:18:26.009Z",
   "items": [
     {
       "source": "important",
@@ -32,6 +32,14 @@
       "date": "2026-11-25T23:00:00.000Z",
       "titleEn": "Matsumoto Public Relations (December Issue)",
       "titleFr": "Matsumoto Information (numéro de décembre)"
+    },
+    {
+      "source": "news",
+      "title": "R8信大連携サイエンスカレッジ　を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/95/137609.html",
+      "date": "2026-11-25T15:00:00.000Z",
+      "titleEn": "We will be holding the R8 Shinshu University Collaborative Science College",
+      "titleFr": "Organisation du « R8 Science College », en collaboration avec l'Université de Shinshu"
     },
     {
       "source": "news",
@@ -128,14 +136,6 @@
       "date": "2026-11-25T05:00:00.000Z",
       "titleEn": "\"Matsumoto Shiromaru\"—Certification Program for Companies Leading the Way in Work-Style Reform",
       "titleFr": "Système de certification des entreprises pionnières en matière de réforme des modes de travail « Matsumoto Shiromaru »"
-    },
-    {
-      "source": "news",
-      "title": "年末年始　施設の休業日",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/3/186019.html",
-      "date": "2026-11-24T15:00:00.000Z",
-      "titleEn": "Year-End and New Year's Holiday Closures",
-      "titleFr": "Jours de fermeture de l'établissement pendant les fêtes de fin d'année"
     },
     {
       "source": "anshin",
