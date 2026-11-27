@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-26T20:23:42.818Z",
+  "fetched": "2026-11-27T03:04:57.147Z",
   "items": [
     {
       "source": "important",
@@ -16,6 +16,30 @@
       "date": "2026-10-19T06:00:00.000Z",
       "titleEn": "[Security Alert] Unauthorized Access to the Matsumoto Anshin Net Email System",
       "titleFr": "[Avertissement] Concernant un accès non autorisé au système de messagerie « Matsumoto Anshin Net »"
+    },
+    {
+      "source": "news",
+      "title": "「えきしろ市民フォーラム」（多事争論会）を開催します",
+      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/216438.html",
+      "date": "2026-11-27T02:00:00.000Z",
+      "titleEn": "We will be holding the “Ekishiro Citizens’ Forum” (Public Debate Session)",
+      "titleFr": "Nous organisons le « Forum des citoyens d'Ekishiro » (réunion de débat)"
+    },
+    {
+      "source": "news",
+      "title": "松本シネマ認定",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/76/77978.html",
+      "date": "2026-11-27T00:00:00.000Z",
+      "titleEn": "Matsumoto Cinema Certified",
+      "titleFr": "Certifié par Matsumoto Cinema"
+    },
+    {
+      "source": "news",
+      "title": "信州松本トライデンツ　2026年ラストゲーム　観戦無料ご招待！！",
+      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/99736.html",
+      "date": "2026-11-26T15:00:00.000Z",
+      "titleEn": "Shinshu Matsumoto Tridents: Free Invitation to the 2026 Season Finale!!",
+      "titleFr": "Invitation gratuite pour assister au dernier match des Shinshu Matsumoto Tridents de 2026 !!"
     },
     {
       "source": "news",
@@ -107,35 +131,11 @@
     },
     {
       "source": "news",
-      "title": "信州松本トライデンツ　2026年ラストゲーム　観戦無料ご招待！！",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/149/99736.html",
-      "date": "2026-11-25T15:00:00.000Z",
-      "titleEn": "Shinshu Matsumoto Tridents: Free Invitation to the 2026 Season Finale!!",
-      "titleFr": "Invitation gratuite pour assister au dernier match des Shinshu Matsumoto Tridents de 2026 !!"
-    },
-    {
-      "source": "news",
       "title": "第8回具だくさんみそ汁コンテスト　レシピ募集中",
       "link": "https://www.city.matsumoto.nagano.jp/koho/216560.html",
       "date": "2026-11-25T15:00:00.000Z",
       "titleEn": "8th Annual Hearty Miso Soup Contest: Now Accepting Recipes",
       "titleFr": "8e concours de soupes miso bien garnies : appel à recettes"
-    },
-    {
-      "source": "news",
-      "title": "市長記者会見　令和8年（2026）11月25日",
-      "link": "https://www.city.matsumoto.nagano.jp/site/yokosomayorsoffice/219838.html",
-      "date": "2026-11-25T06:00:00.000Z",
-      "titleEn": "Mayor's Press Conference, November 25, Reiwa 8 (2026)",
-      "titleFr": "Conférence de presse du maire, le 25 novembre de l'année Reiwa 8 (2026)"
-    },
-    {
-      "source": "news",
-      "title": "働き方改革先進企業認定制度「松本しろまる」",
-      "link": "https://www.city.matsumoto.nagano.jp/soshiki/75/218623.html",
-      "date": "2026-11-25T05:00:00.000Z",
-      "titleEn": "\"Matsumoto Shiromaru\"—Certification Program for Companies Leading the Way in Work-Style Reform",
-      "titleFr": "Système de certification des entreprises pionnières en matière de réforme des modes de travail « Matsumoto Shiromaru »"
     },
     {
       "source": "anshin",
